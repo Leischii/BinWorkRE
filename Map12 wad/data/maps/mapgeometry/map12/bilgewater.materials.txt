@@ -12949,6 +12949,1344 @@ entries: map[hash,embed] = {
         flags: u8 = 132
         buildUpTime: f32 = 10
     }
+	"Particles/BW_Seagull" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 0.7
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 15
+                }
+                particleLinger: option[f32] = {
+                    0
+                }
+                emitterName: string = "Basic"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 45, 0, 700 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.08
+                                    1.1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.8
+                                    1.05
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 45, 0, 700 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                shape: embed = VfxShape {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1000, 100, 250 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1000, 100, 250 }
+                            }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Particles/Bw_Seagull.skn"
+                        mMeshSkeletonName: string = "DATA/Particles/Bw_Seagull.skl"
+                        mAnimationName: string = "DATA/Particles/BW_seagull_flap.anm"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.62352943, 0.62352943, 0.6745098, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    -5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    5
+                                    -5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.5, 0.5, 0.5 }
+                }
+				texture: string = "DATA/Particles/Bw_Seagull_TX_CM.dds"
+            }
+        }
+        visibilityRadius: f32 = 9000
+        particlePath: string = "Particles/BW_Seagull"
+        particleName: string = "BW_SeagullTest"
+        flags: u8 = 197
+    }
+	"Characters/BW_seagull/Skins/Base/Materials/DirtyMetal_seagull" = StaticMaterialDef {
+        name: string = "Characters/BW_seagull/Skins/Base/Materials/DirtyMetal_seagull"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Particles/Bw_Seagull_TX_CM.dds"
+            }
+        }
+        shaderMacros: map[string,string] = {
+			"NO_BAKED_LIGHTING" = "1"
+			"DISABLE_DEPTH_FOG" = "1"
+			"PREMULTIPLIED_ALPHA" = "1"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+    "Particles/ShipBackgroundEast" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+				material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_east"
+                renderPhaseOverride: u8 = 0
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skl"
+                        mAnimationName: string = "DATA/Characters/BW_vship/Skins/Base/Animations/BW_vship_Idle1.anm"
+                    }
+                }
+                blendMode: u8 = 1
+                pass: i16 = -100
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 40, 0 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.4 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/ShipBackgroundEast"
+        particleName: string = "ShipBackgroundEast"
+        flags: u8 = 197
+    }
+    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_east" = StaticMaterialDef {
+        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_east"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Gradient_Texture"
+                textureName: string = "DATA/Particles/gradient_shader.dds"
+            }
+        }
+        paramValues: list[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Color"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelColor_Size"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelColor_Bias"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Diffuse_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Diffuse_Color"
+                value: vec4 = { 0.110002287, 0.0500038154, 0.250003815, 0.489997715 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Inner_Color"
+                value: vec4 = { 0.0500038154, 0.0500038154, 0.179995418, 0.200000003 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+        dynamicMaterial: pointer = DynamicMaterialDef {}
+    }
+	"Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing2" = StaticMaterialDef {
+        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing2"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Gradient_Texture"
+                textureName: string = "DATA/Particles/gradient_shader.dds"
+            }
+        }
+        paramValues: list[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Color"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelColor_Size"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelColor_Bias"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Diffuse_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Diffuse_Color"
+                value: vec4 = { 0.110002287, 0.0500038154, 0.250003815, 0.489997715 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Inner_Color"
+                value: vec4 = { 0.0500038154, 0.0500038154, 0.179995418, 0.200000003 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+        dynamicMaterial: pointer = DynamicMaterialDef {}
+    }
+    "Particles/ShipBackgroundNorth" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    9
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_north"
+                renderPhaseOverride: u8 = 0
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skl"
+                        mAnimationName: string = "DATA/Characters/BW_vship/Skins/Base/Animations/BW_vship_Idle1.anm"
+                    }
+                }
+                blendMode: u8 = 1
+                pass: i16 = -100
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/ShipBackgroundNorth"
+        particleName: string = "ShipBackgroundNorth"
+        flags: u8 = 197
+    }
+    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_north" = StaticMaterialDef {
+        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_north"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Gradient_Texture"
+                textureName: string = "DATA/Particles/gradient_shader.dds"
+            }
+        }
+        paramValues: list[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Color"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelColor_Size"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelColor_Bias"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Diffuse_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Diffuse_Color"
+                value: vec4 = { 0.110002287, 0.0500038154, 0.250003815, 0.489997715 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Inner_Color"
+                value: vec4 = { 0.0500038154, 0.0500038154, 0.179995418, 0.200000003 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+        dynamicMaterial: pointer = DynamicMaterialDef {}
+    }
+    "Particles/ShipBackgroundSailing" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    9
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing2"
+                renderPhaseOverride: u8 = 0
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skl"
+                        mAnimationName: string = "DATA/Characters/BW_vship/Skins/Base/Animations/BW_vship_Sail1.anm"
+                    }
+                }
+                blendMode: u8 = 1
+                pass: i16 = -51
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 3.176499, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/ShipBackgroundSailing"
+        particleName: string = "ShipBackgroundSailing"
+        flags: u8 = 197
+    }
+    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing" = StaticMaterialDef {
+        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NO_BAKED_LIGHTING" = "1"
+			"DISABLE_DEPTH_FOG" = "1"
+			"PREMULTIPLIED_ALPHA" = "1"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+    "Particles/BW_dblrope_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Basic"
+                importance: u8 = 0
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/BW_dblrope/Skins/Base/Materials/DirtyMetal_dblrope"
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope.skl"
+                        mAnimationName: string = "DATA/Characters/BW_dblrope/Skins/Base/Animations/BW_dblrope_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/BW_dblrope_01"
+        particleName: string = "BW_dblrope_01"
+    }
+    "Characters/BW_dblrope/Skins/Base/Materials/DirtyMetal_dblrope" = StaticMaterialDef {
+        name: string = "Characters/BW_dblrope/Skins/Base/Materials/DirtyMetal_dblrope"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope_TX_CM.dds"
+            }
+        }
+        switches: list[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "LOCK_HIGHLIGHT"
+                on: bool = false
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+    "Particles/bw_fishhk_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_fishhk"
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk.skl"
+                        mAnimationName: string = "DATA/Characters/bw_fishhk/Skins/Base/Animations/bw_fishhk_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                alphaRef: u8 = 1
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/bw_fishhk_01"
+        particleName: string = "bw_fishhk_01"
+    }
+    "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_fishhk" = StaticMaterialDef {
+        name: string = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_fishhk"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk_TX_CM.dds"
+            }
+        }
+        switches: list[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "LOCK_HIGHLIGHT"
+                on: bool = false
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+    "Particles/bw_hcannon_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_hcannon/Skins/Base/bw_hcannon.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_hcannon/Skins/Base/bw_hcannon.skl"
+                        mAnimationName: string = "DATA/Characters/bw_hcannon/Skins/Base/Animations/bw_hcannon_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -65, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                texture: string = "DATA/Characters/bw_hcannon/Skins/Base/bw_hcannon_tx_cm.dds"
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/bw_hcannon_01"
+        particleName: string = "bw_hcannon_01"
+    }
+    "Particles/bw_shortrope_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/bw_shortrope/Skins/Base/Materials/DirtyMetal_Shortrope"
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope.skl"
+                        mAnimationName: string = "DATA/Characters/bw_shortrope/Skins/Base/Animations/bw_shortrope_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/bw_shortrope_01"
+        particleName: string = "bw_shortrope_01"
+    }
+    "Characters/bw_shortrope/Skins/Base/Materials/DirtyMetal_Shortrope" = StaticMaterialDef {
+        name: string = "Characters/bw_shortrope/Skins/Base/Materials/DirtyMetal_Shortrope"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope_TX_CM.dds"
+            }
+        }
+        switches: list[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "LOCK_HIGHLIGHT"
+                on: bool = false
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+    "Particles/bw_signa_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_Signa"
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa.skl"
+                        mAnimationName: string = "DATA/Characters/bw_signa/Skins/Base/Animations/bw_signa_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 100000
+        particlePath: string = "Particles/bw_signa_01"
+        particleName: string = "bw_signa_01"
+    }
+    "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_Signa" = StaticMaterialDef {
+        name: string = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_Signa"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+    "Particles/bw_squid_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                material: link = "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_Squid"
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid.skl"
+                        mAnimationName: string = "DATA/Characters/bw_squid/Skins/Base/Animations/bw_squid_idle_01.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
+                }
+            }
+        }
+        visibilityRadius: f32 = 50000
+        particlePath: string = "Particles/bw_squid_01"
+        particleName: string = "bw_squid_01"
+    }
+    "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_Squid" = StaticMaterialDef {
+        name: string = "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_Squid"
+        defaultTechnique: string = "normal"
+        samplerValues: list[embed] = {
+            StaticMaterialShaderSamplerDef {
+                samplerName: string = "Diffuse_Texture"
+                textureName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid_tx_cm.dds"
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+    "Particles/bw_tooth_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
+                        mAnimationName: string = "DATA/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                texture: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth_tx_cm.dds"
+            }
+        }
+        visibilityRadius: f32 = 50000
+        particlePath: string = "Particles/bw_tooth_01"
+        particleName: string = "bw_tooth_01_1"
+    }
+    "Particles/bw_tooth_02" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
+                        mAnimationName: string = "DATA/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -100
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                texture: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth_tx_cm.dds"
+            }
+        }
+        visibilityRadius: f32 = 50000
+        particlePath: string = "Particles/bw_tooth_02"
+        particleName: string = "bw_tooth_01_2"
+    }
+    "Particles/bw_anclanternglow_01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {}
+                emitterName: string = "Basic2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mMeshName: string = "DATA/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skn"
+                        mMeshSkeletonName: string = "DATA/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skl"
+                        mAnimationName: string = "DATA/Characters/BW_AncLantern/Skins/Base/Animations/BW_AncLantern_idle1.anm"
+                    }
+                }
+                blendMode: u8 = 3
+                pass: i16 = -50
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                texture: string = "DATA/Characters/BW_AncLantern/Skins/Base/BW_AncLantern_TX_CM.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    9
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Basic"
+                shape: embed = VfxShape {
+                    birthTranslation: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, -75, 0 }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                        { 0, 1.00000012, 0 }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 182, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.326296002
+                            0.644913971
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.814516127, 0.814516127, 0.814516127 }
+                            { 0.983870983, 0.983870983, 0.983870983 }
+                            { 0.975806475, 0.975806475, 0.975806475 }
+                            { 0.814516127, 0.814516127, 0.814516127 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Shared/Particles/BW_Lantern_GreenGlow.dds"
+                textureMult: string = "ASSETS/Shared/Particles/BW_LanternCloud.dds"
+                birthUvScrollRateMult: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.0500000007, 0.100000001 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 0.150000006
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 18
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            18
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "fireLine"
+                disabled: bool = true
+                shape: embed = VfxShape {
+                    birthTranslation: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, -180, 0 }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.933333397 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.243137002, 1, 0.937255025, 0 }
+                            { 0.0392160006, 1, 0.807843029, 1 }
+                            { 0.164706007, 1, 0.650979996, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                miscRenderFlags: u8 = 1
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 90 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 600, 450, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0.899999976, 0 }
+                            { 1, 1, 0 }
+                            { 0, 1.10000002, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Shared/Particles/BW_ambientGlow_Blue.dds"
+            }
+        }
+        visibilityRadius: f32 = 50000
+        particlePath: string = "Particles/bw_lanternglow_01"
+        particleName: string = "bw_lanternglow_01"
+        buildUpTime: f32 = 10
+    }
     "Maps/Particles/HA/Bilgewater/BW_FogLow_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
@@ -20547,6 +21885,324 @@ entries: map[hash,embed] = {
                 }
                 name: string = "BW_LanternGlow_02_23"
             }
+			"Seagulls_Test_0" = MapParticle {
+                system: link = "Particles/BW_Seagull"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3000, -1018, 1800, 1
+                }
+                name: string = "Seagull_Test_01"
+            }
+            "ShipBackground_0" = MapParticle {
+                system: link = "Particles/ShipBackgroundEast"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3298.75317, -6679, 8997.63086, 1
+                }
+                name: string = "ShipBackground_01"
+            }
+            "ShipBackground_1" = MapParticle {
+                system: link = "Particles/ShipBackgroundNorth"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    -698.753174, -6679, 10997.6308, 1
+                }
+                name: string = "ShipBackground_02"
+            }
+            "ShipBackground_2" = MapParticle {
+                system: link = "Particles/ShipBackgroundSailing"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    0.999390841, 0, 0.0348994955, 0
+                    0, 1, 0, 0
+                    -0.0348994955, 0, 0.999390841, 0
+                    7056.75293, -6350, 5502.63086, 1
+                }
+                name: string = "ShipBackground_03"
+            }
+            "BW_dblrope_1" = MapParticle {
+                system: link = "Particles/BW_dblrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4060, -181, 1668, 1
+                }
+                name: string = "BW_dblrope_01_1"
+            }
+            "BW_dblrope_2" = MapParticle {
+                system: link = "Particles/BW_dblrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    11147, -187, 8465, 1
+                }
+                name: string = "BW_dblrope_01_2"
+            }
+            "BW_dblrope_3" = MapParticle {
+                system: link = "Particles/BW_dblrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    5820, -676, 3956, 1
+                }
+                name: string = "BW_dblrope_01_3"
+            }
+            "BW_dblrope_4" = MapParticle {
+                system: link = "Particles/BW_dblrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    8933, -616, 6846, 1
+                }
+                name: string = "BW_dblrope_01_4"
+            }
+            "BW_dblrope_5" = MapParticle {
+                system: link = "Particles/BW_dblrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    1629, -160, 4171, 1
+                }
+                name: string = "BW_dblrope_01_5"
+            }
+            "bw_fishhk_1" = MapParticle {
+                system: link = "Particles/bw_fishhk_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7203, -1189, 10106, 1
+                }
+                name: string = "bw_fishhk_01_1"
+            }
+            "bw_hcannon_1" = MapParticle {
+                system: link = "Particles/bw_hcannon_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    958.995605, 317.76828, 32, 1
+                }
+                name: string = "bw_hcannon_01_1"
+            }
+            "bw_shortrope_1" = MapParticle {
+                system: link = "Particles/bw_shortrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    2606, -120, 283, 1
+                }
+                name: string = "bw_shortrope_01_1"
+            }
+            "bw_shortrope_2" = MapParticle {
+                system: link = "Particles/bw_shortrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3087, -120, 744, 1
+                }
+                name: string = "bw_shortrope_01_2"
+            }
+            "bw_shortrope_3" = MapParticle {
+                system: link = "Particles/bw_shortrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3575, -120, 1190, 1
+                }
+                name: string = "bw_shortrope_01_3"
+            }
+            "bw_shortrope_4" = MapParticle {
+                system: link = "Particles/bw_shortrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    11609, -126, 8957, 1
+                }
+                name: string = "bw_shortrope_01_4"
+            }
+            "bw_shortrope_5" = MapParticle {
+                system: link = "Particles/bw_shortrope_01"
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    1149, -123, 3707, 1
+                }
+                name: string = "bw_shortrope_01_5"
+            }
+            "bw_shortrope_6" = MapParticle {
+                system: link = "Particles/bw_shortrope_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    673, -100, 3236, 1
+                }
+                name: string = "bw_shortrope_01_6"
+            }
+            "bw_squid_1" = MapParticle {
+                system: link = "Particles/bw_squid_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    577, -12, 3477, 1
+                }
+                name: string = "bw_squid_01_1"
+            }
+            "bw_tooth_1" = MapParticle {
+                system: link = "Particles/bw_tooth_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    226, 327, 1411, 1
+                }
+                name: string = "bw_tooth_01_1"
+            }
+            "bw_tooth_2" = MapParticle {
+                system: link = "Particles/bw_tooth_02"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    420.821899, 275.846924, 3156.30103, 1
+                }
+                name: string = "bw_tooth_02_1"
+            }
+            "bw_anclanternglow_1" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    6528, 355, 7928, 1
+                }
+                name: string = "bw_anclanternglow_01_1"
+            }
+            "bw_anclanternglow_2" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    9335, 355, 7820, 1
+                }
+                name: string = "bw_anclanternglow_01_2"
+            }
+            "bw_anclanternglow_3" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7932, 355, 6465, 1
+                }
+                name: string = "bw_anclanternglow_01_3"
+            }
+            "bw_anclanternglow_4" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    6189, 355, 4783, 1
+                }
+                name: string = "bw_anclanternglow_01_4"
+            }
+            "bw_anclanternglow_5" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4794, 355, 3435, 1
+                }
+                name: string = "bw_anclanternglow_01_5"
+            }
+            "bw_anclanternglow_6" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7926, 355, 9279, 1
+                }
+                name: string = "bw_anclanternglow_01_6"
+            }
+            "bw_anclanternglow_7" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4766, 355, 6227, 1
+                }
+                name: string = "bw_anclanternglow_01_7"
+            }
+            "bw_anclanternglow_8" = MapParticle {
+                system: link = "Particles/bw_anclanternglow_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3386, 355, 4894, 1
+                }
+                name: string = "bw_anclanternglow_01_8"
+            }
+            "bw_signa_1" = MapParticle {
+                system: link = "Particles/bw_signa_01"
+                eyeCandy: bool = true
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    12589, 672, 8743, 1
+                }
+                name: string = "bw_signa_01_1"
+            }
             0x8cc0d48e = MapParticle {
                 system: link = "Maps/Particles/HA/Bilgewater/BW_River_WaterEdge_01"
                 transform: mtx44 = {
@@ -23453,119 +25109,119 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 6460.10644, 252.767303, 7860.77441 }
                 boxMax: vec3 = { 6596.16699, 457.259613, 7996.83594 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    6528, 355, 7928, 1
+                    2823, 482, 4523, 1
                 }
-                name: string = "LevelProp_bw_anclantern1"
+                name: string = "LevelProp_BW_Lantern1"
             }
             0x1aafe182 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 9267.02148, 252.767303, 7752.68359 }
                 boxMax: vec3 = { 9403.08301, 457.259613, 7888.74463 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    9335, 355, 7820, 1
+                    3930, 482, 5448, 1
                 }
-                name: string = "LevelProp_bw_anclantern2"
+                name: string = "LevelProp_BW_Lantern2"
             }
             0xe895f18a = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 7864.02832, 252.767303, 6397.82764 }
                 boxMax: vec3 = { 8000.08887, 457.259613, 6533.88867 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    7932, 355, 6465, 1
+                    3064, 482, 4755, 1
                 }
-                name: string = "LevelProp_bw_anclantern3"
+                name: string = "LevelProp_BW_Lantern3"
             }
             0x3122d0ff = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 6121.90039, 252.767303, 4715.4751 }
                 boxMax: vec3 = { 6257.96191, 457.259613, 4851.53613 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    6189, 355, 4783, 1
+                    4177, 482, 5687, 1
                 }
-                name: string = "LevelProp_bw_anclantern4"
+                name: string = "LevelProp_BW_Lantern4"
             }
             0x138c7b1e = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 4726.49463, 252.767303, 3367.94726 }
                 boxMax: vec3 = { 4862.55566, 457.259613, 3504.0083 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    4794, 355, 3435, 1
+                    7345, 482, 8746, 1
                 }
-                name: string = "LevelProp_bw_anclantern5"
+                name: string = "LevelProp_BW_Lantern5"
             }
             0x996fe0c1 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 7858.76953, 252.767303, 9210.9707 }
                 boxMax: vec3 = { 7994.83057, 457.259613, 9347.03223 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    7926, 355, 9279, 1
+                    7098, 482, 8508, 1
                 }
-                name: string = "LevelProp_bw_anclantern6"
+                name: string = "LevelProp_BW_Lantern6"
             }
             0x157ba830 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 4698.71777, 252.767303, 6159.34473 }
                 boxMax: vec3 = { 4834.7793, 457.259613, 6295.40576 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    4766, 355, 6227, 1
+                    8374, 482, 9740, 1
                 }
-                name: string = "LevelProp_bw_anclantern8"
+                name: string = "LevelProp_BW_Lantern7"
             }
             0xb3725714 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 3318.24219, 252.767303, 4826.23486 }
                 boxMax: vec3 = { 3454.30322, 457.259613, 4962.2959 }
-                0xad304db5: string = "Characters/bw_anclantern/Skins/Skin0"
+                0xad304db5: string = "Characters/bw_lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
                     0, 0, 1, 0
-                    3386, 355, 4894, 1
+                    8127, 482, 9501, 1
                 }
-                name: string = "LevelProp_bw_anclantern9"
+                name: string = "LevelProp_BW_Lantern8"
             }
             0x5362af97 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 487.368591, -454.723602, 1848.46021 }
                 boxMax: vec3 = { 523.039429, 0, 1884.13147 }
-                0xad304db5: string = "Characters/BW_AP_Bubbs/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Viking/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.74314481, 0, -0.669130623, 0
@@ -23573,21 +25229,21 @@ entries: map[hash,embed] = {
                     0.669130623, 0, -0.74314481, 0
                     605, -264, 1766, 1
                 }
-                name: string = "LevelProp_BW_AP_Bubbs"
+                name: string = "LevelProp_HA_AP_Viking"
             }
             0x7b55dfa2 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 11103.5723, -227.564896, 11980.9316 }
                 boxMax: vec3 = { 11156.1406, 0, 12033.502 }
-                0xad304db5: string = "Characters/BW_AP_Finn/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Hermit/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.898794055, 0, -0.438371152, 0
                     0, 1, 0, 0
                     0.438371152, 0, -0.898794055, 0
-                    11129, -152, 11829, 1
+                    11129, -152, 11849, 1
                 }
-                name: string = "LevelProp_BW_AP_Finn"
+                name: string = "LevelProp_HA_AP_Hermit"
             }
             0x8fb93b12 = GdsMapObject {
                 type: u8 = 10
@@ -23601,7 +25257,7 @@ entries: map[hash,embed] = {
                     0.788010776, 0, -0.615661502, 0
                     798, -6209, 7939, 1
                 }
-                name: string = "LevelProp_BW_boat1"
+                name: string = "LevelProp_HA_AP_Chains1"
             }
             0x0fdfd00c = GdsMapObject {
                 type: u8 = 10
@@ -23615,7 +25271,7 @@ entries: map[hash,embed] = {
                     0.406736642, 0, -0.91354543, 0
                     51, -6209, 7910, 1
                 }
-                name: string = "LevelProp_BW_boat2"
+                name: string = "LevelProp_HA_AP_Chains2"
             }
             0x4a9b5082 = GdsMapObject {
                 type: u8 = 10
@@ -23629,7 +25285,7 @@ entries: map[hash,embed] = {
                     0.994521916, 0, 0.104528464, 0
                     455, -6242, 12493, 1
                 }
-                name: string = "LevelProp_BW_boat3"
+                name: string = "LevelProp_HA_AP_Chains3"
             }
             0x3d19224a = GdsMapObject {
                 type: u8 = 10
@@ -23643,7 +25299,7 @@ entries: map[hash,embed] = {
                     0.5, 0, -0.866025388, 0
                     10809, -6209, 3325, 1
                 }
-                name: string = "LevelProp_BW_boat4"
+                name: string = "LevelProp_HA_AP_Chains4"
             }
             0x97a2223c = GdsMapObject {
                 type: u8 = 10
@@ -23657,7 +25313,7 @@ entries: map[hash,embed] = {
                     0.997564077, 0, 0.0697564706, 0
                     7179, -6145, 2294, 1
                 }
-                name: string = "LevelProp_BW_boat5"
+                name: string = "LevelProp_HA_AP_Chains5"
             }
             0x82cc560d = GdsMapObject {
                 type: u8 = 10
@@ -23671,7 +25327,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     1790, -6176, 6016, 1
                 }
-                name: string = "LevelProp_BW_boat6"
+                name: string = "LevelProp_HA_AP_Chains6"
             }
             0x0fcaa3e0 = GdsMapObject {
                 type: u8 = 10
@@ -23797,7 +25453,7 @@ entries: map[hash,embed] = {
                     -0.694658399, 0, 0.719339788, 0
                     7592, -6416, 5071, 1
                 }
-                name: string = "LevelProp_BW_brdgdoor1"
+                name: string = "LevelProp_HA_AP_BannerMidBridge"
             }
             0x7bd09c93 = GdsMapObject {
                 type: u8 = 10
@@ -23881,7 +25537,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     7203, -1189, 10106, 1
                 }
-                name: string = "LevelProp_BW_fishhk2"
+                name: string = "LevelProp_HA_AP_Poro_Small"
             }
             0xda67dc89 = GdsMapObject {
                 type: u8 = 10
@@ -23895,7 +25551,7 @@ entries: map[hash,embed] = {
                     -0.85195756, 0, 0.52361089, 0
                     958.995605, 317.76828, 32, 1
                 }
-                name: string = "LevelProp_bw_hcannon"
+                name: string = "LevelProp_HA_AP_PeriphBridge"
             }
             0xd46dce86 = GdsMapObject {
                 type: u8 = 10
@@ -23909,7 +25565,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     2823, 482, 4523, 1
                 }
-                name: string = "LevelProp_BW_Lantern1"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue1"
             }
             0x21c9355d = GdsMapObject {
                 type: u8 = 10
@@ -23923,7 +25579,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     3930, 482, 5448, 1
                 }
-                name: string = "LevelProp_BW_Lantern2"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue2"
             }
             0x2048ba71 = GdsMapObject {
                 type: u8 = 10
@@ -23937,7 +25593,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     3064, 482, 4755, 1
                 }
-                name: string = "LevelProp_BW_Lantern3"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue3"
             }
             0xba7733d7 = GdsMapObject {
                 type: u8 = 10
@@ -23951,7 +25607,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     4177, 482, 5687, 1
                 }
-                name: string = "LevelProp_BW_Lantern4"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue4"
             }
             0x63e214b2 = GdsMapObject {
                 type: u8 = 10
@@ -23965,7 +25621,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     7345, 482, 8746, 1
                 }
-                name: string = "LevelProp_BW_Lantern5"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue5"
             }
             0x69139466 = GdsMapObject {
                 type: u8 = 10
@@ -23979,7 +25635,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     7098, 482, 8508, 1
                 }
-                name: string = "LevelProp_BW_Lantern6"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue6"
             }
             0x241a1c60 = GdsMapObject {
                 type: u8 = 10
@@ -23993,7 +25649,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     8374, 482, 9740, 1
                 }
-                name: string = "LevelProp_BW_Lantern7"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue7"
             }
             0xe0daa020 = GdsMapObject {
                 type: u8 = 10
@@ -24007,7 +25663,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     8127, 482, 9501, 1
                 }
-                name: string = "LevelProp_BW_Lantern8"
+                name: string = "LevelProp_HA_AP_BridgeLaneStatue8"
             }
             0xe6a82005 = GdsMapObject {
                 type: u8 = 10
@@ -24021,7 +25677,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     0, -118, 0, 1
                 }
-                name: string = "LevelProp_bw_seagull1"
+                name: string = "LevelProp_HA_AP_Cutaway"
             }
             0x1fd8ede8 = GdsMapObject {
                 type: u8 = 10
@@ -24187,9 +25843,9 @@ entries: map[hash,embed] = {
                     -0.241921902, 0, -0.970295727, 0
                     0, 1, 0, 0
                     0.970295727, 0, -0.241921902, 0
-                    9015, -457, 11888, 1
+                    8665, -457, 11808, 1
                 }
-                name: string = "LevelProp_BW_shrkhk1"
+                name: string = "LevelProp_HA_AP_Poro_Large"
             }
             0x8ecad32d = GdsMapObject {
                 type: u8 = 10
@@ -24217,7 +25873,7 @@ entries: map[hash,embed] = {
                     -0.5, 0, 0.866025388, 0
                     577, -12, 3477, 1
                 }
-                name: string = "LevelProp_BW_squid1"
+                name: string = "LevelProp_HA_AP_HeroTower"
             }
             0xd9549051 = GdsMapObject {
                 type: u8 = 10
@@ -24245,7 +25901,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     226, 327, 1411, 1
                 }
-                name: string = "LevelProp_bw_tooth1"
+                name: string = "LevelProp_HA_AP_Hermit_Robot1"
             }
             0xca794c4b = GdsMapObject {
                 type: u8 = 10
@@ -24315,7 +25971,7 @@ entries: map[hash,embed] = {
                     -0.694658399, 0, 0.719339788, 0
                     5422, -773, 2758, 1
                 }
-                name: string = "LevelProp_HABW_Banner1"
+                name: string = "LevelProp_HA_AP_Chains_Long"
             }
             0xf7b4f71c = GdsMapObject {
                 type: u8 = 10
@@ -24329,7 +25985,7 @@ entries: map[hash,embed] = {
                     -0.694658399, 0, 0.719339788, 0
                     6821, -781, 4108, 1
                 }
-                name: string = "LevelProp_HABW_Banner2"
+                name: string = "LevelProp_HA_AP_Chains_Long1"
             }
             0xf9ceaac3 = GdsMapObject {
                 type: u8 = 10
@@ -24343,7 +25999,7 @@ entries: map[hash,embed] = {
                     -0.694658399, 0, 0.719339788, 0
                     8570, -773, 5798, 1
                 }
-                name: string = "LevelProp_HABW_Banner3"
+                name: string = "LevelProp_HA_AP_Chains_Long2"
             }
             0x6d9bb744 = GdsMapObject {
                 type: u8 = 10
@@ -24357,13 +26013,13 @@ entries: map[hash,embed] = {
                     -0.694658399, 0, 0.719339788, 0
                     9964, -773, 7144, 1
                 }
-                name: string = "LevelProp_HABW_Banner4"
+                name: string = "LevelProp_HA_AP_Chains_Long3"
             }
             0x46a44755 = GdsMapObject {
                 type: u8 = 10
                 boxMin: vec3 = { 904.036621, 831.123718, -53.1058998 }
                 boxMax: vec3 = { 1083.67688, 958.633606, 126.534302 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.0345598571, -0.00485707121, -0.999390841, 0
@@ -24377,7 +26033,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 892.8172, -198.101593, 2915.66772 }
                 boxMax: vec3 = { 938.39032, 0, 2961.24097 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     1, 0, 0, 0
@@ -24391,7 +26047,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 2239.16846, 19.8418999, 4273.91406 }
                 boxMax: vec3 = { 2279.03271, 57.6361008, 4313.77832 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     0.98480773, 0, -0.173648179, 0
@@ -24405,7 +26061,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 8638.42383, 26.8957996, 10718.7539 }
                 boxMax: vec3 = { 8689.42578, 64.6900024, 10769.7558 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.970295727, 0, -0.241921902, 0
@@ -24419,7 +26075,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 11085.9863, -904.241272, 8528.37305 }
                 boxMax: vec3 = { 11265.626, 0, 8708.01367 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.809017003, 0, -0.587785244, 0
@@ -24433,7 +26089,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 13082.7178, -178.531403, 10879.7314 }
                 boxMax: vec3 = { 13135.9238, 0, 10932.9365 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.999390841, 0, 0.0348994955, 0
@@ -24447,7 +26103,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 6888.56885, 5.35230017, 5608.05176 }
                 boxMax: vec3 = { 7068.20947, 132.862198, 5787.69238 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.642787635, 0, -0.766044438, 0
@@ -24461,7 +26117,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 2379.99365, 19.8418999, 265.579498 }
                 boxMax: vec3 = { 2419.85791, 57.6361008, 305.443695 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     0.74314481, 0, 0.669130623, 0
@@ -24475,7 +26131,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 8615.4082, -1011.62592, 6578.63672 }
                 boxMax: vec3 = { 8655.27246, 0, 6618.50098 }
-                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_Poro/Skins/Skin2"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.642787635, 0, -0.766044438, 0
@@ -24496,7 +26152,7 @@ entries: map[hash,embed] = {
                     -0.927183867, 0, -0.37460658, 0
                     0, 1, 0, 0
                     0.37460658, 0, -0.927183867, 0
-                    11151, -174, 11818, 1
+                    10515, -174, 12465, 1
                 }
                 name: string = "LevelProp_HA_AP_ShpNorth"
             }
@@ -24505,13 +26161,13 @@ entries: map[hash,embed] = {
                 boxMin: vec3 = { 487.395203, -454.723602, 1848.48669 }
                 boxMax: vec3 = { 523.012573, 0, 1884.10486 }
                 mapObjectSkinID: u32 = 1
-                0xad304db5: string = "Characters/HA_AP_ShpSouth/Skins/Skin1"
+                0xad304db5: string = "Characters/HA_AP_ShpSouth/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.74314481, 0, -0.669130623, 0
                     0, 1, 0, 0
                     0.669130623, 0, -0.74314481, 0
-                    605, -264, 1766, 1
+                    261, -264, 2137, 1
                 }
                 name: string = "LevelProp_HA_AP_ShpSouth"
             }

@@ -29109,7 +29109,10 @@ entries: map[hash,embed] = {
         }
     }
     0xc860963a = MapSkin {
-        mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
+        mMapContainerLink: string = "Maps/MapGeometry/Map12/Bilgewater"
+        mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
+            mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
+        }
         0x92a53e77: list[link] = {
             0xadbc3928
         }
@@ -33150,6 +33153,53 @@ entries: map[hash,embed] = {
                 voiceOver: bool = true
             }
             BankUnit {
+                name: string = "NPC_Map14_VO"
+                bankPath: list[string] = {
+                    "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_audio.bnk"
+                    "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_events.bnk"
+                    "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_audio.wpk"
+                }
+                events: list[string] = {
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Ambient"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Browsing"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Close"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Open"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenCorki"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenDiana"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenDraven"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenEzreal"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenFizz"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenGangplank"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenHeimerdinger"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenNami"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenNautilus"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenRumble"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenSivir"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenTahmKench"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenUdyr"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Purchase"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Ambient"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Browsing"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Close"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Open"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenAshe"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenFizz"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGangplank"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGragas"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGraves"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenKarthus"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenMaokai"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenMissFortune"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenNami"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenNautilus"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenReksai"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenTwistedFate"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenTwitch"
+                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Purchase"
+                }
+                voiceOver: bool = true
+            }
+            BankUnit {
                 name: string = "Announcer_Global_Female1_VO"
                 bankPath: list[string] = {
                     "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/Announcer_Global_Female1_VO_audio.bnk"
@@ -34098,7 +34148,8 @@ entries: map[hash,embed] = {
             }
         }
         music: embed = MusicAudioDataProperties {
-            themeMusicID: string = "Play_mus_map14_phase_select"
+            themeMusicID: string = "Play_mus_map11_phase_select_bilgewater"
+            themeMusicTransitionID: string = "Play_mus_map11_phase_select_bilgewater_transition"
             victoryMusicID: string = "Play_mus_map14_phase_victory_base"
             defeatMusicID: string = "Play_mus_map14_phase_defeat_base"
             victoryBannerSound: string = "Play_sfx_Env_SRUAP_Victory_Banner"
@@ -37089,7 +37140,7 @@ entries: map[hash,embed] = {
             0x6463e656: bool = false
             0x29fef316: bool = false
             Style: link = 0xd8f1d3b8
-            0x6c4123a5: string = "game_announcement_OnStartMessage2Map@MapNumber@"
+            0x6c4123a5: string = "game_announcement_OnStartMessage2Map14"
             0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
             0x14ff2afd: hash = 0x153e858c
         }
