@@ -17954,6 +17954,9 @@ entries: map[hash,embed] = {
             "BannerSystem(0)"
             "Perks(1)"
             "MapObjectESportSponsorBanners(1)"
+            "MapID(11)?AnnouncerVoice(Male1)"
+            "MapID(11)?ShowCustomAnnouncerOption(1)"
+            "MapID(11)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
         }
     }
     0x290d133e = GameMutatorExpansions {
@@ -18304,7 +18307,7 @@ entries: map[hash,embed] = {
     0x5436f4f7 = GameMutatorExpansions {
         mExpandedMutator: string = "Esports_Test_Rotating_Banners"
     }
-    0x543f5fa9 = GameMutatorExpansions {
+        0x543f5fa9 = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_SRU_Urf"
         mMutators: list2[string] = {
             "MapID(11)?MapSkinName(URF)"
@@ -18392,6 +18395,7 @@ entries: map[hash,embed] = {
             "MapID(12)?MapSkinName(Trueshot)"
             "MapID(12)?MinionSkins(TrueshotMinions)"
             "MapID(12)?AudioFeature(Trueshot)"
+            "MapID(12)?AnnouncerVoice(Trueshot)"
         }
     }
     0x626263f2 = GameMutatorExpansions {
@@ -18444,7 +18448,6 @@ entries: map[hash,embed] = {
             "MapSkin_SRU_Trueshot"
             "MapSkin_HA_Trueshot"
             "SpawnThemeMusicOverride(Play_mus_map11_XP12021_spawn)"
-            "AnnouncerVoice(Trueshot)"
         }
     }
     0x6be060f7 = GameMutatorExpansions {
