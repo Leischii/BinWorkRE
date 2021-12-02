@@ -13233,6 +13233,7 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 pass: i16 = -100
+                particleIsLocalOrientation: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -50, 0 }
                 }
