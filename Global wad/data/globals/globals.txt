@@ -16356,10 +16356,6 @@ entries: map[hash,embed] = {
     }
     0x0a3873fc = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Vi"
-        mMutators: list2[string] = {
-            "LoadingScreenTipsOverride(TipsTS_Vi)"
-            "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Vi.Trueshot.dds)"
-        }
     }
     0x0a4f2ab8 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_SetElement_Inferno"
@@ -16973,10 +16969,6 @@ entries: map[hash,embed] = {
     }
     0x5fd20b2b = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Final"
-        mMutators: list2[string] = {
-            "LoadingScreenTipsOverride(TipsTS_Final)"
-            "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Cities.Trueshot.dds)"
-        }
     }
     0x60ee011d = GameMutatorExpansions {
         mExpandedMutator: string = "NEXUSBLITZ"
@@ -16995,9 +16987,9 @@ entries: map[hash,embed] = {
     0x621da51d = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_HA_Trueshot"
         mMutators: list2[string] = {
-            "MapID(12)?MapSkinName(Trueshot)"
-            "MapID(12)?MinionSkins(TrueshotMinions)"
-            "MapID(12)?AudioFeature(Trueshot)"
+            "MapID(22)?MapSkinName(Trueshot)"
+            "MapID(22)?MinionSkins(TrueshotMinions)"
+            "MapID(22)?AudioFeature(Trueshot)"
         }
     }
     0x626263f2 = GameMutatorExpansions {
@@ -17046,8 +17038,8 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "MapSkin_SRU_Trueshot"
             "MapSkin_HA_Trueshot"
-            "SpawnThemeMusicOverride(Play_mus_map11_XP12021_spawn)"
-            "AnnouncerVoice(Trueshot)"
+            "MapID(11)?SpawnThemeMusicOverride(Play_mus_map11_XP12021_spawn)"
+            "MapID(11)?AnnouncerVoice(Trueshot)"
         }
     }
     0x6be060f7 = GameMutatorExpansions {
@@ -17272,10 +17264,6 @@ entries: map[hash,embed] = {
     }
     0x9df8e776 = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Jinx"
-        mMutators: list2[string] = {
-            "LoadingScreenTipsOverride(TipsTS_Jinx)"
-            "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jinx.Trueshot.dds)"
-        }
     }
     0xa1e2cbc2 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Tutorial_ForceEarlyEnd"
@@ -17456,10 +17444,6 @@ entries: map[hash,embed] = {
     }
     0xd1c3006f = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Jayce"
-        mMutators: list2[string] = {
-            "LoadingScreenTipsOverride(TipsTS_Jayce)"
-            "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jayce.Trueshot.dds)"
-        }
     }
     0xd5fdccc1 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT3_SetVariation_LittlerLegends"
@@ -17526,10 +17510,6 @@ entries: map[hash,embed] = {
     }
     0xe80790c3 = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Caitlyn"
-        mMutators: list2[string] = {
-            "LoadingScreenTipsOverride(TipsTS_Caitlyn)"
-            "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Caitlyn.Trueshot.dds)"
-        }
     }
     0xec45ff3d = GameMutatorExpansions {
         mExpandedMutator: string = "TFT3_SetVariation_BigLittleLegends"
@@ -17598,10 +17578,6 @@ entries: map[hash,embed] = {
     }
     0xf7dd48b2 = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Launch"
-        mMutators: list2[string] = {
-            "LoadingScreenTipsOverride(TipsTS_Launch)"
-            "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Cities.Trueshot.dds)"
-        }
     }
     0xfacb980d = GameMutatorExpansions {
         mExpandedMutator: string = "TFT3_SetVariation_Dreadnova"
