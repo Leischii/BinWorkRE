@@ -13113,34 +13113,6 @@ entries: map[hash,embed] = {
         particleName: string = "BW_SeagullTest"
         flags: u8 = 197
     }
-	"Characters/BW_seagull/Skins/Base/Materials/DirtyMetal_seagull" = StaticMaterialDef {
-        name: string = "Characters/BW_seagull/Skins/Base/Materials/DirtyMetal_seagull"
-        defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Particles/Bw_Seagull_TX_CM.dds"
-            }
-        }
-        shaderMacros: map[string,string] = {
-			"NO_BAKED_LIGHTING" = "1"
-			"DISABLE_DEPTH_FOG" = "1"
-			"PREMULTIPLIED_ALPHA" = "1"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
-                        blendEnable: bool = true
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-    }
     "Particles/ShipBackgroundEast" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
@@ -13158,8 +13130,6 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-				material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_east"
-                renderPhaseOverride: u8 = 0
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
@@ -13173,7 +13143,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 40, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.4 }
+                    constantValue: vec4 = { 1, 1, 1, 0.5 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13181,156 +13151,13 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
+				texture: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 100000
         particlePath: string = "Particles/ShipBackgroundEast"
         particleName: string = "ShipBackgroundEast"
         flags: u8 = 197
-    }
-    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_east" = StaticMaterialDef {
-        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_east"
-        defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Gradient_Texture"
-                textureName: string = "DATA/Particles/gradient_shader.dds"
-            }
-        }
-        paramValues: list[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelColor_Size"
-                value: vec4 = { 4, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelColor_Bias"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Diffuse_Alpha"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Diffuse_Color"
-                value: vec4 = { 0.110002287, 0.0500038154, 0.250003815, 0.489997715 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Inner_Color"
-                value: vec4 = { 0.0500038154, 0.0500038154, 0.179995418, 0.200000003 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Alpha"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
-                        blendEnable: bool = true
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        dynamicMaterial: pointer = DynamicMaterialDef {}
-    }
-	"Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing2" = StaticMaterialDef {
-        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing2"
-        defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Gradient_Texture"
-                textureName: string = "DATA/Particles/gradient_shader.dds"
-            }
-        }
-        paramValues: list[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelColor_Size"
-                value: vec4 = { 4, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelColor_Bias"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Diffuse_Alpha"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Diffuse_Color"
-                value: vec4 = { 0.110002287, 0.0500038154, 0.250003815, 0.489997715 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Inner_Color"
-                value: vec4 = { 0.0500038154, 0.0500038154, 0.179995418, 0.200000003 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Alpha"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
-                        blendEnable: bool = true
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        dynamicMaterial: pointer = DynamicMaterialDef {}
     }
     "Particles/ShipBackgroundNorth" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13352,8 +13179,6 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_north"
-                renderPhaseOverride: u8 = 0
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
@@ -13363,6 +13188,7 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 pass: i16 = -100
+                particleIsLocalOrientation: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -50, 0 }
                 }
@@ -13372,84 +13198,12 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
+				texture: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 100000
         particlePath: string = "Particles/ShipBackgroundNorth"
         particleName: string = "ShipBackgroundNorth"
-        flags: u8 = 197
-    }
-    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_north" = StaticMaterialDef {
-        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_north"
-        defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Gradient_Texture"
-                textureName: string = "DATA/Particles/gradient_shader.dds"
-            }
-        }
-        paramValues: list[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelColor_Size"
-                value: vec4 = { 4, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelColor_Bias"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Diffuse_Alpha"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Diffuse_Color"
-                value: vec4 = { 0.110002287, 0.0500038154, 0.250003815, 0.489997715 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Inner_Color"
-                value: vec4 = { 0.0500038154, 0.0500038154, 0.179995418, 0.200000003 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Alpha"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
-                        blendEnable: bool = true
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        dynamicMaterial: pointer = DynamicMaterialDef {}
     }
     "Particles/ShipBackgroundSailing" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13471,8 +13225,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing2"
-                renderPhaseOverride: u8 = 0
+                material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
@@ -13498,8 +13251,8 @@ entries: map[hash,embed] = {
         particleName: string = "ShipBackgroundSailing"
         flags: u8 = 197
     }
-    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing" = StaticMaterialDef {
-        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_vship_sailing"
+    "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship" = StaticMaterialDef {
+        name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship"
         defaultTechnique: string = "normal"
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
@@ -13507,10 +13260,14 @@ entries: map[hash,embed] = {
                 textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
+        switches: list[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "LOCK_HIGHLIGHT"
+                on: bool = false
+            }
+        }
         shaderMacros: map[string,string] = {
-            "NO_BAKED_LIGHTING" = "1"
-			"DISABLE_DEPTH_FOG" = "1"
-			"PREMULTIPLIED_ALPHA" = "1"
+            "NUM_BLEND_WEIGHTS" = "4"
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -13519,9 +13276,20 @@ entries: map[hash,embed] = {
                     StaticMaterialPassDef {
                         shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
                         blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
                         dstColorBlendFactor: u32 = 7
                         dstAlphaBlendFactor: u32 = 7
                     }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
                 }
             }
         }
@@ -13630,7 +13398,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                material: link = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_fishhk"
+                material: link = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_bw_fishhk"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk.skn"
@@ -13658,8 +13426,8 @@ entries: map[hash,embed] = {
         particlePath: string = "Particles/bw_fishhk_01"
         particleName: string = "bw_fishhk_01"
     }
-    "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_fishhk" = StaticMaterialDef {
-        name: string = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_fishhk"
+    "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_bw_fishhk" = StaticMaterialDef {
+        name: string = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_bw_fishhk"
         defaultTechnique: string = "normal"
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
@@ -13852,7 +13620,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                material: link = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_Signa"
+                material: link = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_bw_signa"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa.skn"
@@ -13879,13 +13647,19 @@ entries: map[hash,embed] = {
         particlePath: string = "Particles/bw_signa_01"
         particleName: string = "bw_signa_01"
     }
-    "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_Signa" = StaticMaterialDef {
-        name: string = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_Signa"
+    "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_bw_signa" = StaticMaterialDef {
+        name: string = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_bw_signa"
         defaultTechnique: string = "normal"
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
                 textureName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
+            }
+        }
+        switches: list[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "LOCK_HIGHLIGHT"
+                on: bool = false
             }
         }
         shaderMacros: map[string,string] = {
@@ -13903,6 +13677,15 @@ entries: map[hash,embed] = {
                         dstColorBlendFactor: u32 = 7
                         dstAlphaBlendFactor: u32 = 7
                     }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
                 }
             }
         }
@@ -13925,7 +13708,6 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                material: link = "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_Squid"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid.skn"
@@ -13946,39 +13728,12 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
                 }
+				texture: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid_tx_cm.dds"
             }
         }
         visibilityRadius: f32 = 50000
         particlePath: string = "Particles/bw_squid_01"
         particleName: string = "bw_squid_01"
-    }
-    "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_Squid" = StaticMaterialDef {
-        name: string = "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_Squid"
-        defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid_tx_cm.dds"
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/Diffuse_Only"
-                        blendEnable: bool = true
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
     }
     "Particles/bw_tooth_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
