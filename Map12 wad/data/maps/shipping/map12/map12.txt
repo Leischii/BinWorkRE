@@ -29167,17 +29167,9 @@ entries: map[hash,embed] = {
         }
     }
     0xddfcf6f1 = MapSkin {
-        mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
-        mMapObjectsCFG: string = "ObjectCFG_Trueshot.cfg"
-        mObjectSkinFallbacks: map[hash,i32] = {
-            "HA_ChaosMinionMelee" = 0
-            "HA_ChaosMinionRanged" = 0
-            "HA_ChaosMinionSiege" = 0
-            "HA_ChaosMinionSuper" = 0
-            "HA_OrderMinionMelee" = 0
-            "HA_OrderMinionRanged" = 0
-            "HA_OrderMinionSiege" = 0
-            "HA_OrderMinionSuper" = 0
+        mMapContainerLink: string = "Maps/MapGeometry/Map12/Bilgewater"
+        mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
+            mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
         }
         0x92a53e77: list[link] = {
             0xadbc3928
@@ -32312,13 +32304,6 @@ entries: map[hash,embed] = {
         mSurrenderSettings: link = 0x748598d2
         0x6941e612: link = 0xa3c25554
         mLoadingScreenBackground: string = "ASSETS/UX/LoadingScreen/HABackground.dds"
-        0x084c58ee: list[string] = {
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Cities.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jayce.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Vi.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Caitlyn.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jinx.Trueshot.dds"
-        }
     }
     0x73d381b7 = GameModeMapData {
         mModeName: hash = "FIRSTBLOOD"
