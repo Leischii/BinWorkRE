@@ -29171,6 +29171,16 @@ entries: map[hash,embed] = {
         mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
             mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
         }
+        mObjectSkinFallbacks: map[hash,i32] = {
+            "HA_ChaosMinionMelee" = 0
+            "HA_ChaosMinionRanged" = 0
+            "HA_ChaosMinionSiege" = 0
+            "HA_ChaosMinionSuper" = 0
+            "HA_OrderMinionMelee" = 0
+            "HA_OrderMinionRanged" = 0
+            "HA_OrderMinionSiege" = 0
+            "HA_OrderMinionSuper" = 0
+        }
         mResourceResolvers: list[link] = {
             0xadbc3928
         }
