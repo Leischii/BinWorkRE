@@ -24,6 +24,6 @@ entries: map[hash,embed] = {
         defaultAnimations: list[string] = {
             "Buffbones"
         }
-        mResourceResolver: link = 0xcd81826d
+        mResourceResolver: link = "Characters/HA_AP_Poro/Skins/Skin0/Resources"
     }
 }

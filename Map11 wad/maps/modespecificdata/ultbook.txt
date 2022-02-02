@@ -162,7 +162,7 @@ entries: map[hash,embed] = {
             0x00f7e5bc: bool = true
             mClientData: embed = SpellDataResourceClient {
                 mTooltipData: pointer = TooltipInstanceSpell {
-                    0xfea35e52: bool = false
+                    EnableExtendedTooltip: bool = false
                     mObjectName: string = "UltBook_UrgotRRecast"
                     mFormat: link = "UX/Tooltips/Spell"
                     mLocKeys: map[string,string] = {
@@ -384,14 +384,14 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RCalculatedDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "RBaseDamage"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0xb50a7458
+                            mDataValue: hash = "RBonusADRatio"
                             mStat: u8 = 2
                             mStatFormula: u8 = 2
                         }
@@ -471,10 +471,10 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0xfb6c0e87
             mLineWidth: f32 = 80
             0x63060019: link = 0xf5c8b537
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xcecc3fed
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_UrgotR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_UrgotR_SFX_events.bnk"
             }
@@ -831,7 +831,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamageCalc" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -852,7 +852,7 @@ entries: map[hash,embed] = {
                                 mNumber: f32 = 1
                             }
                             NamedDataValueCalculationPart {
-                                mDataValue: hash = 0xc4f99250
+                                mDataValue: hash = "PercentMissingAmp"
                             }
                         }
                     }
@@ -911,10 +911,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 5.17000008
             missileSpeed: f32 = 828.5
             0x63060019: link = 0xfcd9ef7b
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8b17c8e9
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JhinR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JhinR_SFX_events.bnk"
             }
@@ -1076,7 +1076,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 1.98000002
             missileSpeed: f32 = 1200
             mLineWidth: f32 = 80
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8b17c8e9
             }
             mHitBoneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
@@ -1200,7 +1200,7 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x31c4fabb
             mLineWidth: f32 = 80
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8b17c8e9
             }
             bHaveHitBone: bool = true
@@ -1318,7 +1318,7 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x43b2c586
             mLineWidth: f32 = 80
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8b17c8e9
             }
             bHaveHitBone: bool = true
@@ -1387,7 +1387,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 30
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xbc80e9ed
             }
             mHitEffectName: string = "globalhit_physical.troy"
@@ -1447,7 +1447,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamageCalc" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -1510,10 +1510,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 8
             missileSpeed: f32 = 0
             0x63060019: link = 0x229d8f37
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xbc80e9ed
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JarvanIVR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JarvanIVR_SFX_events.bnk"
             }
@@ -1651,7 +1651,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 1.75
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "MagicDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -1714,10 +1714,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 0
             0x63060019: link = 0x1b7a5de6
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x7476c93c
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SkarnerR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SkarnerR_SFX_events.bnk"
             }
@@ -1909,7 +1909,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 2.4000001
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         EffectValueCalculationPart {
@@ -1975,10 +1975,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1300
             mLineWidth: f32 = 80
             0x63060019: link = 0x2815ff31
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xa25c6133
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_EvelynnR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_EvelynnR_SFX_events.bnk"
             }
@@ -2269,7 +2269,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 9.5
             missileSpeed: f32 = 3000
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x6427522b
             }
             bHaveHitBone: bool = true
@@ -2337,7 +2337,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 0.5
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         ByCharLevelBreakpointsCalculationPart {
@@ -2373,7 +2373,7 @@ entries: map[hash,embed] = {
                     }
                     0xcbcac618: u8 = 5
                 }
-                0xb3c26649 = GameCalculation {
+                "RADDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.800000012
@@ -2417,10 +2417,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0xba40e56c = GameCalculationModified {
+                "ReducedDamageFinal" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "RDamage"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0x69ebc1b4
+                        mDataValue: hash = "ReducedDamage"
                     }
                     tooltipOnly: bool = true
                 }
@@ -2455,7 +2455,7 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 15
             0x63060019: link = 0x05bb4c89
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x6427522b
             }
             mFloatVarsDecimals: list[i32] = {
@@ -2596,7 +2596,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 9.5
             missileSpeed: f32 = 3000
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x6427522b
             }
             bHaveHitBone: bool = true
@@ -2772,7 +2772,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 725
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "BonusDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         StatByCoefficientCalculationPart {
@@ -2823,10 +2823,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 0.144999996
             missileSpeed: f32 = 0
             0x63060019: link = 0x06aa2877
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x14fdf9ad
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_RengarR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_RengarR_SFX_events.bnk"
             }
@@ -2975,13 +2975,13 @@ entries: map[hash,embed] = {
                 0
                 0
             }
-            0xd55a37b5: pointer = OverrideAttackTimeData {
+            mOverrideAttackTime: pointer = OverrideAttackTimeData {
                 0x20991541: pointer = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {}
                     }
                 }
-                0x856a86cf: f32 = 0
+                mCastTimePercent: f32 = 0
             }
             castRange: list[f32] = {
                 1000
@@ -3111,14 +3111,14 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 1.5
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0x010aedc7 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "MonsterDamageTooltip" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         StatBySubPartCalculationPart {
                             mSubpart: pointer = SumOfSubPartsCalculationPart {
                                 mSubparts: list[pointer] = {
                                     NamedDataValueCalculationPart {
-                                        mDataValue: hash = 0xf95948bf
+                                        mDataValue: hash = "MonsterCritMod"
                                     }
                                     StatByCoefficientCalculationPart {
                                         mCoefficient: f32 = 1
@@ -3134,7 +3134,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x1b4326a0 = GameCalculation {
+                "BasicAttackDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         ByCharLevelInterpolationCalculationPart {
                             mStartValue: f32 = 20
@@ -3195,7 +3195,7 @@ entries: map[hash,embed] = {
                 0
                 0
             }
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x93b4276e
             }
             mFloatVarsDecimals: list[i32] = {
@@ -3342,7 +3342,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 3000
             mMissileEffectKey: hash = 0xecefc1f4
             mLineWidth: f32 = 60
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x93b4276e
             }
             bHaveHitBone: bool = true
@@ -3541,11 +3541,11 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 18
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0x92c7948f = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "STDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x0bde30ee
+                            mDataValue: hash = "STBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.150000006
@@ -3555,17 +3555,17 @@ entries: map[hash,embed] = {
                 "AoEDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x2a9675cc
+                            mDataValue: hash = "AoEBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.100000001
                         }
                     }
                 }
-                0x1c015117 = GameCalculation {
+                "ExplosionTotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x391134a0
+                            mDataValue: hash = "ExplosionBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.699999988
@@ -3612,10 +3612,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 56.7000008
             missileSpeed: f32 = 0
             0x63060019: link = 0x68eede0c
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x93b4276e
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ShacoR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ShacoR_SFX_events.bnk"
             }
@@ -3796,7 +3796,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 20.7999992
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x93b4276e
             }
             selectionPriority: u32 = 1
@@ -3958,28 +3958,28 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 10"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "AoEDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x2a9675cc
+                            mDataValue: hash = "AoEBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.0900000036
                         }
                     }
                 }
-                0x92c7948f = GameCalculation {
+                "STDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x0bde30ee
+                            mDataValue: hash = "STBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.180000007
                         }
                     }
                 }
-                0x37fb913e = GameCalculation {
+                "TrapDuration" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         EffectValueCalculationPart {
                             mEffectIndex: i32 = 4
@@ -4029,7 +4029,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 17.5
             missileSpeed: f32 = 1450
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x93b4276e
             }
             selectionPriority: u32 = 1
@@ -4161,7 +4161,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 3
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -4177,10 +4177,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0xff4bf141 = GameCalculationModified {
+                "TotalExecuteDamage" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "TotalDamage"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0xdd399966
+                        mDataValue: hash = "ExecuteDamagePercent"
                     }
                 }
             }
@@ -4228,7 +4228,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1500
             mMissileEffectKey: hash = 0xb80b8fa9
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x93b4276e
             }
             mHitEffectKey: hash = 0xe2b9e988
@@ -4451,7 +4451,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 25"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RExplosionDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -4465,7 +4465,7 @@ entries: map[hash,embed] = {
                 "RMultiHitAmplification" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x8a4eacf3
+                            mDataValue: hash = "MultiHitAmp"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.150000006
@@ -4522,10 +4522,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 0
             0x63060019: link = 0x0815aaaf
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xe3cb23a5
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_DianaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_DianaR_SFX_events.bnk"
             }
@@ -4748,7 +4748,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P +  40"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -4762,7 +4762,7 @@ entries: map[hash,embed] = {
                 "DamagePerSecond" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x27fb6084
+                            mDataValue: hash = "BaseDamagePerSecond"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.550000012
@@ -4810,10 +4810,10 @@ entries: map[hash,embed] = {
                 200
             }
             0x63060019: link = 0x302ccb1f
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x2a02a5f5
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_RellR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_RellR_SFX_events.bnk"
             }
@@ -5021,10 +5021,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 9
             missileSpeed: f32 = 0
             0x63060019: link = 0xdffb82d6
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x28e4b90c
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ZoeR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ZoeR_SFX_events.bnk"
             }
@@ -5116,7 +5116,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 9.5
             missileSpeed: f32 = 12000
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x28e4b90c
             }
             mHitEffectName: string = "None"
@@ -5195,7 +5195,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1400
             mMissileEffectKey: hash = 0x28925880
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x28e4b90c
             }
             bHaveHitBone: bool = true
@@ -5266,7 +5266,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1000
             mMissileEffectKey: hash = 0x433b875d
             mLineWidth: f32 = 60
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x397e7d2c
             }
             mHitBoneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
@@ -5391,7 +5391,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 1"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -5440,10 +5440,10 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 15
             0x63060019: link = 0x438e8cf6
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x397e7d2c
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AzirR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AzirR_SFX_events.bnk"
             }
@@ -5692,10 +5692,10 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 4.17999983
             0x63060019: link = 0x0b74a45b
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x60c346c9
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_TryndamereR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_TryndamereR_SFX_events.bnk"
             }
@@ -5851,8 +5851,8 @@ entries: map[hash,embed] = {
                 SpellEffectAmount {}
                 SpellEffectAmount {}
             }
-            0x94572284: map[hash,pointer] = {
-                0x5330b2fd = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "ZoneDamageTooltip" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         ProductOfSubPartsCalculationPart {
                             mPart1: pointer = EffectValueCalculationPart {
@@ -5872,7 +5872,7 @@ entries: map[hash,embed] = {
                     }
                     0xcbcac618: u8 = 6
                 }
-                0xf2cbde43 = GameCalculation {
+                "TotalDamageTooltip" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         EffectValueCalculationPart {
                             mEffectIndex: i32 = 7
@@ -5927,10 +5927,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 0
             0x63060019: link = 0x0c2a1434
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xafc8d2b6
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MalzharR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MalzharR_SFX_events.bnk"
             }
@@ -6138,7 +6138,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1800
             mMissileEffectKey: hash = 0x9ff1f88e
             mLineWidth: f32 = 120
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x1da39d6d
             }
             bHaveHitBone: bool = true
@@ -6242,8 +6242,8 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 0.800000012
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0xed325470 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "DamageDone" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "baseDamage"
@@ -6306,10 +6306,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 200
             mLineWidth: f32 = 120
             0x63060019: link = 0x8651c6b7
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x1da39d6d
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_GragasR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_GragasR_SFX_events.bnk"
             }
@@ -6454,7 +6454,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1800
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             bHaveHitBone: bool = true
@@ -6610,7 +6610,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 3
             missileSpeed: f32 = 1600
             mLineWidth: f32 = 120
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             bHaveHitBone: bool = true
@@ -6717,7 +6717,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 2000
             mMissileEffectName: string = "fizz_seastoneactive_hit_sound.troy"
             mLineWidth: f32 = 80
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             mHitEffectKey: hash = 0xc825d347
@@ -6866,7 +6866,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 7.5
             missileSpeed: f32 = 2000
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             bHaveHitBone: bool = true
@@ -7071,7 +7071,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "CalculatedDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -7085,10 +7085,10 @@ entries: map[hash,embed] = {
                 "HealAmount" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xa6278d35
+                            mDataValue: hash = "SelfCastFlatHeal"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0xd361f2ed
+                            mDataValue: hash = "PercentMissingHPRatio"
                         }
                     }
                 }
@@ -7141,10 +7141,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 2000
             0x63060019: link = 0xf29fb813
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LissandraR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LissandraR_SFX_events.bnk"
             }
@@ -7269,7 +7269,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1800
             mMissileEffectName: string = "Lissandra_R_mis.troy"
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             mClientData: embed = SpellDataResourceClient {
@@ -7316,7 +7316,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1800
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             mClientData: embed = SpellDataResourceClient {
@@ -7378,7 +7378,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1800
             mMissileEffectName: string = "Lissandra_R_mis.troy"
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb71637c1
             }
             mClientData: embed = SpellDataResourceClient {
@@ -7505,10 +7505,10 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             missileSpeed: f32 = 1200
             0x63060019: link = 0x3a0632ad
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xba4384d7
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_CamilleR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_CamilleR_SFX_events.bnk"
             }
@@ -7846,7 +7846,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 3
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "ActiveDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -7861,7 +7861,7 @@ entries: map[hash,embed] = {
                 "PassiveDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xe8ec14f2
+                            mDataValue: hash = "PassiveBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.300000012
@@ -7910,10 +7910,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10.0500002
             missileSpeed: f32 = 347.799988
             0x63060019: link = 0x18e3e294
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x6200e016
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_BlitzcrankR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_BlitzcrankR_SFX_events.bnk"
             }
@@ -7935,7 +7935,7 @@ entries: map[hash,embed] = {
                             levelCount: u32 = 3
                             elements: list[embed] = {
                                 TooltipInstanceListElement {
-                                    type: string = "Passive Base Damage"
+                                    type: string = "PassiveBaseDamage"
                                     nameOverride: string = "Spell_StaticField_PassiveBase_LevelUp"
                                 }
                                 TooltipInstanceListElement {
@@ -8078,7 +8078,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 0.25
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -8091,10 +8091,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x389cfd75 = GameCalculationModified {
+                "SecondaryTargetDamage" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "Damage"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0x94fc9996
+                        mDataValue: hash = "SecondaryTargetDamageMultiplier"
                     }
                 }
             }
@@ -8148,10 +8148,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1400
             0x63060019: link = 0xc2237c17
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xaae07acd
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ViR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ViR_SFX_events.bnk"
             }
@@ -8227,7 +8227,7 @@ entries: map[hash,embed] = {
         mScriptName: string = "UltBook_ViRHit"
         mSpell: pointer = SpellDataResource {
             mAlternateName: string = "ViR"
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xaae07acd
             }
         }
@@ -8337,7 +8337,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 2000
             mMissileEffectName: string = "Zyra_Dummy_Controller.troy"
             mLineWidth: f32 = 85
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xaae07acd
             }
             bHaveHitBone: bool = true
@@ -8478,7 +8478,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 33
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xaae07acd
             }
             mHitEffectName: string = "HeadButt_tar.troy"
@@ -8599,7 +8599,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P "
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -8659,10 +8659,10 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 10
             0x63060019: link = 0xaadb8ba0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x45bc95ea
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_EkkoR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_EkkoR_SFX_events.bnk"
             }
@@ -8863,7 +8863,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamageCalc" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -8915,10 +8915,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 12.4250002
             missileSpeed: f32 = 779.900024
             0x63060019: link = 0xf307a922
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xf1173c50
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_NasusR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_NasusR_SFX_events.bnk"
             }
@@ -8982,7 +8982,7 @@ entries: map[hash,embed] = {
     0x1a5ea72c = SpellObject {
         mScriptName: string = "UltBook_LuluRSlow"
         mSpell: pointer = SpellDataResource {
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01de9370
             }
         }
@@ -8994,7 +8994,7 @@ entries: map[hash,embed] = {
     0x8ac1dcce = SpellObject {
         mScriptName: string = "UltBook_LuluRBoom"
         mSpell: pointer = SpellDataResource {
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01de9370
             }
         }
@@ -9103,8 +9103,8 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0xaf6d44aa = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "TotalBonusHealth" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "BonusHealth"
@@ -9165,10 +9165,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 0
             0x63060019: link = 0xd7d936c2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01de9370
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LuluR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LuluR_SFX_events.bnk"
             }
@@ -9330,7 +9330,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 3
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -9349,7 +9349,7 @@ entries: map[hash,embed] = {
                 }
             }
             mCoefficient: f32 = 1
-            mAnimationName: string = "Spell6"
+            mAnimationName: string = "Channel"
             mImgIconName: list[string] = {
                 "UltBook_XinZhao_Square_0.dds"
             }
@@ -9388,10 +9388,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10
             missileSpeed: f32 = 347.799988
             0x63060019: link = 0x632645e5
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x9185cd4f
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_XinZhaoR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_XinZhaoR_SFX_events.bnk"
             }
@@ -9470,6 +9470,9 @@ entries: map[hash,embed] = {
             mCoefficient: f32 = 0.400000006
             mCoefficient2: f32 = 0.200000003
             mAnimationName: string = "Spell4"
+            mImgIconName: list[string] = {
+                "UltBook_XinZhao_Square_0.dds"
+            }
             cooldownTime: list[f32] = {
                 17
                 16
@@ -9503,7 +9506,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 20.2099991
             missileSpeed: f32 = 347.799988
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x9185cd4f
             }
             mFloatVarsDecimals: list[i32] = {
@@ -9895,7 +9898,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -9908,13 +9911,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0xfc9607de = GameCalculation {
+                "SlayerDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xcf1733d7
+                            mDataValue: hash = "SlayerMaxHPBaseDamage"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x1bf14cf3
+                            mDataValue: hash = "SlayerMaxHPDamagerPer100AD"
                             mStat: u8 = 2
                             mStatFormula: u8 = 2
                         }
@@ -9922,9 +9925,9 @@ entries: map[hash,embed] = {
                     mDisplayAsPercent: bool = true
                 }
                 "HealValue" = GameCalculationModified {
-                    mModifiedGameCalculation: hash = 0xfc9607de
+                    mModifiedGameCalculation: hash = "SlayerDamage"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0xb685c4c2
+                        mDataValue: hash = "SlayerHealPercent"
                     }
                 }
             }
@@ -9966,10 +9969,10 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 7.5
             0x63060019: link = 0x5d571061
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xf7758043
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KaynR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KaynR_SFX_events.bnk"
             }
@@ -10200,7 +10203,7 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x2701eef6
             mMissileEffectEnemyKey: hash = 0x13e58d31
             mLineWidth: f32 = 140
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x25f7f4c6
             }
             selectionPriority: u32 = 1
@@ -10257,7 +10260,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 2
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x25f7f4c6
             }
             mHitEffectKey: hash = 0x59b82773
@@ -10314,7 +10317,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 2
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x25f7f4c6
             }
             mHitEffectKey: hash = 0x59b82773
@@ -10418,7 +10421,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 9.56999969
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x25f7f4c6
             }
             bHaveHitBone: bool = true
@@ -10498,7 +10501,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 2.5
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -10550,10 +10553,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 17
             missileSpeed: f32 = 902
             0x63060019: link = 0x23622924
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x25f7f4c6
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_TalonR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_TalonR_SFX_events.bnk"
             }
@@ -10696,7 +10699,7 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x931d558f
             mMissileEffectEnemyKey: hash = 0xc1d71b6c
             mLineWidth: f32 = 140
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x25f7f4c6
             }
             bHaveHitBone: bool = true
@@ -10810,11 +10813,11 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 1
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RMonsterDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x48054a0b
+                            mDataValue: hash = "RBaseMonsterDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.5
@@ -10876,10 +10879,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 5.80000019
             mHitEffectOrientType: u32 = 2
             0x63060019: link = 0x90f51d80
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xf27918ca
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ChogathR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ChogathR_SFX_events.bnk"
             }
@@ -10945,7 +10948,7 @@ entries: map[hash,embed] = {
         }
         mBuff: pointer = BuffData {
             mDescription: string = "game_buff_tooltip_Feast"
-            0xd7e2c71d: u8 = 8
+            mBuffAttributeFlag: u8 = 8
         }
     }
     0x6b20cc87 = SpellObject {
@@ -10964,7 +10967,7 @@ entries: map[hash,embed] = {
         }
         mName: string = "UltBook_JinxR"
     }
-    0x269814f3 = VfxSystemDefinitionData {
+    "Maps/ModeSpecificData/ULTBOOK/Particles/UltBook_OffCooldown_Crown" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12385,7 +12388,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Maps/ModeSpecificData/ULTBOOK/Particles/UltBook_OffCooldown_Crown"
         soundOnCreateDefault: string = "Play_sfx_UltBook_offcooldowncrown"
     }
-    0xae2179b9 = VfxSystemDefinitionData {
+    "Maps/ModeSpecificData/ULTBOOK/Particles/UltBook_First_Crown_Spawn" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13160,7 +13163,7 @@ entries: map[hash,embed] = {
         soundOnCreateDefault: string = "Play_sfx_UltBook_firstcrown"
         flags: u8 = 199
     }
-    0xedda3044 = VfxSystemDefinitionData {
+    "Maps/ModeSpecificData/ULTBOOK/Particles/UltBook_Clone_Transform_Master" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13177,7 +13180,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                material: link = 0xab8e40ff
+                material: link = "Shared/Materials/UltBook_Clone_inst"
                 materialDrivers: map[string,pointer] = {
                     "Fresnel_Color" = VfxColorOverLifeMaterialDriver {
                         colors: embed = VfxAnimatedColorVariableData {
@@ -14093,7 +14096,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 3
             castFrame: f32 = 12
             mMissileEffectKey: hash = 0x62f914d5
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x92510c29
             }
             mHitEffectKey: hash = 0x1636d8f9
@@ -14148,7 +14151,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "HealingPercent" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
@@ -14182,7 +14185,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x545ec9b9 = GameCalculation {
+                "ExecuteDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         ByCharLevelInterpolationCalculationPart {
                             mStartValue: f32 = 8
@@ -14196,7 +14199,7 @@ entries: map[hash,embed] = {
                         mNumber: f32 = 0.00999999978
                     }
                 }
-                0x8809e19c = GameCalculation {
+                "MonsterDamageCap" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
                             mNumber: f32 = 10
@@ -14390,7 +14393,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -14419,7 +14422,7 @@ entries: map[hash,embed] = {
                         mNumber: f32 = 5
                     }
                 }
-                0x545ec9b9 = GameCalculation {
+                "ExecuteDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         ByCharLevelInterpolationCalculationPart {
                             mStartValue: f32 = 8
@@ -14438,7 +14441,7 @@ entries: map[hash,embed] = {
                     0x37070a8d: u8 = 5
                     0xe6eebb2f: u8 = 5
                 }
-                0x8809e19c = GameCalculation {
+                "MonsterDamageCap" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
                             mNumber: f32 = 10
@@ -14517,10 +14520,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 12
             mMissileEffectKey: hash = 0x62f914d5
             0x63060019: link = 0x4b9cab3b
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x92510c29
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_GwenR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_GwenR_SFX_events.bnk"
             }
@@ -14689,7 +14692,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 3
             castFrame: f32 = 12
             mMissileEffectKey: hash = 0x41e86537
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x92510c29
             }
             mHitEffectKey: hash = 0x1636d8f9
@@ -14794,7 +14797,7 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 24
             mMissileEffectKey: hash = 0x62f914d5
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x92510c29
             }
             mHitEffectKey: hash = 0x1636d8f9
@@ -14931,7 +14934,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RCalculatedDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -14981,10 +14984,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 17.8500004
             missileSpeed: f32 = 20
             0x63060019: link = 0xcbb3851f
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x79282ff5
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AmumuR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AmumuR_SFX_events.bnk"
             }
@@ -15112,7 +15115,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 0.5
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -15134,9 +15137,9 @@ entries: map[hash,embed] = {
             mCoefficient2: f32 = 1
             mAnimationName: string = "Channel"
             mImgIconName: list[string] = {
-                "UltBook_Ezreal_Square_0.dds"
+                "ASSETS/Characters/Ezreal/HUD/UltBook_Ezreal_Square_0.dds"
             }
-            mMinimapIconName: string = "Ezreal_TrueshotBarrage_Circle.dds"
+            mMinimapIconName: string = "ASSETS/Characters/Ezreal/HUD/Ezreal_TrueshotBarrage_Circle.dds"
             cooldownTime: list[f32] = {
                 10
                 120
@@ -15199,10 +15202,10 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x0fe72368
             mLineWidth: f32 = 160
             0x63060019: link = 0x49bb1cfd
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x909782c7
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_EzrealR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_EzrealR_SFX_events.bnk"
             }
@@ -15504,7 +15507,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 100"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -15522,7 +15525,7 @@ entries: map[hash,embed] = {
                 "TooltipDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xc0359ed0
+                            mDataValue: hash = "TooltipBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.400000006
@@ -15587,10 +15590,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1500
             mLineWidth: f32 = 225
             0x63060019: link = 0x6c509d1f
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xad0a07f5
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_YoneR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_YoneR_SFX_events.bnk"
             }
@@ -15817,8 +15820,8 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + .25"
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0xed325470 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "DamageDone" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "DamagePerSecond"
@@ -15848,7 +15851,7 @@ entries: map[hash,embed] = {
                         mDataValue: hash = "duration"
                     }
                 }
-                0x86bcfb2e = GameCalculation {
+                "APRatioTick" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         StatByNamedDataValueCalculationPart {
                             mDataValue: hash = "APRatio"
@@ -15918,10 +15921,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10
             missileSpeed: f32 = 20
             0x63060019: link = 0xb85c8381
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8c1848e3
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_FiddleSticksR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_FiddleSticksR_SFX_events.bnk"
             }
@@ -16172,7 +16175,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0.015"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 0xd9ddf189 = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         StatByNamedDataValueCalculationPart {
@@ -16221,10 +16224,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 15
             missileSpeed: f32 = 828.5
             0x63060019: link = 0x3623369f
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xef2b2d75
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_DrMundoR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_DrMundoR_SFX_events.bnk"
             }
@@ -16368,7 +16371,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "(N-1)*3+12"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -16425,10 +16428,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1500
             mHitEffectOrientType: u32 = 2
             0x63060019: link = 0xf72ac182
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xf8641bb0
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LeeSinR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LeeSinR_SFX_events.bnk"
             }
@@ -16574,7 +16577,7 @@ entries: map[hash,embed] = {
             }
             mCastType: u32 = 1
             mMissileEffectKey: hash = 0x85e85538
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
             mTargetingTypeData: pointer = Location {}
@@ -16653,10 +16656,10 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 10
             0x63060019: link = 0xcac26719
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_BardR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_BardR_SFX_events.bnk"
             }
@@ -16745,7 +16748,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 1
             missileSpeed: f32 = 2100
             mMissileEffectKey: hash = 0x85e85538
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
             mTargetingTypeData: pointer = Location {}
@@ -16790,7 +16793,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 1
             missileSpeed: f32 = 2100
             mMissileEffectKey: hash = 0x85e85538
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
             mTargetingTypeData: pointer = Location {}
@@ -16835,7 +16838,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 1
             missileSpeed: f32 = 2100
             mMissileEffectKey: hash = 0x85e85538
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
             mTargetingTypeData: pointer = Location {}
@@ -16880,7 +16883,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 1
             missileSpeed: f32 = 2100
             mMissileEffectKey: hash = 0x85e85538
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
             mTargetingTypeData: pointer = Location {}
@@ -16925,7 +16928,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 1
             missileSpeed: f32 = 2100
             mMissileEffectKey: hash = 0x85e85538
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x47ad0e9b
             }
             mTargetingTypeData: pointer = Location {}
@@ -17031,7 +17034,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 9.75
             missileSpeed: f32 = 700
             mLineWidth: f32 = 160
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x565e104e
             }
             bHaveHitBone: bool = true
@@ -17136,7 +17139,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 1.5
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RDamageCalc" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -17188,7 +17191,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 700
             mLineWidth: f32 = 160
             0x63060019: link = 0x3c94b46c
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x565e104e
             }
             bHaveHitBone: bool = true
@@ -17346,7 +17349,7 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x73999b15
             mLineWidth: f32 = 120
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xd5e2e5a0
             }
             bHaveHitBone: bool = true
@@ -17374,13 +17377,18 @@ entries: map[hash,embed] = {
             }
             mCastType: u32 = 3
             missileSpeed: f32 = 250000
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xd5e2e5a0
             }
         }
     }
     0xb81587bb = SpellObject {
         mScriptName: string = "UltBook_MordekaiserR_StatSteal"
+        mSpell: pointer = SpellDataResource {
+            mImgIconName: list[string] = {
+                "UltBook_Mordekaiser_Square.dds"
+            }
+        }
         mBuff: pointer = BuffData {
             mTooltipData: pointer = TooltipInstanceBuff {
                 mObjectName: string = "UltBook_MordekaiserR_StatSteal"
@@ -17513,10 +17521,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.93499994
             missileSpeed: f32 = 1500
             0x63060019: link = 0xe7f2aed2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xd5e2e5a0
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MordekaiserR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MordekaiserR_SFX_events.bnk"
             }
@@ -17584,6 +17592,7 @@ entries: map[hash,embed] = {
             mAlternateName: string = "CaitlynR"
             mSpellTags: list[string] = {
                 "Trait_Ultimate"
+                "Trait_ChannelSpell"
             }
             mDataValues: list[embed] = {
                 SpellDataValue {
@@ -17615,14 +17624,14 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RTotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "RBaseDamage"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x4cd5d2cb
+                            mDataValue: hash = "RADRatio"
                             mStat: u8 = 2
                             mStatFormula: u8 = 2
                         }
@@ -17671,10 +17680,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 14.04
             missileSpeed: f32 = 1500
             0x63060019: link = 0x3e8d43cc
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x74a764ae
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_CaitlynR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_CaitlynR_SFX_events.bnk"
             }
@@ -17821,7 +17830,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 3200
             mMissileEffectKey: hash = 0x314173f3
             mLineWidth: f32 = 40
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x74a764ae
             }
             selectionPriority: u32 = 1
@@ -17964,11 +17973,11 @@ entries: map[hash,embed] = {
                     mFormula: string = "N*50+50"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "HealPerSecond" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x40108a0d
+                            mDataValue: hash = "HealBasePerSecond"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.5
@@ -18026,10 +18035,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 5.17000008
             missileSpeed: f32 = 828.5
             0x63060019: link = 0x3ed09760
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x230c242a
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JannaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JannaR_SFX_events.bnk"
             }
@@ -18117,7 +18126,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "HealingCalc" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -18136,7 +18145,7 @@ entries: map[hash,embed] = {
                                 mNumber: f32 = 1
                             }
                             NamedDataValueCalculationPart {
-                                mDataValue: hash = 0x60ccb0e2
+                                mDataValue: hash = "HealingAmpForLowHealthAllies"
                             }
                         }
                     }
@@ -18181,10 +18190,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 0
             0x63060019: link = 0xf33303a5
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xa477988f
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SorakaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SorakaR_SFX_events.bnk"
             }
@@ -18338,7 +18347,7 @@ entries: map[hash,embed] = {
             mMissileEffectEnemyKey: hash = 0x25deadde
             mLineWidth: f32 = 120
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc67224de
             }
             selectionPriority: u32 = 1
@@ -18413,7 +18422,7 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x18d12fd1
             mLineWidth: f32 = 120
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc67224de
             }
             selectionPriority: u32 = 1
@@ -18488,7 +18497,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 2.5999999
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         EffectValueCalculationPart {
@@ -18561,10 +18570,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 35
             missileSpeed: f32 = 1500
             0x63060019: link = 0x80f4461c
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc67224de
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MaokaiR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MaokaiR_SFX_events.bnk"
             }
@@ -18698,7 +18707,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 50
             mLineWidth: f32 = 120
             mHitEffectOrientType: u32 = 2
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc67224de
             }
             selectionPriority: u32 = 1
@@ -18751,7 +18760,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 150"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -18805,10 +18814,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10
             missileSpeed: f32 = 0
             0x63060019: link = 0x43fda35e
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xdce9c6d4
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KarthusR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KarthusR_SFX_events.bnk"
             }
@@ -19107,14 +19116,14 @@ entries: map[hash,embed] = {
                     mFormula: string = "N*0.25-0.05"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "AD" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xada6389f
+                            mDataValue: hash = "FlatAD"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x5903b2d5
+                            mDataValue: hash = "PercentTotalADAmp"
                             mStat: u8 = 2
                         }
                     }
@@ -19150,10 +19159,10 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 13
             0x63060019: link = 0x776025e6
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xa4ded13c
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_OlafR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_OlafR_SFX_events.bnk"
             }
@@ -19375,7 +19384,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 0xba2719ef = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
@@ -19392,9 +19401,9 @@ entries: map[hash,embed] = {
                     0x37070a8d: u8 = 5
                     tooltipOnly: bool = true
                 }
-                0x2001728c = GameCalculationConditional {
-                    0x011436b4: hash = 0x8b6fe763
-                    0x006fde67: hash = 0xba2719ef
+                "IsEvolved" = GameCalculationConditional {
+                    mDefaultGameCalculation: hash = 0x8b6fe763
+                    mConditionalGameCalculation: hash = 0xba2719ef
                     0xc0482365: pointer = HasBuffCastRequirement {
                         mBuffName: hash = 0x7bcf22fa
                     }
@@ -19441,10 +19450,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 2200
             0x63060019: link = 0x493b3743
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x48d90cd1
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KhazixR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KhazixR_SFX_events.bnk"
             }
@@ -19719,10 +19728,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1700
             mLookAtPolicy: u32 = 0
             0x63060019: link = 0xf5795f5a
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8ec985c8
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_RyzeR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_RyzeR_SFX_events.bnk"
             }
@@ -19827,7 +19836,7 @@ entries: map[hash,embed] = {
                                 3000
                             }
                         }
-                        textureOverrideName: string = "ASSETS/Characters/Ryze/HUD/Textures/CircularRangeIndicator.dds"
+                        textureOverrideName: string = "ASSETS/Maps/Particles/UltBook/Ryze/CircularRangeIndicator.dds"
                     }
                     TargeterDefinitionRange {
                         overrideBaseRange: embed = FloatPerSpellLevel {
@@ -19841,7 +19850,7 @@ entries: map[hash,embed] = {
                             }
                             mValueType: u32 = 1
                         }
-                        textureOverrideName: string = "ASSETS/Spells/Textures/CircularRangeIndicator_Empty.dds"
+                        textureOverrideName: string = "ASSETS/Maps/Particles/UltBook/Common/CircularRangeIndicator_Empty.dds"
                     }
                     TargeterDefinitionMinimap {}
                 }
@@ -20000,7 +20009,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 5.36499977
             missileSpeed: f32 = 1700
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x8ec985c8
             }
             mFloatVarsDecimals: list[i32] = {
@@ -20147,7 +20156,7 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 10
             mLineWidth: f32 = 100
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc6efccb2
             }
             mTargetingTypeData: pointer = Location {}
@@ -20306,8 +20315,8 @@ entries: map[hash,embed] = {
                 }
             }
             0xfb56608c: map[hash,embed] = {
-                "URF" = 0x6b2f7a8d {
-                    0x52fde74f: list[embed] = {
+                "URF" = SpellDataValueVector {
+                    SpellDataValues: list[embed] = {
                         SpellDataValue {
                             mName: string = "CancelCDRefund"
                             mValues: list[f32] = {
@@ -20324,7 +20333,7 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -20337,7 +20346,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x6c89ea95 = GameCalculationModified {
+                "HalfDamage" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "Damage"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
                         mDataValue: hash = 0x4107cd86
@@ -20413,10 +20422,10 @@ entries: map[hash,embed] = {
             }
             mLineWidth: f32 = 90
             0x63060019: link = 0xff6cd2a8
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc6efccb2
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_PoppyR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_PoppyR_SFX_events.bnk"
             }
@@ -20496,7 +20505,7 @@ entries: map[hash,embed] = {
                             }
                             mValueType: u32 = 2
                         }
-                        textureMaxGrowName: string = "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.dds"
+                        textureMaxGrowName: string = "ASSETS/Maps/Particles/UltBook/Common/CircularRangeIndicator_Dark.dds"
                     }
                     TargeterDefinitionLine {
                         endLocator: embed = DrawablePositionLocator {
@@ -20636,7 +20645,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10
             missileSpeed: f32 = 2000
             mLineWidth: f32 = 100
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc6efccb2
             }
             mTargetingTypeData: pointer = Location {}
@@ -20714,7 +20723,7 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 10
             mLineWidth: f32 = 100
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xc6efccb2
             }
             mTargetingTypeData: pointer = Location {}
@@ -20853,14 +20862,14 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0.1"
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0x91b271c4 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "TotalShieldAmount" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x2f89af4d
+                            mDataValue: hash = "BaseShieldAmount"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x9194b31e
+                            mDataValue: hash = "ShieldBonusHealthPercent"
                             mStat: u8 = 11
                             mStatFormula: u8 = 2
                         }
@@ -20945,10 +20954,10 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             missileSpeed: f32 = 828.5
             0x63060019: link = 0x9133ae86
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xeb79e45c
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_NunuR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_NunuR_SFX_events.bnk"
             }
@@ -21014,6 +21023,11 @@ entries: map[hash,embed] = {
     }
     0x908b3e04 = SpellObject {
         mScriptName: string = "UltBook_NunuRShield"
+        mSpell: pointer = SpellDataResource {
+            mImgIconName: list[string] = {
+                "UltBook_Nunu_Square.dds"
+            }
+        }
         mBuff: pointer = BuffData {
             mDescription: string = "game_buff_tooltip_Absolute_Zero_Shield"
         }
@@ -21241,7 +21255,7 @@ entries: map[hash,embed] = {
             mCastType: u32 = 1
             castFrame: f32 = 0.00999999978
             mMissileEffectKey: hash = 0xd35ecc41
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x0c98fb4a
             }
             bHaveHitBone: bool = true
@@ -21383,7 +21397,7 @@ entries: map[hash,embed] = {
                 0
                 25
             }
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x0c98fb4a
             }
             mTargetingTypeData: pointer = Area {}
@@ -21401,6 +21415,11 @@ entries: map[hash,embed] = {
     }
     0xc35d8bea = SpellObject {
         mScriptName: string = "UltBook_XerathRShots"
+        mSpell: pointer = SpellDataResource {
+            mImgIconName: list[string] = {
+                "UltBook_Xerath_Square.dds"
+            }
+        }
         mBuff: pointer = BuffData {
             mDescription: string = "game_buff_tooltip_XerathRShots"
         }
@@ -21496,8 +21515,8 @@ entries: map[hash,embed] = {
                 SpellEffectAmount {}
                 SpellEffectAmount {}
             }
-            0x94572284: map[hash,pointer] = {
-                0xf34bcd47 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "TooltipTotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         EffectValueCalculationPart {
                             mEffectIndex: i32 = 3
@@ -21566,10 +21585,10 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 7.5
             0x63060019: link = 0x51d94c00
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x0c98fb4a
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_XerathR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_XerathR_SFX_events.bnk"
             }
@@ -21763,7 +21782,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 715
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Cast1Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -21783,7 +21802,7 @@ entries: map[hash,embed] = {
                 "Cast2DamageMin" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x18964e99
+                            mDataValue: hash = "R2BaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.300000012
@@ -21857,10 +21876,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10
             missileSpeed: f32 = 0
             0x63060019: link = 0x53fdf1f8
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb1517da2
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AkaliR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AkaliR_SFX_events.bnk"
             }
@@ -21991,7 +22010,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 10
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xb1517da2
             }
             mFloatVarsDecimals: list[i32] = {
@@ -22180,14 +22199,14 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0xf5e6b66b = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "R1TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x9ee6a934
+                            mDataValue: hash = "R1BaseDamage"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0xa3015204
+                            mDataValue: hash = "R1APRatio"
                         }
                     }
                 }
@@ -22252,10 +22271,10 @@ entries: map[hash,embed] = {
             }
             mCastType: u32 = 3
             0x63060019: link = 0x5db436b9
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x0f707b3b
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SeraphineR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SeraphineR_SFX_events.bnk"
             }
@@ -22491,7 +22510,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 7.5
             missileSpeed: f32 = 20
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x40fe753e
             }
             mFloatVarsDecimals: list[i32] = {
@@ -22601,7 +22620,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 1800
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -22659,10 +22678,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 20
             0x63060019: link = 0x918516fc
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x40fe753e
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_NoctureR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_NoctureR_SFX_events.bnk"
             }
@@ -22850,7 +22869,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 1
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RMainDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -22946,10 +22965,10 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0xa389f446
             mLineWidth: f32 = 130
             0x63060019: link = 0xb519eced
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xf8b4c097
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AsheR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AsheR_SFX_events.bnk"
             }
@@ -23268,10 +23287,10 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 3.05999994
             0x63060019: link = 0x80f2f6e9
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x3460d50b
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_TwitchR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_TwitchR_SFX_events.bnk"
             }
@@ -23446,7 +23465,7 @@ entries: map[hash,embed] = {
                     mLocKeys: map[string,string] = {
                         "keyName" = "Spell_VexR_Name"
                         "keySummary" = "Spell_VexR_Summary"
-                        "keyTooltip" = "Spell_VexR_Tooltip"
+                        "keyTooltip" = "Spell_UltBook_VexR_Tooltip"
                     }
                     mLists: map[string,embed] = {
                         "LevelUp" = TooltipInstanceList {
@@ -23533,7 +23552,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 12
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RDamageCalc" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -23608,10 +23627,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1750
             mLineWidth: f32 = 100
             0x63060019: link = 0x725d515b
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x5eaddbc9
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_VexR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_VexR_SFX_events.bnk"
             }
@@ -23805,6 +23824,7 @@ entries: map[hash,embed] = {
             mAlternateName: string = "MissFortuneBulletTime"
             mSpellTags: list[string] = {
                 "Trait_Ultimate"
+                "Trait_ChannelSpell"
             }
             mDataValues: list[embed] = {
                 SpellDataValue {
@@ -23848,7 +23868,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 3
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamagePerWave" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         StatByCoefficientCalculationPart {
@@ -23861,17 +23881,17 @@ entries: map[hash,embed] = {
                     }
                     0xcbcac618: u8 = 6
                 }
-                0xf2cbde43 = GameCalculationModified {
+                "TotalDamageTooltip" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "DamagePerWave"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0x2bf53be5
+                        mDataValue: hash = "Waves"
                     }
                     0xcbcac618: u8 = 6
                 }
                 "CritMultiplier" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xff2cfd2e
+                            mDataValue: hash = "BaseCritDamageMultiplier"
                         }
                         ProductOfSubPartsCalculationPart {
                             mPart1: pointer = NumberCalculationPart {
@@ -23932,10 +23952,10 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x65af1ff0
             mLineWidth: f32 = 100
             0x63060019: link = 0x67896b19
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xff26329b
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MissFortuneR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MissFortuneR_SFX_events.bnk"
             }
@@ -24090,7 +24110,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 2000
             mMissileEffectKey: hash = 0x65af1ff0
             mLineWidth: f32 = 20
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xff26329b
             }
             bHaveHitBone: bool = true
@@ -24450,21 +24470,21 @@ entries: map[hash,embed] = {
                     mFormula: string = "P +1"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamagePerBounce" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xefacf1b1
+                            mDataValue: hash = "BaseDamageBounce"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x9807c016
+                            mDataValue: hash = "BounceAPRatioTooltip"
                         }
                     }
                 }
-                0x8800309a = GameCalculationModified {
+                "DamagePerSubsequentBounce" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "DamagePerBounce"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0x403da869
+                        mDataValue: hash = "DamageReductionBounce"
                     }
                 }
                 "HealingTooltip" = GameCalculation {
@@ -24480,7 +24500,7 @@ entries: map[hash,embed] = {
                                         mNumber: f32 = 4
                                     }
                                     NamedDataValueCalculationPart {
-                                        mDataValue: hash = 0xa4948451
+                                        mDataValue: hash = "AdditionalChunkHealing"
                                     }
                                 }
                             }
@@ -24491,7 +24511,7 @@ entries: map[hash,embed] = {
                     mFormulaParts: list[pointer] = {
                         ProductOfSubPartsCalculationPart {
                             mPart1: pointer = NamedDataValueCalculationPart {
-                                mDataValue: hash = 0xe754ec35
+                                mDataValue: hash = "TimeBetweenBounces"
                             }
                             mPart2: pointer = SumOfSubPartsCalculationPart {
                                 mSubparts: list[pointer] = {
@@ -24508,41 +24528,41 @@ entries: map[hash,embed] = {
                     0xcbcac618: u8 = 5
                     0x37070a8d: u8 = 5
                 }
-                0xf38a49c9 = GameCalculation {
+                "HealingPercentTooltip" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
                             mNumber: f32 = 4
                         }
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xa4948451
+                            mDataValue: hash = "AdditionalChunkHealing"
                         }
                     }
                 }
-                0x2c54dbef = GameCalculation {
+                "MaxDamageTooltip" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xefacf1b1
+                            mDataValue: hash = "BaseDamageBounce"
                         }
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x9807c016
+                            mDataValue: hash = "BounceAPRatioTooltip"
                         }
                         ProductOfSubPartsCalculationPart {
                             mPart1: pointer = SumOfSubPartsCalculationPart {
                                 mSubparts: list[pointer] = {
                                     ProductOfSubPartsCalculationPart {
                                         mPart1: pointer = NamedDataValueCalculationPart {
-                                            mDataValue: hash = 0xefacf1b1
+                                            mDataValue: hash = "BaseDamageBounce"
                                         }
                                         mPart2: pointer = NamedDataValueCalculationPart {
-                                            mDataValue: hash = 0x403da869
+                                            mDataValue: hash = "DamageReductionBounce"
                                         }
                                     }
                                     ProductOfSubPartsCalculationPart {
                                         mPart1: pointer = NamedDataValueCalculationPart {
-                                            mDataValue: hash = 0x9807c016
+                                            mDataValue: hash = "BounceAPRatioTooltip"
                                         }
                                         mPart2: pointer = NamedDataValueCalculationPart {
-                                            mDataValue: hash = 0x403da869
+                                            mDataValue: hash = "DamageReductionBounce"
                                         }
                                     }
                                 }
@@ -24562,10 +24582,10 @@ entries: map[hash,embed] = {
                     0xcbcac618: u8 = 5
                     0x37070a8d: u8 = 5
                 }
-                0xdd970b09 = GameCalculation {
+                "PassiveHealingTotalTooltip" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x02ae9e03
+                            mDataValue: hash = "PassiveHealingTooltip"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.00999999978
@@ -24658,10 +24678,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1800
             0x63060019: link = 0xde9be112
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x9ff19160
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ZacR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ZacR_SFX_events.bnk"
             }
@@ -25020,21 +25040,21 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0x19d777a6 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "InitialBurstDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xa133d007
+                            mDataValue: hash = "InitialBurstBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.5
                         }
                     }
                 }
-                0xd23696db = GameCalculation {
+                "SubsequentBurstDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x475333c2
+                            mDataValue: hash = "SubsequentBurstBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.449999988
@@ -25086,10 +25106,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 10
             missileSpeed: f32 = 0
             0x63060019: link = 0x7050ece5
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x564b2c4f
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ViktorR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ViktorR_SFX_events.bnk"
             }
@@ -25144,6 +25164,11 @@ entries: map[hash,embed] = {
     }
     0xa558f102 = SpellObject {
         mScriptName: string = "UltBook_ViktorRTimer"
+        mSpell: pointer = SpellDataResource {
+            mImgIconName: list[string] = {
+                "UltBook_Viktor_Square.dds"
+            }
+        }
         mBuff: pointer = BuffData {
             mDescription: string = "game_buff_tooltip_ViktorChaosStormTimer"
         }
@@ -25210,8 +25235,8 @@ entries: map[hash,embed] = {
             mCoefficient2: f32 = 0.200000003
             mAnimationName: string = "Spell4"
             mImgIconName: list[string] = {
-                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide.dds"
-                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide.dds"
+                "UltBook_Viktor_R_Guide.dds"
+                "UltBook_Viktor_R_Guide.dds"
             }
             cooldownTime: list[f32] = {
                 0
@@ -25251,16 +25276,7 @@ entries: map[hash,embed] = {
             selectionPriority: u32 = 1
             mTargetingTypeData: pointer = Area {}
             mClientData: embed = SpellDataResourceClient {
-                mTooltipData: pointer = TooltipInstanceSpell {
-                    mObjectName: string = "UltBook_ViktorRGuide"
-                    mFormat: link = "UX/Tooltips/InheritedSpell"
-                    mLocKeys: map[string,string] = {
-                        "keyName" = "Spell_ViktorChaosStormGuide_Name"
-                        "keyTooltip" = "Spell_ViktorChaosStormGuide_Tooltip"
-                        "keyCost" = "Spell_Cost_Empty"
-                        "keyCooldown" = "Spell_Cost_Empty"
-                    }
-                }
+                0x375656dd: hash = 0x88917a25
                 mTargeterDefinitions: list[pointer] = {
                     TargeterDefinitionRange {
                         useCasterBoundingBox: option[bool] = {
@@ -25381,7 +25397,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 1400
             mMissileEffectKey: hash = 0x599accfa
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x7b9c1dfc
             }
             bHaveHitBone: bool = true
@@ -25559,14 +25575,14 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RCalculatedDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "RBaseDamage"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x409753d5
+                            mDataValue: hash = "rAPCoefficient"
                         }
                     }
                 }
@@ -25618,10 +25634,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 2200
             mMissileEffectKey: hash = 0xa1b27883
             0x63060019: link = 0x7e3b0926
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x7b9c1dfc
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AhriR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_AhriR_SFX_events.bnk"
             }
@@ -25842,14 +25858,14 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 3
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Shield" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x2f89af4d
+                            mDataValue: hash = "BaseShieldAmount"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0xf4c0c480
+                            mDataValue: hash = "ShieldAPRatio"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.174999997
@@ -25861,7 +25877,7 @@ entries: map[hash,embed] = {
                 "MaxShield" = GameCalculationModified {
                     mModifiedGameCalculation: hash = "Shield"
                     mMultiplier: pointer = NamedDataValueCalculationPart {
-                        mDataValue: hash = 0xcabca0ba
+                        mDataValue: hash = "MaxShieldMult"
                     }
                 }
             }
@@ -25906,10 +25922,10 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 10
             0x63060019: link = 0x73d6ff6a
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x55e19c78
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ShenR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ShenR_SFX_events.bnk"
             }
@@ -26052,7 +26068,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamageFloor" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -26149,10 +26165,10 @@ entries: map[hash,embed] = {
             mMissileEffectKey: hash = 0x99345230
             mLineWidth: f32 = 140
             0x63060019: link = 0x73e8a049
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x5be5f86b
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JinxR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_JinxR_SFX_events.bnk"
             }
@@ -26234,8 +26250,8 @@ entries: map[hash,embed] = {
                             }
                             mValueType: u32 = 2
                         }
-                        textureBaseOverrideName: string = "ASSETS/Characters/Jinx/HUD/Textures/Skillshot_Jinx_base_02.dds"
-                        textureTargetOverrideName: string = "ASSETS/Characters/Jinx/HUD/Textures/Skillshot_Jinx_arrow_02.dds"
+                        textureBaseOverrideName: string = "ASSETS/Maps/Particles/UltBook/Jinx/Skillshot_Jinx_base_02.dds"
+                        textureTargetOverrideName: string = "ASSETS/Maps/Particles/UltBook/Jinx/Skillshot_Jinx_arrow_02.dds"
                     }
                 }
             }
@@ -26572,8 +26588,8 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
-                0x8592e8a4 = GameCalculation {
+            mSpellCalculations: map[hash,pointer] = {
+                "SmallSharkDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
                             mDataValue: hash = "SmallDamage"
@@ -26596,7 +26612,7 @@ entries: map[hash,embed] = {
                 "BigSharkDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xb07a8b34
+                            mDataValue: hash = "BigDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 1.20000005
@@ -26659,10 +26675,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1300
             mLineWidth: f32 = 150
             0x63060019: link = 0xbf9e8473
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x305bfda1
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_FizzR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_FizzR_SFX_events.bnk"
             }
@@ -26730,7 +26746,7 @@ entries: map[hash,embed] = {
                         useCasterBoundingBox: option[bool] = {
                             false
                         }
-                        textureOverrideName: string = "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.dds"
+                        textureOverrideName: string = "ASSETS/Maps/Particles/UltBook/Common/CircularRangeIndicator_Dark.dds"
                     }
                     TargeterDefinitionLine {
                         endLocator: embed = DrawablePositionLocator {
@@ -26764,7 +26780,7 @@ entries: map[hash,embed] = {
                             }
                             mValueType: u32 = 1
                         }
-                        textureRadiusOverrideName: string = "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.dds"
+                        textureRadiusOverrideName: string = "ASSETS/Maps/Particles/UltBook/Common/CircularRangeIndicator_Dark.dds"
                     }
                     TargeterDefinitionAoe {
                         overrideRadius: embed = FloatPerSpellLevel {
@@ -26778,7 +26794,7 @@ entries: map[hash,embed] = {
                             }
                             mValueType: u32 = 1
                         }
-                        textureRadiusOverrideName: string = "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.dds"
+                        textureRadiusOverrideName: string = "ASSETS/Maps/Particles/UltBook/Common/CircularRangeIndicator_Dark.dds"
                     }
                 }
             }
@@ -27046,7 +27062,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 25"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -27099,10 +27115,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 28
             missileSpeed: f32 = 20
             0x63060019: link = 0xa3918d47
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x9639535d
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MorganaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_MorganaR_SFX_events.bnk"
             }
@@ -27256,7 +27272,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 7.5
             missileSpeed: f32 = 600
             mMissileEffectKey: hash = 0x97024e9b
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x9639535d
             }
             selectionPriority: u32 = 1
@@ -27360,18 +27376,18 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 0.75
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RCalculatedShieldValue" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0x093c34b9
+                            mDataValue: hash = "RBaseValue"
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x06304373
+                            mDataValue: hash = "RTotalADRatio"
                             mStat: u8 = 2
                         }
                         StatByNamedDataValueCalculationPart {
-                            mDataValue: hash = 0x51ed68ef
+                            mDataValue: hash = "RAPRatio"
                         }
                     }
                 }
@@ -27430,7 +27446,7 @@ entries: map[hash,embed] = {
             castFrame: f32 = 6
             missileSpeed: f32 = 0
             0x63060019: link = 0xa9799637
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KaisaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KaisaR_SFX_events.bnk"
             }
@@ -27612,7 +27628,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 750
             castFrame: f32 = 15
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xe9eb82ff
             }
             selectionPriority: u32 = 1
@@ -27689,7 +27705,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 100"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "RDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -27741,10 +27757,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 15
             missileSpeed: f32 = 0
             0x63060019: link = 0x9197ccf5
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xe9eb82ff
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_CassiopeiaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_CassiopeiaR_SFX_events.bnk"
             }
@@ -27912,10 +27928,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 18.2000008
             missileSpeed: f32 = 1450
             0x63060019: link = 0x94d3394c
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x02ccc62e
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SingedR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_SingedR_SFX_events.bnk"
             }
@@ -28001,7 +28017,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 2800
             mMissileEffectKey: hash = 0xa72f2de7
             mLineWidth: f32 = 110
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01489914
             }
             mTargetingTypeData: pointer = direction {}
@@ -28081,7 +28097,7 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 2800
             mMissileEffectKey: hash = 0xa72f2de7
             mLineWidth: f32 = 110
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01489914
             }
             mTargetingTypeData: pointer = direction {}
@@ -28207,7 +28223,7 @@ entries: map[hash,embed] = {
             }
             castFrame: f32 = 9.42500019
             mLineWidth: f32 = 60
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01489914
             }
             mFloatVarsDecimals: list[i32] = {
@@ -28360,7 +28376,7 @@ entries: map[hash,embed] = {
                     mBaseP: f32 = 0.25
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "DamagePerBullet" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -28442,10 +28458,10 @@ entries: map[hash,embed] = {
             mLineWidth: f32 = 60
             mLookAtPolicy: u32 = 1
             0x63060019: link = 0xfa36fe1e
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x01489914
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LucianR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LucianR_SFX_events.bnk"
             }
@@ -28612,7 +28628,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -28676,10 +28692,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 1200
             mLineWidth: f32 = 80
             0x63060019: link = 0x97761b7a
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0xe9b7fee8
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_OriannaR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_OriannaR_SFX_events.bnk"
             }
@@ -28882,7 +28898,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -28946,10 +28962,10 @@ entries: map[hash,embed] = {
             missileSpeed: f32 = 3000
             mLineWidth: f32 = 190
             0x63060019: link = 0xdc172485
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x6c46186f
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LuxR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LuxR_SFX_events.bnk"
             }
@@ -29101,7 +29117,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + .5"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "TotalDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -29166,10 +29182,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 30
             missileSpeed: f32 = 0
             0x63060019: link = 0xb97ba2c8
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x1ec77b52
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KayleR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KayleR_SFX_events.bnk"
             }
@@ -29365,7 +29381,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 7.5
             missileSpeed: f32 = 0
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x4c9dbee3
             }
             mHitEffectName: string = "globalhit_orange_tar.troy"
@@ -29522,10 +29538,10 @@ entries: map[hash,embed] = {
             castFrame: f32 = 20.1599998
             missileSpeed: f32 = 20
             0x63060019: link = 0xcc68c981
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x4c9dbee3
             }
-            0x3b182105: list[string] = {
+            AudioBankPaths: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KindredR_SFX_audio.bnk"
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_KindredR_SFX_events.bnk"
             }
@@ -29658,7 +29674,7 @@ entries: map[hash,embed] = {
             castConeDistance: f32 = 100
             castFrame: f32 = 20.1599998
             missileSpeed: f32 = 20
-            0x92a53e77: list[hash] = {
+            mResourceResolvers: list[hash] = {
                 0x4c9dbee3
             }
             mana: list[f32] = {
@@ -29686,7 +29702,7 @@ entries: map[hash,embed] = {
             mDescription: string = "game_buff_tooltip_KindredRNoDeathBuff"
         }
     }
-    0xb7717499 = VfxSystemDefinitionData {
+    "Maps/Particles/Maps/ModeSpecificData/ULTBOOK/UltBook_CamilleR/Particles/UltBook_Camille_R_Indicator_Edge_enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30124,7 +30140,7 @@ entries: map[hash,embed] = {
             }
         }
     }
-    0x261acac5 = SpellObject {
+    "Characters/Bard/Spells/BardRAbility/BardR" = SpellObject {
         mScriptName: string = "BardR"
         mSpell: pointer = SpellDataResource {
             mAffectsTypeFlags: u32 = 7375
@@ -30240,7 +30256,7 @@ entries: map[hash,embed] = {
             }
         }
     }
-    0x5d054b54 = SpellObject {
+    "Characters/Khazix/Spells/KhazixRAbility/KhazixRPassiveEvoTracker" = SpellObject {
         mScriptName: string = "KhazixRPassiveEvoTracker"
     }
     "Characters/Khazix/Spells/KhazixRAbility/KhazixR" = SpellObject {
@@ -30366,7 +30382,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 0xba2719ef = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
@@ -30383,9 +30399,9 @@ entries: map[hash,embed] = {
                     0x37070a8d: u8 = 5
                     tooltipOnly: bool = true
                 }
-                0x2001728c = GameCalculationConditional {
-                    0x011436b4: hash = 0x8b6fe763
-                    0x006fde67: hash = 0xba2719ef
+                "IsEvolved" = GameCalculationConditional {
+                    mDefaultGameCalculation: hash = 0x8b6fe763
+                    mConditionalGameCalculation: hash = 0xba2719ef
                     0xc0482365: pointer = HasBuffCastRequirement {
                         mBuffName: hash = 0x7bcf22fa
                     }
@@ -30493,219 +30509,6 @@ entries: map[hash,embed] = {
         mBuff: pointer = BuffData {
             mDescription: string = "game_buff_tooltip_KhazixR"
         }
-    }
-    "Characters/Ekko/Spells/EkkoR" = SpellObject {
-        mScriptName: string = "EkkoR"
-        mSpell: pointer = SpellDataResource {
-            mAffectsTypeFlags: u32 = 1029
-            mRequiredUnitTags: embed = ObjectTags {
-                mTagList: string = "Champion"
-            }
-            mPlatformSpellInfo: embed = PlatformSpellInfo {
-                mPlatformEnabled: bool = true
-            }
-            mSpellTags: list[string] = {
-                "Trait_Ultimate"
-                "PositiveEffect_Teleport"
-            }
-            mDataValues: list[embed] = {
-                SpellDataValue {
-                    mName: string = "Damage"
-                    mValues: list[f32] = {
-                        0
-                        150
-                        300
-                        450
-                        600
-                        750
-                        900
-                    }
-                    mFormula: string = "P + 150"
-                }
-                SpellDataValue {
-                    mName: string = "FlatHeal"
-                    mValues: list[f32] = {
-                        50
-                        100
-                        150
-                        200
-                        250
-                        300
-                        350
-                    }
-                    mBaseP: f32 = 50
-                    mFormula: string = "P + 50"
-                }
-                SpellDataValue {
-                    mName: string = "AoERadius"
-                    mValues: list[f32] = {
-                        375
-                        375
-                        375
-                        375
-                        375
-                        375
-                        375
-                    }
-                    mBaseP: f32 = 375
-                    mFormula: string = "P"
-                }
-                SpellDataValue {
-                    mName: string = "PercentHealAmpPerPercentMissingHealth"
-                    mValues: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                    mBaseP: f32 = 3
-                    mFormula: string = "P "
-                }
-            }
-            0x94572284: map[hash,pointer] = {
-                "TotalDamage" = GameCalculation {
-                    mFormulaParts: list[pointer] = {
-                        NamedDataValueCalculationPart {
-                            mDataValue: hash = "Damage"
-                        }
-                        StatByCoefficientCalculationPart {
-                            mCoefficient: f32 = 1.5
-                        }
-                    }
-                }
-                "TotalBaseHeal" = GameCalculation {
-                    mFormulaParts: list[pointer] = {
-                        NamedDataValueCalculationPart {
-                            mDataValue: hash = "FlatHeal"
-                        }
-                        StatByCoefficientCalculationPart {
-                            mCoefficient: f32 = 0.600000024
-                        }
-                    }
-                }
-            }
-            mAnimationName: string = "Spell4"
-            mImgIconName: list[string] = {
-                "ASSETS/Characters/Ekko/HUD/Icons2D/Ekko_R.dds"
-            }
-            mCastTime: f32 = 0.25
-            cooldownTime: list[f32] = {
-                110
-                110
-                80
-                50
-                50
-                50
-                50
-            }
-            mCantCancelWhileWindingUp: bool = true
-            cantCastWhileRooted: bool = true
-            castRange: list[f32] = {
-                25000
-                25000
-                25000
-                25000
-                25000
-                25000
-                25000
-            }
-            castRangeDisplayOverride: list[f32] = {
-                850
-                850
-                850
-                850
-                850
-                850
-                850
-            }
-            castConeDistance: f32 = 100
-            castFrame: f32 = 10
-            mFloatVarsDecimals: list[i32] = {
-                0
-                0
-                0
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-            }
-            mana: list[f32] = {
-                100
-                100
-                100
-                0
-                0
-                0
-            }
-            mTargetingTypeData: pointer = Self {}
-            0x00f7e5bc: bool = true
-            mClientData: embed = SpellDataResourceClient {
-                mTooltipData: pointer = TooltipInstanceSpell {
-                    mObjectName: string = "EkkoR"
-                    mFormat: link = "UX/Tooltips/Spell"
-                    mLocKeys: map[string,string] = {
-                        "keyName" = "Spell_EkkoR_Name"
-                        "keySummary" = "Spell_EkkoR_Summary"
-                        "keyTooltip" = "Spell_EkkoR_Tooltip"
-                        "keyTooltipExtendedBelowLine" = "Spell_EkkoR_TooltipExtendedBelowLine"
-                    }
-                    mLists: map[string,embed] = {
-                        "LevelUp" = TooltipInstanceList {
-                            levelCount: u32 = 3
-                            elements: list[embed] = {
-                                TooltipInstanceListElement {
-                                    type: string = "Damage"
-                                    nameOverride: string = "Spell_ListType_Damage"
-                                }
-                                TooltipInstanceListElement {
-                                    type: string = "FlatHeal"
-                                    nameOverride: string = "Spell_ListType_Healing"
-                                }
-                                TooltipInstanceListElement {
-                                    type: string = "Cooldown"
-                                }
-                            }
-                        }
-                    }
-                }
-                mTargeterDefinitions: list[pointer] = {
-                    TargeterDefinitionAoe {
-                        centerLocator: embed = DrawablePositionLocator {
-                            basePosition: u32 = 1
-                        }
-                        overrideRadius: embed = FloatPerSpellLevel {
-                            mPerLevelValues: list[f32] = {
-                                375
-                                375
-                                375
-                                375
-                                375
-                                375
-                            }
-                            mValueType: u32 = 2
-                        }
-                    }
-                }
-            }
-        }
-        mBuff: pointer = BuffData {
-            mDescription: string = "game_buff_tooltip_EkkoR"
-        }
-    }
-    0xc3218eaf = SpellObject {
-        mScriptName: string = "EkkoRHeal"
     }
     "Characters/Yone/Spells/YoneRAbility/YoneR" = SpellObject {
         mScriptName: string = "YoneR"
@@ -30908,7 +30711,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 100"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "Damage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
@@ -30926,7 +30729,7 @@ entries: map[hash,embed] = {
                 "TooltipDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NamedDataValueCalculationPart {
-                            mDataValue: hash = 0xc0359ed0
+                            mDataValue: hash = "TooltipBaseDamage"
                         }
                         StatByCoefficientCalculationPart {
                             mCoefficient: f32 = 0.400000006
@@ -31079,7 +30882,7 @@ entries: map[hash,embed] = {
             }
         }
     }
-    0xc33db2bf = SpellObject {
+    0xda95819b = SpellObject {
         mScriptName: string = "GwenP"
         mSpell: pointer = SpellDataResource {
             mDataValues: list[embed] = {
@@ -31098,7 +30901,7 @@ entries: map[hash,embed] = {
                     mFormula: string = "P + 0"
                 }
             }
-            0x94572284: map[hash,pointer] = {
+            mSpellCalculations: map[hash,pointer] = {
                 "HealingPercent" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
@@ -31132,7 +30935,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x545ec9b9 = GameCalculation {
+                "ExecuteDamage" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         ByCharLevelInterpolationCalculationPart {
                             mStartValue: f32 = 8
@@ -31146,7 +30949,7 @@ entries: map[hash,embed] = {
                         mNumber: f32 = 0.00999999978
                     }
                 }
-                0x8809e19c = GameCalculation {
+                "MonsterDamageCap" = GameCalculation {
                     mFormulaParts: list[pointer] = {
                         NumberCalculationPart {
                             mNumber: f32 = 10
@@ -31249,7 +31052,7 @@ entries: map[hash,embed] = {
             }
         }
     }
-    "Characters/Kaisa/Spells/KaisaRSpellPassive" = SpellObject {
+    0xdb2be466 = SpellObject {
         mScriptName: string = "KaisaRSpellPassive"
     }
     "UX/Tooltips/Buff" = TooltipFormat {
@@ -31443,7 +31246,7 @@ entries: map[hash,embed] = {
             "PickChoiceName" = "Template_Spell_PickChoiceName"
         }
     }
-    0xab8e40ff = StaticMaterialDef {
+    "Shared/Materials/UltBook_Clone_inst" = StaticMaterialDef {
         name: string = "Shared/Materials/UltBook_Clone_inst"
         defaultTechnique: string = "normal"
         samplerValues: list[embed] = {

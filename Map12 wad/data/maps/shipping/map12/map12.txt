@@ -48,7 +48,7 @@ entries: map[hash,embed] = {
     "Characters/BW_AP_OrderTurret" = Character {
         name: string = "BW_AP_OrderTurret"
     }
-    0x25094d47 = Companion {
+    "Characters/PetChibiVi" = Companion {
         name: string = "PetChibiVi"
     }
     "Characters/BW_AP_ChaosTurret2" = Character {
@@ -69,7 +69,7 @@ entries: map[hash,embed] = {
     "Characters/HA_OrderMinionSiege" = Character {
         name: string = "HA_OrderMinionSiege"
     }
-    0x31b3d0a6 = Companion {
+    "Characters/PetDowsie" = Companion {
         name: string = "PetDowsie"
     }
     "Characters/BW_shadowshark" = Character {
@@ -105,7 +105,7 @@ entries: map[hash,embed] = {
     "Characters/BW_AP_ChaosTurretRubble" = Character {
         name: string = "BW_AP_ChaosTurretRubble"
     }
-    0x47e4b7e3 = Companion {
+    "Characters/PetDuckbill" = Companion {
         name: string = "PetDuckbill"
     }
     "Characters/HA_AP_BannerMidBridge" = Character {
@@ -123,7 +123,7 @@ entries: map[hash,embed] = {
     "Characters/HA_OrderMinionMelee" = Character {
         name: string = "HA_OrderMinionMelee"
     }
-    0x58599aac = Companion {
+    "Characters/PetPiximander" = Companion {
         name: string = "PetPiximander"
     }
     "Characters/SRU_ChaosMinionRanged" = Character {
@@ -147,13 +147,13 @@ entries: map[hash,embed] = {
     "Characters/PetSGShisa" = Companion {
         name: string = "PetSGShisa"
     }
-    0x62f67c90 = Companion {
+    "Characters/PetFenroar" = Companion {
         name: string = "PetFenroar"
     }
-    0x62fd8345 = Companion {
+    "Characters/PetChibiJinx" = Companion {
         name: string = "PetChibiJinx"
     }
-    0x664ab76c = Companion {
+    "Characters/PetChibiEkko" = Companion {
         name: string = "PetChibiEkko"
     }
     "Characters/HA_AP_ChaosTurretRubble" = Character {
@@ -369,7 +369,7 @@ entries: map[hash,embed] = {
     "Characters/brush_HA_C" = Character {
         name: string = "brush_HA_C"
     }
-    0xe77f267e = Companion {
+    "Characters/PetGloop" = Companion {
         name: string = "PetGloop"
     }
     "Characters/PetMiner" = Companion {
@@ -408,7 +408,7 @@ entries: map[hash,embed] = {
     "Characters/brush_HA_J" = Character {
         name: string = "brush_HA_J"
     }
-    0xf123828e = Companion {
+    "Characters/PetNimblefoot" = Companion {
         name: string = "PetNimblefoot"
     }
     "Characters/DestroyedTower" = Character {
@@ -5241,7 +5241,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                0x817da519: pointer = FlexTypeFloat {}
+                FlexInstanceScale: pointer = FlexTypeFloat {}
                 texture: string = "ASSETS/Maps/Particles/SLIME/SLIME_Danger_AOE_Dome_Fire.dds"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.800000012 }
@@ -5337,7 +5337,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                0x817da519: pointer = FlexTypeFloat {}
+                FlexInstanceScale: pointer = FlexTypeFloat {}
                 texture: string = "ASSETS/Maps/Particles/SLIME/SLIME_Danger_AOE_Glow.dds"
             }
             VfxEmitterDefinitionData {
@@ -5393,7 +5393,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0.449999988, 1, 1 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                0x817da519: pointer = FlexTypeFloat {}
+                FlexInstanceScale: pointer = FlexTypeFloat {}
                 texture: string = "ASSETS/Characters/Yorick/Skins/Base/Particles/common_color-hold.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Yorick/Skins/Base/Particles/Yorick_Base_Wraith_Gradient.dds"
@@ -5457,7 +5457,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0.449999988, 1, 1 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                0x817da519: pointer = FlexTypeFloat {}
+                FlexInstanceScale: pointer = FlexTypeFloat {}
                 texture: string = "ASSETS/Characters/Yorick/Skins/Base/Particles/common_color-hold.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Yorick/Skins/Base/Particles/Yorick_Base_Wraith_Gradient.dds"
@@ -5528,7 +5528,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                0x817da519: pointer = FlexTypeFloat {}
+                FlexInstanceScale: pointer = FlexTypeFloat {}
                 texture: string = "ASSETS/Maps/Particles/SLIME/SLIME_Danger_AOE_Dome_Fire_Mult.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
@@ -29040,7 +29040,7 @@ entries: map[hash,embed] = {
     0x16ad1dc1 = MapSkin {
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mMapObjectsCFG: string = "ObjectCFG_10Year.cfg"
-        0x92a53e77: list[link] = {
+        mResourceResolvers: list[link] = {
             0xadbc3928
         }
     }
@@ -29056,7 +29056,7 @@ entries: map[hash,embed] = {
             "HA_OrderMinionSiege" = 0
             "HA_OrderMinionSuper" = 0
         }
-        0x92a53e77: list[link] = {
+        mResourceResolvers: list[link] = {
             0xadbc3928
         }
     }
@@ -29066,7 +29066,7 @@ entries: map[hash,embed] = {
             mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
         }
         mMapObjectsCFG: string = "ObjectCFG_Bilgewater.cfg"
-        0x92a53e77: list[link] = {
+        mResourceResolvers: list[link] = {
             0xadbc3928
         }
     }
@@ -29110,7 +29110,7 @@ entries: map[hash,embed] = {
     }
     0xc860963a = MapSkin {
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
-        0x92a53e77: list[link] = {
+        mResourceResolvers: list[link] = {
             0xadbc3928
         }
     }
@@ -29159,7 +29159,7 @@ entries: map[hash,embed] = {
             "HA_OrderMinionSiege" = 0
             "HA_OrderMinionSuper" = 0
         }
-        0x92a53e77: list[link] = {
+        mResourceResolvers: list[link] = {
             0xadbc3928
         }
     }
@@ -29176,7 +29176,7 @@ entries: map[hash,embed] = {
             "HA_OrderMinionSiege" = 0
             "HA_OrderMinionSuper" = 0
         }
-        0x92a53e77: list[link] = {
+        mResourceResolvers: list[link] = {
             0xadbc3928
         }
     }
@@ -30328,7 +30328,7 @@ entries: map[hash,embed] = {
     0x748598d2 = SurrenderData {
         mTypeData: map[u8,embed] = {
             0 = SurrenderTypeData {
-                0x52b48ed8: f32 = 30
+                VoteTimeout: f32 = 30
                 windowLength: f32 = 30
                 startTime: f32 = 180
                 percentageRequired: f32 = 0.300000012
@@ -32275,14 +32275,14 @@ entries: map[hash,embed] = {
             0x1ced71a9
             0x0355c4fb
         }
-        0x9626eae3: link = 0x8f58df52
-        0x25e5198f: link = 0x41e538c0
+        mItemShopData: link = 0x8f58df52
+        AnnouncementsMapping: link = 0x41e538c0
         mRelativeColorization: bool = true
         mNeutralTimersDisplay: link = 0xbdd5e038
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_ARAM"
-        0x5a8a5809: link = 0x5a7e4017
+        mStatsUiData: link = 0x5a7e4017
         mExperienceCurveData: link = 0xd88e5d96
         mExperienceModData: link = 0x45163f15
         mDeathTimes: link = 0xa40f595b
@@ -32308,13 +32308,13 @@ entries: map[hash,embed] = {
         mGameplayConfig: link = 0xa6506f8a
         mSurrenderSettings: link = 0x748598d2
         0x6941e612: link = 0xa3c25554
-        mLoadingScreenBackground: string = "ASSETS/UX/LoadingScreen/HABackground.dds"
+        mLoadingScreenBackground: string = "ASSETS/UX/LoadingScreen/HABackground.tex"
         0x084c58ee: list[string] = {
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Cities.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jayce.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Vi.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Caitlyn.Trueshot.dds"
-            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jinx.Trueshot.dds"
+            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Cities.Trueshot.tex"
+            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jayce.Trueshot.tex"
+            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Vi.Trueshot.tex"
+            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Caitlyn.Trueshot.tex"
+            "ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Jinx.Trueshot.tex"
         }
     }
     0x73d381b7 = GameModeMapData {
@@ -32325,12 +32325,12 @@ entries: map[hash,embed] = {
             0xbecd97c7
             0xcd39d678
         }
-        0x9626eae3: link = 0x8f58df52
+        mItemShopData: link = 0x8f58df52
         mNeutralTimersDisplay: link = 0x34b335c7
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_FIRSTBLOOD"
-        0x5a8a5809: link = 0x5a7e4017
+        mStatsUiData: link = 0x5a7e4017
         mExperienceCurveData: link = 0x9b6c4191
         mExperienceModData: link = 0x45163f15
         mDeathTimes: link = 0xde56637a
@@ -32368,16 +32368,16 @@ entries: map[hash,embed] = {
         mGameplayConfig: link = 0xa6506f8a
         mSurrenderSettings: link = 0x748598d2
         0x6941e612: link = 0xa3c25554
-        mLoadingScreenBackground: string = "ASSETS/LoadingScreen/FirstBloodSplash.dds"
+        mLoadingScreenBackground: string = "ASSETS/UX/LoadingScreen/FirstBloodSplash.tex"
     }
     0xb42c9063 = GameModeMapData {
         mModeName: hash = "TUTORIAL"
         0x64569ff4: u8 = 1
-        0x9626eae3: link = 0x8f58df52
+        mItemShopData: link = 0x8f58df52
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig_TUTORIAL"
         mCursorConfigUpdate: hash = "UX/HUD/Globals/CursorConfig_TUTORIAL"
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_TUTORIAL"
-        0x5a8a5809: link = 0x5a7e4017
+        mStatsUiData: link = 0x5a7e4017
         mExperienceCurveData: link = 0xb3d105ad
         mExperienceModData: link = 0x45163f15
         mDeathTimes: link = 0xbc3962f6
@@ -32387,7 +32387,7 @@ entries: map[hash,embed] = {
         mGameplayConfig: link = 0xa6506f8a
         mSurrenderSettings: link = 0x748598d2
         0x6941e612: link = 0xa3c25554
-        mLoadingScreenBackground: string = "ASSETS/LoadingScreen/basic_tutorial_loadscreen.dds"
+        mLoadingScreenBackground: string = "ASSETS/UX/LoadingScreen/basic_tutorial_loadscreen.tex"
     }
     0xb50dd49c = GameModeMapData {
         mModeName: hash = "KINGPORO"
@@ -32395,7 +32395,7 @@ entries: map[hash,embed] = {
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_KINGPORO"
-        0x5a8a5809: link = 0x5a7e4017
+        mStatsUiData: link = 0x5a7e4017
         mExperienceCurveData: link = 0xd88e5d96
         mExperienceModData: link = 0x45163f15
         mDeathTimes: link = 0xa40f595b
@@ -32425,14 +32425,14 @@ entries: map[hash,embed] = {
         mGameplayConfig: link = 0xa6506f8a
         mSurrenderSettings: link = 0x748598d2
         0x6941e612: link = 0xa3c25554
-        mLoadingScreenBackground: string = "ASSETS/LoadingScreen/KingPoroBackground.dds"
+        mLoadingScreenBackground: string = "ASSETS/UX/LoadingScreen/KingPoroBackground.tex"
     }
-    0x41e538c0 = 0x0d6825c4 {
-        0xe3fe3059: link = 0xf751e943
+    0x41e538c0 = AnnouncementMap {
+        ParentList: link = 0xf751e943
         0x81082e4b: string = "ClassicBase"
         0x79175e85: hash = 0x7d2eefce
         0xcf8c591b: hash = 0x6e781626
-        0x1df05e4b: map[string,link] = {
+        Announcements: map[string,link] = {
             "OnAce" = 0x3b27ccd2
             "OnStartGameMessage2" = 0xe17333e4
             "OnStartGameMessage3" = 0xe2733577
@@ -32440,7 +32440,7 @@ entries: map[hash,embed] = {
             "OnStartGameMessage5" = 0xe0733251
         }
     }
-    0x6e4a799c = 0x60e00531 {
+    0x6e4a799c = ScriptDataObject {
         mName: string = "ARAMMinionTrapDetectionScriptData"
         mConstants: map[string,pointer] = {
             "DetectionRange" = GameModeConstantInteger {
@@ -32455,7 +32455,7 @@ entries: map[hash,embed] = {
         }
         0x9be36761: link = 0xb874104c
     }
-    0xa312e218 = 0x60e00531 {
+    0xa312e218 = ScriptDataObject {
         mName: string = "ARAMGamePacingScriptData"
         mConstants: map[string,pointer] = {
             "MinionDeathGold" = GameModeConstantInteger {
@@ -33090,7 +33090,7 @@ entries: map[hash,embed] = {
         feature: hash = 0x01692855
     }
     0xb7d38bf6 = MapAudioDataProperties {
-        0x84ff70c0: link = "Maps/Shipping/Common/Audio"
+        BaseData: link = "Maps/Shipping/Common/Audio"
         bankUnits: list2[embed] = {
             BankUnit {
                 name: string = "NPC_Map12_VO"
@@ -34192,10 +34192,10 @@ entries: map[hash,embed] = {
                     "Play_sfx_Perks_Precision_ExhilaratingStrike_OnBuffActivate"
                     "Play_sfx_Perks_Precision_ExhilaratingStrike_OnHit"
                     "Play_sfx_Perks_Precision_ExhilaratingStrike_speed"
-                    "Play_sfx_Perks_Precision_LethalTempo_buffactivate"
-                    "Play_sfx_Perks_Precision_LethalTempo_buffcast"
                     "Play_sfx_Perks_Precision_LethalTempo_buffdeactivate"
                     "Play_sfx_Perks_Precision_LethalTempo_cast_lua"
+                    "Play_sfx_Perks_Precision_LethalTempo_loop"
+                    "Play_sfx_Perks_Precision_LethalTempo_ready"
                     "Play_sfx_Perks_Precision_PressTheAttack_OnBuffActivate"
                     "Play_sfx_Perks_Resolve_Aftershock_OnBuffActivate"
                     "Play_sfx_Perks_Resolve_Aftershock_OnBuffDeactivate"
@@ -34295,12 +34295,12 @@ entries: map[hash,embed] = {
                     "Play_sfx_SummonerTeleport_buffactivate"
                     "Play_sfx_SummonerTeleport_marker"
                     "Play_sfx_SummonerTeleport_return"
+                    "Play_sfx_SummonerTeleport_upgrade_transform"
                     "Play_sfx_SuperRecall_OnBuffActivate"
                     "Play_sfx_SuperRecall_return"
                     "Play_sfx_SuperRecallImproved_OnBuffActivate"
                     "Stop_sfx_levelup_levelup"
                     "Stop_sfx_Perks_Domination_ThrilloftheHunt_OnBuffActivate"
-                    "Stop_sfx_Perks_Precision_LethalTempo_buffactivate"
                     "Stop_sfx_Perks_Resolve_GuardiansSoul_OnBuffActivate"
                     "Stop_sfx_Perks_Sorcery_Perxie_Recall3D_buffactivate"
                     "Stop_sfx_Recall_OnBuffActivate"
@@ -35597,11 +35597,13 @@ entries: map[hash,embed] = {
                 events: list[string] = {
                     "Play_mus_map11_demaciavice2019_spawn"
                     "Play_mus_map11_KDA2020_spawn"
+                    "Play_mus_map11_SN2022_spawn"
                     "Play_mus_map11_starguardian2017_spawn"
                     "Play_mus_map11_starguardian2019_spawn"
                     "Play_mus_map11_starguardian_spawn"
                     "Play_mus_map11_Tournaments_spawn"
                     "Play_mus_map11_Worlds2020_spawn"
+                    "Play_mus_map11_XP12021_spawn"
                     "Play_sfx_homeguard_idahotb_loop"
                     "Play_sfx_PopStar2018Spawn_oba"
                     "Play_sfx_RainbowSpawn_oba"
@@ -35648,12 +35650,14 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        0x561de536: string = "Set_State_TFT_Mix_PC"
+        0x1cf84925: string = "Set_State_TFT_Mix_Mobile"
     }
-    0xf751e943 = 0x0d6825c4 {
+    0xf751e943 = AnnouncementMap {
         0x81082e4b: string = "ClassicBase"
         0x79175e85: hash = 0x7d2eefce
         0xcf8c591b: hash = 0x6e781626
-        0x1df05e4b: map[string,link] = {
+        Announcements: map[string,link] = {
             "OnFirstBlood" = 0x9f346e5d
             "OnChampionKill" = 0x5d7e10e4
             "OnChampionDoubleKill" = 0x0a5b649d
@@ -35778,15 +35782,15 @@ entries: map[hash,embed] = {
             "Characters/PetAoShin"
             "Characters/PetUmbra"
             "Characters/PetChoncc"
-            0x31b3d0a6
-            0x62f67c90
-            0xf123828e
-            0x664ab76c
-            0x62fd8345
-            0x25094d47
-            0x58599aac
-            0xe77f267e
-            0x47e4b7e3
+            "Characters/PetDowsie"
+            "Characters/PetFenroar"
+            "Characters/PetNimblefoot"
+            "Characters/PetChibiEkko"
+            "Characters/PetChibiJinx"
+            "Characters/PetChibiVi"
+            "Characters/PetPiximander"
+            "Characters/PetGloop"
+            "Characters/PetDuckbill"
         }
     }
     0x30585024 = MapCharacterList {
@@ -35994,8 +35998,8 @@ entries: map[hash,embed] = {
             "Items/1512"
             "Items/1515"
             "Items/7050"
-            0x1956a36c
-            0x1856a1d9
+            "Items/7023"
+            "Items/7024"
         }
     }
     0x413f2f94 = GameModeItemList {
@@ -36150,17 +36154,17 @@ entries: map[hash,embed] = {
             "Items/6035"
             "Items/6616"
             "Items/6617"
-            0xe6db7bed
-            0xe5db7a5a
-            0xd8db65e3
-            0xd7db6450
-            0xafbbfefb
-            0xe223314b
-            0x62ebab66
-            0xf2eeccad
-            0xbac08d7a
-            0x9d608a3e
-            0x9e608bd1
+            "Items/1516"
+            "Items/1517"
+            "Items/1518"
+            "Items/1519"
+            "Items/8001"
+            "Items/6696"
+            "Items/3119"
+            "Items/3121"
+            "Items/8020"
+            "Items/4644"
+            "Items/4645"
         }
     }
     0x53f3ac3c = GameModeItemList {
@@ -36322,14 +36326,14 @@ entries: map[hash,embed] = {
             "Items/7020"
             "Items/7021"
             "Items/7022"
-            0xbac08d7a
-            0x62ebab66
-            0xf2eeccad
-            0x1956a36c
-            0x1856a1d9
-            0xe223314b
-            0x9d608a3e
-            0x9e608bd1
+            "Items/8020"
+            "Items/3119"
+            "Items/3121"
+            "Items/7023"
+            "Items/7024"
+            "Items/6696"
+            "Items/4644"
+            "Items/4645"
         }
         0xc3b3430a: u32 = 11
         0x51a18bc3: hash = "CLASSIC"
@@ -36362,7 +36366,7 @@ entries: map[hash,embed] = {
         mLethalityScalesCapsAtLevel: i32 = 30
         mLethalityRatioFromTarget: f32 = 0
         mLethalityRatioFromAttacker: f32 = 1
-        0xb88bfcb2: f32 = 500
+        AbilityHasteMax: f32 = 500
         mAdaptiveForceAbilityPowerScale: f32 = 1
         mAdaptiveForceAttackDamageScale: f32 = 0.600000024
         mMinionDeathDelay: f32 = 0.0350000001
@@ -36420,7 +36424,7 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x6104a27d: hash = "Shared/Spells/SpellOriginPerk"
+        ItemsRolesPerRow: hash = "Shared/Spells/SpellOriginPerk"
         0xa64802f2: hash = "Shared/Spells/SpellOriginItem"
     }
     0xd5b1a6ea = LoadScreenTipConfiguration {
@@ -36428,722 +36432,722 @@ entries: map[hash,embed] = {
         mPBITipDurationOnLoadingScreen: f32 = 60
         mDurationInGame: f32 = 25
     }
-    0x014bc21d = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x014bc21d = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeSet6"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeSet6"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x44598423 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x44598423 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 70
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnKillingSpreeSet6"
-            0x83c44739: string = "game_announcement_OnKillingSpreeSet6_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnKillingSpreeSet6"
+            ChatMessageKey: string = "game_announcement_OnKillingSpreeSet6_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x455985b6 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x455985b6 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 70
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnKillingSpreeSet5"
-            0x83c44739: string = "game_announcement_OnKillingSpreeSet5_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnKillingSpreeSet5"
+            ChatMessageKey: string = "game_announcement_OnKillingSpreeSet5_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x46598749 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x46598749 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 70
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnKillingSpreeSet4"
-            0x83c44739: string = "game_announcement_OnKillingSpreeSet4_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnKillingSpreeSet4"
+            ChatMessageKey: string = "game_announcement_OnKillingSpreeSet4_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x475988dc = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x475988dc = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 70
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnKillingSpreeSet3"
-            0x83c44739: string = "game_announcement_OnKillingSpreeSet3_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnKillingSpreeSet3"
+            ChatMessageKey: string = "game_announcement_OnKillingSpreeSet3_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x48598a6f = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x48598a6f = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 70
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnKillingSpreeSet2"
-            0x83c44739: string = "game_announcement_OnKillingSpreeSet2_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnKillingSpreeSet2"
+            ChatMessageKey: string = "game_announcement_OnKillingSpreeSet2_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x49598c02 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x49598c02 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 70
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnKillingSpreeSet1"
-            0x83c44739: string = "game_announcement_OnKillingSpreeSet1_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnKillingSpreeSet1"
+            ChatMessageKey: string = "game_announcement_OnKillingSpreeSet1_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x49f4e8a7 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x49f4e8a7 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 78
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionTripleKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeTripleKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_OnChampionTripleKill@src your team | enemy team@"
-            0x6211de87: hash = 0x3d9b025d
-            0xe0c6260a: hash = 0x10943d68
+            TextKey: string = "game_announcement_OnChampionTripleKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeTripleKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnChampionTripleKill@src your team | enemy team@"
+            AlliedElements: hash = 0x3d9b025d
+            EnemyElements: hash = 0x10943d68
         }
     }
-    0x4e3c2f8b = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x4e3c2f8b = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 75
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpree"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpree"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x5ac44835 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x5ac44835 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 82
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionQuadraKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeQuadraKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_OnChampionQuadraKill@src your team | enemy team@"
-            0x6211de87: hash = 0xa4df3401
-            0xe0c6260a: hash = 0x734d7a44
+            TextKey: string = "game_announcement_OnChampionQuadraKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeQuadraKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnChampionQuadraKill@src your team | enemy team@"
+            AlliedElements: hash = 0xa4df3401
+            EnemyElements: hash = 0x734d7a44
         }
     }
-    0x604fe509 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x604fe509 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 97
-            0x6463e656: bool = false
+            CanBeMadeObsolete: bool = false
             Style: link = 0xc22feeab
-            0x6c4123a5: string = "game_announcement_OnChampionPentaKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreePentaKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_OnChampionPentaKill@src your team | enemy team@"
-            0x6211de87: hash = 0xf3c504af
-            0xe0c6260a: hash = 0x2d5401c2
+            TextKey: string = "game_announcement_OnChampionPentaKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreePentaKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnChampionPentaKill@src your team | enemy team@"
+            AlliedElements: hash = 0xf3c504af
+            EnemyElements: hash = 0x2d5401c2
         }
     }
-    0xcaa389fa = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xcaa389fa = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 77
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionDoubleKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeDoubleKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_OnChampionDoubleKill@src your team | enemy team@"
-            0x6211de87: hash = 0x725cd3eb
-            0xe0c6260a: hash = 0x90c20576
+            TextKey: string = "game_announcement_OnChampionDoubleKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeDoubleKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnChampionDoubleKill@src your team | enemy team@"
+            AlliedElements: hash = 0x725cd3eb
+            EnemyElements: hash = 0x90c20576
         }
     }
-    0xcf69e361 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xcf69e361 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x29fef316: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0x3c580728
-            0x6c4123a5: string = "game_announcement_OnKillingSpree"
-            0x83c44739: string = "game_announcement_OnKillingSpree_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            TextKey: string = "game_announcement_OnKillingSpree"
+            ChatMessageKey: string = "game_announcement_OnKillingSpree_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
         }
     }
-    0xfa4bb718 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xfa4bb718 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeSet1"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeSet1"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xfc4bba3e = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xfc4bba3e = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeSet3"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeSet3"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xfd4bbbd1 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xfd4bbbd1 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeSet2"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeSet2"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xfe4bbd64 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xfe4bbd64 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeSet5"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeSet5"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xff4bbef7 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xff4bbef7 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnKilledUnitOnKillingSpreeSet4"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnKilledUnitOnKillingSpreeSet4"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
     0x03a789d4 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderAgreed_@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnSurrenderAgreed_@src your team | enemy team@"
         }
     }
     0x10050083 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyAccomplice"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyAccomplice"
         }
     }
     0x1270df94 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeVote"
+            ChatMessageKey: string = "game_announcement_OnEqualizeVote"
         }
     }
     0x1f7df93b = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeNotEnoughGold"
+            ChatMessageKey: string = "game_announcement_OnEqualizeNotEnoughGold"
         }
     }
     0x25f32792 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeNotEnoughLevels"
+            ChatMessageKey: string = "game_announcement_OnEqualizeNotEnoughLevels"
         }
     }
     0x2e6b7915 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyOver"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyOver"
         }
     }
     0x3f9afea9 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyAllowed"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyAllowed"
         }
     }
     0x56792667 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnUnanimousSurrenderVoteStart"
+            ChatMessageKey: string = "game_announcement_OnUnanimousSurrenderVoteStart"
         }
     }
     0x6019a1fa = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyFailed_@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyFailed_@src your team | enemy team@"
         }
     }
     0x681364e8 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderVoteStart"
+            ChatMessageKey: string = "game_announcement_OnSurrenderVoteStart"
         }
     }
     0x68c715d2 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderFailedVotes_@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnSurrenderFailedVotes_@src your team | enemy team@"
         }
     }
     0x6a5b6a90 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderVoteAlready"
+            ChatMessageKey: string = "game_announcement_OnSurrenderVoteAlready"
         }
     }
     0x6ca4c799 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeSpam"
+            ChatMessageKey: string = "game_announcement_OnEqualizeSpam"
         }
     }
     0x75fb7d5f = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyFailedNoLongerAvailable"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyFailedNoLongerAvailable"
         }
     }
     0x781a9a31 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeTooEarly"
+            ChatMessageKey: string = "game_announcement_OnEqualizeTooEarly"
         }
     }
     0xa69d11a1 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderTooEarly"
+            ChatMessageKey: string = "game_announcement_OnSurrenderTooEarly"
         }
     }
     0xa80fa012 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyFailedDisabled"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyFailedDisabled"
         }
     }
     0xb8e668c9 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnUnanimousSurrenderFailedVotes_@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnUnanimousSurrenderFailedVotes_@src your team | enemy team@"
         }
     }
     0xc10e7b69 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderSpam"
+            ChatMessageKey: string = "game_announcement_OnSurrenderSpam"
         }
     }
     0xc224dfe4 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderVote"
+            ChatMessageKey: string = "game_announcement_OnSurrenderVote"
         }
     }
     0xc89d4d02 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeFailedVotes_@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnEqualizeFailedVotes_@src your team | enemy team@"
         }
     }
     0xc920d9a4 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeAgreed_@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnEqualizeAgreed_@src your team | enemy team@"
         }
     }
     0xd2cf1078 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeVoteStart"
+            ChatMessageKey: string = "game_announcement_OnEqualizeVoteStart"
         }
     }
     0xda9f1581 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnUnanimousAfkSurrenderAllowed"
+            ChatMessageKey: string = "game_announcement_OnUnanimousAfkSurrenderAllowed"
         }
     }
     0xdac2574f = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyFailedNeverAvailable"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyFailedNeverAvailable"
         }
     }
     0xdd47f3e0 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEqualizeVoteAlready"
+            ChatMessageKey: string = "game_announcement_OnEqualizeVoteAlready"
         }
     }
     0xe7251cfb = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnEarlySurrenderVoteStart"
+            ChatMessageKey: string = "game_announcement_OnEarlySurrenderVoteStart"
         }
     }
     0xedb27685 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnNormalAfkSurrenderAllowed"
+            ChatMessageKey: string = "game_announcement_OnNormalAfkSurrenderAllowed"
         }
     }
     0xf5c5368e = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_OnSurrenderEarlyTooEarly"
+            ChatMessageKey: string = "game_announcement_OnSurrenderEarlyTooEarly"
         }
     }
     0xf8063b67 = 0x78387eb5 {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xfa08bea1
-            0x83c44739: string = "game_announcement_@ItemID@_@ItemCount@ | game_announcement_@ItemID@ | game_announcement_ItemCallout"
+            ChatMessageKey: string = "game_announcement_@ItemID@_@ItemCount@ | game_announcement_@ItemID@ | game_announcement_ItemCallout"
         }
     }
-    0x0a5b649d = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x0a5b649d = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 76
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionDoubleKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnChampionDoubleKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x725cd3eb
-            0xe0c6260a: hash = 0x90c20576
+            TextKey: string = "game_announcement_OnChampionDoubleKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnChampionDoubleKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x725cd3eb
+            EnemyElements: hash = 0x90c20576
         }
     }
-    0x0dd87d95 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x0dd87d95 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 100
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
-            0x6c4123a5: string = "game_announcement_OnMinionsSpawn"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x14ff2afd: hash = 0x153e858c
+            TextKey: string = "game_announcement_OnMinionsSpawn"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            CommonElements: hash = 0x153e858c
         }
     }
-    0x29ca3a72 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x29ca3a72 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 82
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionQuadraKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnChampionQuadraKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0xa4df3401
-            0xe0c6260a: hash = 0x734d7a44
+            TextKey: string = "game_announcement_OnChampionQuadraKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnChampionQuadraKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0xa4df3401
+            EnemyElements: hash = 0x734d7a44
         }
     }
-    0x330434a0 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x330434a0 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 92
             Style: link = 0xd7e84185
-            0x6c4123a5: string = "game_announcement_OnQuit"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x14ff2afd: hash = 0x49827f66
+            TextKey: string = "game_announcement_OnQuit"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            CommonElements: hash = 0x49827f66
         }
     }
-    0x3b27ccd2 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x3b27ccd2 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 76
-            0x6463e656: bool = false
+            CanBeMadeObsolete: bool = false
             Style: link = 0x4bcfd49e
-            0x6c4123a5: string = "game_announcement_OnAce"
-            0x83c44739: string = "game_announcement_OnAce_@src your team | enemy team@_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnAce"
+            ChatMessageKey: string = "game_announcement_OnAce_@src your team | enemy team@_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x5586a35c = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x5586a35c = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 76
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xbbc7a80c
-            0x83c44739: string = "game_announcement_OnDampenerRespawnSoon_@src your team | enemy team@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            ChatMessageKey: string = "game_announcement_OnDampenerRespawnSoon_@src your team | enemy team@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
         }
     }
-    0x5d7e10e4 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x5d7e10e4 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 69
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionKill_@dest champion kill destination@_@src champion kill source@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src you | hero | minion | turret@@dest you | hero | minion | turret@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionKill_@dest champion kill destination@_@src champion kill source@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src you | hero | minion | turret@@dest you | hero | minion | turret@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x6f83473f = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x6f83473f = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 80
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xbbc7a80c
-            0x6c4123a5: string = "game_announcement_OnDampenerRespawn_@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnDampenerRespawn_@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x85acccb0 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x85acccb0 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 97
-            0x6463e656: bool = false
+            CanBeMadeObsolete: bool = false
             Style: link = 0xc22feeab
-            0x6c4123a5: string = "game_announcement_OnChampionPentaKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnChampionPentaKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0xf3c504af
-            0xe0c6260a: hash = 0x2d5401c2
+            TextKey: string = "game_announcement_OnChampionPentaKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnChampionPentaKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0xf3c504af
+            EnemyElements: hash = 0x2d5401c2
         }
     }
-    0x8769e77d = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x8769e77d = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 77
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionShutdownAnnouncement"
-            0x83c44739: string = "game_announcement_OnShutdown"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_OnKilledUnitOnKillingSpree"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnChampionShutdownAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnShutdown"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnKilledUnitOnKillingSpree"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x8fd0f3f2 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x8fd0f3f2 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 1
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0x95681f19
-            0x6c4123a5: string = "game_announcement_OnLeave"
-            0x14ff2afd: hash = 0x49827f66
+            TextKey: string = "game_announcement_OnLeave"
+            CommonElements: hash = 0x49827f66
         }
     }
-    0x94534e2c = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x94534e2c = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 78
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnChampionTripleKillAnnouncement"
-            0x83c44739: string = "game_announcement_OnChampionTripleKill"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x3d9b025d
-            0xe0c6260a: hash = 0x10943d68
+            TextKey: string = "game_announcement_OnChampionTripleKillAnnouncement"
+            ChatMessageKey: string = "game_announcement_OnChampionTripleKill"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x3d9b025d
+            EnemyElements: hash = 0x10943d68
         }
     }
-    0x9f346e5d = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0x9f346e5d = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 92
-            0x6463e656: bool = false
+            CanBeMadeObsolete: bool = false
             Style: link = 0xd7e84185
-            0x6c4123a5: string = "game_announcement_OnFirstBlood"
-            0x83c44739: string = "game_announcement_OnFirstBlood_chat"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnFirstBlood"
+            ChatMessageKey: string = "game_announcement_OnFirstBlood_chat"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xa47d982c = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xa47d982c = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 92
             Style: link = 0xd7e84185
-            0x6c4123a5: string = "game_announcement_OnReconnect"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@"
-            0x14ff2afd: hash = 0x49827f66
+            TextKey: string = "game_announcement_OnReconnect"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@"
+            CommonElements: hash = 0x49827f66
         }
     }
-    0xa804359c = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xa804359c = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 97
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnReincarnate_@dest champion kill destination@_@src champion kill source@"
-            0x83c44739: string = "game_announcement_OnReincarnate_chat"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnReincarnate_@dest champion kill destination@_@src champion kill source@"
+            ChatMessageKey: string = "game_announcement_OnReincarnate_chat"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xbfd0c4c7 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xbfd0c4c7 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 79
-            0x6463e656: bool = false
+            CanBeMadeObsolete: bool = false
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnTurretFirstBlood_@src your team | enemy team@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_OnTurretDie@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnTurretFirstBlood_@src your team | enemy team@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnTurretDie@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xdf7330be = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xdf7330be = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 60
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
-            0x6c4123a5: string = "game_announcement_OnStartMessage4Map@MapNumber@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
-            0x14ff2afd: hash = 0x153e858c
+            TextKey: string = "game_announcement_OnStartMessage4Map@MapNumber@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
+            CommonElements: hash = 0x153e858c
         }
     }
-    0xe0733251 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xe0733251 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 60
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
-            0x6c4123a5: string = "game_announcement_OnStartMessage5Map@MapNumber@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
-            0x14ff2afd: hash = 0x153e858c
+            TextKey: string = "game_announcement_OnStartMessage5Map@MapNumber@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
+            CommonElements: hash = 0x153e858c
         }
     }
-    0xe17333e4 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xe17333e4 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 60
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
-            0x6c4123a5: string = "game_announcement_OnStartMessage2Map@MapNumber@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
-            0x14ff2afd: hash = 0x153e858c
+            TextKey: string = "game_announcement_OnStartMessage2Map@MapNumber@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
+            CommonElements: hash = 0x153e858c
         }
     }
-    0xe2733577 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xe2733577 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 60
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
-            0x6c4123a5: string = "game_announcement_OnStartMessage3Map@MapNumber@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
-            0x14ff2afd: hash = 0x153e858c
+            TextKey: string = "game_announcement_OnStartMessage3Map@MapNumber@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
+            CommonElements: hash = 0x153e858c
         }
     }
-    0xe36681db = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xe36681db = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 99
             Style: link = 0xfa08bea1
-            0x6c4123a5: string = "@MapTimeText@"
+            TextKey: string = "@MapTimeText@"
         }
     }
-    0xf15ac5d1 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xf15ac5d1 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 81
-            0x6463e656: bool = false
-            0x29fef316: bool = false
+            CanBeMadeObsolete: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xbbc7a80c
-            0x6c4123a5: string = "game_announcement_OnDampenerDie_@src your team | enemy team@@destkeytr name@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnDampenerDie_@src your team | enemy team@@destkeytr name@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0xf1d0d1d5 = 0x059ff22b {
-        0x8e6ce07e: embed = 0x1df88cb3 {
+    0xf1d0d1d5 = AnnouncementDefinition {
+        DefaultData: embed = AnnouncementDefinitionData {
             priority: u16 = 78
-            0x29fef316: bool = false
+            MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xabb9fecc
-            0x6c4123a5: string = "game_announcement_OnTurretDie_@src your team | enemy team@@destkeytr name@"
-            0x6cfc6633: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
-            0x6211de87: hash = 0x153e858c
-            0xe0c6260a: hash = 0xad224d11
+            TextKey: string = "game_announcement_OnTurretDie_@src your team | enemy team@@destkeytr name@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@@src your team | enemy team@"
+            AlliedElements: hash = 0x153e858c
+            EnemyElements: hash = 0xad224d11
         }
     }
-    0x3c580728 = 0xde683827 {
-        0x15acf82a: hash = 0x01de91b9
+    0x3c580728 = AnnouncementStyleBasic {
+        TextField: hash = 0x01de91b9
         0xcc99a2db: embed = HudMenuTransitionData {
             transitionTime: f32 = 0.200000003
         }
     }
     0x4bcfd49e = 0x48c9ff38 {
-        0x7e67db69: link = 0xe96ce6c0
-        0x15acf82a: hash = 0xf1cb696f
+        SourceIcon: link = 0xe96ce6c0
+        TextField: hash = 0xf1cb696f
         0x3f43172e: embed = HudMenuTransitionData {
             transitionTime: f32 = 0.25
         }
@@ -37152,23 +37156,23 @@ entries: map[hash,embed] = {
         }
     }
     0x95681f19 = 0x48c9ff38 {
-        0x7e67db69: link = 0xe96ce6c0
-        0x15acf82a: hash = 0x01de91b9
+        SourceIcon: link = 0xe96ce6c0
+        TextField: hash = 0x01de91b9
     }
     0xabb9fecc = 0xaa95a271 {
-        0xf221fb31: link = 0xb6a4c022
-        0x7a865b10: link = 0x421a3e0f
-        0x15acf82a: hash = 0x234db555
+        LeftIcon: link = 0xb6a4c022
+        RightIcon: link = 0x421a3e0f
+        TextField: hash = 0x234db555
     }
-    0xbbc7a80c = 0xde683827 {
-        0x15acf82a: hash = 0xe87cbb6d
+    0xbbc7a80c = AnnouncementStyleBasic {
+        TextField: hash = 0xe87cbb6d
         0xcc99a2db: embed = HudMenuTransitionData {
             transitionTime: f32 = 0.200000003
         }
     }
     0xc22feeab = 0x48c9ff38 {
-        0x7e67db69: link = 0xe96ce6c0
-        0x15acf82a: hash = 0x114524a8
+        SourceIcon: link = 0xe96ce6c0
+        TextField: hash = 0x114524a8
         0x3f43172e: embed = HudMenuTransitionData {
             transitionTime: f32 = 0.25
         }
@@ -37177,17 +37181,17 @@ entries: map[hash,embed] = {
         }
     }
     0xd7e84185 = 0x48c9ff38 {
-        0x7e67db69: link = 0xe96ce6c0
-        0x15acf82a: hash = 0x234db555
+        SourceIcon: link = 0xe96ce6c0
+        TextField: hash = 0x234db555
     }
-    0xd8f1d3b8 = 0xde683827 {
-        0x15acf82a: hash = 0x234db555
+    0xd8f1d3b8 = AnnouncementStyleBasic {
+        TextField: hash = 0x234db555
         0xcc99a2db: embed = HudMenuTransitionData {
             transitionTime: f32 = 0.200000003
         }
     }
-    0xfa08bea1 = 0xde683827 {
-        0x15acf82a: hash = 0xf66bdb59
+    0xfa08bea1 = AnnouncementStyleBasic {
+        TextField: hash = 0xf66bdb59
         0x3f43172e: embed = HudMenuTransitionData {
             transitionTime: f32 = 0.200000003
         }
@@ -37199,8 +37203,8 @@ entries: map[hash,embed] = {
         0x108e8710: hash = 0x8d6e341c
         0xc2e2a2df: hash = 0x7a2f005b
         0x3e37c63b: hash = 0x2feeafc3
-        0x1429a941: hash = 0x6353bd9a
-        0xed38c5a4: hash = 0x880ea251
+        AlliedElementGroup: hash = 0x6353bd9a
+        EnemyElementGroup: hash = 0x880ea251
         0xdd749512: hash = 0xebe89c74
         0xde7496a5: hash = 0x264217e3
         0xdb7491ec: hash = 0xbaccfeb2
@@ -37210,8 +37214,8 @@ entries: map[hash,embed] = {
         0x108e8710: hash = 0xc65ee18d
         0xc2e2a2df: hash = 0xc29b7839
         0x3e37c63b: hash = 0x57e3fab9
-        0x1429a941: hash = 0xc7765200
-        0xed38c5a4: hash = 0x16982eaf
+        AlliedElementGroup: hash = 0xc7765200
+        EnemyElementGroup: hash = 0x16982eaf
         0xdd749512: hash = 0x5e28c680
         0xde7496a5: hash = 0x788a535d
         0xdb7491ec: hash = 0x9e79399a
@@ -37221,12 +37225,15 @@ entries: map[hash,embed] = {
         0x108e8710: hash = 0x33eff877
         0xc2e2a2df: hash = 0x31c780d7
         0x3e37c63b: hash = 0x521cf067
-        0x1429a941: hash = 0x2ebba4c0
-        0xed38c5a4: hash = 0xedf7206f
+        AlliedElementGroup: hash = 0x2ebba4c0
+        EnemyElementGroup: hash = 0xedf7206f
         0xdd749512: hash = 0x88af90a2
         0xde7496a5: hash = 0xba5ba885
         0xdb7491ec: hash = 0x02107614
         0xdc74937f: hash = 0x49dc1677
+    }
+    0x76b22690 = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_Bilgewater"
     }
     0x5a7e4017 = GlobalStatsUIData {
         mStatUIData: map[u8,embed] = {
@@ -37387,7 +37394,7 @@ entries: map[hash,embed] = {
                 mIconKey: string = "%i:scaleCritMult%"
                 mScalingTagKey: string = "scaleCritMult"
             }
-            33 = StatUIData {
+            14 = StatUIData {
                 mName: string = "Dodge Chance"
                 mAbbreviation: string = "DGE"
                 mDisplayType: u8 = 2
@@ -37409,32 +37416,29 @@ entries: map[hash,embed] = {
                 mScalingTagKey: string = "scaleSV"
             }
         }
-        0xbac6b669: string = "Tooltip_StatsUIData_BaseIconModifier"
-        0xa458b855: string = "Tooltip_StatsUIData_BonusIconModifier"
+        BaseOutputIconModifier: string = "Tooltip_StatsUIData_BaseIconModifier"
+        BonusOutputIconModifier: string = "Tooltip_StatsUIData_BonusIconModifier"
         mNumberStyle: string = "Tooltip_StatsUIData_NumberStyle"
         mNumberStylePercent: string = "Tooltip_StatsUIData_NumberStylePercent"
         mNumberStyleBonus: string = "Tooltip_StatsUIData_NumberStyleBonus"
         mNumberStyleBonusPercent: string = "Tooltip_StatsUIData_NumberStyleBonusPercent"
-        0x9ba89630: string = "Tooltip_StatsUIData_FormulaPartStyleBonus"
-        0x15a3d8c1: string = "Tooltip_StatsUIData_FormulaPartStyleBonusPercent"
-        0x1edf3401: string = "Tooltip_StatsUIData_FormulaPartStyle"
-        0xe797836e: string = "Tooltip_StatsUIData_FormulaPartStylePercent"
-        0x22203dd5: string = "Tooltip_StatsUIData_FormulaPartRangeStyleBonus"
-        0x457f48aa: string = "Tooltip_StatsUIData_FormulaPartRangeStyleBonusPercent"
-        0xb6f5e3b2: string = "Tooltip_StatsUIData_FormulaPartRangeStyle"
-        0x17788ae3: string = "Tooltip_StatsUIData_FormulaPartRangeStylePercent"
+        FormulaPartStyleBonus: string = "Tooltip_StatsUIData_FormulaPartStyleBonus"
+        FormulaPartStyleBonusPercent: string = "Tooltip_StatsUIData_FormulaPartStyleBonusPercent"
+        FormulaPartStyle: string = "Tooltip_StatsUIData_FormulaPartStyle"
+        FormulaPartStylePercent: string = "Tooltip_StatsUIData_FormulaPartStylePercent"
+        FormulaPartRangeStyleBonus: string = "Tooltip_StatsUIData_FormulaPartRangeStyleBonus"
+        FormulaPartRangeStyleBonusPercent: string = "Tooltip_StatsUIData_FormulaPartRangeStyleBonusPercent"
+        FormulaPartRangeStyle: string = "Tooltip_StatsUIData_FormulaPartRangeStyle"
+        FormulaPartRangeStylePercent: string = "Tooltip_StatsUIData_FormulaPartRangeStylePercent"
         mNumberStyleTotalAndCoefficient: string = "Tooltip_StatsUIData_NumberStyleTotalAndCoefficient"
         mNumberStyleTotalAndCoefficientPercent: string = "Tooltip_StatsUIData_NumberStyleTotalAndCoefficientPercent"
-        0xe8861857: string = "Tooltip_StatsUIData_NumberStyleTotalAndScalingIcons"
-        0x0a9ead90: string = "Tooltip_StatsUIData_NumberStyleTotalAndFormula"
-        0xed6ca0ed: string = "%i:scaleMana%"
-        0xe98218bf: string = "scaleMana"
+        NumberStyleTotalAndScalingIcons: string = "Tooltip_StatsUIData_NumberStyleTotalAndScalingIcons"
+        NumberStyleTotalAndFormula: string = "Tooltip_StatsUIData_NumberStyleTotalAndFormula"
+        mManaIconKey: string = "%i:scaleMana%"
+        mManaScalingTagKey: string = "scaleMana"
         0x2fa6c4b0: string = "scaleLevel"
         0x4ac09eef: string = "%i:scaleLevel%"
         0xf04c21cd: u8 = 6
         0xa844caca: u8 = 4
-    }
-    0x76b22690 = GameMutatorExpansions {
-        mExpandedMutator: string = "Event_Bilgewater"
     }
 }

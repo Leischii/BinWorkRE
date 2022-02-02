@@ -62498,7 +62498,6 @@ entries: map[hash,embed] = {
     }
     "Maps/MapGeometry/Map11/Chunks/Worlds_Trophies" = MapPlaceableContainer {
         items: map[hash,pointer] = {
-            0x2ff6ee52 = null
             0x426fe6a6 = null
         }
         path: string = "Maps/MapGeometry/Map11/Chunks/Worlds_Trophies"
