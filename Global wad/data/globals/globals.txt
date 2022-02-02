@@ -18307,7 +18307,7 @@ entries: map[hash,embed] = {
     0x5436f4f7 = GameMutatorExpansions {
         mExpandedMutator: string = "Esports_Test_Rotating_Banners"
     }
-        0x543f5fa9 = GameMutatorExpansions {
+    0x543f5fa9 = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_SRU_Urf"
         mMutators: list2[string] = {
             "MapID(11)?MapSkinName(URF)"
