@@ -12949,11 +12949,11 @@ entries: map[hash,embed] = {
         flags: u8 = 132
         buildUpTime: f32 = 10
     }
-	"Particles/BW_Seagull" = VfxSystemDefinitionData {
+    "Particles/BW_Seagull" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 0.7
+                    constantValue: f32 = 0.699999988
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 15
@@ -12972,8 +12972,8 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 keyValues: list[f32] = {
-                                    0.08
-                                    1.1
+                                    0.0799999982
+                                    1.10000002
                                 }
                             }
                             VfxProbabilityTableData {}
@@ -12983,8 +12983,8 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 keyValues: list[f32] = {
-                                    0.8
-                                    1.05
+                                    0.800000012
+                                    1.04999995
                                 }
                             }
                         }
@@ -13053,10 +13053,10 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.62352943, 0.62352943, 0.6745098, 1 }
+                    constantValue: vec4 = { 0.623529434, 0.623529434, 0.674509823, 1 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -13064,9 +13064,9 @@ entries: map[hash,embed] = {
                             1
                         }
                         values: list[vec4] = {
-                            { 1, 1, 1, 0.8 }
-                            { 1, 1, 1, 0.8 }
-                            { 1, 1, 1, 0.8 }
+                            { 1, 1, 1, 0.800000012 }
+                            { 1, 1, 1, 0.800000012 }
+                            { 1, 1, 1, 0.800000012 }
                         }
                     }
                 }
@@ -13105,7 +13105,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.5, 0.5, 0.5 }
                 }
-				texture: string = "DATA/Particles/Bw_Seagull_TX_CM.dds"
+                texture: string = "DATA/Particles/Bw_Seagull_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 9000
@@ -13133,9 +13133,9 @@ entries: map[hash,embed] = {
                 material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship_east"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skl"
-                        mAnimationName: string = "DATA/Characters/BW_vship/Skins/Base/Animations/BW_vship_Idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship.skl"
+                        mAnimationName: string = "ASSETS/Characters/BW_vship/Skins/Base/Animations/BW_vship_Idle1.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -13144,7 +13144,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 40, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13152,10 +13152,10 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-				texture: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                texture: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
-        visibilityRadius: f32 = 100000
+        visibilityRadius: f32 = 20000
         particlePath: string = "Particles/ShipBackgroundEast"
         particleName: string = "ShipBackgroundEast"
         flags: u8 = 197
@@ -13166,7 +13166,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13212,9 +13212,6 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = -1
                 }
-                particleLinger: option[f32] = {
-                    9
-                }
                 lifetime: option[f32] = {
                     9
                 }
@@ -13226,9 +13223,9 @@ entries: map[hash,embed] = {
                 material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship_north"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skl"
-                        mAnimationName: string = "DATA/Characters/BW_vship/Skins/Base/Animations/BW_vship_Idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship.skl"
+                        mAnimationName: string = "ASSETS/Characters/BW_vship/Skins/Base/Animations/BW_vship_Idle1.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -13237,7 +13234,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -50, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13245,12 +13242,13 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                texture: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
-        visibilityRadius: f32 = 100000
+        visibilityRadius: f32 = 20000
         particlePath: string = "Particles/ShipBackgroundNorth"
         particleName: string = "ShipBackgroundNorth"
+        flags: u8 = 197
     }
     "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship_north" = StaticMaterialDef {
         name: string = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship_north"
@@ -13258,7 +13256,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13304,9 +13302,6 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = -1
                 }
-                particleLinger: option[f32] = {
-                    9
-                }
                 lifetime: option[f32] = {
                     9
                 }
@@ -13318,18 +13313,18 @@ entries: map[hash,embed] = {
                 material: link = "Characters/BW_vship/Skins/Base/Materials/DirtyMetal_BW_vship"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship.skl"
-                        mAnimationName: string = "DATA/Characters/BW_vship/Skins/Base/Animations/BW_vship_Sail1.anm"
+                        mMeshName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship.skl"
+                        mAnimationName: string = "ASSETS/Characters/BW_vship/Skins/Base/Animations/BW_vship_Sail1.anm"
                     }
                 }
                 blendMode: u8 = 1
                 pass: i16 = -51
                 birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 3.176499, 0 }
+                    constantValue: vec3 = { 0, 3.17649889, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13337,10 +13332,10 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                texture: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
-        visibilityRadius: f32 = 100000
+        visibilityRadius: f32 = 20000
         particlePath: string = "Particles/ShipBackgroundSailing"
         particleName: string = "ShipBackgroundSailing"
         flags: u8 = 197
@@ -13351,7 +13346,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13409,18 +13404,18 @@ entries: map[hash,embed] = {
                 material: link = "Characters/BW_dblrope/Skins/Base/Materials/DirtyMetal_BW_dblrope"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope.skl"
-                        mAnimationName: string = "DATA/Characters/BW_dblrope/Skins/Base/Animations/BW_dblrope_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope.skl"
+                        mAnimationName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/Animations/BW_dblrope_idle1.anm"
                     }
                 }
-                blendMode: u8 = 3
+                blendMode: u8 = 1
                 pass: i16 = -100
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13428,7 +13423,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope_TX_CM.dds"
+                texture: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 100000
@@ -13441,7 +13436,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/BW_dblrope/Skins/Base/BW_dblrope_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13499,9 +13494,9 @@ entries: map[hash,embed] = {
                 material: link = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_bw_fishhk"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk.skl"
-                        mAnimationName: string = "DATA/Characters/bw_fishhk/Skins/Base/Animations/bw_fishhk_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/Animations/bw_fishhk_idle1.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -13513,7 +13508,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13521,7 +13516,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk_TX_CM.dds"
+                texture: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 100000
@@ -13534,7 +13529,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/bw_fishhk/Skins/Base/bw_fishhk_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13591,12 +13586,12 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_hcannon/Skins/Base/bw_hcannon.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_hcannon/Skins/Base/bw_hcannon.skl"
-                        mAnimationName: string = "DATA/Characters/bw_hcannon/Skins/Base/Animations/bw_hcannon_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_hcannon/Skins/Base/bw_hcannon.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_hcannon/Skins/Base/bw_hcannon.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_hcannon/Skins/Base/Animations/bw_hcannon_idle1.anm"
                     }
                 }
-                blendMode: u8 = 3
+                blendMode: u8 = 1
                 pass: i16 = -100
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
@@ -13604,7 +13599,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -65, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13612,7 +13607,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/bw_hcannon/Skins/Base/bw_hcannon_tx_cm.dds"
+                texture: string = "ASSETS/Characters/bw_hcannon/Skins/Base/bw_hcannon_tx_cm.dds"
             }
         }
         visibilityRadius: f32 = 100000
@@ -13640,9 +13635,9 @@ entries: map[hash,embed] = {
                 material: link = "Characters/BW_shortrope/Skins/Base/Materials/DirtyMetal_BW_shortrope"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope.skl"
-                        mAnimationName: string = "DATA/Characters/bw_shortrope/Skins/Base/Animations/bw_shortrope_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/Animations/bw_shortrope_idle1.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -13653,7 +13648,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13661,7 +13656,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope_TX_CM.dds"
+                texture: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 100000
@@ -13674,7 +13669,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/bw_shortrope/Skins/Base/bw_shortrope_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13732,9 +13727,9 @@ entries: map[hash,embed] = {
                 material: link = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_bw_signa"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa.skl"
-                        mAnimationName: string = "DATA/Characters/bw_signa/Skins/Base/Animations/bw_signa_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_signa/Skins/Base/Animations/bw_signa_idle1.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -13745,7 +13740,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13753,7 +13748,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
+                texture: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
             }
         }
         visibilityRadius: f32 = 100000
@@ -13766,7 +13761,7 @@ entries: map[hash,embed] = {
         samplerValues: list[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "DATA/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
+                textureName: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
             }
         }
         switches: list[embed] = {
@@ -13816,27 +13811,24 @@ entries: map[hash,embed] = {
                     9
                 }
                 isSingleParticle: flag = true
-                emitterLinger: option[f32] = {}
                 emitterName: string = "Basic"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid.skl"
-                        mAnimationName: string = "DATA/Characters/bw_squid/Skins/Base/Animations/bw_squid_idle_01.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_squid/Skins/Base/bw_squid.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_squid/Skins/Base/bw_squid.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_squid/Skins/Base/Animations/bw_squid_idle_01.anm"
                     }
                 }
-                blendMode: u8 = 3
+                blendMode: u8 = 1
                 pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
@@ -13844,12 +13836,13 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
                 }
-				texture: string = "DATA/Characters/bw_squid/Skins/Base/bw_squid_tx_cm.dds"
+                texture: string = "ASSETS/Characters/bw_squid/Skins/Base/bw_squid_tx_cm.dds"
             }
         }
         visibilityRadius: f32 = 50000
         particlePath: string = "Particles/bw_squid_01"
         particleName: string = "bw_squid_01"
+        flags: u8 = 197
     }
     "Particles/bw_tooth_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13868,9 +13861,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
-                        mAnimationName: string = "DATA/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -13881,7 +13874,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13889,7 +13882,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth_tx_cm.dds"
+                texture: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth_tx_cm.dds"
             }
         }
         visibilityRadius: f32 = 50000
@@ -13913,9 +13906,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
-                        mAnimationName: string = "DATA/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
+                        mAnimationName: string = "ASSETS/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -13926,7 +13919,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 0 }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.8 }
+                    constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
@@ -13934,7 +13927,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/bw_tooth/Skins/Base/bw_tooth_tx_cm.dds"
+                texture: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth_tx_cm.dds"
             }
         }
         visibilityRadius: f32 = 50000
@@ -13958,9 +13951,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "DATA/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skn"
-                        mMeshSkeletonName: string = "DATA/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skl"
-                        mAnimationName: string = "DATA/Characters/BW_AncLantern/Skins/Base/Animations/BW_AncLantern_idle1.anm"
+                        mMeshName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skl"
+                        mAnimationName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/Animations/BW_AncLantern_idle1.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -13973,7 +13966,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                 }
-                texture: string = "DATA/Characters/BW_AncLantern/Skins/Base/BW_AncLantern_TX_CM.dds"
+                texture: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/BW_AncLantern_TX_CM.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21762,7 +21755,7 @@ entries: map[hash,embed] = {
                 }
                 name: string = "BW_LanternGlow_02_23"
             }
-			"Seagulls_Test_0" = MapParticle {
+            "Seagulls_Test_0" = MapParticle {
                 system: link = "Particles/BW_Seagull"
                 eyeCandy: bool = true
                 transform: mtx44 = {
@@ -25098,7 +25091,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 487.368591, -454.723602, 1848.46021 }
                 boxMax: vec3 = { 523.039429, 0, 1884.13147 }
-                0xad304db5: string = "Characters/HA_AP_Viking/Skins/Skin0"
+                0xad304db5: string = "Characters/BW_AP_Bubbs/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.74314481, 0, -0.669130623, 0
@@ -25112,7 +25105,7 @@ entries: map[hash,embed] = {
                 type: u8 = 10
                 boxMin: vec3 = { 11103.5723, -227.564896, 11980.9316 }
                 boxMax: vec3 = { 11156.1406, 0, 12033.502 }
-                0xad304db5: string = "Characters/HA_AP_Hermit/Skins/Skin0"
+                0xad304db5: string = "Characters/BW_AP_Finn/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.898794055, 0, -0.438371152, 0
@@ -26038,7 +26031,7 @@ entries: map[hash,embed] = {
                 boxMin: vec3 = { 487.395203, -454.723602, 1848.48669 }
                 boxMax: vec3 = { 523.012573, 0, 1884.10486 }
                 mapObjectSkinID: u32 = 1
-                0xad304db5: string = "Characters/HA_AP_ShpSouth/Skins/Skin0"
+                0xad304db5: string = "Characters/HA_AP_ShpSouth/Skins/Skin1"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.74314481, 0, -0.669130623, 0
