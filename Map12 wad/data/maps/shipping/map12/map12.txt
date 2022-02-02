@@ -40,7 +40,7 @@ entries: map[hash,embed] = {
         name: string = "BW_boat"
     }
     "Characters/BW_AP_Bubbs" = Character {
-        name: string = "BW_AP_Bubbs"
+        name: string = "HA_AP_Viking"
     }
     "Characters/PetAkaliDragon" = Companion {
         name: string = "PetAkaliDragon"
@@ -196,7 +196,7 @@ entries: map[hash,embed] = {
         name: string = "HA_AP_ChaosTurret"
     }
     "Characters/HA_AP_Viking" = Character {
-        name: string = "HA_AP_Viking"
+        name: string = "BW_AP_Bubbs"
     }
     "Characters/PetPenguKnight" = Companion {
         name: string = "PetPenguKnight"
@@ -334,7 +334,7 @@ entries: map[hash,embed] = {
         name: string = "BW_vship"
     }
     "Characters/BW_AP_Finn" = Character {
-        name: string = "BW_AP_Finn"
+        name: string = "HA_AP_Hermit"
     }
     "Characters/bw_brdgdoor" = Character {
         name: string = "bw_brdgdoor"
@@ -343,7 +343,7 @@ entries: map[hash,embed] = {
         name: string = "PetAoShin"
     }
     "Characters/HA_AP_Hermit" = Character {
-        name: string = "HA_AP_Hermit"
+        name: string = "BW_AP_Finn"
     }
     "Characters/HA_FB_HealthRelic" = Character {
         name: string = "HA_FB_HealthRelic"
@@ -29065,6 +29065,39 @@ entries: map[hash,embed] = {
         mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
             mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
         }
+        mObjectSkinFallbacks: map[hash,i32] = {
+            "HA_ChaosMinionMelee" = 0
+            "HA_ChaosMinionRanged" = 0
+            "HA_ChaosMinionSiege" = 0
+            "HA_ChaosMinionSuper" = 0
+            "HA_OrderMinionMelee" = 0
+            "HA_OrderMinionRanged" = 0
+            "HA_OrderMinionSiege" = 0
+            "HA_OrderMinionSuper" = 0
+            0xacd8a78f = 0
+            0xd6100e87 = 0
+            0xd5100cf4 = 0
+            0x3bf43a45 = 0
+            0x055378b7 = 0
+            0xe766b95f = 0
+            0xe666b7cc = 0
+            0x1ef83a7d = 0
+            "HA_AP_Poro" = -1
+            0xf85e3537 = 0
+            0x615f8a6f = 0
+            "OrderNexus" = 0
+            "ChaosNexus" = 0
+            0xf67a99d3 = 0
+            0xf77a9b66 = 0
+            0xf87a9cf9 = 0
+            0xf97a9e8c = 0
+            0xfa7aa01f = 0
+            0xfb7aa1b2 = 0
+            0xfc7aa345 = 0
+            0xfd7aa4d8 = 0
+            0xfe7aa66b = 0
+            0xff7aa7fe = 0
+        }
         mMapObjectsCFG: string = "ObjectCFG_Bilgewater.cfg"
         mResourceResolvers: list[link] = {
             0xadbc3928
@@ -29112,6 +29145,39 @@ entries: map[hash,embed] = {
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Bilgewater"
         mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
             mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
+        }
+        mObjectSkinFallbacks: map[hash,i32] = {
+            "HA_ChaosMinionMelee" = 0
+            "HA_ChaosMinionRanged" = 0
+            "HA_ChaosMinionSiege" = 0
+            "HA_ChaosMinionSuper" = 0
+            "HA_OrderMinionMelee" = 0
+            "HA_OrderMinionRanged" = 0
+            "HA_OrderMinionSiege" = 0
+            "HA_OrderMinionSuper" = 0
+            0xacd8a78f = 0
+            0xd6100e87 = 0
+            0xd5100cf4 = 0
+            0x3bf43a45 = 0
+            0x055378b7 = 0
+            0xe766b95f = 0
+            0xe666b7cc = 0
+            0x1ef83a7d = 0
+            "HA_AP_Poro" = -1
+            0xf85e3537 = 0
+            0x615f8a6f = 0
+            "OrderNexus" = 0
+            "ChaosNexus" = 0
+            0xf67a99d3 = 0
+            0xf77a9b66 = 0
+            0xf87a9cf9 = 0
+            0xf97a9e8c = 0
+            0xfa7aa01f = 0
+            0xfb7aa1b2 = 0
+            0xfc7aa345 = 0
+            0xfd7aa4d8 = 0
+            0xfe7aa66b = 0
+            0xff7aa7fe = 0
         }
         mResourceResolvers: list[link] = {
             0xadbc3928
@@ -29180,6 +29246,29 @@ entries: map[hash,embed] = {
             "HA_OrderMinionRanged" = 0
             "HA_OrderMinionSiege" = 0
             "HA_OrderMinionSuper" = 0
+            0xacd8a78f = 0
+            0xd6100e87 = 0
+            0xd5100cf4 = 0
+            0x3bf43a45 = 0
+            0x055378b7 = 0
+            0xe766b95f = 0
+            0xe666b7cc = 0
+            0x1ef83a7d = 0
+            "HA_AP_Poro" = -1
+            0xf85e3537 = 0
+            0x615f8a6f = 0
+            "OrderNexus" = 0
+            "ChaosNexus" = 0
+            0xf67a99d3 = 0
+            0xf77a9b66 = 0
+            0xf87a9cf9 = 0
+            0xf97a9e8c = 0
+            0xfa7aa01f = 0
+            0xfb7aa1b2 = 0
+            0xfc7aa345 = 0
+            0xfd7aa4d8 = 0
+            0xfe7aa66b = 0
+            0xff7aa7fe = 0
         }
         mResourceResolvers: list[link] = {
             0xadbc3928
@@ -33148,53 +33237,6 @@ entries: map[hash,embed] = {
                 voiceOver: bool = true
             }
             BankUnit {
-                name: string = "NPC_Map14_VO"
-                bankPath: list[string] = {
-                    "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_audio.bnk"
-                    "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_events.bnk"
-                    "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_audio.wpk"
-                }
-                events: list[string] = {
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Ambient"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Browsing"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Close"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Open"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenCorki"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenDiana"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenDraven"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenEzreal"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenFizz"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenGangplank"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenHeimerdinger"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenNami"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenNautilus"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenRumble"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenSivir"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenTahmKench"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenUdyr"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Purchase"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Ambient"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Browsing"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Close"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Open"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenAshe"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenFizz"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGangplank"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGragas"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGraves"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenKarthus"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenMaokai"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenMissFortune"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenNami"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenNautilus"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenReksai"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenTwistedFate"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenTwitch"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Purchase"
-                }
-                voiceOver: bool = true
-            }
-            BankUnit {
                 name: string = "Announcer_Global_Female1_VO"
                 bankPath: list[string] = {
                     "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/Announcer_Global_Female1_VO_audio.bnk"
@@ -33731,42 +33773,42 @@ entries: map[hash,embed] = {
                     "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map14_VO_audio.wpk"
                 }
                 events: list[string] = {
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Ambient"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Browsing"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Close"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Open"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenCorki"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenDiana"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenDraven"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenEzreal"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenFizz"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenGangplank"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenHeimerdinger"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenNami"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenNautilus"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenRumble"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenSivir"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenTahmKench"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_OpenUdyr"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Bubbs_Purchase"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Ambient"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Browsing"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Close"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Open"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenAshe"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenFizz"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGangplank"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGragas"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenGraves"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenKarthus"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenMaokai"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenMissFortune"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenNami"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenNautilus"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenReksai"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenTwistedFate"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_OpenTwitch"
-                    "Play_vo_Shopkeeper_Map12_BW_AP_Finn_Purchase"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_Ambient"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_Browsing"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_Close"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_Open"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenCorki"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenDiana"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenDraven"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenEzreal"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenFizz"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenGangplank"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenHeimerdinger"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenNami"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenNautilus"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenRumble"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenSivir"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenTahmKench"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_OpenUdyr"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Bubbs_Purchase"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_Ambient"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_Browsing"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_Close"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_Open"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenAshe"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenFizz"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenGangplank"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenGragas"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenGraves"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenKarthus"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenMaokai"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenMissFortune"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenNami"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenNautilus"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenReksai"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenTwistedFate"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_OpenTwitch"
+                    "Play_vo_Shopkeeper_Map14_BW_AP_Finn_Purchase"
                 }
                 voiceOver: bool = true
             }
@@ -35917,6 +35959,8 @@ entries: map[hash,embed] = {
     }
     0xdfe2b0ea = MapCharacterList {
         characters: list2[link] = {
+            "Characters/BW_AP_Bubbs"
+            "Characters/BW_AP_Finn"
             "Characters/ChaosInhibitor"
             "Characters/ChaosInhibitor_D"
             "Characters/ChaosNexus"
@@ -35929,7 +35973,6 @@ entries: map[hash,embed] = {
             "Characters/HA_AP_ChaosTurretTutorial"
             "Characters/HA_AP_Cutaway"
             "Characters/HA_AP_HealthRelic"
-            "Characters/HA_AP_Hermit"
             "Characters/HA_AP_Hermit_Robot"
             "Characters/HA_AP_HeroTower"
             "Characters/HA_AP_OrderTurretTutorial"
@@ -35938,7 +35981,6 @@ entries: map[hash,embed] = {
             "Characters/HA_AP_PoroSpawner"
             "Characters/HA_AP_ShpNorth"
             "Characters/HA_AP_ShpSouth"
-            "Characters/HA_AP_Viking"
             "Characters/OrderInhibitor"
             "Characters/OrderInhibitor_D"
             "Characters/OrderNexus"
@@ -35948,8 +35990,6 @@ entries: map[hash,embed] = {
     0xe2fcf6f2 = MapCharacterList {
         characters: list2[link] = {
             "Characters/BW_anclantern"
-            "Characters/BW_AP_Bubbs"
-            "Characters/BW_AP_Finn"
             "Characters/BW_boat"
             "Characters/Bw_Bottle"
             "Characters/bw_brdgdoor"
@@ -35972,10 +36012,12 @@ entries: map[hash,embed] = {
             "Characters/DestroyedTower"
             "Characters/DestroyedNexus"
             "Characters/HA_AP_HealthRelic"
+            "Characters/HA_AP_Hermit"
             "Characters/HA_AP_Poro"
             "Characters/HA_AP_PoroSpawner"
             "Characters/HA_AP_ShpNorth"
             "Characters/HA_AP_ShpSouth"
+            "Characters/HA_AP_Viking"
             "Characters/HABW_banner"
             "Characters/OrderNexus"
             "Characters/OrderInhibitor"
