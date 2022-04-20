@@ -460,6 +460,17 @@ entries: map[hash,embed] = {
             0x3fe66177
             0x2c7e1b6f
         }
+        mapSkins: list2[link] = {
+            0x16ad1dc1
+            0xd087b5a8
+            0x7447a7bb
+            0xc860963a
+            0x81732275
+            0xa0000071
+            0x7fe34d46
+            0x3e389e7e
+            0xddfcf6f1
+        }
     }
     0x012578c1 = FeatureAudioDataProperties {
         bankUnits: list2[embed] = {
@@ -4577,7 +4588,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
         }
         particleName: string = "HAUpdate_Spell_Block_Spell_cas"
@@ -4680,7 +4691,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.Season2022_SRT_Preseason.dds"
+                textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.ARAM_VFX_Update.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.5 }
                 }
@@ -4810,7 +4821,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5079,7 +5090,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 200, 150, 50 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.29999995
@@ -6511,7 +6522,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 250, 300, 50 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6726,7 +6737,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -8342,7 +8353,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27138,7 +27149,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27281,7 +27292,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 80, 140, 50 }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27859,7 +27870,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                texture: string = "ASSETS/Shared/Particles/bigglow02.Season2022_SRT_Preseason.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
                 textureMult: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0 }
@@ -29038,6 +29049,7 @@ entries: map[hash,embed] = {
         flags: u8 = 197
     }
     0x16ad1dc1 = MapSkin {
+        name: string = "10Year"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mMapObjectsCFG: string = "ObjectCFG_10Year.cfg"
         mResourceResolvers: list[link] = {
@@ -29045,6 +29057,7 @@ entries: map[hash,embed] = {
         }
     }
     0x3e389e7e = MapSkin {
+        name: string = "StarGuardian"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mObjectSkinFallbacks: map[hash,i32] = {
             "HA_ChaosMinionMelee" = 0
@@ -29061,6 +29074,7 @@ entries: map[hash,embed] = {
         }
     }
     0x7447a7bb = MapSkin {
+        name: string = "Bilgewater"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Bilgewater"
         mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
             mDefaultTextureName: string = "2DLevelMiniMap_Bilgewater.dds"
@@ -29071,6 +29085,7 @@ entries: map[hash,embed] = {
         }
     }
     0x7fe34d46 = MapSkin {
+        name: string = "Snowdown"
         mObjectSkinFallbacks: map[hash,i32] = {
             "HA_ChaosMinionMelee" = 0
             "HA_ChaosMinionRanged" = 0
@@ -29083,6 +29098,7 @@ entries: map[hash,embed] = {
         }
     }
     0x81732275 = MapSkin {
+        name: string = "Odyssey"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mObjectSkinFallbacks: map[hash,i32] = {
             "HA_ChaosMinionMelee" = 0
@@ -29096,6 +29112,7 @@ entries: map[hash,embed] = {
         }
     }
     0xa0000071 = MapSkin {
+        name: string = "PoolParty"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mObjectSkinFallbacks: map[hash,i32] = {
             "HA_ChaosMinionMelee" = 0
@@ -29109,6 +29126,7 @@ entries: map[hash,embed] = {
         }
     }
     0xc860963a = MapSkin {
+        name: string = "Default"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mResourceResolvers: list[link] = {
             0xadbc3928
@@ -29148,6 +29166,7 @@ entries: map[hash,embed] = {
         }
     }
     0xd087b5a8 = MapSkin {
+        name: string = "AprilFools2019"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mObjectSkinFallbacks: map[hash,i32] = {
             "HA_ChaosMinionMelee" = 0
@@ -29164,6 +29183,7 @@ entries: map[hash,embed] = {
         }
     }
     0xddfcf6f1 = MapSkin {
+        name: string = "Trueshot"
         mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
         mMapObjectsCFG: string = "ObjectCFG_Trueshot.cfg"
         mObjectSkinFallbacks: map[hash,i32] = {
@@ -37094,7 +37114,7 @@ entries: map[hash,embed] = {
             MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
             TextKey: string = "game_announcement_OnStartMessage2Map@MapNumber@"
-            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnStartGameMessage2"
             CommonElements: hash = 0x153e858c
         }
     }

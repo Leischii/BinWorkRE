@@ -2744,7 +2744,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Shared/Particles/SRU_Brazier_Flame_Temp_01.TFT_Set5_Carousel.DDS"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.SRI_Slots.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.25 }
                 }
@@ -3073,7 +3073,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -10970,7 +10970,7 @@ entries: map[hash,embed] = {
                 }
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.SRI_Slots.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.25 }
                 }
@@ -11300,7 +11300,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -15681,7 +15681,7 @@ entries: map[hash,embed] = {
         mapPath: string = "Maps/MapGeometry/Map12/Bilgewater"
         components: list[pointer] = {
             MapBakeProperties {
-                lightGridFileName: string = "ASSETS/Maps/Lightmaps/Maps/MapGeometry/Map12/Bilgewater/LightGrid.HA_Lighting_v2.dat"
+                lightGridFileName: string = "ASSETS/Maps/Lightmaps/Maps/MapGeometry/Map12/Bilgewater/LightGrid.dat"
             }
             MapSunProperties {
                 sunColor: vec4 = { 0.525490224, 0.372549027, 0.227450982, 1 }
