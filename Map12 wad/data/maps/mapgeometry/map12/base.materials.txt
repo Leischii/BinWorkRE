@@ -3233,7 +3233,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellramp.TFT_SET4.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellramp.dds"
                 pass: i16 = 100
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 8, 0 }
@@ -5079,10 +5079,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_flipbook_01.SRI_Slots.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_flipbook_01.dds"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.SRI_Slots.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.25 }
                 }
@@ -5184,7 +5184,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_glow.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_glow.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5407,7 +5407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.SummonersRiftTeam_Season2022_AprilFools.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -5615,12 +5615,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust.VFX_Update_SS_Ignite.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust_mult.VFX_Update_SS_Ignite.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -5819,7 +5819,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_flipbookGlow_01.dds"
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust_mult.VFX_Update_SS_Ignite.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.25 }
                 }
@@ -6409,7 +6409,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_flipbook_01.SRI_Slots.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_flipbook_01.dds"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -6617,7 +6617,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_glow.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_glow.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6848,7 +6848,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.SummonersRiftTeam_Season2022_AprilFools.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7307,2018 +7307,179 @@ entries: map[hash,embed] = {
     }
     "Maps/MapGeometry/Map12/Chunks/Default" = MapPlaceableContainer {
         items: map[hash,pointer] = {
-            0x2c2150c2 = MapPointLight {
-                type: link = 0xdd38b4a4
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8688, 288, 9857, 1
-                }
-                name: string = "light_6_1"
-            }
-            0x9d064427 = MapPointLight {
-                type: link = 0xde38b637
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 0.200000003
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11448.1855, -574, 12688.8135, 1
-                }
-                name: string = "light_7_1"
-            }
-            0xdd277332 = MapPointLight {
-                type: link = 0xd338a4e6
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8967, 379, 8764, 1
-                }
-                name: string = "light_8_1"
-            }
-            0x169b9329 = MapPointLight {
-                type: link = 0xd438a679
-                intensityScale: f32 = 1.06666696
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    767, 475, 797, 1
-                }
-                name: string = "light_9_1"
-            }
-            0x96bcb1b6 = MapPointLight {
-                type: link = 0xce41fcf3
-                intensityScale: f32 = 2.4000001
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    550, 318, 508, 1
-                }
-                name: string = "light_10_1"
-            }
-            0xdfd1c3e6 = MapPointLight {
-                type: link = 0xcd41fb60
-                intensityScale: f32 = 3.64444399
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3954, 362, 2836, 1
-                }
-                name: string = "light_11_1"
-            }
-            0x3124bc1d = MapPointLight {
-                type: link = 0xd0420019
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11008, 282, 10870, 1
-                }
-                name: string = "light_12_1"
-            }
-            0x3f33eed9 = MapPointLight {
-                type: link = 0xcf41fe86
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9682, 208, 9550, 1
-                }
-                name: string = "light_13_1"
-            }
-            0xbae6acaa = MapPointLight {
-                type: link = 0xd242033f
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1876, 471, 1980, 1
-                }
-                name: string = "light_14_1"
-            }
-            0x877d246c = MapPointLight {
-                type: link = 0xd14201ac
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3115, 320, 3129, 1
-                }
-                name: string = "light_15_1"
-            }
-            0x39dd8c2e = MapPointLight {
-                type: link = 0xd4420665
-                radiusScale: f32 = 1.14540577
-                intensityScale: f32 = 3.91111112
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2107.40796, 18, 4251.5542, 1
-                }
-                name: string = "light_16_1"
-            }
-            0x22843958 = MapPointLight {
-                type: link = 0xd34204d2
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2823, 287, 4163, 1
-                }
-                name: string = "light_17_1"
-            }
-            0x73eb1a4d = MapPointLight {
-                type: link = 0xd642098b
-                intensityScale: f32 = 0.955555975
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7499, -406, 5111, 1
-                }
-                name: string = "light_18_1"
-            }
-            0x1719c3a4 = MapPointLight {
-                type: link = 0xd34204d2
-                intensityScale: f32 = 3.79999995
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9986, 337, 8523, 1
-                }
-                name: string = "light_19_1"
-            }
-            0x3e23681c = MapPointLight {
-                type: link = 0x5c3a8db8
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2054, 369, 2599, 1
-                }
-                name: string = "light_20_1"
-            }
-            0x4913bfca = MapPointLight {
-                type: link = 0x5d3a8f4b
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2577, 185, 2095, 1
-                }
-                name: string = "light_21_1"
-            }
-            0x70b56e75 = MapPointLight {
-                type: link = 0x5e3a90de
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10253, 393, 10517, 1
-                }
-                name: string = "light_22_1"
-            }
-            0x705539c8 = MapPointLight {
-                type: link = 0x5f3a9271
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10743, 381, 10037, 1
-                }
-                name: string = "light_23_1"
-            }
-            0x472f2ca9 = MapPointLight {
-                type: link = 0x603a9404
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    366, 1916, 616, 1
-                }
-                name: string = "light_24_1"
-            }
-            0x3f5b4100 = MapPointLight {
-                type: link = 0x613a9597
-                intensityScale: f32 = 0.866666973
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1481, 280, 1919, 1
-                }
-                name: string = "light_25_1"
-            }
-            0x06807578 = MapPointLight {
-                type: link = 0x623a972a
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12023, 82, 11746, 1
-                }
-                name: string = "light_26_1"
-            }
-            0x1bfa38eb = MapPointLight {
-                type: link = 0x633a98bd
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4974, 281, 4915, 1
-                }
-                name: string = "light_27_1"
-            }
-            0x7f49fc0e = MapPointLight {
-                type: link = 0x5d3a8f4b
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3799, 415, 3800, 1
-                }
-                name: string = "light_28_1"
-            }
-            0xe392a404 = MapPointLight {
-                type: link = 0x553a82b3
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7775, 486, 7694, 1
-                }
-                name: string = "light_29_1"
-            }
-            0x57bfa859 = MapPointLight {
-                type: link = 0x623cd5c1
-                intensityScale: f32 = 2.51111102
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2116, 100, 47, 1
-                }
-                name: string = "light_30_1"
-            }
-            0xe8e5a638 = MapPointLight {
-                type: link = 0x613cd42e
-                intensityScale: f32 = 1.22222197
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1302, 155, 3498, 1
-                }
-                name: string = "light_31_1"
-            }
-            0x8fc4ce9e = MapPointLight {
-                type: link = 0x603cd29b
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 1.17777801
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4793.83984, -71.9997559, 3929.03369, 1
-                }
-                name: string = "light_32_1"
-            }
-            0x0a2a1b1b = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 1.39267755
-                intensityScale: f32 = 1.911111
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    539.940918, -7583.2666, 20599.8262, 1
-                }
-                name: string = "light_33_1"
-            }
-            0xc6ad8b39 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 4.00028515
-                intensityScale: f32 = 2.71111107
-                overrideCastStaticShadows: option[bool] = {
-                    true
-                }
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -13502.2558, 2353.51709, 16685.582, 1
-                }
-                name: string = "light_33_2"
-            }
-            0x4cc98ac8 = MapPointLight {
-                type: link = 0x603cd29b
-                intensityScale: f32 = 0.977778018
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8890, -113, 7885, 1
-                }
-                name: string = "light_34_1"
-            }
-            0x86ac2bdd = MapPointLight {
-                type: link = 0x603cd29b
-                radiusScale: f32 = 0.999999881
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7579.58154, -100.999939, 6791.93359, 1
-                }
-                name: string = "light_34_2"
-            }
-            0xa4e6cb42 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.999999881
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5389.58594, -5036.38086, 19367.6152, 1
-                }
-                name: string = "light_33_3"
-            }
-            0x6f458228 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.999999881
-                intensityScale: f32 = 2.35555601
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -885.400757, 2003.82983, 6051.31006, 1
-                }
-                name: string = "light_33_4"
-            }
-            0xa1cf7e30 = MapPointLight {
-                type: link = 0x603cd29b
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 1.20000005
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5937.52783, -80.999939, 5183.27392, 1
-                }
-                name: string = "light_35_1"
-            }
-            0x3c658dfc = MapPointLight {
-                type: link = 0x643cd8e7
-                intensityScale: f32 = 3.64444399
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11052, 182, 11753, 1
-                }
-                name: string = "light_36_1"
-            }
-            0x387b8c36 = MapPointLight {
-                type: link = 0x633cd754
-                intensityScale: f32 = 0.955555975
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11979, 139, 12024, 1
-                }
-                name: string = "light_37_1"
-            }
-            0xbe7bbc2d = MapPointLight {
-                type: link = 0x5a3cc929
-                intensityScale: f32 = 3.06666708
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12196, 296, 11930, 1
-                }
-                name: string = "light_38_1"
-            }
-            0xe57577fb = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.17786562
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    724, 47, 3056, 1
-                }
-                name: string = "light_31_2"
-            }
-            0x5d0f229b = MapPointLight {
-                type: link = 0xd4420665
-                radiusScale: f32 = 0.836956501
-                intensityScale: f32 = 3.91111112
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1815, 36, 4029, 1
-                }
-                name: string = "light_16_2"
-            }
-            0x2632fd2e = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.26482213
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1123, 48, 3462, 1
-                }
-                name: string = "light_31_3"
-            }
-            0xd772808f = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.70355725
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2265, 126, 163, 1
-                }
-                name: string = "light_31_4"
-            }
-            0x3ae4791d = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    75, 47, 2508, 1
-                }
-                name: string = "light_31_5"
-            }
-            0xb307760e = MapPointLight {
-                type: link = 0x593cc796
-                radiusScale: f32 = 0.623409271
-                intensityScale: f32 = 1.31111097
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -63.7095566, 148.173599, 2118.59351, 1
-                }
-                name: string = "light_39_1"
-            }
-            0x342a2d3a = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.17786562
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    508, 39, 2836, 1
-                }
-                name: string = "light_31_6"
-            }
-            0xcd82056f = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.43873513
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2945, 152, 729, 1
-                }
-                name: string = "light_31_7"
-            }
-            0x92ec312f = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.70355725
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2744, 194, 550, 1
-                }
-                name: string = "light_31_8"
-            }
-            0x36a7b95f = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.70355725
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3568, 101, 1415, 1
-                }
-                name: string = "light_31_9"
-            }
-            0xc9f8b50a = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.70355725
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3368, 226, 1172, 1
-                }
-                name: string = "light_31_10"
-            }
-            0x906b00f0 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.70355725
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3970, 106, 1838, 1
-                }
-                name: string = "light_31_11"
-            }
-            0x52a5df82 = MapPointLight {
-                type: link = 0xd4420665
-                intensityScale: f32 = 3.28888893
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1390, 123, 3618, 1
-                }
-                name: string = "light_31_12"
-            }
-            0xd038fe59 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 3.9418447
-                intensityScale: f32 = 1.64444399
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7098.43262, -419.258789, 22028.0859, 1
-                }
-                name: string = "light_33_5"
-            }
-            0xa726a147 = MapPointLight {
-                type: link = 0x5f3cd108
-                intensityScale: f32 = 1.51111102
-                overrideCastStaticShadows: option[bool] = {
-                    true
-                }
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -2652, -7861, 16872, 1
-                }
-                name: string = "light_33_6"
-            }
-            0x1f6a36d6 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 32.3592148
-                intensityScale: f32 = 1.20000005
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -3694.30127, -3454.58105, 30231.1328, 1
-                }
-                name: string = "light_33_7"
-            }
-            0xf0b2949b = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.999999881
-                intensityScale: f32 = 2.33333302
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -5697.07226, -6058.22021, 14530.5947, 1
-                }
-                name: string = "light_33_8"
-            }
-            0x86c32945 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.999999881
-                intensityScale: f32 = 1.42222202
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -1289.03906, 340.142944, 8225.63574, 1
-                }
-                name: string = "light_33_9"
-            }
-            0xb3fbdef8 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.70355725
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4198, 166, 2014, 1
-                }
-                name: string = "light_31_13"
-            }
-            0xbb672cd7 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04999995
-                intensityScale: f32 = 3.64444399
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4937, 288, 3618, 1
-                }
-                name: string = "light_6_2"
-            }
-            0x214ed74c = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5059, 275, 6364, 1
-                }
-                name: string = "light_17_2"
-            }
-            0xbcc27bb2 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6500, 359, 7704, 1
-                }
-                name: string = "light_17_3"
-            }
-            0x161b491f = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7923, 422, 9117, 1
-                }
-                name: string = "light_17_4"
-            }
-            0x1d0f2689 = MapPointLight {
-                type: link = 0xd34204d2
-                intensityScale: f32 = 3.64444399
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6359, 332, 4991, 1
-                }
-                name: string = "light_40_1"
-            }
-            0x44b432bb = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04999995
-                intensityScale: f32 = 3.64444399
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7786, 503, 6326, 1
-                }
-                name: string = "light_6_3"
-            }
-            0xd3b3af29 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9203, 284, 7756, 1
-                }
-                name: string = "light_17_5"
-            }
-            0xb2f0f874 = MapPointLight {
-                type: link = 0x613cd42e
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8585, 25, 10742, 1
-                }
-                name: string = "light_31_14"
-            }
-            0x0aaa4c01 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8836, 82, 11019, 1
-                }
-                name: string = "light_31_15"
-            }
-            0xee09028b = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.09090912
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9241, 66, 11276, 1
-                }
-                name: string = "light_31_16"
-            }
-            0xff072485 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.09090912
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9446, 37, 11539, 1
-                }
-                name: string = "light_31_17"
-            }
-            0x9adc13d1 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.43873513
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10111, 77, 12100, 1
-                }
-                name: string = "light_31_18"
-            }
-            0x68c6e964 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.09090912
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9871, 71, 11876, 1
-                }
-                name: string = "light_31_19"
-            }
-            0xa668db14 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11016, 18, 8593, 1
-                }
-                name: string = "light_31_20"
-            }
-            0x9634e2e0 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.52569175
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10857, 120, 8463, 1
-                }
-                name: string = "light_31_21"
-            }
-            0x15e5b329 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11487, 52, 9121, 1
-                }
-                name: string = "light_31_22"
-            }
-            0x587801b0 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11622, -30, 9210, 1
-                }
-                name: string = "light_31_23"
-            }
-            0x9db9c5d1 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12091, 47, 9693, 1
-                }
-                name: string = "light_31_24"
-            }
-            0xf1fe7ede = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.17786562
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12770, -7, 10288, 1
-                }
-                name: string = "light_31_25"
-            }
-            0xe77ee16a = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.35177863
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12309, 101, 9778, 1
-                }
-                name: string = "light_31_26"
-            }
-            0xfe0b67c3 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.17786562
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12846, 98, 10383, 1
-                }
-                name: string = "light_31_27"
-            }
-            0xcaf823e2 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.26275
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1651, 348, 831, 1
-                }
-                name: string = "light_33_10"
-            }
-            0xe5270c9d = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.462249994
-                intensityScale: f32 = 1.26666701
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1348, 443, 2420, 1
-                }
-                name: string = "light_33_11"
-            }
-            0x4cd3bd29 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.462249994
-                intensityScale: f32 = 1.66666698
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2450, 448, 1297, 1
-                }
-                name: string = "light_33_12"
-            }
-            0xac57936c = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499875
-                intensityScale: f32 = 1.79999995
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2192.60083, 363.601196, 3497.53418, 1
-                }
-                name: string = "light_33_13"
-            }
-            0x841298fc = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 1.5
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3305, 405, 2330, 1
-                }
-                name: string = "light_33_14"
-            }
-            0x8cb0b942 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4432, 406, 4392, 1
-                }
-                name: string = "light_33_15"
-            }
-            0x15eca93a = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5382, 509, 5353, 1
-                }
-                name: string = "light_33_16"
-            }
-            0x99b80354 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7534, 354, 7416, 1
-                }
-                name: string = "light_33_17"
-            }
-            0x38683454 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499934
-                intensityScale: f32 = 3
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6475, 364.999939, 6345, 1
-                }
-                name: string = "light_33_18"
-            }
-            0xd2dcd8b0 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.26666689
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8545, 481, 8368, 1
-                }
-                name: string = "light_33_19"
-            }
-            0x937ae00b = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9428, 458, 9251, 1
-                }
-                name: string = "light_33_20"
-            }
-            0xa6489a4c = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.37924999
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9379, 283, 10286, 1
-                }
-                name: string = "light_33_21"
-            }
-            0xe803b52f = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10457, 284, 9191, 1
-                }
-                name: string = "light_33_22"
-            }
-            0x3c2e2c36 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11341, 254, 9723, 1
-                }
-                name: string = "light_33_23"
-            }
-            0x23dd258f = MapPointLight {
-                type: link = 0x6149a021
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11608, 261, 11290, 1
-                }
-                name: string = "light_41_1"
-            }
-            0x60153fd4 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10043, 186, 11073, 1
-                }
-                name: string = "light_33_24"
-            }
-            0x83e000a3 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.312750012
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11928, 353, 10369, 1
-                }
-                name: string = "light_33_25"
-            }
-            0x20b0f027 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3663, 1555, 2296, 1
-                }
-                name: string = "light_33_26"
-            }
-            0x7fd12465 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499875
-                intensityScale: f32 = 1.20000005
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3518, 379.779297, 3569, 1
-                }
-                name: string = "light_33_27"
-            }
-            0x656526ae = MapPointLight {
-                type: link = 0x5e499b68
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 2.11111093
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5230.64453, -648, 2379.97754, 1
-                }
-                name: string = "light_42_1"
-            }
-            0x6c86aa8f = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.301750004
-                intensityScale: f32 = 2.4222219
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5237, 334, 1425, 1
-                }
-                name: string = "light_33_28"
-            }
-            0xfbee8406 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.440250009
-                intensityScale: f32 = 2.11111093
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10580, -2520, 7762, 1
-                }
-                name: string = "light_33_29"
-            }
-            0xdb17ccf5 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 1.97777796
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5515, -251, 3447, 1
-                }
-                name: string = "light_33_30"
-            }
-            0x8623c928 = MapPointLight {
-                type: link = 0x5f499cfb
-                intensityScale: f32 = 2.11111093
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4808, 256, 2264, 1
-                }
-                name: string = "light_43_1"
-            }
-            0x9aa2a931 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.517749965
-                intensityScale: f32 = 2.86666703
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6075.09228, -2013.00098, 3348.51953, 1
-                }
-                name: string = "light_33_31"
-            }
-            0x525d8db9 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.540000021
-                intensityScale: f32 = 2.4222219
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6585, 320, 1421, 1
-                }
-                name: string = "light_33_32"
-            }
-            0x703d0523 = MapPointLight {
-                type: link = 0x6449a4da
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4742.86719, -1330.99976, 4408.89355, 1
-                }
-                name: string = "light_44_1"
-            }
-            0x631272ff = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.639750004
-                intensityScale: f32 = 0.155555993
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9567, -3731, 6409, 1
-                }
-                name: string = "light_33_33"
-            }
-            0xbb192b16 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.26275
-                intensityScale: f32 = 2.28888893
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10909, -4423, 6366, 1
-                }
-                name: string = "light_33_34"
-            }
-            0xb5356e03 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 2.4906733
-                intensityScale: f32 = 3.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10230.2432, -9030.63867, 3679.39551, 1
-                }
-                name: string = "light_33_35"
-            }
-            0xd91f7102 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.213
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6939, -899, 4517, 1
-                }
-                name: string = "light_33_36"
-            }
-            0x90520fe1 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 2.51111102
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    14511, -2514, 5766, 1
-                }
-                name: string = "light_33_37"
-            }
-            0x5e8dd66f = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.561999977
-                intensityScale: f32 = 1.95555604
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    16218, -2406.08887, 5109, 1
-                }
-                name: string = "light_33_38"
-            }
-            0xe973c454 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 1.13333297
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12952, -2417, 6784, 1
-                }
-                name: string = "light_33_39"
-            }
-            0x38e46a08 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.484499991
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12450, -1343, 5564, 1
-                }
-                name: string = "light_33_40"
-            }
-            0xe364fb5b = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.99425
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12884, -1142, 3418, 1
-                }
-                name: string = "light_33_41"
-            }
-            0x95f4502e = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.789250016
-                intensityScale: f32 = 2.91111112
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    18466, -2830, 5906, 1
-                }
-                name: string = "light_33_42"
-            }
-            0x13a3a2f7 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.412499994
-                intensityScale: f32 = 1.46666706
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8998, -2659, 8732, 1
-                }
-                name: string = "light_33_43"
-            }
-            0xf77cb362 = MapPointLight {
-                type: link = 0x6549a66d
-                intensityScale: f32 = 2.08888888
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7749, -2044, 10217, 1
-                }
-                name: string = "light_45_1"
-            }
-            0x5b29f9dd = MapPointLight {
-                type: link = 0x6249a1b4
-                intensityScale: f32 = 1.911111
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6117, -857, 11830, 1
-                }
-                name: string = "light_46_1"
-            }
-            0x9664c8a8 = MapPointLight {
-                type: link = 0x6249a1b4
-                radiusScale: f32 = 1.07104707
-                intensityScale: f32 = 1.62222195
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5948, -2201, 11236, 1
-                }
-                name: string = "light_46_2"
-            }
-            0x762fcd08 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.501249969
-                intensityScale: f32 = 2.04444504
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3659.78857, -2334.99854, 13651.2217, 1
-                }
-                name: string = "light_33_44"
-            }
-            0x5b106bf9 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.26275
-                intensityScale: f32 = 0.644443989
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5721.00342, -1151.00049, 12800.1816, 1
-                }
-                name: string = "light_33_45"
-            }
-            0xe72afc71 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.307249993
-                intensityScale: f32 = 1.37777805
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5376.20801, -1368.99951, 13621.7217, 1
-                }
-                name: string = "light_33_46"
-            }
-            0x53345841 = MapPointLight {
-                type: link = 0x6349a347
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 2.28888893
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7268, -495, 12549.335, 1
-                }
-                name: string = "light_47_1"
-            }
-            0x2d08ab07 = MapPointLight {
-                type: link = 0x584991f6
-                radiusScale: f32 = 0.999999881
-                intensityScale: f32 = 2.46666694
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6201.78662, -201.072479, 12714.1328, 1
-                }
-                name: string = "light_48_1"
-            }
-            0x0507cb1b = MapPointLight {
-                type: link = 0x59499389
-                intensityScale: f32 = 0.488889009
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10651, -1183, 8147, 1
-                }
-                name: string = "light_49_1"
-            }
-            0xf702c564 = MapPointLight {
-                type: link = 0x664be697
-                intensityScale: f32 = 1.62222195
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12631, 461, 7537, 1
-                }
-                name: string = "light_50_1"
-            }
-            0x67b1fd60 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.755999982
-                intensityScale: f32 = 2.24444389
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5565, -3618, 11110, 1
-                }
-                name: string = "light_33_47"
-            }
-            0x8ed46e8d = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.501250029
-                intensityScale: f32 = 0.577777982
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6644, -3806, 9678, 1
-                }
-                name: string = "light_33_48"
-            }
-            0xcfad310d = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.501250029
-                intensityScale: f32 = 0.400000006
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7672, -3393, 9261, 1
-                }
-                name: string = "light_33_49"
-            }
-            0x3e475919 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.501249969
-                intensityScale: f32 = 1.13333297
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5256.05273, -2244.99976, 12316.3818, 1
-                }
-                name: string = "light_33_50"
-            }
-            0x99a85bfd = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.26275
-                intensityScale: f32 = 1.02222204
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6944, -591, 11990, 1
-                }
-                name: string = "light_33_51"
-            }
-            0xc52c2f36 = MapPointLight {
-                type: link = 0x654be504
-                intensityScale: f32 = 1.20000005
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11266, -1103, 7714, 1
-                }
-                name: string = "light_51_1"
-            }
-            0x78db72d4 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.440250009
-                intensityScale: f32 = 0.466666996
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10181, -1471, 8545, 1
-                }
-                name: string = "light_33_52"
-            }
-            0x35b32d1f = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.401499987
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9190.83008, -1367.99976, 7215.20215, 1
-                }
-                name: string = "light_33_53"
-            }
-            0xe1aab610 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.397279948
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9751.54297, -2141.90918, 6751.28271, 1
-                }
-                name: string = "light_33_54"
-            }
-            0x6b98c09d = MapPointLight {
-                type: link = 0x684be9bd
-                intensityScale: f32 = 1.31111097
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    728, 67, 1289, 1
-                }
-                name: string = "light_52_1"
-            }
-            0xd6158141 = MapPointLight {
-                type: link = 0x684be9bd
-                intensityScale: f32 = 0.200000003
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    436, 4, 2142, 1
-                }
-                name: string = "light_52_2"
-            }
-            0xae871f95 = MapPointLight {
-                type: link = 0x684be9bd
-                intensityScale: f32 = 0.699999988
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    203, 164, 1438, 1
-                }
-                name: string = "light_52_3"
-            }
-            0x2a3eb81e = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.146499991
-                intensityScale: f32 = 0.5
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    -37.9152222, 93, 1680.4082, 1
-                }
-                name: string = "light_33_55"
-            }
-            0xc97aec8c = MapPointLight {
-                type: link = 0x684be9bd
-                radiusScale: f32 = 0.881205678
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    315, 105, 2433, 1
-                }
-                name: string = "light_52_4"
-            }
-            0x8dbed422 = MapPointLight {
-                type: link = 0x684be9bd
-                radiusScale: f32 = 0.803191483
-                intensityScale: f32 = 0.400000006
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    126, 386, 2206, 1
-                }
-                name: string = "light_52_5"
-            }
-            0xdc5d45bb = MapPointLight {
-                type: link = 0x684be9bd
-                radiusScale: f32 = 0.960992932
-                intensityScale: f32 = 0.400000006
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    659.519592, 206.000122, 2308.42676, 1
-                }
-                name: string = "light_52_6"
-            }
-            0x0cdc6273 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.2685
-                intensityScale: f32 = 0.93333298
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10335, -856, 7912, 1
-                }
-                name: string = "light_33_56"
-            }
-            0xd78cce39 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.351499975
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9002.02832, -2228.33008, 6267.89551, 1
-                }
-                name: string = "light_33_57"
-            }
-            0x2ce77695 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.440250009
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11021, 1574, 7153, 1
-                }
-                name: string = "light_33_58"
-            }
-            0x98b62561 = MapPointLight {
-                type: link = 0x674be82a
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11040, -344, 8135, 1
-                }
-                name: string = "light_53_1"
-            }
-            0xd01065c1 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.118749999
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9865, -2577, 8577, 1
-                }
-                name: string = "light_33_59"
-            }
-            0xdcac0b62 = MapPointLight {
-                type: link = 0x6449a4da
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3232.38672, -2113.99976, 2479.0166, 1
-                }
-                name: string = "light_44_2"
-            }
-            0x7554061e = MapPointLight {
-                type: link = 0x6449a4da
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4389, -2225, 3807, 1
-                }
-                name: string = "light_44_3"
-            }
-            0xad42cc3e = MapPointLight {
-                type: link = 0x624be04b
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 0.400000006
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    176.289215, -59, 1930.66308, 1
-                }
-                name: string = "light_54_1"
-            }
-            0x16808371 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.758550823
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6667.74609, 45.0002441, 7566.29736, 1
-                }
-                name: string = "light_17_6"
-            }
-            0x2f1b1fad = MapPointLight {
-                type: link = 0x614bdeb8
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12905, 300, 10799, 1
-                }
-                name: string = "light_55_1"
-            }
-            0xa488b382 = MapPointLight {
-                type: link = 0x644be371
-                intensityScale: f32 = 0.200000003
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11096, -620, 12387, 1
-                }
-                name: string = "light_56_1"
-            }
-            0x29f2e1db = MapPointLight {
-                type: link = 0x634be1de
-                intensityScale: f32 = 0.200000003
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10943, -572, 12561, 1
-                }
-                name: string = "light_57_1"
-            }
-            0x37aea010 = MapPointLight {
-                type: link = 0x634be1de
-                radiusScale: f32 = 0.930158734
-                intensityScale: f32 = 0.200000003
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11021, -770, 12389, 1
-                }
-                name: string = "light_57_2"
-            }
-            0xd9d0721f = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.915221572
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8111, 145, 8852, 1
-                }
-                name: string = "light_17_7"
-            }
-            0x0ec6bbd7 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3663, 1544, 4823, 1
-                }
-                name: string = "light_17_8"
-            }
-            0x6cdf3e7c = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3623, 259, 4989, 1
-                }
-                name: string = "light_17_9"
-            }
-            0x333ed0bd = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.140999988
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    434.10437, -348.512207, 5016.15186, 1
-                }
-                name: string = "light_33_60"
-            }
-            0xb5f04597 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.163000003
-                intensityScale: f32 = 2.77777791
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7779, -373, 5484, 1
-                }
-                name: string = "light_33_61"
-            }
-            0x20de9e42 = MapPointLight {
-                type: link = 0x5e4bd9ff
-                radiusScale: f32 = 0.99999994
-                intensityScale: f32 = 2.08888888
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8457, -1234.5907, 10832, 1
-                }
-                name: string = "light_58_1"
-            }
-            0xde9c70a9 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.135499999
-                intensityScale: f32 = 1.15555596
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    451, 6, 1350, 1
-                }
-                name: string = "light_33_62"
-            }
-            0xb593161b = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.684000015
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10888, -2727, 5618, 1
-                }
-                name: string = "light_33_63"
-            }
-            0x31c92dce = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.24075
-                intensityScale: f32 = 0.977778018
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10307, -2914, 6424, 1
-                }
-                name: string = "light_33_64"
-            }
-            0x0963fa48 = MapPointLight {
-                type: link = 0x633cd754
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12372, 195, 11759, 1
-                }
-                name: string = "light_37_2"
-            }
-            0x2267f093 = MapPointLight {
-                type: link = 0xd642098b
-                intensityScale: f32 = 1.31111097
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9183, 102, 6485, 1
-                }
-                name: string = "light_18_2"
-            }
-            0xd15d2276 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.440250009
-                intensityScale: f32 = 1.48888898
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9825, -544, 6200, 1
-                }
-                name: string = "light_33_65"
-            }
-            0x7ad616d4 = MapPointLight {
-                type: link = 0x5f3cd108
-                radiusScale: f32 = 0.49000001
-                intensityScale: f32 = 3.5777781
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6662, -2471, 10083, 1
-                }
-                name: string = "light_33_66"
-            }
-            0x058c785b = MapPointLight {
-                type: link = 0x5d4bd86c
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5304, -413, 7453, 1
-                }
-                name: string = "light_59_1"
-            }
-            0x4377b137 = MapPointLight {
-                type: link = 0xd44444fc
-                intensityScale: f32 = 1.26666701
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11007, 498, 12270, 1
-                }
-                name: string = "light_60_1"
-            }
-            0x303b30c2 = MapPointLight {
-                type: link = 0x6249a1b4
-                radiusScale: f32 = 1.10630345
-                intensityScale: f32 = 2.95555496
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6760, -941, 9991, 1
-                }
-                name: string = "light_46_3"
-            }
-            0x0adecf78 = MapPointLight {
-                type: link = 0xd544468f
-                intensityScale: f32 = 0.200000003
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11461, -426, 12450, 1
-                }
-                name: string = "light_61_1"
-            }
-            0xb486aeaf = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.17786562
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10405, 196, 12172, 1
-                }
-                name: string = "light_31_28"
-            }
-            0x353a6729 = MapPointLight {
-                type: link = 0xd6444822
-                intensityScale: f32 = 2.4000001
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    13058, 284, 10695, 1
-                }
-                name: string = "light_62_1"
-            }
+            0x2c2150c2 = null
+            0x9d064427 = null
+            0xdd277332 = null
+            0x169b9329 = null
+            0x96bcb1b6 = null
+            0xdfd1c3e6 = null
+            0x3124bc1d = null
+            0x3f33eed9 = null
+            0xbae6acaa = null
+            0x877d246c = null
+            0x39dd8c2e = null
+            0x22843958 = null
+            0x73eb1a4d = null
+            0x1719c3a4 = null
+            0x3e23681c = null
+            0x4913bfca = null
+            0x70b56e75 = null
+            0x705539c8 = null
+            0x472f2ca9 = null
+            0x3f5b4100 = null
+            0x06807578 = null
+            0x1bfa38eb = null
+            0x7f49fc0e = null
+            0xe392a404 = null
+            0x57bfa859 = null
+            0xe8e5a638 = null
+            0x8fc4ce9e = null
+            0x0a2a1b1b = null
+            0xc6ad8b39 = null
+            0x4cc98ac8 = null
+            0x86ac2bdd = null
+            0xa4e6cb42 = null
+            0x6f458228 = null
+            0xa1cf7e30 = null
+            0x3c658dfc = null
+            0x387b8c36 = null
+            0xbe7bbc2d = null
+            0xe57577fb = null
+            0x5d0f229b = null
+            0x2632fd2e = null
+            0xd772808f = null
+            0x3ae4791d = null
+            0xb307760e = null
+            0x342a2d3a = null
+            0xcd82056f = null
+            0x92ec312f = null
+            0x36a7b95f = null
+            0xc9f8b50a = null
+            0x906b00f0 = null
+            0x52a5df82 = null
+            0xd038fe59 = null
+            0xa726a147 = null
+            0x1f6a36d6 = null
+            0xf0b2949b = null
+            0x86c32945 = null
+            0xb3fbdef8 = null
+            0xbb672cd7 = null
+            0x214ed74c = null
+            0xbcc27bb2 = null
+            0x161b491f = null
+            0x1d0f2689 = null
+            0x44b432bb = null
+            0xd3b3af29 = null
+            0xb2f0f874 = null
+            0x0aaa4c01 = null
+            0xee09028b = null
+            0xff072485 = null
+            0x9adc13d1 = null
+            0x68c6e964 = null
+            0xa668db14 = null
+            0x9634e2e0 = null
+            0x15e5b329 = null
+            0x587801b0 = null
+            0x9db9c5d1 = null
+            0xf1fe7ede = null
+            0xe77ee16a = null
+            0xfe0b67c3 = null
+            0xcaf823e2 = null
+            0xe5270c9d = null
+            0x4cd3bd29 = null
+            0xac57936c = null
+            0x841298fc = null
+            0x8cb0b942 = null
+            0x15eca93a = null
+            0x99b80354 = null
+            0x38683454 = null
+            0xd2dcd8b0 = null
+            0x937ae00b = null
+            0xa6489a4c = null
+            0xe803b52f = null
+            0x3c2e2c36 = null
+            0x23dd258f = null
+            0x60153fd4 = null
+            0x83e000a3 = null
+            0x20b0f027 = null
+            0x7fd12465 = null
+            0x656526ae = null
+            0x6c86aa8f = null
+            0xfbee8406 = null
+            0xdb17ccf5 = null
+            0x8623c928 = null
+            0x9aa2a931 = null
+            0x525d8db9 = null
+            0x703d0523 = null
+            0x631272ff = null
+            0xbb192b16 = null
+            0xb5356e03 = null
+            0xd91f7102 = null
+            0x90520fe1 = null
+            0x5e8dd66f = null
+            0xe973c454 = null
+            0x38e46a08 = null
+            0xe364fb5b = null
+            0x95f4502e = null
+            0x13a3a2f7 = null
+            0xf77cb362 = null
+            0x5b29f9dd = null
+            0x9664c8a8 = null
+            0x762fcd08 = null
+            0x5b106bf9 = null
+            0xe72afc71 = null
+            0x53345841 = null
+            0x2d08ab07 = null
+            0x0507cb1b = null
+            0xf702c564 = null
+            0x67b1fd60 = null
+            0x8ed46e8d = null
+            0xcfad310d = null
+            0x3e475919 = null
+            0x99a85bfd = null
+            0xc52c2f36 = null
+            0x78db72d4 = null
+            0x35b32d1f = null
+            0xe1aab610 = null
+            0x6b98c09d = null
+            0xd6158141 = null
+            0xae871f95 = null
+            0x2a3eb81e = null
+            0xc97aec8c = null
+            0x8dbed422 = null
+            0xdc5d45bb = null
+            0x0cdc6273 = null
+            0xd78cce39 = null
+            0x2ce77695 = null
+            0x98b62561 = null
+            0xd01065c1 = null
+            0xdcac0b62 = null
+            0x7554061e = null
+            0xad42cc3e = null
+            0x16808371 = null
+            0x2f1b1fad = null
+            0xa488b382 = null
+            0x29f2e1db = null
+            0x37aea010 = null
+            0xd9d0721f = null
+            0x0ec6bbd7 = null
+            0x6cdf3e7c = null
+            0x333ed0bd = null
+            0xb5f04597 = null
+            0x20de9e42 = null
+            0xde9c70a9 = null
+            0xb593161b = null
+            0x31c92dce = null
+            0x0963fa48 = null
+            0x2267f093 = null
+            0xd15d2276 = null
+            0x7ad616d4 = null
+            0x058c785b = null
+            0x4377b137 = null
+            0x303b30c2 = null
+            0x0adecf78 = null
+            0xb486aeaf = null
+            0x353a6729 = null
             0x3e175765 = MapParticle {
                 system: link = "Maps/Particles/HA/Base/HA_Env_bridgeWind_SE_02"
                 groupName: string = "highWinds"
@@ -11895,15 +10056,15 @@ entries: map[hash,embed] = {
             }
             0xaeace4f2 = GdsMapObject {
                 type: u8 = 3
-                boxMin: vec3 = { 9484.43848, -676.674927, 9317.42676 }
-                boxMax: vec3 = { 9899.6875, 89.2898865, 9765.74512 }
-                0xad304db5: string = "Characters/ChaosInhibitor/Skins/Skin1"
+                boxMin: vec3 = { 9474.79785, -676.044861, 9323.37891 }
+                boxMax: vec3 = { 9917.74512, 94.1289673, 9766.32617 }
+                0xad304db5: string = "Characters/Inhibitor/Skins/Skin23"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
-                    0.0174524058, 0, 0.99984771, 0
-                    0, 1, 0, 0
-                    -0.99984771, 0, 0.0174524058, 0
-                    9690, -190, 9520, 1
+                    -0.999390781, 0, 0.0348994508, 0
+                    0, 0.99999994, 0, 0
+                    -0.0348994471, 0, -0.999390721, 0
+                    9696.27148, -190, 9544.85254, 1
                 }
                 name: string = "Barracks_T2_C1"
             }
@@ -15570,393 +13731,39 @@ entries: map[hash,embed] = {
                 }
                 name: string = "HA_AP_HealthRelic_Order_Inner"
             }
-            0xa6c36cb6 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3114.46313, -53.017334, 3979.98828, 1
-                }
-                name: string = "light_17_10"
-            }
-            0xb51aa881 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                intensityScale: f32 = 3.82222199
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2684.31055, 13.5881348, 3867.41479, 1
-                }
-                name: string = "light_17_11"
-            }
-            0x7fe7e51d = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 1.04431593
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    5217.00537, 63.6325073, 5975.09766, 1
-                }
-                name: string = "light_17_12"
-            }
-            0x7f1104ea = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8891.82031, -57.1304626, 10556.7305, 1
-                }
-                name: string = "light_31_29"
-            }
-            0x220b8656 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9523.21777, 12.9136353, 11175.6631, 1
-                }
-                name: string = "light_31_30"
-            }
-            0x87e4f7e2 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10114.8633, 12.9137573, 11680.3711, 1
-                }
-                name: string = "light_31_31"
-            }
-            0xbf149072 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3268.43994, -53.017334, 3996.25244, 1
-                }
-                name: string = "light_17_13"
-            }
-            0x33113df0 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034784
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2107.38184, 13.5882568, 3867.33642, 1
-                }
-                name: string = "light_17_14"
-            }
-            0x2cc7b262 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034784
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1879.30554, 13.5882568, 3836.98071, 1
-                }
-                name: string = "light_17_15"
-            }
-            0x2e74a2f4 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034665
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1512.06067, 13.5883789, 3253.69141, 1
-                }
-                name: string = "light_17_16"
-            }
-            0x7b739cd1 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034665
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    925.288574, 13.588501, 2722.91016, 1
-                }
-                name: string = "light_17_17"
-            }
-            0x8e1441a3 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034665
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2485.81055, 13.5883789, 848.437988, 1
-                }
-                name: string = "light_17_18"
-            }
-            0x04b7f2c6 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034665
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3414.67822, 13.5883789, 1731.91187, 1
-                }
-                name: string = "light_17_19"
-            }
-            0xddd607bc = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034665
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3204.18701, 13.5881348, 1429.59998, 1
-                }
-                name: string = "light_17_20"
-            }
-            0x9629fc77 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.789034665
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1890.90112, 13.5878906, 180.152466, 1
-                }
-                name: string = "light_17_21"
-            }
-            0xa0040338 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2935.27539, -53.017334, 3827.90478, 1
-                }
-                name: string = "light_17_22"
-            }
-            0xdfe35512 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3738.71802, -53.0170898, 4631.08057, 1
-                }
-                name: string = "light_17_23"
-            }
-            0x22a38cec = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3944.08936, -53.017334, 4709.00928, 1
-                }
-                name: string = "light_17_24"
-            }
-            0xa1796fdc = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11163.9248, 12.9136353, 9174.79883, 1
-                }
-                name: string = "light_31_32"
-            }
-            0x0cfa82ef = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11280.1406, 12.9137573, 9433.87891, 1
-                }
-                name: string = "light_31_33"
-            }
-            0x67d604a8 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.06360781
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11480.1416, 12.9133911, 9461.09863, 1
-                }
-                name: string = "light_31_34"
-            }
-            0x351ebb55 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.06360781
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11904.1006, 12.9135132, 9810.41016, 1
-                }
-                name: string = "light_31_35"
-            }
-            0x8f882dca = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.06360781
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11954.0732, 12.9133911, 9967.13574, 1
-                }
-                name: string = "light_31_36"
-            }
-            0x6a9921c1 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.06360781
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12039.8184, 12.9133911, 10045.1445, 1
-                }
-                name: string = "light_31_37"
-            }
-            0x3ba8d131 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 3
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9345.66406, 12.9135742, 10954.9629, 1
-                }
-                name: string = "light_31_38"
-            }
-            0xbbb5e175 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 3
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9511.50293, 12.913269, 10955.0644, 1
-                }
-                name: string = "light_31_39"
-            }
-            0x5387a574 = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.06990802
-                intensityScale: f32 = 4
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9734.72852, 12.9137573, 11358.5342, 1
-                }
-                name: string = "light_31_40"
-            }
-            0x174a363d = MapPointLight {
-                type: link = 0x613cd42e
-                radiusScale: f32 = 1.18067658
-                intensityScale: f32 = 2
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9042.25488, 12.9133911, 10610.3574, 1
-                }
-                name: string = "light_31_41"
-            }
-            0x311562d1 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3762.69873, -53.0168457, 2860.73706, 1
-                }
-                name: string = "light_17_25"
-            }
-            0x6d811eec = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3884.84326, -53.0168457, 2630.4187, 1
-                }
-                name: string = "light_17_26"
-            }
-            0x45625eb4 = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.566658735
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3832.36401, -53.0167236, 3003.80493, 1
-                }
-                name: string = "light_17_27"
-            }
-            0x980c741b = MapPointLight {
-                type: link = 0xd34204d2
-                radiusScale: f32 = 0.627705634
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1260.9165, -10.5226746, 3143.12744, 1
-                }
-                name: string = "light_17_28"
-            }
-            0x5b73b4ee = MapPointLight {
-                type: link = 0x684be9bd
-                radiusScale: f32 = 0.556378484
-                intensityScale: f32 = 0.5
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    845.207458, 6.40563965, 1664.73035, 1
-                }
-                name: string = "light_52_7"
-            }
+            0xa6c36cb6 = null
+            0xb51aa881 = null
+            0x7fe7e51d = null
+            0x7f1104ea = null
+            0x220b8656 = null
+            0x87e4f7e2 = null
+            0xbf149072 = null
+            0x33113df0 = null
+            0x2cc7b262 = null
+            0x2e74a2f4 = null
+            0x7b739cd1 = null
+            0x8e1441a3 = null
+            0x04b7f2c6 = null
+            0xddd607bc = null
+            0x9629fc77 = null
+            0xa0040338 = null
+            0xdfe35512 = null
+            0x22a38cec = null
+            0xa1796fdc = null
+            0x0cfa82ef = null
+            0x67d604a8 = null
+            0x351ebb55 = null
+            0x8f882dca = null
+            0x6a9921c1 = null
+            0x3ba8d131 = null
+            0xbbb5e175 = null
+            0x5387a574 = null
+            0x174a363d = null
+            0x311562d1 = null
+            0x6d811eec = null
+            0x45625eb4 = null
+            0x980c741b = null
+            0x5b73b4ee = null
         }
         path: string = "Maps/MapGeometry/Map12/Chunks/Default"
     }
@@ -15977,7 +13784,7 @@ entries: map[hash,embed] = {
             }
             MapBakeProperties {
                 lightGridCharacterFullBrightIntensity: f32 = 0.5
-                lightGridFileName: string = "ASSETS/Maps/Lightmaps/Maps/MapGeometry/Map12/Base/LightGrid.HA_Lighting_v2.dat"
+                lightGridFileName: string = "ASSETS/Maps/Lightmaps/Maps/MapGeometry/Map12/Base/LightGrid.dat"
             }
             MapLightingV2 {
                 0xee91017d: f32 = 0.800000012

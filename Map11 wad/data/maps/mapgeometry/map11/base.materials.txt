@@ -282,8 +282,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 emissionMeshName: string = "ASSETS/Shared/Particles/sru_magebase_shopkeeper_sword.scb"
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
                 birthColor: embed = ValueColor {
@@ -4240,7 +4242,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.980392218, 1, 0.600000024, 1 }
@@ -5387,8 +5391,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 emissionMeshScale: f32 = 0.600000024
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000072 }
@@ -6546,7 +6552,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.100000001
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.100000001
+                }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Shared/Particles/sru_baronpit_groundcrack_glow_01.scb"
@@ -10753,7 +10761,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve.TFT_Set6.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve.TFT_Set6_Stage2.DDS"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -13073,7 +13081,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
                 birthColor: embed = ValueColor {
@@ -16044,7 +16054,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.NexusBlitzSummer2020.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18566,7 +18576,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.NexusBlitzSummer2020.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18630,7 +18640,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1.5, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_Color.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Chaos_Color.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18925,8 +18935,8 @@ entries: map[hash,embed] = {
         buildUpTime: f32 = 5
         assetRemappingTable: list[embed] = {
             VfxAssetRemap {
-                oldAsset: hash = 0x7a297abf
-                newAsset: string = "ASSETS/Shared/Particles/SRU_Order_brightSparks.NexusBlitzSummer2020.dds"
+                oldAsset: hash = 0x081f36ac
+                newAsset: string = "ASSETS/Shared/Particles/SRU_Order_brightSparks.dds"
             }
             VfxAssetRemap {
                 oldAsset: hash = 0x0d3a4feb
@@ -25335,7 +25345,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Sjungle_ButterFlyGlow_01.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Sjungle_ButterFlyGlow_01.dds"
             }
         }
         particleName: string = "SRU_Sjungle_ButterFlyGlow_01"
@@ -26825,7 +26835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_brightSparks.NexusBlitzSummer2020.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Order_brightSparks.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27149,8 +27159,8 @@ entries: map[hash,embed] = {
         particlePath: string = "Maps/Particles/SR/SRUAP_Order_Inhibitor_Idle"
         assetRemappingTable: list[embed] = {
             VfxAssetRemap {
-                oldAsset: hash = 0xa45882ff
-                newAsset: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.NexusBlitzSummer2020.dds"
+                oldAsset: hash = 0xf982576c
+                newAsset: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.dds"
             }
             VfxAssetRemap {
                 oldAsset: hash = 0xfc8454a1
@@ -27390,10 +27400,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Brazier_Flame_Temp_01.TFT_Set5_Carousel.DDS"
+                texture: string = "ASSETS/Shared/Particles/SRU_Brazier_Flame_Temp_01.SummonersRiftTeam_Season2022_AprilFools.DDS"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.SRI_Slots.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.25 }
                 }
@@ -27722,7 +27732,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.TFT_Set4.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_Ash_01.SummonersRiftTeam_Season2022_AprilFools.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -27930,12 +27940,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust.VFX_Update_SS_Ignite.dds"
+                texture: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust_mult.VFX_Update_SS_Ignite.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazier_dust_mult.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -34445,7 +34455,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -36412,7 +36424,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_brightSparks.NexusBlitzSummer2020.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Order_brightSparks.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37045,8 +37057,8 @@ entries: map[hash,embed] = {
         buildUpTime: f32 = 5
         assetRemappingTable: list[embed] = {
             VfxAssetRemap {
-                oldAsset: hash = 0xa45882ff
-                newAsset: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.NexusBlitzSummer2020.dds"
+                oldAsset: hash = 0xf982576c
+                newAsset: string = "ASSETS/Shared/Particles/SRU_Chaos_brightSparks.dds"
             }
             VfxAssetRemap {
                 oldAsset: hash = 0xb24905ab

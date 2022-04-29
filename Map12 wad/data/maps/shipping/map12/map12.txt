@@ -162,6 +162,9 @@ entries: map[hash,embed] = {
     "Characters/PetChoncc" = Companion {
         name: string = "PetChoncc"
     }
+    0x6c5eb5bc = Character {
+        name: string = "Inhibitor"
+    }
     "Characters/HA_AP_HealthRelic" = Character {
         name: string = "HA_AP_HealthRelic"
     }
@@ -314,6 +317,9 @@ entries: map[hash,embed] = {
     }
     "Characters/KINGPORO_PoroFollower" = Character {
         name: string = "KINGPORO_PoroFollower"
+    }
+    0xcab0f48d = Character {
+        name: string = "Nexus"
     }
     "Characters/HA_AP_PoroSpawner" = Character {
         name: string = "HA_AP_PoroSpawner"
@@ -1211,7 +1217,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.654901981 }
                 }
@@ -1461,7 +1469,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.654901981 }
                 }
@@ -3038,7 +3048,9 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -3123,7 +3135,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -3171,7 +3185,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -3343,7 +3359,9 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
+                }
                 particleColorTexture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/color-hotsparks.dds"
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -3547,7 +3565,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3838,7 +3858,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.447058827, 0.827450991, 1, 1 }
@@ -4062,7 +4084,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.11999695, 0.579995394, 0.800000012 }
@@ -4123,7 +4147,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 particleColorTexture: string = "ASSETS/Shared/Particles/common_color-rampdown32.TFT_Set5.dds"
                 blendMode: u8 = 1
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
@@ -4295,7 +4321,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
@@ -4448,7 +4476,9 @@ entries: map[hash,embed] = {
                         { 0, 0, 1.00000012 }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -4547,7 +4577,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 2
                 color: embed = ValueColor {
@@ -4614,7 +4646,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer.scb"
@@ -5951,7 +5985,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.203921586 }
@@ -6219,7 +6255,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.200000003 }
@@ -6835,7 +6873,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.800000012, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -7115,7 +7155,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
@@ -7407,7 +7449,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.447058827, 0.827450991, 1, 1 }
@@ -7994,7 +8038,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -8500,7 +8546,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -9077,7 +9125,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -23042,7 +23092,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.501960814, 0, 0.654901981 }
                 }
@@ -23292,7 +23344,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.58431375, 0, 0.654901981 }
                 }
@@ -26898,7 +26952,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer.scb"
@@ -28702,7 +28758,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.172549024, 0.435294122, 1, 0.654901981 }
                 }
@@ -28952,7 +29010,9 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.349019617, 1, 0.654901981 }
                 }
@@ -35891,10 +35951,6 @@ entries: map[hash,embed] = {
     }
     0xdfe2b0ea = MapCharacterList {
         characters: list2[link] = {
-            "Characters/ChaosInhibitor"
-            "Characters/ChaosInhibitor_D"
-            "Characters/ChaosNexus"
-            "Characters/DestroyedNexus"
             "Characters/DestroyedTower"
             "Characters/HA_AP_BannerMidBridge"
             "Characters/HA_AP_BridgeLaneStatue"
@@ -35913,10 +35969,9 @@ entries: map[hash,embed] = {
             "Characters/HA_AP_ShpNorth"
             "Characters/HA_AP_ShpSouth"
             "Characters/HA_AP_Viking"
-            "Characters/OrderInhibitor"
-            "Characters/OrderInhibitor_D"
-            "Characters/OrderNexus"
             "Characters/SRU_Baron"
+            0x6c5eb5bc
+            0xcab0f48d
         }
     }
     0xe2fcf6f2 = MapCharacterList {
@@ -37114,7 +37169,7 @@ entries: map[hash,embed] = {
             MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
             TextKey: string = "game_announcement_OnStartMessage2Map@MapNumber@"
-            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnStartGameMessage2"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
             CommonElements: hash = 0x153e858c
         }
     }
