@@ -30374,28 +30374,6 @@ entries: map[hash,embed] = {
             "Performance" = GameModeConstantsGroup {}
         }
     }
-    0x34b335c7 = NeutralTimers {
-        mSceneName: string = "BMTimers"
-        0xee974cae: string = "NeutralTimers_HA_FIRSTBLOOD"
-        mTimers: map[hash,embed] = {
-            0xa75221f7 = NeutralTimerData {
-                mTimerKeyName: string = "OrderOuterRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltipFirstBlood"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_OrderOuterRelicFirstBlood"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_OrderOuterRelicFirstBlood"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_OrderOuterRelicFirstBlood"
-            }
-            0xbc7d570f = NeutralTimerData {
-                mTimerKeyName: string = "ChaosOuterRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltipFirstBlood"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_ChaosOuterRelicFirstBlood"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_ChaosOuterRelicFirstBlood"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_ChaosOuterRelicFirstBlood"
-            }
-        }
-    }
     0x45163f15 = ExperienceModData {
         mPlayerMinionSplitXp: list[f32] = {
             0.920000017
@@ -30420,44 +30398,6 @@ entries: map[hash,embed] = {
                 windowLength: f32 = 300
                 startTime: f32 = 480
                 percentageRequired: f32 = 1
-            }
-        }
-    }
-    0x75dfce0c = NeutralTimers {
-        mSceneName: string = "BWTimers"
-        0xee974cae: string = "NeutralTimers_HA_KINGPORO"
-        mTimers: map[hash,embed] = {
-            0x80c24a7c = NeutralTimerData {
-                mTimerKeyName: string = "OrderInnerRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_OrderInnerRelic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_AlliedInnerRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_EnemyInnerRelic"
-            }
-            0xa75221f7 = NeutralTimerData {
-                mTimerKeyName: string = "OrderOuterRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_OrderOuterRelic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_AlliedOuterRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_EnemyOuterRelic"
-            }
-            0x9cfc9134 = NeutralTimerData {
-                mTimerKeyName: string = "ChaosInnerRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_ChaosInnerReclic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_EnemyInnerRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_AlliedInnerRelic"
-            }
-            0xbc7d570f = NeutralTimerData {
-                mTimerKeyName: string = "ChaosOuterRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_ChaosOuterRelic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_EnemyOuterRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_AlliedOuterRelic"
             }
         }
     }
@@ -31195,44 +31135,6 @@ entries: map[hash,embed] = {
         mScalingIncrementTime: u32 = 60
         mScalingPercentIncrease: f32 = 0.0250000004
         mScalingPercentCap: f32 = 1.25
-    }
-    0xbdd5e038 = NeutralTimers {
-        mSceneName: string = "BWTimers"
-        0xee974cae: string = "NeutralTimers_HA_ARAM"
-        mTimers: map[hash,embed] = {
-            0x80c24a7c = NeutralTimerData {
-                mTimerKeyName: string = "OrderInnerRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_OrderInnerRelic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_AlliedInnerRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_EnemyInnerRelic"
-            }
-            0xa75221f7 = NeutralTimerData {
-                mTimerKeyName: string = "OrderOuterRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_OrderOuterRelic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_AlliedOuterRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_EnemyOuterRelic"
-            }
-            0x9cfc9134 = NeutralTimerData {
-                mTimerKeyName: string = "ChaosInnerRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_ChaosInnerReclic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_EnemyInnerRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_AlliedInnerRelic"
-            }
-            0xbc7d570f = NeutralTimerData {
-                mTimerKeyName: string = "ChaosOuterRelic"
-                mTooltip: string = "game_DynamicMenuText_[Timers]_RelicTimerTooltip"
-                mTooltipCampName: string = "game_DynamicMenuText_[Timers]_ChaosOuterRelic"
-                mTooltipRespawn: string = "game_DynamicMenuText_[Timers]_RelicRespawn"
-                mTooltipChatNameOrder: string = "game_DynamicMenuText_[Timers]_EnemyOuterRelic"
-                mTooltipChatNameChaos: string = "game_DynamicMenuText_[Timers]_AlliedOuterRelic"
-            }
-        }
     }
     0xbf6161db = GameModeConstants {
         mGroups: map[hash,embed] = {
@@ -32358,7 +32260,6 @@ entries: map[hash,embed] = {
         mItemShopData: link = 0x8f58df52
         AnnouncementsMapping: link = 0x41e538c0
         mRelativeColorization: bool = true
-        mNeutralTimersDisplay: link = 0xbdd5e038
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_ARAM"
@@ -32406,7 +32307,6 @@ entries: map[hash,embed] = {
             0xcd39d678
         }
         mItemShopData: link = 0x8f58df52
-        mNeutralTimersDisplay: link = 0x34b335c7
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_FIRSTBLOOD"
@@ -32471,7 +32371,6 @@ entries: map[hash,embed] = {
     }
     0xb50dd49c = GameModeMapData {
         mModeName: hash = "KINGPORO"
-        mNeutralTimersDisplay: link = 0x75dfce0c
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
         mHudScoreData: hash = "UX/HUD/Globals/ScoreData_KINGPORO"

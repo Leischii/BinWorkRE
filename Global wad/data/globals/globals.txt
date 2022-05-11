@@ -11750,9 +11750,509 @@ entries: map[hash,embed] = {
         eventMutator: link = 0xbd767053
         0xe8457340: file = "assets/esports/sponsoredbanners/srx_banner_flags_worlds.dds"
     }
-    0xa7bfe6cc = EsportsBannerConfiguration {
+    0xa7bfe6cc = 0x29f9f5d9 {
         name: string = "MSI"
-        eventMutator: link = 0xd77bc245
+        priority: u32 = 1
+        0xf7e7945a: list[string] = {
+            "12.8"
+        }
+        0xa327f48b: list[string] = {
+            "T1"
+            "IW"
+            "ORD"
+            "G2"
+            "DFM"
+            "PSG"
+            "AZE"
+            "EG"
+            "100"
+            "TL"
+            "V5"
+            "TES"
+            "RNG"
+            "RED"
+            "PNG"
+            "GAM"
+            "SGB"
+            "TS"
+        }
+        0x6d9c47ab: f32 = 45
+        0xf9e45233: f32 = 65
+        0xe8457340: file = 0xe9ab19ccbc84c080
+        IndividualBannerOverrides: list[embed] = {
+            0x4a99e777 {
+                banner: link = 0x87603e62
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x6d275d78
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x5a150cc0
+                0x95e59d55: link = 0x8210f557
+            }
+            0x4a99e777 {
+                banner: link = 0x70276231
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x6f27609e
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x72276557
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x7427687d
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x712763c4
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x86603ccf
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x40cd4089
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xdd74df98
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xdf74e2be
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xe274e777
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xe474ea9d
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xe3a11b7f
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xe4a11d12
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x535ce8eb
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x525ce758
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xdea113a0
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xe5a11ea5
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xd2b3b056
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xd3b3b1e9
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xd1b3aec3
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xa82b80ad
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xc89d651f
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xc99d66b2
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xc79d638c
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x8fadca22
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x8eadc88f
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x90adcbb5
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf4c3a0a7
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf5c3a23a
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x3dcd3bd0
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xb173f751
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xae73f298
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xb073f5be
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x7f87f124
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x8287f5dd
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x8087f2b7
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xb7b9c800
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xb8b9c993
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x3d1f264a
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x3e1f27dd
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf319e7b6
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf219e623
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x9a82f23d
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xbab9ccb9
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x68d9c1c9
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xbdb9d172
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x81efff65
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x7eeffaac
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x585cf0ca
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x555cec11
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x81cdf930
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x83cdfc56
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x31c9f9d8
+                0x95e59d55: link = 0x8210f557
+            }
+            0x4a99e777 {
+                banner: link = 0x34c9fe91
+                0x95e59d55: link = 0x8210f557
+            }
+            0x4a99e777 {
+                banner: link = 0x84cdfde9
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xfdc69d3b
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xfec69ece
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x86ce010f
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x85cdff7c
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x88ce0435
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xffc6a061
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x00c6a1f4
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x932eacfc
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x962eb1b5
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x912ea9d6
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x8f2ea6b0
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x922eab69
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x942eae8f
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xe074e451
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x66d9bea3
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x67d9c036
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xe174e5e4
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x69d9c35c
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0x6ad9c4ef
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xc44ad212
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xc34ad07f
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x5dfc2bb5
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x5afc26fc
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x3534a7ef
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xe0b75fa5
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x70a1ea71
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x6da1e5b8
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xb9179d82
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xb8179bef
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xba179f15
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf4727407
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf572759a
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xf3727274
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xe49fa495
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xe19f9fdc
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xddf205bc
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x6ea1e74b
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x71a1ec04
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x74a1f0bd
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x73a1ef2a
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xa3b995a7
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xc14acd59
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xa972fa59
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x2570b13a
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x42c594fe
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x41c5936b
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x40c591d8
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x56fc20b0
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x59fc2569
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x58fc23d6
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x5bfc288f
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x09bc1a06
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x02c6a51a
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xb456fb04
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x3c1f24b7
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x01c6a387
+                0x95e59d55: link = 0xcf4d94b9
+            }
+            0x4a99e777 {
+                banner: link = 0xc24aceec
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xa4b9973a
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0xe29fa16f
+                0x95e59d55: link = 0x7a3d6c13
+            }
+            0x4a99e777 {
+                banner: link = 0x47c59cdd
+                0x95e59d55: link = 0x7a3d6c13
+            }
+        }
     }
     0xab52ae93 = 0x29f9f5d9 {
         name: string = "Test configuration"
@@ -11764,6 +12264,46 @@ entries: map[hash,embed] = {
             0x4a99e777 {
                 banner: link = 0xe29fa16f
                 0x95e59d55: link = 0xa43b5a23
+            }
+        }
+    }
+    0x7a3d6c13 = 0x3ee0746d {
+        0xbcdd8d75: list[embed] = {
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 2
+                SponsorTexturePath: file = 0xd8b9c9642ecccb25
+            }
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 6
+                SponsorTexturePath: file = 0x3a8f601f65da9fff
+            }
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 5
+                SponsorTexturePath: file = 0xeccfda28822c4b6b
+            }
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 3
+                SponsorTexturePath: file = 0x7734d5f9c02ff819
+            }
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 6
+                SponsorTexturePath: file = 0xd95ea4bc3636eb04
+            }
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 3
+                SponsorTexturePath: file = 0x4b48e20d79cadfa1
+            }
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 6
+                SponsorTexturePath: file = 0xeeef94fd81e35b2e
+            }
+        }
+    }
+    0x8210f557 = 0x3ee0746d {
+        0xbcdd8d75: list[embed] = {
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 1
+                SponsorTexturePath: file = 0xe9ab19ccbc84c080
             }
         }
     }
@@ -11784,6 +12324,14 @@ entries: map[hash,embed] = {
             0x9149cbb1 {
                 0xe0c5d401: u32 = 2
                 SponsorTexturePath: file = 0xb22e287cf16e98f3
+            }
+        }
+    }
+    0xcf4d94b9 = 0x3ee0746d {
+        0xbcdd8d75: list[embed] = {
+            0x9149cbb1 {
+                0xe0c5d401: u32 = 1
+                SponsorTexturePath: file = 0x4565976e4b2d65d1
             }
         }
     }
@@ -12311,7 +12859,7 @@ entries: map[hash,embed] = {
     "Globals/Esports/Materials/ENV_Skinned_VertexWave_Holder_inst" = StaticMaterialDef {
         name: string = "Globals/Esports/Materials/ENV_Skinned_VertexWave_Holder_inst"
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
                 textureName: string = "ASSETS/Characters/Srx_Banner_Hero/Skins/Base/SRX_Banner_Holders.dds"
@@ -12320,7 +12868,7 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "Anim_Gradient_Sharpness"
                 value: vec4 = { 1, 0, 0, 0.5 }
@@ -12366,7 +12914,7 @@ entries: map[hash,embed] = {
                 name: string = "Flutter_Rate"
             }
         }
-        switches: list[embed] = {
+        switches: list2[embed] = {
             StaticMaterialSwitchDef {
                 name: string = "USE_VERTEXCOLOR_ANIMLOCK"
             }
@@ -12403,14 +12951,14 @@ entries: map[hash,embed] = {
     "Globals/Esports/Materials/SRX_Banner_Holders" = StaticMaterialDef {
         name: string = "Globals/Esports/Materials/SRX_Banner_Holders"
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
                 textureName: string = "ASSETS/Characters/Srx_Banner_Hero/Skins/Base/SRX_Banner_Holders.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "ShadowClip"
                 value: vec4 = { 0.330000013, 0, 0, 0 }
@@ -12447,7 +12995,7 @@ entries: map[hash,embed] = {
     "Globals/Esports/Materials/ENV_Skinned_VertexWave_Base_Flag_inst" = StaticMaterialDef {
         name: string = "Globals/Esports/Materials/ENV_Skinned_VertexWave_Base_Flag_inst"
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
                 textureName: string = "ASSETS/Characters/Srx_Banner_Flags/Skins/Base/SRX_Banner_Flags.dds"
@@ -12456,7 +13004,7 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "Anim_Gradient_Sharpness"
                 value: vec4 = { 1, 10, 0, 0.5 }
@@ -12505,7 +13053,7 @@ entries: map[hash,embed] = {
                 value: vec4 = { 0.5, 0, 0, 0 }
             }
         }
-        switches: list[embed] = {
+        switches: list2[embed] = {
             StaticMaterialSwitchDef {
                 name: string = "USE_VERTEXCOLOR_ANIMLOCK"
             }
@@ -19679,15 +20227,6 @@ entries: map[hash,embed] = {
             "Set3_FourCostFirstCarousel(1)"
         }
     }
-    0x05fa4e9d = GameMutatorExpansions {
-        mExpandedMutator: string = "TFT_TutorialGame_V2"
-        mMutators: list2[string] = {
-            "TFTSetOverride(TFTTutorialSet)"
-            "IsTFTTutorialV2(1)"
-            "AudioFeature(TFT_Tutorial_v2)"
-            "TFTTutorialVersion(2)"
-        }
-    }
     0x060a51bc = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_SRU_Worlds_TrophyOnly"
         mMutators: list2[string] = {
@@ -20092,6 +20631,13 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "DravenHead"
             "DravenMinions"
+        }
+    }
+    0x363bd4d8 = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_MSI_2022"
+        mMutators: list2[string] = {
+            "MSIFandomChat"
+            "EsportsNamePrefixes(1)"
         }
     }
     0x37739dc6 = GameMutatorExpansions {
@@ -22074,7 +22620,6 @@ entries: map[hash,embed] = {
             }
             0xa5666564 {
                 0x4432d377: string = "PykeWCamo"
-                0xd43dd942: f32 = 1
                 0x16ba2823: embed = 0x97fc7312 {
                     0x774fc304: bool = true
                     0xd0266d4b: bool = true

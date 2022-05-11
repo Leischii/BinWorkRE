@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4165_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_woodbeams.dds"
@@ -29,7 +29,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SB_Wall_E_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_base_wall_E.dds"
@@ -51,14 +51,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/BK_periph_ice_cu2_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_ICeCliff_H.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
             }
@@ -86,14 +86,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/p_healthpack_emmit_geo_alpha_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_healthpack.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -117,7 +117,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert233_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Base_Wall_G.dds"
@@ -139,7 +139,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/polySurface174029_shader_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Lane_Walls2.dds"
@@ -161,7 +161,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lanewalls_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_lane_walls.dds"
@@ -183,7 +183,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_ground_bracket_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_bracket.dds"
@@ -205,14 +205,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/ice_blocks_alpha_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_ice_chunksa.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
@@ -238,7 +238,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/BK_periph_base_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_periph_base.dds"
@@ -260,7 +260,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/BKDF_Matte_Skybox1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/HA_Skybox_01.dds"
@@ -285,7 +285,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_Cutaway1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_hole.dds"
@@ -307,7 +307,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/CRANE_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/crane3.dds"
@@ -329,7 +329,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/hero_emblemSG2_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_bridge_keystone.dds"
@@ -351,7 +351,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert3_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/shopkeeper_viking_cm_v4.dds"
@@ -373,7 +373,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_Stairs_Lane_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Lane_Stairs.dds"
@@ -395,7 +395,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4166_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_Statue_Hero_TowerA.DDS"
@@ -417,7 +417,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4190_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Statue_Base.dds"
@@ -439,7 +439,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SB_Wall_F1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_base_wall_F.dds"
@@ -461,7 +461,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert2_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_chainlink.dds"
@@ -483,14 +483,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/fj_jeremy_shop_north_ICICLES1_alpha_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/props_icicles_b.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -514,7 +514,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_lambert4099_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_lane_middlehole.dds"
@@ -536,14 +536,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SW_ShopICE_alpha_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Props_SW_Shop_Ice_Frame.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
@@ -569,7 +569,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/NE_Gate_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_NE_Base_Gate.dds"
@@ -591,7 +591,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4104_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/HA_AP_Hero_Tower2.dds"
@@ -613,7 +613,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_SnowShelf_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/BaseSnow.dds"
@@ -635,7 +635,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_Cutaway2_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_middlehole.dds"
@@ -657,14 +657,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/periph_ice_closeup_alpha1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_icecliff_snowtransition.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
@@ -690,14 +690,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/BK_periph_ice_cu1_inst_blend"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_ICeCliff_H.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
             }
@@ -726,7 +726,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/chain_base_plate_shader_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_chain_base_plate.dds"
@@ -748,7 +748,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert250_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_cloth.dds"
@@ -770,7 +770,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/Keep_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Keep_A.dds"
@@ -792,7 +792,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/NE_SHOP_Items_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/shop_items2.dds"
@@ -814,7 +814,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4197_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_icicles_C.dds"
@@ -836,7 +836,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_polySurface172386_shader_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Base_Ground.dds"
@@ -858,14 +858,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/BK_periph_ice_cu1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_ICeCliff_H.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
             }
@@ -893,7 +893,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_lambert168_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Base_Lower_Wall.dds"
@@ -915,14 +915,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/shouthshopice_alpha_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/shop_keeper_magic_ice1.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
@@ -948,7 +948,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/shelves1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Shelves2.dds"
@@ -970,7 +970,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SHOP_CAVE_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Ice_cave_2.dds"
@@ -992,14 +992,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SWbase_cloth_alpha_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/decal_SWbase_cloth.DDS"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1023,7 +1023,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4191_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_woodbeam_endcaps.dds"
@@ -1045,7 +1045,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SHOP_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_north_shop_comp3.dds"
@@ -1067,7 +1067,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/LM_Lane3_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Lane_Ground.dds"
@@ -1089,7 +1089,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/lambert4181_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_Brazier_2.dds"
@@ -1111,7 +1111,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/SB_Wall_D1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_base_wall_D.dds"
@@ -1133,7 +1133,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/Statue_3_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Statue_Breakable_03.dds"
@@ -1155,7 +1155,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/BK_cliffer_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_IceCliff_F.dds"
@@ -1186,7 +1186,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/Howling_Abyss/Materials/statue_14_breakable_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Statue_Breakable_03.dds"

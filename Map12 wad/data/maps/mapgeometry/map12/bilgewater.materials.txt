@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Perif_Cliff_A22_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_perif_cliff_a.dds"
@@ -29,7 +29,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/mod_house_tall_b14_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_b.dds"
@@ -51,7 +51,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175301_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_chimney_01.dds"
@@ -73,7 +73,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/wood_addons135_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_wood_scaffolding_modular.dds"
@@ -95,7 +95,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Tarps_021_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_tarps_01.dds"
@@ -117,14 +117,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_N_Shop_Barrier_011_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_n_shop_barrier_01.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -148,7 +148,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/props_coffin35_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_coffin_a.dds"
@@ -170,7 +170,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_OLD_bridge_side_elements_Wood_Posts19_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_wood_posts_01.dds"
@@ -192,7 +192,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175206_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_hanging_fish_01.dds"
@@ -214,14 +214,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bridge_with_fishys_lambert_alpha38_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/nets.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -245,7 +245,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/mod_house_tall_a37_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_a1.dds"
@@ -267,7 +267,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert173617_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_door_a.dds"
@@ -289,7 +289,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bw_bridge_statue_a19_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_statue_a.dds"
@@ -311,14 +311,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/prop_banner_a_b58_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_prop_banner_01.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -342,7 +342,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Perif_Statue_A42_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_perif_statue_a.dds"
@@ -364,7 +364,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert2_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_props_signs_01.dds"
@@ -386,7 +386,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175307_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_skinny_b.dds"
@@ -408,14 +408,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175215_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_periph_cards_01.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -439,7 +439,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert173833_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_shipside_destroyed_a.dds"
@@ -461,7 +461,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_Bridgecutaway14_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_cutout_b.dds"
@@ -483,7 +483,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/S_Base_Laser_Turret13_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_s_base_laser_turret.dds"
@@ -505,7 +505,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/block_and_tackle_flat4_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/block_and_tackle_flat.dds"
@@ -527,7 +527,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175057_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_lantern_01.dds"
@@ -549,7 +549,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert173613_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_statue_base_a.dds"
@@ -571,7 +571,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_south_B1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_b.dds"
@@ -593,7 +593,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_Ground_Lane_A38_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_lane_a.dds"
@@ -615,7 +615,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Perif_Cliff_C8_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_perif_cliff_c.dds"
@@ -637,7 +637,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_bridge_mid_crest_a_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_mid_crest_a.dds"
@@ -659,14 +659,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bw_bridge_mid_crest_rope_a_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_mid_crest_rope_a.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -690,7 +690,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bridge_with_fishys_lambert172937_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_roof_tile_01.dds"
@@ -712,7 +712,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/Bridge_Shipside49_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_shipside_a.dds"
@@ -734,7 +734,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/beach8_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_beachrocks_01.dds"
@@ -756,7 +756,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175173_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_stairs_a.dds"
@@ -778,7 +778,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_BridgeCutout16_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_mid_cutout_a.dds"
@@ -800,7 +800,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175222_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/prop_barnicle.dds"
@@ -822,7 +822,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bathysphere_SHOP21_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_prop_crate_01.dds"
@@ -844,7 +844,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175169_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_s_base_shop_cage_02.dds"
@@ -866,7 +866,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175297_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_boat_roof_a.dds"
@@ -888,7 +888,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175202_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_harpoon_a.dds"
@@ -910,7 +910,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_Ground_Lane_B37_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_lane_b.dds"
@@ -932,7 +932,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175294_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_smallpipechimney_01.dds"
@@ -954,7 +954,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/cannon_lambert35_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_cannon_01.dds"
@@ -976,7 +976,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_north_A1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_a.dds"
@@ -998,7 +998,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert173614_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_columns_03.dds"
@@ -1020,7 +1020,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175178_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_canon_vista.dds"
@@ -1042,7 +1042,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/ancienthouses2_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_perif_cliffhouses_a.dds"
@@ -1064,14 +1064,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175179_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_deck_card_a.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1095,7 +1095,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_Ground_Lane_D39_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_lane_d.dds"
@@ -1117,7 +1117,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_north_C1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_c.dds"
@@ -1139,7 +1139,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175171_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_prop_sack1.dds"
@@ -1161,7 +1161,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_wood_mast_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_wood_mast.dds"
@@ -1183,14 +1183,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/new_tex11_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_palm_frond_a.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1214,7 +1214,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175309_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_comp_mid_c.dds"
@@ -1236,7 +1236,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_N_Base_Shrine10_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_n_base_shrine.dds"
@@ -1258,7 +1258,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_north_B1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_b.dds"
@@ -1280,7 +1280,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_struc_wood_trim_03_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_struc_wood_trim_01.dds"
@@ -1302,14 +1302,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175172_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/structure_building_kit01.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1333,7 +1333,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Decor_A_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_decor_a.dds"
@@ -1355,7 +1355,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_BaseGroundTrim_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_railing_b.dds"
@@ -1377,14 +1377,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/hing_temp_bk_lambert174751_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_vista_02.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1408,14 +1408,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175304_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_crows_nest_a.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1439,7 +1439,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/pilings_lambert14_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_pilings.dds"
@@ -1461,14 +1461,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_OLD_bridge_side_elements_prop_sails18_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/prop_sails.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1492,7 +1492,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/S_Base_Harpoon13_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_s_base_harpoon.dds"
@@ -1514,7 +1514,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/props_anchor_07_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_anchor_01.dds"
@@ -1536,7 +1536,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert173688_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_prop_pulley_a.dds"
@@ -1558,7 +1558,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bridge_with_fishys_lambert172938_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_brick_base_01.dds"
@@ -1580,7 +1580,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175205_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_bottle_a.dds"
@@ -1602,7 +1602,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_OLD_bridge_side_elements_bow_beam86_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bow_beam.dds"
@@ -1624,7 +1624,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Perif_Cliff_B16_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_perif_cliff_b.dds"
@@ -1646,7 +1646,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175311_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_roof_slaughter_01.dds"
@@ -1668,7 +1668,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_south_A1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_a.dds"
@@ -1690,14 +1690,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_rope_lambert_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_ropes.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -1721,7 +1721,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175174_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_cannonballpile.dds"
@@ -1743,7 +1743,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/house_tall_skinny_a7_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_skinny_a.dds"
@@ -1765,7 +1765,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175303_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_roof_stripedtarp_01.dds"
@@ -1787,7 +1787,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175159_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_prop_pulley_b.dds"
@@ -1809,7 +1809,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert173875_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridgefull_01.dds"
@@ -1831,7 +1831,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175298_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_skinny_c1.dds"
@@ -1853,7 +1853,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175058_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_base_shipwalls_a.dds"
@@ -1875,7 +1875,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_south_C1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_c.dds"
@@ -1897,7 +1897,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175056_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_door_statue_a.dds"
@@ -1919,7 +1919,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_Ground_Lane_C39_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_lane_c.dds"
@@ -1941,7 +1941,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_struc_wall_plaster_0115_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_wall_plaster_01.dds"
@@ -1963,7 +1963,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Crates_01_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_Crates_01.dds"
@@ -1985,7 +1985,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bw_ship_ribs40_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ship_ribs.dds"
@@ -2007,7 +2007,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/hing_temp_lambert174705_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_roof_wood_01.dds"
@@ -2029,7 +2029,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/S_Base_Stern13_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_s_base_stern.dds"
@@ -2051,7 +2051,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_south_D1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_d.dds"
@@ -2073,7 +2073,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/lambert175176_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_windows_doors_01.dds"
@@ -2095,7 +2095,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_vertical_bayside_lambert173063_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/grey_temp.dds"
@@ -2117,7 +2117,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_ground_base_north_D1_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_d.dds"
@@ -2139,14 +2139,14 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/BW_Trash_031_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_trash_01.dds"
                 addressW: u32 = 1
             }
         }
-        paramValues: list[embed] = {
+        paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
@@ -2170,7 +2170,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/LM_LaneTrim_Wood3_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_railing_a.dds"
@@ -2192,7 +2192,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bathysphere_south_periph_old_props_barrels_texture28_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_barrels.dds"
@@ -2214,7 +2214,7 @@ entries: map[hash,embed] = {
         name: string = "Maps/KitPieces/HA_Bilgewater/Materials/bridge_with_fishys_lambert172939_inst"
         type: u32 = 0
         defaultTechnique: string = "normal"
-        samplerValues: list[embed] = {
+        samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_ancientstucco_tile_01.dds"
