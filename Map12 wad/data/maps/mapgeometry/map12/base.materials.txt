@@ -12592,15 +12592,15 @@ entries: map[hash,embed] = {
             }
             0x8befd58f = GdsMapObject {
                 type: u8 = 4
-                boxMin: vec3 = { 10561.041, -997.899414, 10349.7236 }
-                boxMax: vec3 = { 11311.2637, 171.910843, 11099.9463 }
+                boxMin: vec3 = { 10511.8105, -996.962524, 10296.7793 }
+                boxMax: vec3 = { 11360.1894, 172.848022, 11145.1582 }
                 0xad304db5: string = "Characters/ChaosNexus/Skins/Skin1"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
-                    0.156434596, 0, 0.987688303, 0
+                    0.142964512, 0, 0.989727795, 0
                     0, 1, 0, 0
-                    -0.987688303, 0, 0.156434596, 0
-                    10936, -180, 10724, 1
+                    -0.989727795, 0, 0.142964512, 0
+                    10936, -180, 10720.9688, 1
                 }
                 name: string = "HQ_T2"
             }
@@ -13239,29 +13239,29 @@ entries: map[hash,embed] = {
             }
             0x7a388fdf = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 1979.76367, -179.283798, 2495.78784 }
-                boxMax: vec3 = { 2093.54907, 0, 2609.57446 }
+                boxMin: vec3 = { 1859.22668, -179, 2373.3833 }
+                boxMax: vec3 = { 2264.04224, 465.509583, 2778.19873 }
                 0xad304db5: string = "Characters/HA_AP_OrderTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
-                    0.69465816, 6.07289508e-08, -0.719339907, 0
-                    -2.45360852e-08, 0.999999881, 6.07289508e-08, 0
-                    0.719339788, -2.45360852e-08, 0.69465816, 0
-                    2051, -179, 2560, 1
+                    0.707106769, 0, -0.707106769, 0
+                    0, 0.99999994, 0, 0
+                    0.707106709, 0, 0.707106709, 0
+                    2061.63452, -179, 2575.79102, 1
                 }
                 name: string = "Turret_T1_C_010"
             }
             0x7c2dca94 = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 3762.08252, -155.493301, 3782.07226 }
-                boxMax: vec3 = { 3856.03955, 0, 3876.03052 }
+                boxMin: vec3 = { 3624.90039, -155.000015, 3638.6665 }
+                boxMax: vec3 = { 4029.6543, 489.509583, 4043.42041 }
                 0xad304db5: string = "Characters/HA_AP_OrderTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     0.69465816, 6.07289508e-08, -0.719339907, 0
                     -2.45360852e-08, 0.999999881, 6.07289508e-08, 0
                     0.719339788, -2.45360852e-08, 0.69465816, 0
-                    3809, -155, 3829, 1
+                    3827.27734, -155, 3841.04346, 1
                 }
                 name: string = "Turret_T1_C_07"
             }
@@ -13281,71 +13281,71 @@ entries: map[hash,embed] = {
             }
             0x40745606 = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 2436.33984, -182.657303, 2044.28845 }
-                boxMax: vec3 = { 2550.12305, 0, 2158.07275 }
+                boxMin: vec3 = { 2304.08642, -182, 1908.56775 }
+                boxMax: vec3 = { 2708.7207, 462.509583, 2313.2019 }
                 0xad304db5: string = "Characters/HA_AP_OrderTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
-                    0.669130504, 5.84972533e-08, -0.74314481, 0
-                    -2.24549908e-08, 0.999999881, 5.84972533e-08, 0
-                    0.743144691, -2.24549908e-08, 0.669130504, 0
-                    2493, -182, 2101, 1
+                    0.685619414, 0, -0.72796005, 0
+                    0, 0.99999994, 0, 0
+                    0.727959991, 0, 0.685619354, 0
+                    2506.40356, -182, 2110.88476, 1
                 }
                 name: string = "Turret_T1_C_09"
             }
             0xcc783df8 = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 7829.99512, -159.114197, 7725.69629 }
-                boxMax: vec3 = { 7928.20947, 0, 7823.90723 }
+                boxMin: vec3 = { 7687.13135, -158.999695, 7575.89502 }
+                boxMax: vec3 = { 8083.14502, 451.041565, 7971.90869 }
                 0xad304db5: string = "Characters/HA_AP_ChaosTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.69465822, 0, 0.719339848, 0
                     0, 0.99999994, 0, 0
                     -0.719339788, 0, -0.69465816, 0
-                    7883, -159, 7767, 1
+                    7885.13818, -159, 7773.90186, 1
                 }
                 name: string = "Turret_T2_L_01"
             }
             0xaf7d7fd7 = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 8968.52246, -161.747498, 8822.25586 }
-                boxMax: vec3 = { 9066.73633, 0, 8920.4668 }
+                boxMin: vec3 = { 8804.62207, -160.999695, 8652.94238 }
+                boxMax: vec3 = { 9200.63574, 449.041565, 9048.95605 }
                 0xad304db5: string = "Characters/HA_AP_ChaosTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
                     -0.69465822, 0, 0.719339848, 0
                     0, 0.99999994, 0, 0
                     -0.719339788, 0, -0.69465816, 0
-                    9017, -161, 8871, 1
+                    9002.62891, -161, 8850.94922, 1
                 }
                 name: string = "Turret_T2_L_02"
             }
             0xbad9cca8 = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 10736.0693, -169.333298, 10068.4824 }
-                boxMax: vec3 = { 10834.2832, 0, 10166.6924 }
+                boxMin: vec3 = { 10586.1582, -168.99971, 9911.60254 }
+                boxMax: vec3 = { 10982.2226, 441.041565, 10307.668 }
                 0xad304db5: string = "Characters/HA_AP_ChaosTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
-                    -0.69465822, 0, 0.719339848, 0
-                    0, 0.99999994, 0, 0
-                    -0.719339788, 0, -0.69465816, 0
-                    10785, -169, 10117, 1
+                    -0.702145994, -6.18172393e-08, 0.712032914, 0
+                    -1.49668523e-07, 0.999999881, -6.07723791e-08, 0
+                    -0.712032795, -1.49240009e-07, -0.702145994, 0
+                    10784.1904, -169, 10109.6357, 1
                 }
                 name: string = "Turret_T2_L_03"
             }
             0xf9d8c9aa = GdsMapObject {
                 type: u8 = 5
-                boxMin: vec3 = { 10276.1152, -177.966599, 10559.0928 }
-                boxMax: vec3 = { 10374.3291, 0, 10657.3037 }
+                boxMin: vec3 = { 10139.7852, -176.999695, 10376.2578 }
+                boxMax: vec3 = { 10535.7539, 433.041565, 10772.2266 }
                 0xad304db5: string = "Characters/HA_AP_ChaosTurret/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 transform: mtx44 = {
-                    -0.69465822, 0, 0.719339848, 0
+                    -0.690449655, 0, 0.723380387, 0
                     0, 0.99999994, 0, 0
-                    -0.719339788, 0, -0.69465816, 0
-                    10353, -177, 10574, 1
+                    -0.723380327, 0, -0.690449595, 0
+                    10337.7695, -177, 10574.2422, 1
                 }
                 name: string = "Turret_T2_L_04"
             }

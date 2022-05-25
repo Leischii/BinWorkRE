@@ -6,9 +6,6 @@ entries: map[hash,embed] = {
     "Characters/SRU_OrderMinionMelee" = Character {
         name: string = "SRU_OrderMinionMelee"
     }
-    "Characters/HA_AP_ChaosTurretTutorial" = Character {
-        name: string = "HA_AP_ChaosTurretTutorial"
-    }
     "Characters/Bw_Bottle" = Character {
         name: string = "Bw_Bottle"
     }
@@ -32,6 +29,9 @@ entries: map[hash,embed] = {
     }
     "Characters/SRU_ChaosMinionMelee" = Character {
         name: string = "SRU_ChaosMinionMelee"
+    }
+    0x1435eb92 = Character {
+        name: string = "TurretRubble"
     }
     "Characters/PetSGCat" = Companion {
         name: string = "PetSGCat"
@@ -198,6 +198,9 @@ entries: map[hash,embed] = {
     "Characters/HA_AP_ChaosTurret" = Character {
         name: string = "HA_AP_ChaosTurret"
     }
+    0x824c4ecc = Character {
+        name: string = "Turret"
+    }
     "Characters/HA_AP_Viking" = Character {
         name: string = "HA_AP_Viking"
     }
@@ -239,9 +242,6 @@ entries: map[hash,embed] = {
     }
     "Characters/SRU_OrderMinionSuper" = Character {
         name: string = "SRU_OrderMinionSuper"
-    }
-    "Characters/HA_AP_OrderTurretTutorial" = Character {
-        name: string = "HA_AP_OrderTurretTutorial"
     }
     "Characters/OrderInhibitor" = Character {
         name: string = "OrderInhibitor"
@@ -35855,13 +35855,11 @@ entries: map[hash,embed] = {
             "Characters/HA_AP_BridgeLaneStatue"
             "Characters/HA_AP_Chains"
             "Characters/HA_AP_Chains_Long"
-            "Characters/HA_AP_ChaosTurretTutorial"
             "Characters/HA_AP_Cutaway"
             "Characters/HA_AP_HealthRelic"
             "Characters/HA_AP_Hermit"
             "Characters/HA_AP_Hermit_Robot"
             "Characters/HA_AP_HeroTower"
-            "Characters/HA_AP_OrderTurretTutorial"
             "Characters/HA_AP_PeriphBridge"
             "Characters/HA_AP_Poro"
             "Characters/HA_AP_PoroSpawner"
@@ -35871,6 +35869,8 @@ entries: map[hash,embed] = {
             "Characters/SRU_Baron"
             0x6c5eb5bc
             0xcab0f48d
+            0x824c4ecc
+            0x1435eb92
         }
     }
     0xe2fcf6f2 = MapCharacterList {
