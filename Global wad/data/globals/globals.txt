@@ -1253,7 +1253,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8fadca22
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0x66b55186d9da9913
             }
             SponsoredBanner {
                 banner: link = 0x8eadc88f
@@ -1469,11 +1469,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x3534a7ef
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0x4e2b1615913c5cc2
             }
             SponsoredBanner {
                 banner: link = 0xe0b75fa5
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0xadf99ae77ecfb0c7
             }
             SponsoredBanner {
                 banner: link = 0x70a1ea71
@@ -1485,7 +1485,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xb9179d82
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0x66b55186d9da9913
             }
             SponsoredBanner {
                 banner: link = 0xb8179bef
@@ -1513,7 +1513,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe19f9fdc
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0xadf99ae77ecfb0c7
+            }
+            SponsoredBanner {
+                banner: link = 0xddf205bc
+                SponsorTexturePath: file = 0x4e2b1615913c5cc2
             }
             SponsoredBanner {
                 banner: link = 0x6ea1e74b
@@ -1541,7 +1545,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xa972fa59
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0x66b55186d9da9913
             }
             SponsoredBanner {
                 banner: link = 0x2570b13a
@@ -1549,7 +1553,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x42c594fe
-                SponsorTexturePath: file = 0x212f9201d9a44e98
+                SponsorTexturePath: file = 0x66b55186d9da9913
             }
             SponsoredBanner {
                 banner: link = 0x41c5936b
@@ -2143,11 +2147,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x72276557
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x7427687d
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x712763c4
@@ -2155,7 +2159,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x86603ccf
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x40cd4089
@@ -2163,7 +2167,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xdd74df98
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0xdf74e2be
@@ -2255,7 +2259,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xb173f751
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0xae73f298
@@ -2335,7 +2339,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x81cdf930
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x83cdfc56
@@ -2395,11 +2399,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8f2ea6b0
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x922eab69
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x942eae8f
@@ -2475,7 +2479,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xf4727407
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0xf572759a
@@ -2491,11 +2495,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe19f9fdc
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0xddf205bc
-                SponsorTexturePath: file = 0x88115e8ee2147b46
+                SponsorTexturePath: file = 0xa87f2ac905de155f
             }
             SponsoredBanner {
                 banner: link = 0x6ea1e74b
@@ -3265,11 +3269,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xf319e7b6
-                SponsorTexturePath: file = 0x246a8f3a34b31a58
+                SponsorTexturePath: file = 0x8a58f8141b35fe5b
             }
             SponsoredBanner {
                 banner: link = 0xf219e623
-                SponsorTexturePath: file = 0x246a8f3a34b31a58
+                SponsorTexturePath: file = 0x8a58f8141b35fe5b
             }
             SponsoredBanner {
                 banner: link = 0x9a82f23d
@@ -3305,11 +3309,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x81cdf930
-                SponsorTexturePath: file = 0x246a8f3a34b31a58
+                SponsorTexturePath: file = 0x8a58f8141b35fe5b
             }
             SponsoredBanner {
                 banner: link = 0x83cdfc56
-                SponsorTexturePath: file = 0x246a8f3a34b31a58
+                SponsorTexturePath: file = 0x8a58f8141b35fe5b
             }
             SponsoredBanner {
                 banner: link = 0x31c9f9d8
@@ -3365,11 +3369,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8f2ea6b0
-                SponsorTexturePath: file = 0x246a8f3a34b31a58
+                SponsorTexturePath: file = 0x8a58f8141b35fe5b
             }
             SponsoredBanner {
                 banner: link = 0x922eab69
-                SponsorTexturePath: file = 0x246a8f3a34b31a58
+                SponsorTexturePath: file = 0x8a58f8141b35fe5b
             }
             SponsoredBanner {
                 banner: link = 0x942eae8f
@@ -3626,7 +3630,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x40cd4089
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xdd74df98
@@ -3718,7 +3722,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x3dcd3bd0
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xb173f751
@@ -3898,47 +3902,47 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xc44ad212
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xc34ad07f
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0x5dfc2bb5
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0x5afc26fc
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0x3534a7ef
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xe0b75fa5
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0x70a1ea71
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0x6da1e5b8
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xb9179d82
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xb8179bef
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xba179f15
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xf4727407
@@ -3982,11 +3986,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xa3b995a7
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xc14acd59
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xa972fa59
@@ -4046,11 +4050,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xc24aceec
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xa4b9973a
-                SponsorTexturePath: file = 0xfeb9ba7fd5f306a9
+                SponsorTexturePath: file = 0x523df6161b7316bd
             }
             SponsoredBanner {
                 banner: link = 0xe29fa16f
@@ -4652,7 +4656,7 @@ entries: map[hash,embed] = {
         IndividualBannerOverrides: list[embed] = {
             SponsoredBanner {
                 banner: link = 0x87603e62
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x6d275d78
@@ -4684,11 +4688,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x86603ccf
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x40cd4089
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xdd74df98
@@ -4708,159 +4712,159 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe3a11b7f
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xe4a11d12
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x535ce8eb
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x525ce758
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xdea113a0
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xe5a11ea5
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xd2b3b056
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xd3b3b1e9
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xd1b3aec3
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xa82b80ad
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xc89d651f
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xc99d66b2
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xc79d638c
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x8fadca22
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x8eadc88f
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x90adcbb5
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf4c3a0a7
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf5c3a23a
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x3dcd3bd0
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xb173f751
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xae73f298
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xb073f5be
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x7f87f124
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x8287f5dd
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x8087f2b7
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xb7b9c800
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xb8b9c993
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x3d1f264a
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x3e1f27dd
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf319e7b6
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf219e623
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x9a82f23d
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xbab9ccb9
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x68d9c1c9
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xbdb9d172
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x81efff65
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x7eeffaac
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x585cf0ca
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x555cec11
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x81cdf930
@@ -4884,11 +4888,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xfdc69d3b
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xfec69ece
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x86ce010f
@@ -4904,11 +4908,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xffc6a061
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x00c6a1f4
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x932eacfc
@@ -4940,11 +4944,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x66d9bea3
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x67d9c036
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xe174e5e4
@@ -4952,43 +4956,43 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x69d9c35c
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x6ad9c4ef
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xc44ad212
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xc34ad07f
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x5dfc2bb5
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x5afc26fc
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x3534a7ef
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xe0b75fa5
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x70a1ea71
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x6da1e5b8
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xb9179d82
@@ -4996,131 +5000,131 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xb8179bef
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xba179f15
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf4727407
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf572759a
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xf3727274
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xe49fa495
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xe19f9fdc
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xddf205bc
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x6ea1e74b
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x71a1ec04
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x74a1f0bd
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x73a1ef2a
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xa3b995a7
-                SponsorTexturePath: file = 0x2acf1d93b7030650
+                SponsorTexturePath: file = 0x61c6066e2c0b599b
             }
             SponsoredBanner {
                 banner: link = 0xc14acd59
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xa972fa59
-                SponsorTexturePath: file = 0x2acf1d93b7030650
+                SponsorTexturePath: file = 0x61c6066e2c0b599b
             }
             SponsoredBanner {
                 banner: link = 0x2570b13a
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x42c594fe
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x41c5936b
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x40c591d8
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x56fc20b0
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x59fc2569
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x58fc23d6
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x5bfc288f
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x09bc1a06
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x02c6a51a
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xb456fb04
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x3c1f24b7
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x01c6a387
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xc24aceec
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0xa4b9973a
-                SponsorTexturePath: file = 0x2acf1d93b7030650
+                SponsorTexturePath: file = 0x61c6066e2c0b599b
             }
             SponsoredBanner {
                 banner: link = 0xe29fa16f
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
             SponsoredBanner {
                 banner: link = 0x47c59cdd
-                SponsorTexturePath: file = 0xb6d7de58b8617532
+                SponsorTexturePath: file = 0x1870cac17ff5bfa6
             }
         }
     }
@@ -5641,11 +5645,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x6d275d78
-                SponsorTexturePath: file = 0x564c98d01d111303
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x5a150cc0
-                SponsorTexturePath: file = 0x4affe30c985f29e1
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x70276231
@@ -5669,7 +5673,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x86603ccf
-                SponsorTexturePath: file = 0x564c98d01d111303
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x40cd4089
@@ -5677,7 +5681,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xdd74df98
-                SponsorTexturePath: file = 0x4affe30c985f29e1
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0xdf74e2be
@@ -5745,7 +5749,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8fadca22
-                SponsorTexturePath: file = 0x3fcecfcfd1d0dcaf
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x8eadc88f
@@ -5757,7 +5761,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xf4c3a0a7
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0xf5c3a23a
@@ -5769,7 +5773,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xb173f751
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0xae73f298
@@ -5781,7 +5785,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x7f87f124
-                SponsorTexturePath: file = 0x564c98d01d111303
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x8287f5dd
@@ -5849,23 +5853,23 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x81cdf930
-                SponsorTexturePath: file = 0x4affe30c985f29e1
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x83cdfc56
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x31c9f9d8
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x34c9fe91
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x84cdfde9
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0xfdc69d3b
@@ -5881,7 +5885,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x85cdff7c
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x88ce0435
@@ -5901,7 +5905,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x962eb1b5
-                SponsorTexturePath: file = 0x4affe30c985f29e1
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x912ea9d6
@@ -5921,7 +5925,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe074e451
-                SponsorTexturePath: file = 0x564c98d01d111303
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x66d9bea3
@@ -5961,7 +5965,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x3534a7ef
-                SponsorTexturePath: file = 0x6cef3784c069de78
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0xe0b75fa5
@@ -6009,7 +6013,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xddf205bc
-                SponsorTexturePath: file = 0xb441e1a1d831e6be
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x6ea1e74b
@@ -6037,11 +6041,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xa972fa59
-                SponsorTexturePath: file = 0x2a7d862f25d4f9c5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x2570b13a
-                SponsorTexturePath: file = 0xc3af80a689094fc5
+                SponsorTexturePath: file = 0x2895f2e4d18889e0
             }
             SponsoredBanner {
                 banner: link = 0x42c594fe
@@ -6634,14 +6638,6 @@ entries: map[hash,embed] = {
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
             }
             SponsoredBanner {
-                banner: link = 0x535ce8eb
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x525ce758
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
                 banner: link = 0xdea113a0
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
             }
@@ -6686,38 +6682,6 @@ entries: map[hash,embed] = {
                 SponsorTexturePath: file = 0x0b40141cf0cbf3b8
             }
             SponsoredBanner {
-                banner: link = 0xb173f751
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xae73f298
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xb073f5be
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x7f87f124
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x8287f5dd
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x8087f2b7
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xb7b9c800
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xb8b9c993
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
                 banner: link = 0x3d1f264a
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
             }
@@ -6726,40 +6690,12 @@ entries: map[hash,embed] = {
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
             }
             SponsoredBanner {
-                banner: link = 0xf319e7b6
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xf219e623
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x9a82f23d
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xbab9ccb9
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0xbdb9d172
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
                 banner: link = 0x81efff65
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
             }
             SponsoredBanner {
                 banner: link = 0x7eeffaac
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
-            }
-            SponsoredBanner {
-                banner: link = 0x585cf0ca
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x555cec11
-                SponsorTexturePath: file = 0xeecd76b7e385c113
             }
             SponsoredBanner {
                 banner: link = 0xf4727407
@@ -6772,14 +6708,6 @@ entries: map[hash,embed] = {
             SponsoredBanner {
                 banner: link = 0xf3727274
                 SponsorTexturePath: file = 0xf3034ea2611ed7fc
-            }
-            SponsoredBanner {
-                banner: link = 0x09bc1a06
-                SponsorTexturePath: file = 0xeecd76b7e385c113
-            }
-            SponsoredBanner {
-                banner: link = 0x02c6a51a
-                SponsorTexturePath: file = 0xeecd76b7e385c113
             }
             SponsoredBanner {
                 banner: link = 0xb456fb04
@@ -7383,7 +7311,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xd2b3b056
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0xd3b3b1e9
@@ -7395,11 +7323,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xa82b80ad
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0xc89d651f
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0xc99d66b2
@@ -7423,11 +7351,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xf4c3a0a7
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0xf5c3a23a
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0x3dcd3bd0
@@ -7471,15 +7399,15 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xf319e7b6
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0xf219e623
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0x9a82f23d
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0xbab9ccb9
@@ -7563,7 +7491,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x962eb1b5
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0x912ea9d6
@@ -7571,7 +7499,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8f2ea6b0
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0x922eab69
@@ -7743,7 +7671,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xb456fb04
-                SponsorTexturePath: file = 0x992c974281dedb04
+                SponsorTexturePath: file = 0x826ebb2199956de4
             }
             SponsoredBanner {
                 banner: link = 0x3c1f24b7
@@ -8279,7 +8207,7 @@ entries: map[hash,embed] = {
         IndividualBannerOverrides: list[embed] = {
             SponsoredBanner {
                 banner: link = 0x87603e62
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x6d275d78
@@ -8287,7 +8215,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x5a150cc0
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x70276231
@@ -8299,11 +8227,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x72276557
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x7427687d
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x712763c4
@@ -8315,7 +8243,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x40cd4089
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xdd74df98
@@ -8327,47 +8255,47 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe274e777
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xe474ea9d
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xe3a11b7f
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
-            }
-            SponsoredBanner {
-                banner: link = 0xe4a11d12
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
-            }
-            SponsoredBanner {
-                banner: link = 0x535ce8eb
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
-            }
-            SponsoredBanner {
-                banner: link = 0x525ce758
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
-            }
-            SponsoredBanner {
-                banner: link = 0xdea113a0
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
-            }
-            SponsoredBanner {
-                banner: link = 0xe5a11ea5
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
-            }
-            SponsoredBanner {
-                banner: link = 0xd2b3b056
                 SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
+                banner: link = 0xe4a11d12
+                SponsorTexturePath: file = 0x8d141fb80c222228
+            }
+            SponsoredBanner {
+                banner: link = 0x535ce8eb
+                SponsorTexturePath: file = 0x8d141fb80c222228
+            }
+            SponsoredBanner {
+                banner: link = 0x525ce758
+                SponsorTexturePath: file = 0x8d141fb80c222228
+            }
+            SponsoredBanner {
+                banner: link = 0xdea113a0
+                SponsorTexturePath: file = 0x8d141fb80c222228
+            }
+            SponsoredBanner {
+                banner: link = 0xe5a11ea5
+                SponsorTexturePath: file = 0x8d141fb80c222228
+            }
+            SponsoredBanner {
+                banner: link = 0xd2b3b056
+                SponsorTexturePath: file = 0x6e24fae9ab481858
+            }
+            SponsoredBanner {
                 banner: link = 0xd3b3b1e9
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xd1b3aec3
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xa82b80ad
@@ -8379,35 +8307,35 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xc99d66b2
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xc79d638c
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x8fadca22
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x8eadc88f
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x90adcbb5
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xf4c3a0a7
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xf5c3a23a
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x3dcd3bd0
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xb173f751
@@ -8415,11 +8343,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xae73f298
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xb073f5be
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x7f87f124
@@ -8427,35 +8355,35 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8287f5dd
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x8087f2b7
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xb7b9c800
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xb8b9c993
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x3d1f264a
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x3e1f27dd
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xf319e7b6
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xf219e623
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x9a82f23d
@@ -8463,47 +8391,47 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xbab9ccb9
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x68d9c1c9
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xbdb9d172
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x81efff65
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x7eeffaac
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x585cf0ca
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x555cec11
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x81cdf930
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x83cdfc56
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x31c9f9d8
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x34c9fe91
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x84cdfde9
@@ -8511,11 +8439,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xfdc69d3b
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xfec69ece
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x86ce010f
@@ -8531,11 +8459,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xffc6a061
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x00c6a1f4
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x932eacfc
@@ -8551,11 +8479,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8f2ea6b0
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x922eab69
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x942eae8f
@@ -8567,11 +8495,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x66d9bea3
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x67d9c036
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xe174e5e4
@@ -8579,147 +8507,147 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x69d9c35c
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x6ad9c4ef
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xc44ad212
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xc34ad07f
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x5dfc2bb5
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x5afc26fc
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x3534a7ef
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xe0b75fa5
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x70a1ea71
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x6da1e5b8
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xb9179d82
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xb8179bef
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xba179f15
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xf4727407
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xf572759a
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xf3727274
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xe49fa495
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xe19f9fdc
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0xddf205bc
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x6ea1e74b
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x71a1ec04
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x74a1f0bd
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x73a1ef2a
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xa3b995a7
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xc14acd59
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xa972fa59
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x2570b13a
-                SponsorTexturePath: file = 0x8d141fb80c222228
+                SponsorTexturePath: file = 0x6e24fae9ab481858
             }
             SponsoredBanner {
                 banner: link = 0x42c594fe
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x41c5936b
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x40c591d8
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x56fc20b0
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x59fc2569
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x58fc23d6
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x5bfc288f
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x09bc1a06
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x02c6a51a
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xb456fb04
@@ -8727,27 +8655,27 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x3c1f24b7
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x01c6a387
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xc24aceec
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xa4b9973a
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0xe29fa16f
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
             SponsoredBanner {
                 banner: link = 0x47c59cdd
-                SponsorTexturePath: file = 0x6e999d3e6b99a73d
+                SponsorTexturePath: file = 0x8d141fb80c222228
             }
         }
     }
@@ -11231,11 +11159,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x5a150cc0
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x70276231
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x6f27609e
@@ -11243,11 +11171,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x72276557
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x7427687d
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x712763c4
@@ -11331,15 +11259,15 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8fadca22
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x8eadc88f
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x90adcbb5
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xf4c3a0a7
@@ -11447,11 +11375,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x34c9fe91
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x84cdfde9
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0xfdc69d3b
@@ -11459,7 +11387,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xfec69ece
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x86ce010f
@@ -11467,7 +11395,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x85cdff7c
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x88ce0435
@@ -11479,11 +11407,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x00c6a1f4
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x932eacfc
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x962eb1b5
@@ -11495,11 +11423,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x8f2ea6b0
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x922eab69
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x942eae8f
@@ -11507,7 +11435,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe074e451
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x66d9bea3
@@ -11515,11 +11443,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x67d9c036
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0xe174e5e4
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0x69d9c35c
@@ -11527,39 +11455,39 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0x6ad9c4ef
-                SponsorTexturePath: file = 0x83f19abc7beeecf8
+                SponsorTexturePath: file = 0xe81de1765956ae30
             }
             SponsoredBanner {
                 banner: link = 0xc44ad212
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xc34ad07f
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x5dfc2bb5
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x5afc26fc
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x3534a7ef
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xe0b75fa5
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x70a1ea71
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x6da1e5b8
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xb9179d82
@@ -11587,31 +11515,31 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe49fa495
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xe19f9fdc
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xddf205bc
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x6ea1e74b
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x71a1ec04
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x74a1f0bd
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x73a1ef2a
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xa3b995a7
@@ -11619,43 +11547,43 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xc14acd59
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xa972fa59
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x2570b13a
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x42c594fe
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x41c5936b
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x40c591d8
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x56fc20b0
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x59fc2569
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x58fc23d6
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x5bfc288f
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x09bc1a06
@@ -11679,7 +11607,7 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xc24aceec
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0xa4b9973a
@@ -11687,11 +11615,11 @@ entries: map[hash,embed] = {
             }
             SponsoredBanner {
                 banner: link = 0xe29fa16f
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
             SponsoredBanner {
                 banner: link = 0x47c59cdd
-                SponsorTexturePath: file = 0x1d399aa1c358ab58
+                SponsorTexturePath: file = 0xcc7f380583f7b313
             }
         }
     }
@@ -20499,7 +20427,7 @@ entries: map[hash,embed] = {
             "DisableWardPreload(1)"
             "AudioFeature(TFTSet06)"
             "ChosenDisabled(1)"
-            "TFT_Set6_Stage2(1)"
+            "TFT_Set7(1)"
             "Pride_Trail(1)"
         }
     }
@@ -20726,6 +20654,12 @@ entries: map[hash,embed] = {
             "ChosenDisabled(1)"
         }
     }
+    0x2e7dbdd9 = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CustomCarousel"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CustomCarousel)"
+        }
+    }
     0x2ecbb476 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Set6"
         mMutators: list2[string] = {
@@ -20754,6 +20688,14 @@ entries: map[hash,embed] = {
             "MapID(11)?MinionSkins(SnowdownMinions)"
             "MapID(11)?SRU_Baron_SkinID(1)"
             "MapID(11)?SpawnEffect_Snowdown"
+        }
+    }
+    0x2fcbb609 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set7"
+        mMutators: list2[string] = {
+            "ChosenDisabled(1)"
+            "TFTSetOverride(TFTSet7)"
+            "AudioFeature(TFTSet07)"
         }
     }
     0x327b8c0b = GameMutatorExpansions {
@@ -20832,8 +20774,9 @@ entries: map[hash,embed] = {
     0x3afe8d29 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_PAIRS"
         mMutators: list2[string] = {
-            "TFT_Set6_Stage2_PAIRS(1)"
-            "TFTSetOverride(TFTSet6_Stage2_PAIRS)"
+            "TFT_Set7_PAIRS(1)"
+            "TFTSetOverride(TFTSet7_PAIRS)"
+            "AudioFeature(TFTSet07)"
         }
     }
     0x3b033bf4 = GameMutatorExpansions {
@@ -20851,7 +20794,6 @@ entries: map[hash,embed] = {
     0x402d1ae4 = GameMutatorExpansions {
         mExpandedMutator: string = "Tournament"
         mMutators: list2[string] = {
-            "CharacterDataOverride(Tournament)"
             "AudioFeature(Tournaments)"
             "SpawnThemeMusicOverride(Play_mus_map11_Tournaments_spawn)"
         }
@@ -21245,6 +21187,9 @@ entries: map[hash,embed] = {
             "CLASSIC"
             "MapID(0)?MapSkinName(MemoryBudget)"
         }
+    }
+    0x92b4a83d = GameMutatorExpansions {
+        mExpandedMutator: string = "VFXCheats"
     }
     0x94aa4c2f = GameMutatorExpansions {
         mExpandedMutator: string = "SNOWURF"
@@ -21695,11 +21640,11 @@ entries: map[hash,embed] = {
             "LoadingScreenTipsOverride(TFT)"
             "DisableWardPreload(1)"
             "DisableSpectator"
-            "AudioFeature(TFTSet06)"
+            "AudioFeature(TFTSet07)"
             "MaxGameLength(5400)"
             "TFTTargetAfterMove(1)"
-            "TFTTURBOSet6(1)"
-            "TFTSetOverride(TFTTURBOSet6)"
+            "TFTTURBOSet7(1)"
+            "TFTSetOverride(TFTTURBOSet7)"
             "EarlySurrenderTimeout(420)"
         }
     }
@@ -22278,6 +22223,8 @@ entries: map[hash,embed] = {
             0xcbcf70b7: bool = true
             0xb6fd2589: bool = true
             0x1936bee5: bool = true
+            0xd7e01189: bool = true
+            0xa0c45184: bool = true
             0xcf9a337d: bool = true
             0xd14a06e7: bool = true
         }
@@ -23049,21 +22996,6 @@ entries: map[hash,embed] = {
             recievedSoundPath: string = "SG_Score"
             completedSoundPath: string = "scn7_btn_2"
         }
-    }
-    "Globals/RenderStyle" = RenderStyleData {
-        mUnitFilterParamsInterior: embed = ToonInkingFilterParams {
-            mPixelSize: f32 = 0.5
-            mMinVal: f32 = 0.0700000003
-            mMaxVal: f32 = 1
-            mResultScale: f32 = 10
-        }
-        mUnitFilterParamsExterior: embed = ToonInkingFilterParams {
-            mPixelSize: f32 = 1
-            mMinVal: f32 = 0.0700000003
-            mMaxVal: f32 = 100000000
-            mResultScale: f32 = 0.100000001
-        }
-        mUnitStyleUseInking: bool = true
     }
     "Globals/DamageSourceSettings" = DamageSourceSettings {
         damageTagDefinition: list[string] = {

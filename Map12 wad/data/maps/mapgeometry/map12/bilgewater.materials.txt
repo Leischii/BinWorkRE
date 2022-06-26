@@ -3294,7 +3294,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Shared/Particles/SRU_Brazier_Flame_Temp_01.SummonersRiftTeam_Season2022_AprilFools.DDS"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.TFT_Set7.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.25 }
                 }
@@ -4791,13 +4791,10 @@ entries: map[hash,embed] = {
         flags: u8 = 193
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_ShipMast" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -4805,10 +4802,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         visibilityRadius: f32 = 1000
@@ -7141,13 +7136,10 @@ entries: map[hash,embed] = {
         }
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_Fire" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -7155,10 +7147,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         particleName: string = "BW_Audio_Emitter_Fire"
@@ -7871,13 +7861,10 @@ entries: map[hash,embed] = {
         particlePath: string = "Maps/Particles/HA/Bilgewater/BW_Order_Rain_and_Puddels"
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_PubSouth" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -7885,10 +7872,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         visibilityRadius: f32 = 2000
@@ -7898,13 +7883,10 @@ entries: map[hash,embed] = {
         flags: u8 = 229
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_Pub" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -7912,10 +7894,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         visibilityRadius: f32 = 2000
@@ -8015,13 +7995,10 @@ entries: map[hash,embed] = {
         particlePath: string = "Maps/Particles/HA/Bilgewater/BW_RiverPlain_01"
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_PubShark" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -8029,10 +8006,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         visibilityRadius: f32 = 2000
@@ -10077,13 +10052,10 @@ entries: map[hash,embed] = {
         particlePath: string = "Maps/Particles/HA/Bilgewater/BW_Chaos_Rain_and_Puddles"
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_Rope" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -10091,10 +10063,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         particleName: string = "BW_Audio_Emitter_Rope"
@@ -11268,13 +11238,10 @@ entries: map[hash,embed] = {
         }
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_Waterfall" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -11282,10 +11249,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         visibilityRadius: f32 = 2000
@@ -11520,7 +11485,7 @@ entries: map[hash,embed] = {
                 }
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
-                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.dds"
+                textureMult: string = "ASSETS/Shared/Particles/Env_MB_brazierFire_mult.TFT_Set7.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.25 }
                 }
@@ -12187,13 +12152,10 @@ entries: map[hash,embed] = {
         soundPersistentDefault: string = "Play_sfx_Env_Map14_Emitter_firebig"
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_River" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -12201,10 +12163,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         particleName: string = "BW_Audio_Emitter_River"
@@ -13047,7 +13007,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_StartingPlatform_RedGem.scb"
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Challenger_Recall_2022.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set7.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.53725493, 0.53725493, 1 }
                 }
@@ -14756,13 +14716,10 @@ entries: map[hash,embed] = {
         flags: u8 = 229
     }
     "Maps/Particles/HA/Bilgewater/BW_Audio_Emitter_BridgeCreak" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -14770,10 +14727,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         visibilityRadius: f32 = 2000
@@ -14802,12 +14757,12 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                texture: string = "ASSETS/Shared/Particles/SRU_EastJungle_Waterfall_plane_01.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_EastJungle_Waterfall_plane_01.TFT_Set7_Carousel.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.800000012 }
                 }
-                textureMult: string = "ASSETS/Shared/Particles/SRU_EastJungle_Waterfall_plane_Mult_01.dds"
+                textureMult: string = "ASSETS/Shared/Particles/SRU_EastJungle_Waterfall_plane_Mult_01.TFT_Set7_Carousel.dds"
                 birthUvScrollRateMult: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -15795,13 +15750,10 @@ entries: map[hash,embed] = {
         flags: u8 = 229
     }
     "Maps/Particles/HA/Base/HA_Audio_Emitter_FireMed_Big" = VfxSystemDefinitionData {
-        simpleEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0
                 }
                 particleLinger: option[f32] = {
                     10
@@ -15809,10 +15761,8 @@ entries: map[hash,embed] = {
                 emitterName: string = "empty"
                 particleColorTexture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
                 meshRenderFlags: u8 = 0
+                isUniformScale: flag = true
                 texture: string = "ASSETS/Shared/Particles/black.TFT_PAIRS.dds"
-                birthScale1: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
             }
         }
         particleName: string = "HA_Audio_Emitter_FireMed_Big"
