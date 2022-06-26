@@ -14,6 +14,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -34,6 +40,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_b.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -58,6 +70,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -80,6 +98,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -100,6 +124,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_tarps_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -129,6 +159,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -155,6 +189,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -177,6 +217,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -197,6 +243,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_hanging_fish_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -226,6 +278,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -252,6 +308,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -274,6 +336,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -294,6 +362,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_statue_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -323,6 +397,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -349,6 +427,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -371,6 +455,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -391,6 +481,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_skinny_b.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -420,6 +516,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -446,6 +546,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -466,6 +572,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_cutout_b.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -490,6 +602,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -510,6 +628,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/block_and_tackle_flat.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -534,6 +658,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -554,6 +684,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_statue_base_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -578,6 +714,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -598,6 +740,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_lane_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -622,6 +770,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -642,6 +796,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_mid_crest_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -671,6 +831,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -697,6 +861,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -717,6 +887,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_shipside_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -741,6 +917,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -761,6 +943,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_stairs_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -785,6 +973,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -805,6 +999,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/prop_barnicle.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -829,6 +1029,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -849,6 +1055,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_s_base_shop_cage_02.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -873,6 +1085,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -893,6 +1111,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_harpoon_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -917,6 +1141,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -937,6 +1167,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_smallpipechimney_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -961,6 +1197,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -981,6 +1223,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1005,6 +1253,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1027,6 +1281,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1047,6 +1307,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_perif_cliffhouses_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1076,6 +1342,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1102,6 +1372,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1122,6 +1398,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_c.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1146,6 +1428,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1166,6 +1454,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_wood_mast.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1195,6 +1489,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1221,6 +1519,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1241,6 +1545,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_n_base_shrine.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1265,6 +1575,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1285,6 +1601,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_struc_wood_trim_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1314,6 +1636,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1340,6 +1666,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1360,6 +1692,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_bridge_railing_b.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1388,6 +1726,10 @@ entries: map[hash,embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1420,6 +1762,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1444,6 +1790,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_props_pilings.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1473,6 +1825,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1499,6 +1855,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1519,6 +1881,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/props_anchor_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1543,6 +1911,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1563,6 +1937,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_brick_base_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1587,6 +1967,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1607,6 +1993,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bow_beam.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1631,6 +2023,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1653,6 +2051,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1673,6 +2077,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1702,6 +2112,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1728,6 +2142,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1748,6 +2168,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_skinny_a.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1772,6 +2198,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1792,6 +2224,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_prop_pulley_b.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1816,6 +2254,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1836,6 +2280,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/house_tall_skinny_c1.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1860,6 +2310,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1880,6 +2336,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_c.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1904,6 +2366,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1924,6 +2392,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_lane_c.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1948,6 +2422,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1968,6 +2448,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_Crates_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1992,6 +2478,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -2012,6 +2504,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_roof_wood_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -2036,6 +2534,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -2056,6 +2560,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/BW_ground_base_south_d.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -2080,6 +2590,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -2102,6 +2618,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -2122,6 +2644,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_ground_base_north_d.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -2151,6 +2679,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -2177,6 +2709,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -2199,6 +2737,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -2219,6 +2763,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/HA_Bilgewater/textures/bw_struc_ancientstucco_tile_01.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -12497,7 +13047,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_StartingPlatform_RedGem.scb"
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Challenger_Recall_2022.DDS"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.53725493, 0.53725493, 1 }
                 }

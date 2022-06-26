@@ -14,6 +14,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -34,6 +40,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_base_wall_E.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -98,6 +110,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -124,6 +140,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -144,6 +166,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Lane_Walls2.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -168,6 +196,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -188,6 +222,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_bracket.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -217,6 +257,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -243,6 +287,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_periph_base.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -292,6 +342,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -312,6 +368,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/crane3.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -336,6 +398,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -356,6 +424,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/shopkeeper_viking_cm_v4.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -380,6 +454,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -400,6 +480,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_Statue_Hero_TowerA.DDS"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -424,6 +510,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -446,6 +538,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -466,6 +564,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_chainlink.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -495,6 +599,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -519,6 +627,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_lane_middlehole.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -548,6 +662,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -576,6 +694,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -596,6 +720,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/HA_AP_Hero_Tower2.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -620,6 +750,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -640,6 +776,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_middlehole.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -668,6 +810,10 @@ entries: map[hash,embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -733,6 +879,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -753,6 +905,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/prop_cloth.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -777,6 +935,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -797,6 +961,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/shop_items2.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -821,6 +991,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -841,6 +1017,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Structure_Base_Ground.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -900,6 +1082,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -926,6 +1114,10 @@ entries: map[hash,embed] = {
             StaticMaterialShaderParamDef {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.00499999989, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -955,6 +1147,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -975,6 +1173,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Ice_cave_2.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1004,6 +1208,10 @@ entries: map[hash,embed] = {
                 name: string = "AlphaTestValue"
                 value: vec4 = { 0.899999976, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
@@ -1030,6 +1238,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1050,6 +1264,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/structure_north_shop_comp3.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1074,6 +1294,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1094,6 +1320,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Prop_Brazier_2.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1118,6 +1350,12 @@ entries: map[hash,embed] = {
                 addressW: u32 = 1
             }
         }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
@@ -1138,6 +1376,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Statue_Breakable_03.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1191,6 +1435,12 @@ entries: map[hash,embed] = {
                 samplerName: string = "DiffuseTexture"
                 textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/textures/Statue_Breakable_03.dds"
                 addressW: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 0.5, 0.5, 0.5, 1 }
             }
         }
         techniques: list[embed] = {
@@ -1602,7 +1852,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Season2022_SRT_Preseason_FirstStrike.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Challenger_Recall_2022.DDS"
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
