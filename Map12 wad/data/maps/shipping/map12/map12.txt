@@ -31828,6 +31828,70 @@ entries: map[hash,embed] = {
         mScalingPercentIncrease: f32 = 0.0250000004
         mScalingPercentCap: f32 = 1.25
     }
+    0x32f39c71 = GameModeConstantsGroup {}
+    0x6e4a799c = ScriptDataObject {
+        mName: string = "ARAMMinionTrapDetectionScriptData"
+        mConstants: map[string,pointer] = {
+            "DetectionRange" = GameModeConstantInteger {
+                mValue: i32 = 1100
+            }
+            "BlackOutDuration" = GameModeConstantInteger {
+                mValue: i32 = 25000
+            }
+            "TrapSightDuration" = GameModeConstantFloat {
+                mValue: f32 = 3
+            }
+        }
+        0x9be36761: link = 0x32f39c71
+    }
+    0xa312e218 = ScriptDataObject {
+        mName: string = "ARAMGamePacingScriptData"
+        mConstants: map[string,pointer] = {
+            "MinionDeathGold" = GameModeConstantInteger {
+                mValue: i32 = 6
+            }
+            "HomestartStopTime" = GameModeConstantInteger {
+                mValue: i32 = 300
+            }
+            "HomestartHasteDuration" = GameModeConstantFloat {
+                mValue: f32 = 10
+            }
+            "HomestartMoveSpeedMult" = GameModeConstantFloat {
+                mValue: f32 = 0.5
+            }
+            "TowerDamageEarlyMultiplier" = GameModeConstantFloat {
+                mValue: f32 = 1
+            }
+            "TowerDamageLateMultiplier" = GameModeConstantFloat {
+                mValue: f32 = 1.25
+            }
+            "TowerDamageMultiplierMinTime" = GameModeConstantInteger {
+                mValue: i32 = 1080
+            }
+            "TowerDamageMultiplierMaxTime" = GameModeConstantInteger {
+                mValue: i32 = 1800
+            }
+            "PokeDamageReductionRange" = GameModeConstantInteger {
+                mValue: i32 = 1000
+            }
+            "PokeDamageReduction" = GameModeConstantFloat {
+                mValue: f32 = 0.150000006
+            }
+            "MinionAoEDamageMultiplierEarly" = GameModeConstantFloat {
+                mValue: f32 = 0.75
+            }
+            "MinionAoEDamageMultiplierLate" = GameModeConstantFloat {
+                mValue: f32 = 0.75
+            }
+            "MinionAoEDamageMultiplierMinTime" = GameModeConstantInteger {
+                mValue: i32 = 540
+            }
+            "MinionAoEDamageMultiplierMaxTime" = GameModeConstantInteger {
+                mValue: i32 = 900
+            }
+        }
+        0x9be36761: link = 0x32f39c71
+    }
     0x3d1a56c6 = FeatureAudioDataProperties {
         bankUnits: list2[embed] = {
             BankUnit {
@@ -32439,69 +32503,6 @@ entries: map[hash,embed] = {
             "OnStartGameMessage4" = 0xdf7330be
             "OnStartGameMessage5" = 0xe0733251
         }
-    }
-    0x6e4a799c = ScriptDataObject {
-        mName: string = "ARAMMinionTrapDetectionScriptData"
-        mConstants: map[string,pointer] = {
-            "DetectionRange" = GameModeConstantInteger {
-                mValue: i32 = 1100
-            }
-            "BlackOutDuration" = GameModeConstantInteger {
-                mValue: i32 = 25000
-            }
-            "TrapSightDuration" = GameModeConstantFloat {
-                mValue: f32 = 3
-            }
-        }
-        0x9be36761: link = 0xb874104c
-    }
-    0xa312e218 = ScriptDataObject {
-        mName: string = "ARAMGamePacingScriptData"
-        mConstants: map[string,pointer] = {
-            "MinionDeathGold" = GameModeConstantInteger {
-                mValue: i32 = 6
-            }
-            "HomestartStopTime" = GameModeConstantInteger {
-                mValue: i32 = 300
-            }
-            "HomestartHasteDuration" = GameModeConstantFloat {
-                mValue: f32 = 10
-            }
-            "HomestartMoveSpeedMult" = GameModeConstantFloat {
-                mValue: f32 = 0.5
-            }
-            "TowerDamageEarlyMultiplier" = GameModeConstantFloat {
-                mValue: f32 = 1
-            }
-            "TowerDamageLateMultiplier" = GameModeConstantFloat {
-                mValue: f32 = 1.25
-            }
-            "TowerDamageMultiplierMinTime" = GameModeConstantInteger {
-                mValue: i32 = 1080
-            }
-            "TowerDamageMultiplierMaxTime" = GameModeConstantInteger {
-                mValue: i32 = 1800
-            }
-            "PokeDamageReductionRange" = GameModeConstantInteger {
-                mValue: i32 = 1000
-            }
-            "PokeDamageReduction" = GameModeConstantFloat {
-                mValue: f32 = 0.150000006
-            }
-            "MinionAoEDamageMultiplierEarly" = GameModeConstantFloat {
-                mValue: f32 = 0.75
-            }
-            "MinionAoEDamageMultiplierLate" = GameModeConstantFloat {
-                mValue: f32 = 0.75
-            }
-            "MinionAoEDamageMultiplierMinTime" = GameModeConstantInteger {
-                mValue: i32 = 540
-            }
-            "MinionAoEDamageMultiplierMaxTime" = GameModeConstantInteger {
-                mValue: i32 = 900
-            }
-        }
-        0x9be36761: link = 0xb874104c
     }
     0xa010d345 = FeatureAudioDataProperties {
         music: embed = MusicAudioDataProperties {
@@ -33908,7 +33909,6 @@ entries: map[hash,embed] = {
         }
         feature: hash = 0x7bfe68d7
     }
-    0xb874104c = GameModeConstantsGroup {}
     "Maps/Shipping/Common/Audio" = MapAudioDataProperties {
         bankUnits: list2[embed] = {
             BankUnit {
