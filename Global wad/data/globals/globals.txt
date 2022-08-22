@@ -20565,6 +20565,7 @@ entries: map[hash,embed] = {
             "BannerSystem(0)"
             "Perks(1)"
             "MapObjectESportSponsorBanners(1)"
+            "SpawnThemeMusicOverride(Play_mus_map11_starguardian2022_spawn)"
         }
     }
     0x290d133e = GameMutatorExpansions {
@@ -21541,7 +21542,9 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "MapID(11)?MapSkinName(ULTBOOK)"
             "MapID(11)?AudioFeature(UltBook)"
-            "SpawnThemeMusicOverride(Play_mus_map11_XP12021_spawn)"
+            "MapID(11)?MinionSkins(StarGuardianMinions)"
+            "AnnouncerVoice(Ahri)"
+            "SpawnThemeMusicOverride(Play_mus_map11_starguardian2022_spawn)"
         }
     }
     0xda03d4b6 = GameMutatorExpansions {
@@ -21573,7 +21576,6 @@ entries: map[hash,embed] = {
             "LevelScriptFile(LevelScript_ULTBOOK.lua)"
             "AudioFeature(UltBook)"
             "CharacterDataOverride(ULTBOOK)"
-            "DisabledMapFlags(31)"
         }
     }
     0xe58ccf2c = GameMutatorExpansions {
@@ -22224,9 +22226,7 @@ entries: map[hash,embed] = {
             0xb6fd2589: bool = true
             0x1936bee5: bool = true
             0xd7e01189: bool = true
-            0xa0c45184: bool = true
             0xcf9a337d: bool = true
-            0xd14a06e7: bool = true
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
             fowCastRayAccurate: bool = true

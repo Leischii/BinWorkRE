@@ -36178,6 +36178,7 @@ entries: map[hash,embed] = {
         mMinionAutoLeeway: f32 = 0.0350000001
         mMinionAAHelperLimit: f32 = 190
         mItemSellQueueTime: f32 = 0.25
+        0xae9071b4: f32 = 1
         mCCScoreMultipliers: embed = CCScoreMultipliers {
             stun: f32 = 1
             taunt: f32 = 1
