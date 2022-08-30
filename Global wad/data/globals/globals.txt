@@ -12178,6 +12178,7 @@ entries: map[hash,embed] = {
     }
     0x3150a283 = EsportsBannerConfiguration {
         name: string = "LPL"
+        0x0ba234e2: bool = true
         eventMutator: link = 0x8c0c96e2
         texturePath: file = "assets/esports/sponsoredbanners/srx_banner_flags_lpl.dds"
         IndividualBannerOverrides: list[embed] = {
@@ -12658,6 +12659,7 @@ entries: map[hash,embed] = {
     0x4ce2466b = EsportsBannerConfiguration {
         name: string = "EM"
         priority: u32 = 1
+        0x0ba234e2: bool = true
         eventMutator: link = 0x9a7f4c2c
         texturePath: file = 0x08f1147a1e963387
         IndividualBannerOverrides: list[embed] = {
@@ -12861,6 +12863,7 @@ entries: map[hash,embed] = {
     }
     0x8a1c9ede = 0x29f9f5d9 {
         name: string = "Worlds 2021"
+        0x0ba234e2: bool = true
         0x6d9c47ab: f32 = 60
         0xf9e45233: f32 = 65
         eventMutator: link = 0xbd767053
@@ -12869,6 +12872,7 @@ entries: map[hash,embed] = {
     0xa7bfe6cc = 0x29f9f5d9 {
         name: string = "MSI"
         priority: u32 = 1
+        0x0ba234e2: bool = true
         0xf7e7945a: list[string] = {
             "12.8"
         }
@@ -13372,6 +13376,7 @@ entries: map[hash,embed] = {
     }
     0xab52ae93 = 0x29f9f5d9 {
         name: string = "Test configuration"
+        0x0ba234e2: bool = true
         0x6d9c47ab: f32 = 60
         0xf9e45233: f32 = 65
         eventMutator: link = 0x5436f4f7
@@ -21597,7 +21602,6 @@ entries: map[hash,embed] = {
             "BannerSystem(0)"
             "Perks(1)"
             "MapObjectESportSponsorBanners(1)"
-            "SpawnThemeMusicOverride(Play_mus_map11_starguardian2022_spawn)"
         }
     }
     0x290d133e = GameMutatorExpansions {
@@ -22574,9 +22578,6 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "MapID(11)?MapSkinName(ULTBOOK)"
             "MapID(11)?AudioFeature(UltBook)"
-            "MapID(11)?MinionSkins(StarGuardianMinions)"
-            "AnnouncerVoice(Ahri)"
-            "SpawnThemeMusicOverride(Play_mus_map11_starguardian2022_spawn)"
         }
     }
     0xda03d4b6 = GameMutatorExpansions {

@@ -12,9 +12,6 @@ entries: map[hash,embed] = {
     "Characters/HA_AP_ShpNorth" = Character {
         name: string = "HA_AP_ShpNorth"
     }
-    "Characters/HA_AP_OrderTurretRubble" = Character {
-        name: string = "HA_AP_OrderTurretRubble"
-    }
     "Characters/HA_ChaosMinionRanged" = Character {
         name: string = "HA_ChaosMinionRanged"
     }
@@ -45,26 +42,14 @@ entries: map[hash,embed] = {
     "Characters/PetAkaliDragon" = Companion {
         name: string = "PetAkaliDragon"
     }
-    "Characters/BW_AP_OrderTurret" = Character {
-        name: string = "BW_AP_OrderTurret"
-    }
     "Characters/PetChibiVi" = Companion {
         name: string = "PetChibiVi"
-    }
-    "Characters/BW_AP_ChaosTurret2" = Character {
-        name: string = "BW_AP_ChaosTurret2"
     }
     "Characters/HA_AP_Poro" = Character {
         name: string = "HA_AP_Poro"
     }
-    "Characters/BW_AP_ChaosTurret3" = Character {
-        name: string = "BW_AP_ChaosTurret3"
-    }
     "Characters/PetGrumpyLion" = Companion {
         name: string = "PetGrumpyLion"
-    }
-    "Characters/ChaosInhibitor_D" = Character {
-        name: string = "ChaosInhibitor_D"
     }
     "Characters/HA_OrderMinionSiege" = Character {
         name: string = "HA_OrderMinionSiege"
@@ -78,32 +63,17 @@ entries: map[hash,embed] = {
     "Characters/HA_AP_Chains_Long" = Character {
         name: string = "HA_AP_Chains_Long"
     }
-    "Characters/OrderNexus" = Character {
-        name: string = "OrderNexus"
-    }
     "Characters/PetQiyanaDog" = Companion {
         name: string = "PetQiyanaDog"
     }
-    "Characters/ChaosNexus" = Character {
-        name: string = "ChaosNexus"
-    }
-    "Characters/HA_AP_ChaosTurret2" = Character {
-        name: string = "HA_AP_ChaosTurret2"
-    }
     "Characters/PetDSWhale" = Companion {
         name: string = "PetDSWhale"
-    }
-    "Characters/HA_AP_ChaosTurret3" = Character {
-        name: string = "HA_AP_ChaosTurret3"
     }
     "Characters/SRU_SnowDown_Gingerbread" = Character {
         name: string = "SRU_SnowDown_Gingerbread"
     }
     "Characters/HA_ChaosMinionMelee" = Character {
         name: string = "HA_ChaosMinionMelee"
-    }
-    "Characters/BW_AP_ChaosTurretRubble" = Character {
-        name: string = "BW_AP_ChaosTurretRubble"
     }
     "Characters/PetDuckbill" = Companion {
         name: string = "PetDuckbill"
@@ -162,9 +132,6 @@ entries: map[hash,embed] = {
     "Characters/PetChibiEkko" = Companion {
         name: string = "PetChibiEkko"
     }
-    "Characters/HA_AP_ChaosTurretRubble" = Character {
-        name: string = "HA_AP_ChaosTurretRubble"
-    }
     "Characters/PetChoncc" = Companion {
         name: string = "PetChoncc"
     }
@@ -189,9 +156,6 @@ entries: map[hash,embed] = {
     "Characters/HA_AP_Cutaway" = Character {
         name: string = "HA_AP_Cutaway"
     }
-    "Characters/HABW_banner" = Character {
-        name: string = "HABW_banner"
-    }
     "Characters/BW_seagull" = Character {
         name: string = "BW_seagull"
     }
@@ -200,9 +164,6 @@ entries: map[hash,embed] = {
     }
     "Characters/PetUmbra" = Companion {
         name: string = "PetUmbra"
-    }
-    "Characters/HA_AP_ChaosTurret" = Character {
-        name: string = "HA_AP_ChaosTurret"
     }
     0x824c4ecc = Character {
         name: string = "Turret"
@@ -221,9 +182,6 @@ entries: map[hash,embed] = {
     }
     "Characters/PetPegasus" = Companion {
         name: string = "PetPegasus"
-    }
-    "Characters/OrderInhibitor_D" = Character {
-        name: string = "OrderInhibitor_D"
     }
     "Characters/PetGhosty" = Companion {
         name: string = "PetGhosty"
@@ -249,12 +207,6 @@ entries: map[hash,embed] = {
     "Characters/SRU_OrderMinionSuper" = Character {
         name: string = "SRU_OrderMinionSuper"
     }
-    "Characters/OrderInhibitor" = Character {
-        name: string = "OrderInhibitor"
-    }
-    "Characters/ChaosInhibitor" = Character {
-        name: string = "ChaosInhibitor"
-    }
     "Characters/HA_AP_HeroTower" = Character {
         name: string = "HA_AP_HeroTower"
     }
@@ -269,9 +221,6 @@ entries: map[hash,embed] = {
     }
     "Characters/brush_BW_E" = Character {
         name: string = "brush_BW_E"
-    }
-    "Characters/DestroyedNexus" = Character {
-        name: string = "DestroyedNexus"
     }
     "Characters/brush_BW_D" = Character {
         name: string = "brush_BW_D"
@@ -296,12 +245,6 @@ entries: map[hash,embed] = {
     }
     "Characters/brush_BW_B" = Character {
         name: string = "brush_BW_B"
-    }
-    "Characters/BW_AP_OrderTurret2" = Character {
-        name: string = "BW_AP_OrderTurret2"
-    }
-    "Characters/BW_AP_OrderTurret3" = Character {
-        name: string = "BW_AP_OrderTurret3"
     }
     "Characters/brush_BW_I" = Character {
         name: string = "brush_BW_I"
@@ -336,9 +279,6 @@ entries: map[hash,embed] = {
     "Characters/Bw_Hcannon" = Character {
         name: string = "Bw_Hcannon"
     }
-    "Characters/BW_AP_OrderTurretRubble" = Character {
-        name: string = "BW_AP_OrderTurretRubble"
-    }
     "Characters/SRU_OrderMinionSiege" = Character {
         name: string = "SRU_OrderMinionSiege"
     }
@@ -362,12 +302,6 @@ entries: map[hash,embed] = {
     }
     "Characters/PreSeason_Turret_Shield" = Character {
         name: string = "PreSeason_Turret_Shield"
-    }
-    "Characters/HA_AP_OrderTurret2" = Character {
-        name: string = "HA_AP_OrderTurret2"
-    }
-    "Characters/HA_AP_OrderTurret3" = Character {
-        name: string = "HA_AP_OrderTurret3"
     }
     "Characters/PetDSSquid" = Companion {
         name: string = "PetDSSquid"
@@ -395,9 +329,6 @@ entries: map[hash,embed] = {
     }
     "Characters/brush_HA_E" = Character {
         name: string = "brush_HA_E"
-    }
-    "Characters/BW_AP_ChaosTurret" = Character {
-        name: string = "BW_AP_ChaosTurret"
     }
     "Characters/brush_HA_D" = Character {
         name: string = "brush_HA_D"
@@ -452,9 +383,6 @@ entries: map[hash,embed] = {
     }
     "Characters/HA_AP_ChaosTurretShrine" = Character {
         name: string = "HA_AP_ChaosTurretShrine"
-    }
-    "Characters/HA_AP_OrderTurret" = Character {
-        name: string = "HA_AP_OrderTurret"
     }
     "Maps/Shipping/Map12" = Map {
         displayName: string = "game_map_displayname_12"
@@ -35547,16 +35475,9 @@ entries: map[hash,embed] = {
     }
     0x19b17b3f = MapCharacterList {
         characters: list2[link] = {
-            "Characters/HA_AP_ChaosTurret"
-            "Characters/HA_AP_ChaosTurret2"
-            "Characters/HA_AP_ChaosTurret3"
-            "Characters/HA_AP_ChaosTurretRubble"
             "Characters/HA_AP_ChaosTurretShrine"
-            "Characters/HA_AP_OrderShrineTurret"
-            "Characters/HA_AP_OrderTurret"
-            "Characters/HA_AP_OrderTurret2"
-            "Characters/HA_AP_OrderTurret3"
-            "Characters/HA_AP_OrderTurretRubble"
+            0x824c4ecc
+            0x1435eb92
         }
     }
     0x2c7e1b6f = MapCharacterList {
@@ -35619,16 +35540,10 @@ entries: map[hash,embed] = {
     }
     0x3fe66177 = MapCharacterList {
         characters: list2[link] = {
-            "Characters/BW_AP_ChaosTurret"
-            "Characters/BW_AP_ChaosTurret2"
-            "Characters/BW_AP_ChaosTurret3"
-            "Characters/BW_AP_ChaosTurretRubble"
-            "Characters/BW_AP_OrderTurret"
-            "Characters/BW_AP_OrderTurret2"
-            "Characters/BW_AP_OrderTurret3"
-            "Characters/BW_AP_OrderTurretRubble"
             "Characters/HA_AP_ChaosTurretShrine"
             "Characters/HA_AP_OrderShrineTurret"
+            0x824c4ecc
+            0x1435eb92
         }
     }
     0x40d0e73d = MapCharacterList {
@@ -35725,20 +35640,13 @@ entries: map[hash,embed] = {
             "Characters/bw_statlant"
             "Characters/bw_tooth"
             "Characters/BW_vship"
-            "Characters/ChaosInhibitor"
-            "Characters/ChaosInhibitor_D"
-            "Characters/ChaosNexus"
-            "Characters/DestroyedTower"
-            "Characters/DestroyedNexus"
+            0x6c5eb5bc
+            0xcab0f48d
             "Characters/HA_AP_HealthRelic"
             "Characters/HA_AP_Poro"
             "Characters/HA_AP_PoroSpawner"
             "Characters/HA_AP_ShpNorth"
             "Characters/HA_AP_ShpSouth"
-            "Characters/HABW_banner"
-            "Characters/OrderNexus"
-            "Characters/OrderInhibitor"
-            "Characters/OrderInhibitor_D"
         }
     }
     0x0355c4fb = GameModeItemList {
