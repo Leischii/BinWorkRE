@@ -4,1131 +4,1131 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x00312753 = EsportsBannerConfiguration {
-        Name: string = "Starlan Gaming Club"
-        EsportsTeam: hash = 0xe0919f3d
+        name: string = "Starlan Gaming Club"
+        esportsTeam: hash = 0xe0919f3d
     }
     0x00b401a0 = EsportsBannerConfiguration {
-        Name: string = "Anorthosis Famagusta Esports"
-        EsportsTeam: hash = 0xd436925b
+        name: string = "Anorthosis Famagusta Esports"
+        esportsTeam: hash = 0xd436925b
     }
     0x01ae19b5 = EsportsBannerConfiguration {
-        Name: string = "X7"
-        EsportsTeam: hash = 0x910a6716
+        name: string = "X7"
+        esportsTeam: hash = 0x910a6716
     }
     0x03cc31ef = EsportsBannerConfiguration {
-        Name: string = "T1"
-        EsportsTeam: hash = 0xff721bcb
+        name: string = "T1"
+        esportsTeam: hash = 0xff721bcb
     }
     0x03f102c8 = EsportsBannerConfiguration {
-        Name: string = "Cloud9"
-        EsportsTeam: hash = 0x1d6b977f
+        name: string = "Cloud9"
+        esportsTeam: hash = 0x1d6b977f
     }
     0x08c6e31c = EsportsBannerConfiguration {
-        Name: string = "Azules Esports"
-        EsportsTeam: hash = 0x27376957
+        name: string = "Azules Esports"
+        esportsTeam: hash = 0x27376957
     }
     0x0b35b5d2 = EsportsBannerConfiguration {
-        Name: string = "SINNERS Esports"
-        EsportsTeam: hash = 0x01b20af7
+        name: string = "SINNERS Esports"
+        esportsTeam: hash = 0x01b20af7
     }
     0x0bdd87a8 = EsportsBannerConfiguration {
-        Name: string = "K1CK Neosurf"
-        EsportsTeam: hash = 0xe7d58c47
+        name: string = "K1CK Neosurf"
+        esportsTeam: hash = 0xe7d58c47
     }
     0x0c15d18f = EsportsBannerConfiguration {
-        Name: string = "Vitality.Bee"
-        EsportsTeam: hash = 0x7331a28d
+        name: string = "Vitality.Bee"
+        esportsTeam: hash = 0x7331a28d
     }
     0x0d86f679 = EsportsBannerConfiguration {
-        Name: string = "AXIZ"
-        EsportsTeam: hash = 0xdd38583a
+        name: string = "AXIZ"
+        esportsTeam: hash = 0xdd38583a
     }
     0x0dd0bedb = EsportsBannerConfiguration {
-        Name: string = "V3 Esports"
-        EsportsTeam: hash = 0xdc5e57c0
+        name: string = "V3 Esports"
+        esportsTeam: hash = 0xdc5e57c0
     }
     0x0ee31527 = EsportsBannerConfiguration {
-        Name: string = "Liyab Esports"
-        EsportsTeam: hash = 0x462c5bbf
+        name: string = "Liyab Esports"
+        esportsTeam: hash = 0x462c5bbf
     }
     0x0efcad0d = EsportsBannerConfiguration {
-        Name: string = "Liiv SANDBOX"
-        EsportsTeam: hash = 0x4f9a0750
+        name: string = "Liiv SANDBOX"
+        esportsTeam: hash = 0x4f9a0750
     }
     0x110c713d = EsportsBannerConfiguration {
-        Name: string = "Hive Anthens EC"
-        EsportsTeam: hash = 0x463df75d
+        name: string = "Hive Anthens EC"
+        esportsTeam: hash = 0x463df75d
     }
     0x12ae0dc8 = EsportsBannerConfiguration {
-        Name: string = "ahq eSports Club"
-        EsportsTeam: hash = 0xe2420da3
+        name: string = "ahq eSports Club"
+        esportsTeam: hash = 0xe2420da3
     }
     0x1365b616 = EsportsBannerConfiguration {
-        Name: string = "Hive Anthens EC"
-        EsportsTeam: hash = 0x406419e8
+        name: string = "Hive Anthens EC"
+        esportsTeam: hash = 0x406419e8
     }
     0x13a2d668 = EsportsBannerConfiguration {
-        Name: string = "Team Aurora"
-        EsportsTeam: hash = 0xe43804b9
+        name: string = "Team Aurora"
+        esportsTeam: hash = 0xe43804b9
     }
     0x13d0c84d = EsportsBannerConfiguration {
-        Name: string = "Victory Five"
-        EsportsTeam: hash = 0x9c40739f
+        name: string = "Victory Five"
+        esportsTeam: hash = 0x9c40739f
     }
     0x14470d1e = EsportsBannerConfiguration {
-        Name: string = "Team Singularity"
-        EsportsTeam: hash = 0xa46320a8
+        name: string = "Team Singularity"
+        esportsTeam: hash = 0xa46320a8
     }
     0x1593cf04 = EsportsBannerConfiguration {
-        Name: string = "Astrallis"
-        EsportsTeam: hash = 0xd34b92f6
+        name: string = "Astrallis"
+        esportsTeam: hash = 0xd34b92f6
     }
     0x16e21627 = EsportsBannerConfiguration {
-        Name: string = "Method2Madness"
-        EsportsTeam: hash = 0x17037049
+        name: string = "Method2Madness"
+        esportsTeam: hash = 0x17037049
     }
     0x17d92a59 = EsportsBannerConfiguration {
-        Name: string = "Flamengo Esports"
-        EsportsTeam: hash = 0xa4cd7834
+        name: string = "Flamengo Esports"
+        esportsTeam: hash = 0xa4cd7834
     }
     0x184057a5 = EsportsBannerConfiguration {
-        Name: string = "Samsung Morning Stars"
-        EsportsTeam: hash = 0x98a6a4af
+        name: string = "Samsung Morning Stars"
+        esportsTeam: hash = 0x98a6a4af
     }
     0x19b8a629 = EsportsBannerConfiguration {
-        Name: string = "Alpha Esports"
-        EsportsTeam: hash = 0x329dc489
+        name: string = "Alpha Esports"
+        esportsTeam: hash = 0x329dc489
     }
     0x1c9a95ce = EsportsBannerConfiguration {
-        Name: string = "APK Prince"
-        EsportsTeam: hash = 0x277433f7
+        name: string = "APK Prince"
+        esportsTeam: hash = 0x277433f7
     }
     0x1db8e020 = EsportsBannerConfiguration {
-        Name: string = "Forsaken"
-        EsportsTeam: hash = 0x67bffac1
+        name: string = "Forsaken"
+        esportsTeam: hash = 0x67bffac1
     }
     0x1de46cbe = EsportsBannerConfiguration {
-        Name: string = "Frank Esports"
-        EsportsTeam: hash = 0x90f2de35
+        name: string = "Frank Esports"
+        esportsTeam: hash = 0x90f2de35
     }
     0x1e6955a3 = EsportsBannerConfiguration {
-        Name: string = "JD Gaming"
-        EsportsTeam: hash = 0x0a4d29a4
+        name: string = "JD Gaming"
+        esportsTeam: hash = 0x0a4d29a4
     }
     0x1e704513 = EsportsBannerConfiguration {
-        Name: string = "Order"
-        EsportsTeam: hash = 0xb31f73f7
+        name: string = "Order"
+        esportsTeam: hash = 0xb31f73f7
     }
     0x1f5f5700 = EsportsBannerConfiguration {
-        Name: string = "Hong Kong Attitude"
-        EsportsTeam: hash = 0x09a77437
+        name: string = "Hong Kong Attitude"
+        esportsTeam: hash = 0x09a77437
     }
     0x1f8712cf = EsportsBannerConfiguration {
-        Name: string = "Axolotl"
-        EsportsTeam: hash = 0x4356a5dc
+        name: string = "Axolotl"
+        esportsTeam: hash = 0x4356a5dc
     }
     0x223a5735 = EsportsBannerConfiguration {
-        Name: string = "BTS Esports"
-        EsportsTeam: hash = 0x3b523c92
+        name: string = "BTS Esports"
+        esportsTeam: hash = 0x3b523c92
     }
     0x2242a5fa = EsportsBannerConfiguration {
-        Name: string = "Solary"
-        EsportsTeam: hash = 0xc40d6c4c
+        name: string = "Solary"
+        esportsTeam: hash = 0xc40d6c4c
     }
     0x256f690b = EsportsBannerConfiguration {
-        Name: string = "Olympiacos Alimou esports"
-        EsportsTeam: hash = 0x2a8f22f1
+        name: string = "Olympiacos Alimou esports"
+        esportsTeam: hash = 0x2a8f22f1
     }
     0x259fd41d = EsportsBannerConfiguration {
-        Name: string = "S2V Esports"
-        EsportsTeam: hash = 0xf7bbcfd2
+        name: string = "S2V Esports"
+        esportsTeam: hash = 0xf7bbcfd2
     }
     0x262da51e = EsportsBannerConfiguration {
-        Name: string = "UCAM Esports Club"
-        EsportsTeam: hash = 0xd308a2be
+        name: string = "UCAM Esports Club"
+        esportsTeam: hash = 0xd308a2be
     }
     0x2696b584 = EsportsBannerConfiguration {
-        Name: string = "LCS Scouting Grounds OCN"
-        EsportsTeam: hash = 0x13fcd50b
+        name: string = "LCS Scouting Grounds OCN"
+        esportsTeam: hash = 0x13fcd50b
     }
     0x26a532e8 = EsportsBannerConfiguration {
-        Name: string = "Atleta Esport"
-        EsportsTeam: hash = 0x2bd9bf8f
+        name: string = "Atleta Esport"
+        esportsTeam: hash = 0x2bd9bf8f
     }
     0x27406f42 = EsportsBannerConfiguration {
-        Name: string = "Papara SuperMassive"
-        EsportsTeam: hash = 0x256c0c5f
+        name: string = "Papara SuperMassive"
+        esportsTeam: hash = 0x256c0c5f
     }
     0x290686d7 = EsportsBannerConfiguration {
-        Name: string = "Split Raiders"
-        EsportsTeam: hash = 0x17e3fdfc
+        name: string = "Split Raiders"
+        esportsTeam: hash = 0x17e3fdfc
     }
     0x293a623a = EsportsBannerConfiguration {
-        Name: string = "SK Gaming Prime"
-        EsportsTeam: hash = 0x640079db
+        name: string = "SK Gaming Prime"
+        esportsTeam: hash = 0x640079db
     }
     0x2b22607a = EsportsBannerConfiguration {
-        Name: string = "Santos HotForex"
-        EsportsTeam: hash = 0xa4154ea7
+        name: string = "Santos HotForex"
+        esportsTeam: hash = 0xa4154ea7
     }
     0x2ba0b222 = EsportsBannerConfiguration {
-        Name: string = "Gamespace Mediterranean College Esports"
-        EsportsTeam: hash = 0xb791f69b
+        name: string = "Gamespace Mediterranean College Esports"
+        esportsTeam: hash = 0xb791f69b
     }
     0x2df144e6 = EsportsBannerConfiguration {
-        Name: string = "CrowCrowd"
-        EsportsTeam: hash = 0xf87350e1
+        name: string = "CrowCrowd"
+        esportsTeam: hash = 0xf87350e1
     }
     0x2f9b40dd = EsportsBannerConfiguration {
-        Name: string = "Oh My God"
-        EsportsTeam: hash = 0xfa715b34
+        name: string = "Oh My God"
+        esportsTeam: hash = 0xfa715b34
     }
     0x2fd95021 = EsportsBannerConfiguration {
-        Name: string = "FlyQuest"
-        EsportsTeam: hash = 0xa959697a
+        name: string = "FlyQuest"
+        esportsTeam: hash = 0xa959697a
     }
     0x30cc78c6 = EsportsBannerConfiguration {
-        Name: string = "Team Flash"
-        EsportsTeam: hash = 0x2a262921
+        name: string = "Team Flash"
+        esportsTeam: hash = 0x2a262921
     }
     0x313b2cd9 = EsportsBannerConfiguration {
-        Name: string = "Wave Esports"
-        EsportsTeam: hash = 0x7ebf64d6
+        name: string = "Wave Esports"
+        esportsTeam: hash = 0x7ebf64d6
     }
     0x3164ee93 = EsportsBannerConfiguration {
-        Name: string = "Goexanimo"
-        EsportsTeam: hash = 0x6b15225c
+        name: string = "Goexanimo"
+        esportsTeam: hash = 0x6b15225c
     }
     0x31d7b34c = EsportsBannerConfiguration {
-        Name: string = "Invictus Gaming"
-        EsportsTeam: hash = 0x2f13030e
+        name: string = "Invictus Gaming"
+        esportsTeam: hash = 0x2f13030e
     }
     0x31f5c860 = EsportsBannerConfiguration {
-        Name: string = "Evil Geniuses"
-        EsportsTeam: hash = 0x3f0ad3e7
+        name: string = "Evil Geniuses"
+        esportsTeam: hash = 0x3f0ad3e7
     }
     0x343834f4 = EsportsBannerConfiguration {
-        Name: string = "Fukuoka SoftBank HAWKS Gaming"
-        EsportsTeam: hash = 0x9139227d
+        name: string = "Fukuoka SoftBank HAWKS Gaming"
+        esportsTeam: hash = 0x9139227d
     }
     0x35d0fdd3 = EsportsBannerConfiguration {
-        Name: string = "Vivo Keyd"
-        EsportsTeam: hash = 0xa05dbc74
+        name: string = "Vivo Keyd"
+        esportsTeam: hash = 0xa05dbc74
     }
     0x36ae6d24 = EsportsBannerConfiguration {
-        Name: string = "Excel Esports"
-        EsportsTeam: hash = 0xe0c2cc1d
+        name: string = "Excel Esports"
+        esportsTeam: hash = 0xe0c2cc1d
     }
     0x36bb4612 = EsportsBannerConfiguration {
-        Name: string = "FunPlus Phoenix"
-        EsportsTeam: hash = 0xa55e246b
+        name: string = "FunPlus Phoenix"
+        esportsTeam: hash = 0xa55e246b
     }
     0x36cc8238 = EsportsBannerConfiguration {
-        Name: string = "Team Liquid"
-        EsportsTeam: hash = 0xd5af15cb
+        name: string = "Team Liquid"
+        esportsTeam: hash = 0xd5af15cb
     }
     0x38fa5093 = EsportsBannerConfiguration {
-        Name: string = "GamerLegion"
-        EsportsTeam: hash = 0xbbf745e0
+        name: string = "GamerLegion"
+        esportsTeam: hash = 0xbbf745e0
     }
     0x39c44527 = EsportsBannerConfiguration {
-        Name: string = "For The Win Esports"
-        EsportsTeam: hash = 0x29bdc8f0
+        name: string = "For The Win Esports"
+        esportsTeam: hash = 0x29bdc8f0
     }
     0x39fa5226 = EsportsBannerConfiguration {
-        Name: string = "GamersOrigin"
-        EsportsTeam: hash = 0x4707375f
+        name: string = "GamersOrigin"
+        esportsTeam: hash = 0x4707375f
     }
     0x3cc8ba13 = EsportsBannerConfiguration {
-        Name: string = "SeolHaeOne Prince"
-        EsportsTeam: hash = 0x88b3d46e
+        name: string = "SeolHaeOne Prince"
+        esportsTeam: hash = 0x88b3d46e
     }
     0x3d0f1b03 = EsportsBannerConfiguration {
-        Name: string = "100 Thieves"
-        EsportsTeam: hash = 0xbd1cb929
+        name: string = "100 Thieves"
+        esportsTeam: hash = 0xbd1cb929
     }
     0x3d89c6df = EsportsBannerConfiguration {
-        Name: string = "Team Heretics"
-        EsportsTeam: hash = 0xc1276e7d
+        name: string = "Team Heretics"
+        esportsTeam: hash = 0xc1276e7d
     }
     0x3dddd65e = EsportsBannerConfiguration {
-        Name: string = "Karmine Corp"
-        EsportsTeam: hash = 0x5b73e5c4
+        name: string = "Karmine Corp"
+        esportsTeam: hash = 0x5b73e5c4
     }
     0x3de49223 = EsportsBannerConfiguration {
-        Name: string = "Nongshim Red Force"
-        EsportsTeam: hash = 0x6abbf893
+        name: string = "Nongshim Red Force"
+        esportsTeam: hash = 0x6abbf893
     }
     0x3ec68b9d = EsportsBannerConfiguration {
-        Name: string = "FURIA"
-        EsportsTeam: hash = 0xf792d818
+        name: string = "FURIA"
+        esportsTeam: hash = 0xf792d818
     }
     0x3f991b76 = EsportsBannerConfiguration {
-        Name: string = "One Breath Gaming"
-        EsportsTeam: hash = 0xc9771ba7
+        name: string = "One Breath Gaming"
+        esportsTeam: hash = 0xc9771ba7
     }
     0x3ffa5b98 = EsportsBannerConfiguration {
-        Name: string = "Gaia Esports"
-        EsportsTeam: hash = 0x1ea52754
+        name: string = "Gaia Esports"
+        esportsTeam: hash = 0x1ea52754
     }
     0x4081f765 = EsportsBannerConfiguration {
-        Name: string = "Dark Tigers"
-        EsportsTeam: hash = 0x71fa11c7
+        name: string = "Dark Tigers"
+        esportsTeam: hash = 0x71fa11c7
     }
     0x40c95a80 = EsportsBannerConfiguration {
-        Name: string = "Dignitas"
-        EsportsTeam: hash = 0xe12838c4
+        name: string = "Dignitas"
+        esportsTeam: hash = 0xe12838c4
     }
     0x41d110b7 = EsportsBannerConfiguration {
-        Name: string = "Vici Gaming"
-        EsportsTeam: hash = 0x31917d69
+        name: string = "Vici Gaming"
+        esportsTeam: hash = 0x31917d69
     }
     0x41d7cc7c = EsportsBannerConfiguration {
-        Name: string = "\xc4\xb0stanbul Wildcats"
-        EsportsTeam: hash = 0xe6cebd44
+        name: string = "\xc4\xb0stanbul Wildcats"
+        esportsTeam: hash = 0xe6cebd44
     }
     0x41f3a2f9 = EsportsBannerConfiguration {
-        Name: string = "Dire Wolves"
-        EsportsTeam: hash = 0xbaa36c1d
+        name: string = "Dire Wolves"
+        esportsTeam: hash = 0xbaa36c1d
     }
     0x41fa5ebe = EsportsBannerConfiguration {
-        Name: string = "Golden Guardians"
-        EsportsTeam: hash = 0xe35a5a26
+        name: string = "Golden Guardians"
+        esportsTeam: hash = 0xe35a5a26
     }
     0x42cc951c = EsportsBannerConfiguration {
-        Name: string = "Team Phantasma"
-        EsportsTeam: hash = 0xd6b98818
+        name: string = "Team Phantasma"
+        esportsTeam: hash = 0xd6b98818
     }
     0x42da0ca6 = EsportsBannerConfiguration {
-        Name: string = "Taipei J Team"
-        EsportsTeam: hash = 0xee4c9f70
+        name: string = "Taipei J Team"
+        esportsTeam: hash = 0xee4c9f70
     }
     0x42f3a48c = EsportsBannerConfiguration {
-        Name: string = "Dark Passage"
-        EsportsTeam: hash = 0xea391d1e
+        name: string = "Dark Passage"
+        esportsTeam: hash = 0xea391d1e
     }
     0x4361ce43 = EsportsBannerConfiguration {
-        Name: string = "Hanwha Life Esports"
-        EsportsTeam: hash = 0x9ed72d71
+        name: string = "Hanwha Life Esports"
+        esportsTeam: hash = 0x9ed72d71
     }
     0x43cc96af = EsportsBannerConfiguration {
-        Name: string = "Team Queso"
-        EsportsTeam: hash = 0x23fdc75d
+        name: string = "Team Queso"
+        esportsTeam: hash = 0x23fdc75d
     }
     0x43e25cfe = EsportsBannerConfiguration {
-        Name: string = "Mirage-Elyandra"
-        EsportsTeam: hash = 0x4edf01ed
+        name: string = "Mirage-Elyandra"
+        esportsTeam: hash = 0x4edf01ed
     }
     0x44e6dbbf = EsportsBannerConfiguration {
-        Name: string = "Outplayed"
-        EsportsTeam: hash = 0xa1823ef7
+        name: string = "Outplayed"
+        esportsTeam: hash = 0xa1823ef7
     }
     0x45cc99d5 = EsportsBannerConfiguration {
-        Name: string = "Team Secret"
-        EsportsTeam: hash = 0xef4e8eed
+        name: string = "Team Secret"
+        esportsTeam: hash = 0xef4e8eed
     }
     0x45ef2c17 = EsportsBannerConfiguration {
-        Name: string = "Burning Core"
-        EsportsTeam: hash = 0xc2a0a5cf
+        name: string = "Burning Core"
+        esportsTeam: hash = 0xc2a0a5cf
     }
     0x45f5e7dc = EsportsBannerConfiguration {
-        Name: string = "eStar"
-        EsportsTeam: hash = 0xf6b03b0b
+        name: string = "eStar"
+        esportsTeam: hash = 0xf6b03b0b
     }
     0x462f763f = EsportsBannerConfiguration {
-        Name: string = "5 Ronin"
-        EsportsTeam: hash = 0x84058044
+        name: string = "5 Ronin"
+        esportsTeam: hash = 0x84058044
     }
     0x46c963f2 = EsportsBannerConfiguration {
-        Name: string = "Diamant Esports"
-        EsportsTeam: hash = 0xb2778d2f
+        name: string = "Diamant Esports"
+        esportsTeam: hash = 0xb2778d2f
     }
     0x481c4f82 = EsportsBannerConfiguration {
-        Name: string = "Team BDS"
-        EsportsTeam: hash = 0x68870c95
+        name: string = "Team BDS"
+        esportsTeam: hash = 0x68870c95
     }
     0x49678e68 = EsportsBannerConfiguration {
-        Name: string = "Cryptova"
-        EsportsTeam: hash = 0x79f805f1
+        name: string = "Cryptova"
+        esportsTeam: hash = 0x79f805f1
     }
     0x4a6c0d29 = EsportsBannerConfiguration {
-        Name: string = "Team Oplon"
-        EsportsTeam: hash = 0x99464db0
+        name: string = "Team Oplon"
+        esportsTeam: hash = 0x99464db0
     }
     0x4ae0296c = EsportsBannerConfiguration {
-        Name: string = "LXE Esports"
-        EsportsTeam: hash = 0x775873dc
+        name: string = "LXE Esports"
+        esportsTeam: hash = 0x775873dc
     }
     0x4bf3b2b7 = EsportsBannerConfiguration {
-        Name: string = "Dusty"
-        EsportsTeam: hash = 0xc0d412a0
+        name: string = "Dusty"
+        esportsTeam: hash = 0xc0d412a0
     }
     0x4d5d947e = EsportsBannerConfiguration {
-        Name: string = "mCon Rotterdam"
-        EsportsTeam: hash = 0x0cd2f2ab
+        name: string = "mCon Rotterdam"
+        esportsTeam: hash = 0x0cd2f2ab
     }
     0x4dd36f2d = EsportsBannerConfiguration {
-        Name: string = "Fnatic"
-        EsportsTeam: hash = 0x5bd17d58
+        name: string = "Fnatic"
+        esportsTeam: hash = 0x5bd17d58
     }
     0x4de13b6b = EsportsBannerConfiguration {
-        Name: string = "Medieval Riga"
-        EsportsTeam: hash = 0x2dd2b58a
+        name: string = "Medieval Riga"
+        esportsTeam: hash = 0x2dd2b58a
     }
     0x4ef5f607 = EsportsBannerConfiguration {
-        Name: string = "Echo Zulu"
-        EsportsTeam: hash = 0x1f8d1275
+        name: string = "Echo Zulu"
+        esportsTeam: hash = 0x1f8d1275
     }
     0x4f82687d = EsportsBannerConfiguration {
-        Name: string = "LCS Scouting Grounds MTN"
-        EsportsTeam: hash = 0x252c5d53
+        name: string = "LCS Scouting Grounds MTN"
+        esportsTeam: hash = 0x252c5d53
     }
     0x4fc8d7fc = EsportsBannerConfiguration {
-        Name: string = "SBTC Esports"
-        EsportsTeam: hash = 0x402deb04
+        name: string = "SBTC Esports"
+        esportsTeam: hash = 0x402deb04
     }
     0x50ddf447 = EsportsBannerConfiguration {
-        Name: string = "kt Rolster"
-        EsportsTeam: hash = 0x267357c7
+        name: string = "kt Rolster"
+        esportsTeam: hash = 0x267357c7
     }
     0x51c69c8b = EsportsBannerConfiguration {
-        Name: string = "Rogue Warriors"
-        EsportsTeam: hash = 0xe182802d
+        name: string = "Rogue Warriors"
+        esportsTeam: hash = 0xe182802d
     }
     0x51c8db22 = EsportsBannerConfiguration {
-        Name: string = "Sengoku Gaming"
-        EsportsTeam: hash = 0xa39cc62a
+        name: string = "Sengoku Gaming"
+        esportsTeam: hash = 0xa39cc62a
     }
     0x51d5a715 = EsportsBannerConfiguration {
-        Name: string = "Hurricane Gaming"
-        EsportsTeam: hash = 0x193f29a9
+        name: string = "Hurricane Gaming"
+        esportsTeam: hash = 0x193f29a9
     }
     0x51fa77ee = EsportsBannerConfiguration {
-        Name: string = "GameWard"
-        EsportsTeam: hash = 0x86155bed
+        name: string = "GameWard"
+        esportsTeam: hash = 0x86155bed
     }
     0x525d9c5d = EsportsBannerConfiguration {
-        Name: string = "Macko Esports"
-        EsportsTeam: hash = 0xd3217705
+        name: string = "Macko Esports"
+        esportsTeam: hash = 0xd3217705
     }
     0x52c2bb11 = EsportsBannerConfiguration {
-        Name: string = "Iron Wolves"
-        EsportsTeam: hash = 0xca429d86
+        name: string = "Iron Wolves"
+        esportsTeam: hash = 0xca429d86
     }
     0x52eb6ef7 = EsportsBannerConfiguration {
-        Name: string = "Avant Gaming"
-        EsportsTeam: hash = 0x0156f63a
+        name: string = "Avant Gaming"
+        esportsTeam: hash = 0x0156f63a
     }
     0x53f3bf4f = EsportsBannerConfiguration {
-        Name: string = "Dragon Army"
-        EsportsTeam: hash = 0xf353cc05
+        name: string = "Dragon Army"
+        esportsTeam: hash = 0xf353cc05
     }
     0x559122fe = EsportsBannerConfiguration {
-        Name: string = "DRX"
-        EsportsTeam: hash = 0xd480fb8c
+        name: string = "DRX"
+        esportsTeam: hash = 0xd480fb8c
     }
     0x55c8e16e = EsportsBannerConfiguration {
-        Name: string = "SK Gaming"
-        EsportsTeam: hash = 0xf7ba8b4c
+        name: string = "SK Gaming"
+        esportsTeam: hash = 0xf7ba8b4c
     }
     0x55c94b90 = EsportsBannerConfiguration {
-        Name: string = "Zerolag Esports"
-        EsportsTeam: hash = 0x5582514c
+        name: string = "Zerolag Esports"
+        esportsTeam: hash = 0x5582514c
     }
     0x55eb73b0 = EsportsBannerConfiguration {
-        Name: string = "All Knights"
-        EsportsTeam: hash = 0x84ceb27f
+        name: string = "All Knights"
+        esportsTeam: hash = 0x84ceb27f
     }
     0x55fa7e3a = EsportsBannerConfiguration {
-        Name: string = "Galatasaray Espor"
-        EsportsTeam: hash = 0x01a298b0
+        name: string = "Galatasaray Espor"
+        esportsTeam: hash = 0x01a298b0
     }
     0x5762216a = EsportsBannerConfiguration {
-        Name: string = "MAD Lions"
-        EsportsTeam: hash = 0x48256939
+        name: string = "MAD Lions"
+        esportsTeam: hash = 0x48256939
     }
     0x57852181 = EsportsBannerConfiguration {
-        Name: string = "Vodafone Giants"
-        EsportsTeam: hash = 0x0004e02b
+        name: string = "Vodafone Giants"
+        esportsTeam: hash = 0x0004e02b
     }
     0x579ba5a5 = EsportsBannerConfiguration {
-        Name: string = "Schalke 04"
-        EsportsTeam: hash = 0x3fe0f4fc
+        name: string = "Schalke 04"
+        esportsTeam: hash = 0x3fe0f4fc
     }
     0x5996039f = EsportsBannerConfiguration {
-        Name: string = "XL Academy"
-        EsportsTeam: hash = 0x856b2a84
+        name: string = "XL Academy"
+        esportsTeam: hash = 0x856b2a84
     }
     0x5a86f6fc = EsportsBannerConfiguration {
-        Name: string = "Movistar Riders"
-        EsportsTeam: hash = 0xd52a13bd
+        name: string = "Movistar Riders"
+        esportsTeam: hash = 0xd52a13bd
     }
     0x5ac8e94d = EsportsBannerConfiguration {
-        Name: string = "Suning"
-        EsportsTeam: hash = 0xa06460c8
+        name: string = "Suning"
+        esportsTeam: hash = 0xa06460c8
     }
     0x5c3db1eb = EsportsBannerConfiguration {
-        Name: string = "Valiance"
-        EsportsTeam: hash = 0xf6aeecba
+        name: string = "Valiance"
+        esportsTeam: hash = 0xf6aeecba
     }
     0x5cc6addc = EsportsBannerConfiguration {
-        Name: string = "Rascal Jester"
-        EsportsTeam: hash = 0x474654a4
+        name: string = "Rascal Jester"
+        esportsTeam: hash = 0x474654a4
     }
     0x5cf84aa8 = EsportsBannerConfiguration {
-        Name: string = "1907 Fenerbah\xc3\xa7e Esports"
-        EsportsTeam: hash = 0xbc9c693e
+        name: string = "1907 Fenerbah\xc3\xa7e Esports"
+        esportsTeam: hash = 0xbc9c693e
     }
     0x5d393650 = EsportsBannerConfiguration {
-        Name: string = "VORAX"
-        EsportsTeam: hash = 0x3f6b02d4
+        name: string = "VORAX"
+        esportsTeam: hash = 0x3f6b02d4
     }
     0x5df3cf0d = EsportsBannerConfiguration {
-        Name: string = "DWG KIA"
-        EsportsTeam: hash = 0xc5d89bcd
+        name: string = "DWG KIA"
+        esportsTeam: hash = 0xc5d89bcd
     }
     0x5f5db0d4 = EsportsBannerConfiguration {
-        Name: string = "Machi Esports"
-        EsportsTeam: hash = 0x5c8b12e7
+        name: string = "Machi Esports"
+        esportsTeam: hash = 0x5c8b12e7
     }
     0x5faf80b8 = EsportsBannerConfiguration {
-        Name: string = "Astralis Talent"
-        EsportsTeam: hash = 0x2b0f650c
+        name: string = "Astralis Talent"
+        esportsTeam: hash = 0x2b0f650c
     }
     0x5fd37e88 = EsportsBannerConfiguration {
-        Name: string = "Team WE"
-        EsportsTeam: hash = 0x80f583d7
+        name: string = "Team WE"
+        esportsTeam: hash = 0x80f583d7
     }
     0x60ba8256 = EsportsBannerConfiguration {
-        Name: string = "Deep Cross Gaming"
-        EsportsTeam: hash = 0x0833b3b1
+        name: string = "Deep Cross Gaming"
+        esportsTeam: hash = 0x0833b3b1
     }
     0x60d3801b = EsportsBannerConfiguration {
-        Name: string = "White Dragons"
-        EsportsTeam: hash = 0x1e54eb95
+        name: string = "White Dragons"
+        esportsTeam: hash = 0x1e54eb95
     }
     0x61f85287 = EsportsBannerConfiguration {
-        Name: string = "Furious Gaming"
-        EsportsTeam: hash = 0x4dc849c3
+        name: string = "Furious Gaming"
+        esportsTeam: hash = 0x4dc849c3
     }
     0x62eb8827 = EsportsBannerConfiguration {
-        Name: string = "Austrian Force"
-        EsportsTeam: hash = 0xafbc5676
+        name: string = "Austrian Force"
+        esportsTeam: hash = 0xafbc5676
     }
     0x6584c9b6 = EsportsBannerConfiguration {
-        Name: string = "Misfits Gaming"
-        EsportsTeam: hash = 0x3e89cdb8
+        name: string = "Misfits Gaming"
+        esportsTeam: hash = 0x3e89cdb8
     }
     0x6766eb73 = EsportsBannerConfiguration {
-        Name: string = "Bilibili Gaming"
-        EsportsTeam: hash = 0x4bec806c
+        name: string = "Bilibili Gaming"
+        esportsTeam: hash = 0x4bec806c
     }
     0x6773b766 = EsportsBannerConfiguration {
-        Name: string = "Berlin International Gaming"
-        EsportsTeam: hash = 0xd256b9a1
+        name: string = "Berlin International Gaming"
+        esportsTeam: hash = 0xd256b9a1
     }
     0x67a9d160 = EsportsBannerConfiguration {
-        Name: string = "Black Star Gaming"
-        EsportsTeam: hash = 0x891b10c3
+        name: string = "Black Star Gaming"
+        esportsTeam: hash = 0x891b10c3
     }
     0x68c09f1c = EsportsBannerConfiguration {
-        Name: string = "Dominus Esports"
-        EsportsTeam: hash = 0x37692487
+        name: string = "Dominus Esports"
+        esportsTeam: hash = 0x37692487
     }
     0x695571cd = EsportsBannerConfiguration {
-        Name: string = "Meta Falcon Team"
-        EsportsTeam: hash = 0xf082f774
+        name: string = "Meta Falcon Team"
+        esportsTeam: hash = 0xf082f774
     }
     0x69a28b9b = EsportsBannerConfiguration {
-        Name: string = "Dynasty"
-        EsportsTeam: hash = 0x777758c1
+        name: string = "Dynasty"
+        esportsTeam: hash = 0x777758c1
     }
     0x6a4a3a6d = EsportsBannerConfiguration {
-        Name: string = "Mkers"
-        EsportsTeam: hash = 0x4babe09d
+        name: string = "Mkers"
+        esportsTeam: hash = 0x4babe09d
     }
     0x6aaf5921 = EsportsBannerConfiguration {
-        Name: string = "DetonatioN FocusMe"
-        EsportsTeam: hash = 0x8aea6639
+        name: string = "DetonatioN FocusMe"
+        esportsTeam: hash = 0x8aea6639
     }
     0x6b03ddf7 = EsportsBannerConfiguration {
-        Name: string = "Team Vitality"
-        EsportsTeam: hash = 0xc2c466de
+        name: string = "Team Vitality"
+        esportsTeam: hash = 0xc2c466de
     }
     0x6d313466 = EsportsBannerConfiguration {
-        Name: string = "Kanga Esports"
-        EsportsTeam: hash = 0x37dcfdc8
+        name: string = "Kanga Esports"
+        esportsTeam: hash = 0x37dcfdc8
     }
     0x6e3135f9 = EsportsBannerConfiguration {
-        Name: string = "Komil&Friends"
-        EsportsTeam: hash = 0xff041a9c
+        name: string = "Komil&Friends"
+        esportsTeam: hash = 0xff041a9c
     }
     0x6eb1d6ec = EsportsBannerConfiguration {
-        Name: string = "ASUS ROG Elite"
-        EsportsTeam: hash = 0x48bce265
+        name: string = "ASUS ROG Elite"
+        esportsTeam: hash = 0x48bce265
     }
     0x6f07b5da = EsportsBannerConfiguration {
-        Name: string = "Vanir"
-        EsportsTeam: hash = 0x10249e7d
+        name: string = "Vanir"
+        esportsTeam: hash = 0x10249e7d
     }
     0x6f137bf3 = EsportsBannerConfiguration {
-        Name: string = "Tricked Esport"
-        EsportsTeam: hash = 0x24c59ecb
+        name: string = "Tricked Esport"
+        esportsTeam: hash = 0x24c59ecb
     }
     0x6fa9ddf8 = EsportsBannerConfiguration {
-        Name: string = "Bisons Eclub"
-        EsportsTeam: hash = 0x32722c4c
+        name: string = "Bisons Eclub"
+        esportsTeam: hash = 0x32722c4c
     }
     0x7003e5d6 = EsportsBannerConfiguration {
-        Name: string = "Vikingekrig Esports"
-        EsportsTeam: hash = 0xd80aa776
+        name: string = "Vikingekrig Esports"
+        esportsTeam: hash = 0xd80aa776
     }
     0x7041f51a = EsportsBannerConfiguration {
-        Name: string = "MnM Gaming"
-        EsportsTeam: hash = 0x292b4056
+        name: string = "MnM Gaming"
+        esportsTeam: hash = 0x292b4056
     }
     0x7362daa4 = EsportsBannerConfiguration {
-        Name: string = "Karma Clan Esports"
-        EsportsTeam: hash = 0xce000dd0
+        name: string = "Karma Clan Esports"
+        esportsTeam: hash = 0xce000dd0
     }
     0x736b7b85 = EsportsBannerConfiguration {
-        Name: string = "Be\xc5\x9fikta\xc5\x9f"
-        EsportsTeam: hash = 0xa0ea53f5
+        name: string = "Be\xc5\x9fikta\xc5\x9f"
+        esportsTeam: hash = 0xa0ea53f5
     }
     0x736bd500 = EsportsBannerConfiguration {
-        Name: string = "KV Mechelen"
-        EsportsTeam: hash = 0xe4a3b58d
+        name: string = "KV Mechelen"
+        esportsTeam: hash = 0xe4a3b58d
     }
     0x746b7d18 = EsportsBannerConfiguration {
-        Name: string = "Berjaya Dragons"
-        EsportsTeam: hash = 0x50962d39
+        name: string = "Berjaya Dragons"
+        esportsTeam: hash = 0x50962d39
     }
     0x74a7a740 = EsportsBannerConfiguration {
-        Name: string = "BRUTE"
-        EsportsTeam: hash = 0xa430205c
+        name: string = "BRUTE"
+        esportsTeam: hash = 0xa430205c
     }
     0x7a57cb27 = EsportsBannerConfiguration {
-        Name: string = "MAMMOTH"
-        EsportsTeam: hash = 0x7332ae24
+        name: string = "MAMMOTH"
+        esportsTeam: hash = 0x7332ae24
     }
     0x7bc91d40 = EsportsBannerConfiguration {
-        Name: string = "Sector One"
-        EsportsTeam: hash = 0x093a0080
+        name: string = "Sector One"
+        esportsTeam: hash = 0x093a0080
     }
     0x7c13906a = EsportsBannerConfiguration {
-        Name: string = "Team THRILL"
-        EsportsTeam: hash = 0xa63f5628
+        name: string = "Team THRILL"
+        esportsTeam: hash = 0xa63f5628
     }
     0x7c220dce = EsportsBannerConfiguration {
-        Name: string = "Vega Squadron"
-        EsportsTeam: hash = 0x77c36cf2
+        name: string = "Vega Squadron"
+        esportsTeam: hash = 0x77c36cf2
     }
     0x7ea9c596 = EsportsBannerConfiguration {
-        Name: string = "XTEN Esports"
-        EsportsTeam: hash = 0x1907f280
+        name: string = "XTEN Esports"
+        esportsTeam: hash = 0x1907f280
     }
     0x7edfb9c0 = EsportsBannerConfiguration {
-        Name: string = "Top Esports"
-        EsportsTeam: hash = 0x17f4a965
+        name: string = "Top Esports"
+        esportsTeam: hash = 0x17f4a965
     }
     0x810af746 = EsportsBannerConfiguration {
-        Name: string = "Gambit Esports"
-        EsportsTeam: hash = 0xbaff63d2
+        name: string = "Gambit Esports"
+        esportsTeam: hash = 0xbaff63d2
     }
     0x8276207e = EsportsBannerConfiguration {
-        Name: string = "Bifrost"
-        EsportsTeam: hash = 0x0f29eafe
+        name: string = "Bifrost"
+        esportsTeam: hash = 0x0f29eafe
     }
     0x83c929d8 = EsportsBannerConfiguration {
-        Name: string = "S9"
-        EsportsTeam: hash = 0x685922e0
+        name: string = "S9"
+        esportsTeam: hash = 0x685922e0
     }
     0x83f64976 = EsportsBannerConfiguration {
-        Name: string = "EFIVE Esports"
-        EsportsTeam: hash = 0x2b607115
+        name: string = "EFIVE Esports"
+        esportsTeam: hash = 0x2b607115
     }
     0x846fb37f = EsportsBannerConfiguration {
-        Name: string = "Z10 ESHARK"
-        EsportsTeam: hash = 0x3809f340
+        name: string = "Z10 ESHARK"
+        esportsTeam: hash = 0x3809f340
     }
     0x860261ea = EsportsBannerConfiguration {
-        Name: string = "LowLandLions"
-        EsportsTeam: hash = 0xe088bb52
+        name: string = "LowLandLions"
+        esportsTeam: hash = 0xe088bb52
     }
     0x870f7de6 = EsportsBannerConfiguration {
-        Name: string = "Godsent"
-        EsportsTeam: hash = 0x3b1d7f69
+        name: string = "Godsent"
+        esportsTeam: hash = 0x3b1d7f69
     }
     0x879af936 = EsportsBannerConfiguration {
-        Name: string = "Beyond Gaming"
-        EsportsTeam: hash = 0x07f3805d
+        name: string = "Beyond Gaming"
+        esportsTeam: hash = 0x07f3805d
     }
     0x8b118b77 = EsportsBannerConfiguration {
-        Name: string = "KOVA Esports"
-        EsportsTeam: hash = 0x5bf04e21
+        name: string = "KOVA Esports"
+        esportsTeam: hash = 0x5bf04e21
     }
     0x8b278918 = EsportsBannerConfiguration {
-        Name: string = "GALAKTICOS"
-        EsportsTeam: hash = 0x68437b52
+        name: string = "GALAKTICOS"
+        esportsTeam: hash = 0x68437b52
     }
     0x8b3ca609 = EsportsBannerConfiguration {
-        Name: string = "Auxesis Esports"
-        EsportsTeam: hash = 0x90e0808a
+        name: string = "Auxesis Esports"
+        esportsTeam: hash = 0x90e0808a
     }
     0x8b7aabd7 = EsportsBannerConfiguration {
-        Name: string = "Team BDS"
-        EsportsTeam: hash = 0x00712065
+        name: string = "Team BDS"
+        esportsTeam: hash = 0x00712065
     }
     0x8ba34e47 = EsportsBannerConfiguration {
-        Name: string = "Cream Real Betis"
-        EsportsTeam: hash = 0xb00aa389
+        name: string = "Cream Real Betis"
+        esportsTeam: hash = 0xb00aa389
     }
     0x8c278aab = EsportsBannerConfiguration {
-        Name: string = "GAM Esports"
-        EsportsTeam: hash = 0x2ec3644d
+        name: string = "GAM Esports"
+        esportsTeam: hash = 0x2ec3644d
     }
     0x8c87795d = EsportsBannerConfiguration {
-        Name: string = "Bar\xc3\xa7a Esports"
-        EsportsTeam: hash = 0x83c2f239
+        name: string = "Bar\xc3\xa7a Esports"
+        esportsTeam: hash = 0x83c2f239
     }
     0x8e4072e3 = EsportsBannerConfiguration {
-        Name: string = "Kwangdong Freecs"
-        EsportsTeam: hash = 0xc3d27b94
+        name: string = "Kwangdong Freecs"
+        esportsTeam: hash = 0xc3d27b94
     }
     0x8fa7d1c1 = EsportsBannerConfiguration {
-        Name: string = "Fredit BRION"
-        EsportsTeam: hash = 0x983fe681
+        name: string = "Fredit BRION"
+        esportsTeam: hash = 0x983fe681
     }
     0x9083027b = EsportsBannerConfiguration {
-        Name: string = "BCN Squad"
-        EsportsTeam: hash = 0x06ae324f
+        name: string = "BCN Squad"
+        esportsTeam: hash = 0x06ae324f
     }
     0x91c7014b = EsportsBannerConfiguration {
-        Name: string = "Rainbow7"
-        EsportsTeam: hash = 0xc64c738b
+        name: string = "Rainbow7"
+        esportsTeam: hash = 0xc64c738b
     }
     0x92d88c17 = EsportsBannerConfiguration {
-        Name: string = "Granit Gaming"
-        EsportsTeam: hash = 0x9e6f726f
+        name: string = "Granit Gaming"
+        esportsTeam: hash = 0x9e6f726f
     }
     0x92dfd93c = EsportsBannerConfiguration {
-        Name: string = "Team ESCA Gaming"
-        EsportsTeam: hash = 0x91536250
+        name: string = "Team ESCA Gaming"
+        esportsTeam: hash = 0x91536250
     }
     0x932f31a1 = EsportsBannerConfiguration {
-        Name: string = "Finetwork KOI"
-        EsportsTeam: hash = 0xfd760023
+        name: string = "Finetwork KOI"
+        esportsTeam: hash = 0xfd760023
     }
     0x933a6a94 = EsportsBannerConfiguration {
-        Name: string = "KABUM E-SPORTS"
-        EsportsTeam: hash = 0x0fc127cf
+        name: string = "KABUM E-SPORTS"
+        esportsTeam: hash = 0x0fc127cf
     }
     0x93763b41 = EsportsBannerConfiguration {
-        Name: string = "Boavista FC"
-        EsportsTeam: hash = 0x44d41d77
+        name: string = "Boavista FC"
+        esportsTeam: hash = 0x44d41d77
     }
     0x95697274 = EsportsBannerConfiguration {
-        Name: string = "BOOM Esports"
-        EsportsTeam: hash = 0xb33a2715
+        name: string = "BOOM Esports"
+        esportsTeam: hash = 0xb33a2715
     }
     0x9609a2b2 = EsportsBannerConfiguration {
-        Name: string = "Misfits Primer"
-        EsportsTeam: hash = 0xde84ce16
+        name: string = "Misfits Primer"
+        esportsTeam: hash = 0xde84ce16
     }
     0x9679fe05 = EsportsBannerConfiguration {
-        Name: string = "MAD Lions Madrid"
-        EsportsTeam: hash = 0xfcc7c93e
+        name: string = "MAD Lions Madrid"
+        esportsTeam: hash = 0xfcc7c93e
     }
     0x9686fbf5 = EsportsBannerConfiguration {
-        Name: string = "Devils.One"
-        EsportsTeam: hash = 0x2a370c3f
+        name: string = "Devils.One"
+        esportsTeam: hash = 0x2a370c3f
     }
     0x96d4795f = EsportsBannerConfiguration {
-        Name: string = "Cruzeiro"
-        EsportsTeam: hash = 0x1eecad7e
+        name: string = "Cruzeiro"
+        esportsTeam: hash = 0x1eecad7e
     }
     0x96fae48d = EsportsBannerConfiguration {
-        Name: string = "G2 Esports"
-        EsportsTeam: hash = 0xfe82b734
+        name: string = "G2 Esports"
+        esportsTeam: hash = 0xfe82b734
     }
     0x9756fa31 = EsportsBannerConfiguration {
-        Name: string = "Griffin"
-        EsportsTeam: hash = 0x664ced4d
+        name: string = "Griffin"
+        esportsTeam: hash = 0x664ced4d
     }
     0x981415d7 = EsportsBannerConfiguration {
-        Name: string = "Giants"
-        EsportsTeam: hash = 0x354d4185
+        name: string = "Giants"
+        esportsTeam: hash = 0x354d4185
     }
     0x98a2863e = EsportsBannerConfiguration {
-        Name: string = "Ion Squad"
-        EsportsTeam: hash = 0x2b29db79
+        name: string = "Ion Squad"
+        esportsTeam: hash = 0x2b29db79
     }
     0x9915fca8 = EsportsBannerConfiguration {
-        Name: string = "TSM"
-        EsportsTeam: hash = 0x8cb04ff2
+        name: string = "TSM"
+        esportsTeam: hash = 0x8cb04ff2
     }
     0x9951194d = EsportsBannerConfiguration {
-        Name: string = "NK Osijek Esports"
-        EsportsTeam: hash = 0x463f218c
+        name: string = "NK Osijek Esports"
+        esportsTeam: hash = 0x463f218c
     }
     0x9b47f5f3 = EsportsBannerConfiguration {
-        Name: string = "GTZ Bulls"
-        EsportsTeam: hash = 0xc4e0fb55
+        name: string = "GTZ Bulls"
+        esportsTeam: hash = 0xc4e0fb55
     }
     0x9ea2e92b = EsportsBannerConfiguration {
-        Name: string = "Royal Youth"
-        EsportsTeam: hash = 0x496c60f2
+        name: string = "Royal Youth"
+        esportsTeam: hash = 0x496c60f2
     }
     0xa0d24a86 = EsportsBannerConfiguration {
-        Name: string = "RIDDLE"
-        EsportsTeam: hash = 0x427b82fb
+        name: string = "RIDDLE"
+        esportsTeam: hash = 0x427b82fb
     }
     0xa3ba4a59 = EsportsBannerConfiguration {
-        Name: string = "Cruzeiro"
-        EsportsTeam: hash = 0xec509919
+        name: string = "Cruzeiro"
+        esportsTeam: hash = 0xec509919
     }
     0xa410b17b = EsportsBannerConfiguration {
-        Name: string = "Team 7AM"
-        EsportsTeam: hash = 0x953b2522
+        name: string = "Team 7AM"
+        esportsTeam: hash = 0x953b2522
     }
     0xa7571361 = EsportsBannerConfiguration {
-        Name: string = "Gravitas"
-        EsportsTeam: hash = 0x0cd2f795
+        name: string = "Gravitas"
+        esportsTeam: hash = 0x0cd2f795
     }
     0xa8b20373 = EsportsBannerConfiguration {
-        Name: string = "Resolve"
-        EsportsTeam: hash = 0x6a9d1818
+        name: string = "Resolve"
+        esportsTeam: hash = 0x6a9d1818
     }
     0xa9062859 = EsportsBannerConfiguration {
-        Name: string = "x25 Gaming"
-        EsportsTeam: hash = 0xfa2524a5
+        name: string = "x25 Gaming"
+        esportsTeam: hash = 0xfa2524a5
     }
     0xaa05ed40 = EsportsBannerConfiguration {
-        Name: string = "Schalke 04 Evolution"
-        EsportsTeam: hash = 0x6433206d
+        name: string = "Schalke 04 Evolution"
+        esportsTeam: hash = 0x6433206d
     }
     0xaa54d983 = EsportsBannerConfiguration {
-        Name: string = "Goskilla"
-        EsportsTeam: hash = 0xc611195c
+        name: string = "Goskilla"
+        esportsTeam: hash = 0xc611195c
     }
     0xab3f14c7 = EsportsBannerConfiguration {
-        Name: string = "Galaxy Racer"
-        EsportsTeam: hash = 0xab108964
+        name: string = "Galaxy Racer"
+        esportsTeam: hash = 0xab108964
     }
     0xacc9c2f2 = EsportsBannerConfiguration {
-        Name: string = "JD|XL"
-        EsportsTeam: hash = 0x6893af41
+        name: string = "JD|XL"
+        esportsTeam: hash = 0x6893af41
     }
     0xad1ec442 = EsportsBannerConfiguration {
-        Name: string = "Gen.G"
-        EsportsTeam: hash = 0xe02904e1
+        name: string = "Gen.G"
+        esportsTeam: hash = 0xe02904e1
     }
     0xaea8b90e = EsportsBannerConfiguration {
-        Name: string = "ahq eSports Club"
-        EsportsTeam: hash = 0xdaee76d9
+        name: string = "ahq eSports Club"
+        esportsTeam: hash = 0xdaee76d9
     }
     0xaeade32d = EsportsBannerConfiguration {
-        Name: string = "Eintracht Spandau"
-        EsportsTeam: hash = 0x72aa93af
+        name: string = "Eintracht Spandau"
+        esportsTeam: hash = 0x72aa93af
     }
     0xaebc9a41 = EsportsBannerConfiguration {
-        Name: string = "ROX"
-        EsportsTeam: hash = 0x5b7445e4
+        name: string = "ROX"
+        esportsTeam: hash = 0x5b7445e4
     }
     0xaebe7f5d = EsportsBannerConfiguration {
-        Name: string = "INTZ"
-        EsportsTeam: hash = 0xcb5a9a54
+        name: string = "INTZ"
+        esportsTeam: hash = 0xcb5a9a54
     }
     0xaeeff659 = EsportsBannerConfiguration {
-        Name: string = "Esports Empire"
-        EsportsTeam: hash = 0x1c44520b
+        name: string = "Esports Empire"
+        esportsTeam: hash = 0x1c44520b
     }
     0xb0234629 = EsportsBannerConfiguration {
-        Name: string = "Gentlemen's Gaming"
-        EsportsTeam: hash = 0xedf09d12
+        name: string = "Gentlemen's Gaming"
+        esportsTeam: hash = 0xedf09d12
     }
     0xb06ecc8b = EsportsBannerConfiguration {
-        Name: string = "KRC Genk Esports"
-        EsportsTeam: hash = 0x78efbe27
+        name: string = "KRC Genk Esports"
+        esportsTeam: hash = 0x78efbe27
     }
     0xb1a06f02 = EsportsBannerConfiguration {
-        Name: string = "Illuminar Gaming"
-        EsportsTeam: hash = 0x770ed106
+        name: string = "Illuminar Gaming"
+        esportsTeam: hash = 0x770ed106
     }
     0xb1a4ec30 = EsportsBannerConfiguration {
-        Name: string = "Inside Games"
-        EsportsTeam: hash = 0x15b009cc
+        name: string = "Inside Games"
+        esportsTeam: hash = 0x15b009cc
     }
     0xb1ad3af5 = EsportsBannerConfiguration {
-        Name: string = "Isurus"
-        EsportsTeam: hash = 0x93f0421e
+        name: string = "Isurus"
+        esportsTeam: hash = 0x93f0421e
     }
     0xb2a4edc3 = EsportsBannerConfiguration {
-        Name: string = "Gillette Infinity Esports"
-        EsportsTeam: hash = 0xc87adb95
+        name: string = "Gillette Infinity Esports"
+        esportsTeam: hash = 0xc87adb95
     }
     0xb2a8bf5a = EsportsBannerConfiguration {
-        Name: string = "Immortals"
-        EsportsTeam: hash = 0x120ccefa
+        name: string = "Immortals"
+        esportsTeam: hash = 0x120ccefa
     }
     0xb3cdeb41 = EsportsBannerConfiguration {
-        Name: string = "Team Refuse"
-        EsportsTeam: hash = 0xb3b19864
+        name: string = "Team Refuse"
+        esportsTeam: hash = 0xb3b19864
     }
     0xb3e9ee0a = EsportsBannerConfiguration {
-        Name: string = "EGN Esports"
-        EsportsTeam: hash = 0x38749add
+        name: string = "EGN Esports"
+        esportsTeam: hash = 0x38749add
     }
     0xb5065f0f = EsportsBannerConfiguration {
-        Name: string = "Mousesports"
-        EsportsTeam: hash = 0xa9287021
+        name: string = "Mousesports"
+        esportsTeam: hash = 0xa9287021
     }
     0xb7b21b10 = EsportsBannerConfiguration {
-        Name: string = "Resurgence"
-        EsportsTeam: hash = 0x3bb964fc
+        name: string = "Resurgence"
+        esportsTeam: hash = 0x3bb964fc
     }
     0xb7ba69d5 = EsportsBannerConfiguration {
-        Name: string = "Royal Never Give Up"
-        EsportsTeam: hash = 0xfea38cb1
+        name: string = "Royal Never Give Up"
+        esportsTeam: hash = 0xfea38cb1
     }
     0xb7c30ab6 = EsportsBannerConfiguration {
-        Name: string = "IZIDREAM"
-        EsportsTeam: hash = 0x454dc0d4
+        name: string = "IZIDREAM"
+        esportsTeam: hash = 0x454dc0d4
     }
     0xb82352c1 = EsportsBannerConfiguration {
-        Name: string = "GGEsports"
-        EsportsTeam: hash = 0x9fc4afbe
+        name: string = "GGEsports"
+        esportsTeam: hash = 0x9fc4afbe
     }
     0xb8bec2c6 = EsportsBannerConfiguration {
-        Name: string = "Nyyrikki"
-        EsportsTeam: hash = 0x92437bea
+        name: string = "Nyyrikki"
+        esportsTeam: hash = 0x92437bea
     }
     0xb8df6fec = EsportsBannerConfiguration {
-        Name: string = "WLGaming Esports"
-        EsportsTeam: hash = 0x6a682873
+        name: string = "WLGaming Esports"
+        esportsTeam: hash = 0x6a682873
     }
     0xba44367e = EsportsBannerConfiguration {
-        Name: string = "OFFSET Esports"
-        EsportsTeam: hash = 0x2d5c59ee
+        name: string = "OFFSET Esports"
+        esportsTeam: hash = 0x2d5c59ee
     }
     0xbc9175c9 = EsportsBannerConfiguration {
-        Name: string = "LCS Scouting Grounds IFL"
-        EsportsTeam: hash = 0xed0ce3b8
+        name: string = "LCS Scouting Grounds IFL"
+        esportsTeam: hash = 0xed0ce3b8
     }
     0xbcb4eeac = EsportsBannerConfiguration {
-        Name: string = "Peace"
-        EsportsTeam: hash = 0xdfbd4e4c
+        name: string = "Peace"
+        esportsTeam: hash = 0xdfbd4e4c
     }
     0xbea825df = EsportsBannerConfiguration {
-        Name: string = "paiN Gaming"
-        EsportsTeam: hash = 0xe75772a1
+        name: string = "paiN Gaming"
+        esportsTeam: hash = 0xe75772a1
     }
     0xbee81a3f = EsportsBannerConfiguration {
-        Name: string = "Nexus Gaming"
-        EsportsTeam: hash = 0xe7a04181
+        name: string = "Nexus Gaming"
+        esportsTeam: hash = 0xe7a04181
     }
     0xbf3a2460 = EsportsBannerConfiguration {
-        Name: string = "Team MCES"
-        EsportsTeam: hash = 0xe217071b
+        name: string = "Team MCES"
+        esportsTeam: hash = 0xe217071b
     }
     0xbfd03cbc = EsportsBannerConfiguration {
-        Name: string = "AGO Rogue"
-        EsportsTeam: hash = 0x1e38ea0d
+        name: string = "AGO Rogue"
+        esportsTeam: hash = 0x1e38ea0d
     }
     0xc090241f = EsportsBannerConfiguration {
-        Name: string = "PENTA 1860"
-        EsportsTeam: hash = 0xd117be0d
+        name: string = "PENTA 1860"
+        esportsTeam: hash = 0xd117be0d
     }
     0xc1d91042 = EsportsBannerConfiguration {
-        Name: string = "G2 Arctic"
-        EsportsTeam: hash = 0x926bd6ae
+        name: string = "G2 Arctic"
+        esportsTeam: hash = 0x926bd6ae
     }
     0xc3c7ce73 = EsportsBannerConfiguration {
-        Name: string = "Nova Esports"
-        EsportsTeam: hash = 0x89360873
+        name: string = "Nova Esports"
+        esportsTeam: hash = 0x89360873
     }
     0xc803a56c = EsportsBannerConfiguration {
-        Name: string = "eMonkeyz"
-        EsportsTeam: hash = 0x97af1921
+        name: string = "eMonkeyz"
+        esportsTeam: hash = 0x97af1921
     }
     0xc9d04c7a = EsportsBannerConfiguration {
-        Name: string = "Rogue"
-        EsportsTeam: hash = 0xa5f0cbb6
+        name: string = "Rogue"
+        esportsTeam: hash = 0xa5f0cbb6
     }
     0xca1bad78 = EsportsBannerConfiguration {
-        Name: string = "Estral Esports"
-        EsportsTeam: hash = 0x9f2ef00e
+        name: string = "Estral Esports"
+        esportsTeam: hash = 0x9f2ef00e
     }
     0xcb0ca481 = EsportsBannerConfiguration {
-        Name: string = "Entropiq"
-        EsportsTeam: hash = 0xdda10dcf
+        name: string = "Entropiq"
+        esportsTeam: hash = 0xdda10dcf
     }
     0xcd2400f6 = EsportsBannerConfiguration {
-        Name: string = "Elements Pro Gaming"
-        EsportsTeam: hash = 0x037be597
+        name: string = "Elements Pro Gaming"
+        esportsTeam: hash = 0x037be597
     }
     0xceb74999 = EsportsBannerConfiguration {
-        Name: string = "PDW"
-        EsportsTeam: hash = 0x2feb7c5b
+        name: string = "PDW"
+        esportsTeam: hash = 0x2feb7c5b
     }
     0xcebf985e = EsportsBannerConfiguration {
-        Name: string = "Pentanet.GG"
-        EsportsTeam: hash = 0xdfbd4e4c
+        name: string = "Pentanet.GG"
+        esportsTeam: hash = 0xdfbd4e4c
     }
     0xcf12bafb = EsportsBannerConfiguration {
-        Name: string = "E WIE WINFACH E-SPORTS"
-        EsportsTeam: hash = 0x84c07789
+        name: string = "E WIE WINFACH E-SPORTS"
+        esportsTeam: hash = 0x84c07789
     }
     0xcf8dfd25 = EsportsBannerConfiguration {
-        Name: string = "PSV Esports"
-        EsportsTeam: hash = 0x10573184
+        name: string = "PSV Esports"
+        esportsTeam: hash = 0x10573184
     }
     0xcfca7969 = EsportsBannerConfiguration {
-        Name: string = "Wortex"
-        EsportsTeam: hash = 0x91204152
+        name: string = "Wortex"
+        esportsTeam: hash = 0x91204152
     }
     0xd59d1121 = EsportsBannerConfiguration {
-        Name: string = "Pixel Esports Club"
-        EsportsTeam: hash = 0xd3e20896
+        name: string = "Pixel Esports Club"
+        esportsTeam: hash = 0xd3e20896
     }
     0xd6007705 = EsportsBannerConfiguration {
-        Name: string = "Cyber Wolves Esports"
-        EsportsTeam: hash = 0x49bab051
+        name: string = "Cyber Wolves Esports"
+        esportsTeam: hash = 0x49bab051
     }
     0xd61a6866 = EsportsBannerConfiguration {
-        Name: string = "Legacy Esports"
-        EsportsTeam: hash = 0xfb778dbc
+        name: string = "Legacy Esports"
+        esportsTeam: hash = 0xfb778dbc
     }
     0xd79e55ab = EsportsBannerConfiguration {
-        Name: string = "FnaticHQ"
-        EsportsTeam: hash = 0xd09fbf17
+        name: string = "FnaticHQ"
+        esportsTeam: hash = 0xd09fbf17
     }
     0xd894787d = EsportsBannerConfiguration {
-        Name: string = "LDLC OL"
-        EsportsTeam: hash = 0x18f7a044
+        name: string = "LDLC OL"
+        esportsTeam: hash = 0x18f7a044
     }
     0xd91a6d1f = EsportsBannerConfiguration {
-        Name: string = "LGD Gaming"
-        EsportsTeam: hash = 0xebe29041
+        name: string = "LGD Gaming"
+        esportsTeam: hash = 0xebe29041
     }
     0xdbdbaf9e = EsportsBannerConfiguration {
-        Name: string = "CTBC Flying Oyster"
-        EsportsTeam: hash = 0xd11adb51
+        name: string = "CTBC Flying Oyster"
+        esportsTeam: hash = 0xd11adb51
     }
     0xdc53e9ed = EsportsBannerConfiguration {
-        Name: string = "mCon LG UltraGear"
-        EsportsTeam: hash = 0xaad4bb8f
+        name: string = "mCon LG UltraGear"
+        esportsTeam: hash = 0xaad4bb8f
     }
     0xdcf27d5a = EsportsBannerConfiguration {
-        Name: string = "Edward Gaming"
-        EsportsTeam: hash = 0x3182ceab
+        name: string = "Edward Gaming"
+        esportsTeam: hash = 0x3182ceab
     }
     0xdd1bcb61 = EsportsBannerConfiguration {
-        Name: string = "EURONICS Gaming"
-        EsportsTeam: hash = 0x5f1f6440
+        name: string = "EURONICS Gaming"
+        esportsTeam: hash = 0x5f1f6440
     }
     0xde8e14c2 = EsportsBannerConfiguration {
-        Name: string = "PSG Talon"
-        EsportsTeam: hash = 0x8606baf8
+        name: string = "PSG Talon"
+        esportsTeam: hash = 0x8606baf8
     }
     0xdf6db991 = EsportsBannerConfiguration {
-        Name: string = "Team Spirit"
-        EsportsTeam: hash = 0x57169fde
+        name: string = "Team Spirit"
+        esportsTeam: hash = 0x57169fde
     }
     0xdfaee845 = EsportsBannerConfiguration {
-        Name: string = "Inaequalis"
-        EsportsTeam: hash = 0x89236570
+        name: string = "Inaequalis"
+        esportsTeam: hash = 0x89236570
     }
     0xdfd943a8 = EsportsBannerConfiguration {
-        Name: string = "Nordavind"
-        EsportsTeam: hash = 0xc6982bb6
+        name: string = "Nordavind"
+        esportsTeam: hash = 0xc6982bb6
     }
     0xe01bd01a = EsportsBannerConfiguration {
-        Name: string = "eSuba"
-        EsportsTeam: hash = 0x6e364cfa
+        name: string = "eSuba"
+        esportsTeam: hash = 0x6e364cfa
     }
     0xe2d8528d = EsportsBannerConfiguration {
-        Name: string = "HMA Fnatic Rising"
-        EsportsTeam: hash = 0x96e318b6
+        name: string = "HMA Fnatic Rising"
+        esportsTeam: hash = 0x96e318b6
     }
     0xe4cfa4cc = EsportsBannerConfiguration {
-        Name: string = "Unicorns of Love"
-        EsportsTeam: hash = 0x2a061945
+        name: string = "Unicorns of Love"
+        esportsTeam: hash = 0x2a061945
     }
     0xe4e03af7 = EsportsBannerConfiguration {
-        Name: string = "The Chiefs Esports Club"
-        EsportsTeam: hash = 0x672ba836
+        name: string = "The Chiefs Esports Club"
+        esportsTeam: hash = 0x672ba836
     }
     0xe50d5a95 = EsportsBannerConfiguration {
-        Name: string = "Crvena Zvezda Esports"
-        EsportsTeam: hash = 0x82ba8f34
+        name: string = "Crvena Zvezda Esports"
+        esportsTeam: hash = 0x82ba8f34
     }
     0xe6f558d5 = EsportsBannerConfiguration {
-        Name: string = "CTRL PLAY Team"
-        EsportsTeam: hash = 0xb7935318
+        name: string = "CTRL PLAY Team"
+        esportsTeam: hash = 0xb7935318
     }
     0xe8f9d929 = EsportsBannerConfiguration {
-        Name: string = "Cruzeiro"
-        EsportsTeam: hash = 0xf4ce6336
+        name: string = "Cruzeiro"
+        esportsTeam: hash = 0xf4ce6336
     }
     0xed9e162b = EsportsBannerConfiguration {
-        Name: string = "Unicorns of Love Sexy Edition"
-        EsportsTeam: hash = 0x4b33d7e3
+        name: string = "Unicorns of Love Sexy Edition"
+        esportsTeam: hash = 0x4b33d7e3
     }
     0xee8a5c5b = EsportsBannerConfiguration {
-        Name: string = "Prodigy Esports"
-        EsportsTeam: hash = 0xbd7ff069
+        name: string = "Prodigy Esports"
+        esportsTeam: hash = 0xbd7ff069
     }
     0xefc47d2a = EsportsBannerConfiguration {
-        Name: string = "Umbra Divinus Gaming"
-        EsportsTeam: hash = 0x06154e5f
+        name: string = "Umbra Divinus Gaming"
+        esportsTeam: hash = 0x06154e5f
     }
     0xf1d993a9 = EsportsBannerConfiguration {
-        Name: string = "Crest Gaming Act"
-        EsportsTeam: hash = 0x17bf3268
+        name: string = "Crest Gaming Act"
+        esportsTeam: hash = 0x17bf3268
     }
     0xf3d996cf = EsportsBannerConfiguration {
-        Name: string = "Cyberground Gaming"
-        EsportsTeam: hash = 0x1e8255e4
+        name: string = "Cyberground Gaming"
+        esportsTeam: hash = 0x1e8255e4
     }
     0xf3eadff0 = EsportsBannerConfiguration {
-        Name: string = "Counter Logic Gaming"
-        EsportsTeam: hash = 0x1fccd516
+        name: string = "Counter Logic Gaming"
+        esportsTeam: hash = 0x1fccd516
     }
     0xf5d14b30 = EsportsBannerConfiguration {
-        Name: string = "CowBoySquad Imperials Esports"
-        EsportsTeam: hash = 0x8620b1ec
+        name: string = "CowBoySquad Imperials Esports"
+        esportsTeam: hash = 0x8620b1ec
     }
     0xf6eae4a9 = EsportsBannerConfiguration {
-        Name: string = "LCS Scouting Grounds CLD"
-        EsportsTeam: hash = 0x36ca571a
+        name: string = "LCS Scouting Grounds CLD"
+        esportsTeam: hash = 0x36ca571a
     }
     0xf7d51fed = EsportsBannerConfiguration {
-        Name: string = "Cerberus Esports"
-        EsportsTeam: hash = 0x877f7107
+        name: string = "Cerberus Esports"
+        esportsTeam: hash = 0x877f7107
     }
     0xfa0347c3 = EsportsBannerConfiguration {
-        Name: string = "LNG Esports"
-        EsportsTeam: hash = 0xb9361835
+        name: string = "LNG Esports"
+        esportsTeam: hash = 0xb9361835
     }
     0xfb02c16a = EsportsBannerConfiguration {
-        Name: string = "BT Excel"
-        EsportsTeam: hash = 0xc2f748d7
+        name: string = "BT Excel"
+        esportsTeam: hash = 0xc2f748d7
     }
     0xfeabe0b8 = EsportsBannerConfiguration {
-        Name: string = "Iron Wolves"
-        EsportsTeam: hash = 0x265d51c8
+        name: string = "Iron Wolves"
+        esportsTeam: hash = 0x265d51c8
     }
     0xfefed274 = EsportsBannerConfiguration {
-        Name: string = "LOUD"
-        EsportsTeam: hash = 0x6827be91
+        name: string = "LOUD"
+        esportsTeam: hash = 0x6827be91
     }
     0xff3125c0 = EsportsBannerConfiguration {
-        Name: string = "Saigon Buffalo Esports"
-        EsportsTeam: hash = 0xd39576c2
+        name: string = "Saigon Buffalo Esports"
+        esportsTeam: hash = 0xd39576c2
     }
     "Globals/Esports/data" = EsportsData {
-        Leagues: list[string] = {
+        leagues: list[string] = {
             "CBLoL"
             "CLS"
             "EU LCS"
@@ -8479,6 +8479,15 @@ entries: map[hash,embed] = {
             "MapID(11)?CustomAnnouncerMessage(game_message_AhriAnnouncerEnabled)"
         }
     }
+    0x0177602c = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set9_Stage2"
+        mMutators: list2[string] = {
+            "ChosenDisabled(1)"
+            "TFTSetOverride(TFTSet9_Stage2)"
+            "AudioFeature(TFTSet09)"
+            "TFT_Playbooks(1)"
+        }
+    }
     0x01da1ecd = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_HA_10Year"
         mMutators: list2[string] = {
@@ -8546,6 +8555,12 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "TeamScore0Goal(100)"
             "AudioFeature(FIRSTBLOOD)"
+        }
+    }
+    0x096ee9d5 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set9_Stage2_EndOfSet"
+        mMutators: list2[string] = {
+            "Set9_Stage2_EndOfSet(1)"
         }
     }
     0x0a311a34 = GameMutatorExpansions {
@@ -8626,10 +8641,9 @@ entries: map[hash,embed] = {
             "DisableSpectator"
             "EarlySurrenderTimeout(600)"
             "MaxGameLength(5400)"
-            "DisableWardPreload(1)"
-            "AudioFeature(TFTSet09)"
+            "AudioFeature(TFTSet10)"
             "ChosenDisabled(1)"
-            "TFT_Set9(1)"
+            "TFT_Set10(1)"
             "Pride_Trail(1)"
         }
     }
@@ -8729,12 +8743,6 @@ entries: map[hash,embed] = {
             "ChosenDisabled(1)"
             "TFTSetOverride(TFT_Set5_Stage2)"
             "AudioFeature(TFTSet05)"
-        }
-    }
-    0x264d0073 = GameMutatorExpansions {
-        mExpandedMutator: string = "Event_Worlds"
-        mMutators: list2[string] = {
-            "MapSkin_SRU_Worlds_TrophyOnly"
         }
     }
     0x27950af5 = GameMutatorExpansions {
@@ -8883,6 +8891,7 @@ entries: map[hash,embed] = {
             "MapID(11)?LevelScriptFile(LevelScript_SRX.lua)"
             "MapID(90)?NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "MapID(90)?LevelScriptFile(LevelScript_SRX.lua)"
+            "EnableWardPreload(1)"
         }
     }
     0x2f69eb0d = GameMutatorExpansions {
@@ -8918,6 +8927,7 @@ entries: map[hash,embed] = {
             "HideDefaultKindredUIBackground(1)"
             "SetBonusAmbientXP(5)"
             "SetBonusAmbientXPDelay(75)"
+            "EnableWardPreload(1)"
         }
     }
     0x33c4d416 = GameMutatorExpansions {
@@ -9006,9 +9016,9 @@ entries: map[hash,embed] = {
     0x3afe8d29 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_PAIRS"
         mMutators: list2[string] = {
-            "TFT_Set9_PAIRS(1)"
-            "TFTSetOverride(TFTSet9_PAIRS)"
-            "AudioFeature(TFTSet09)"
+            "TFT_Set10_PAIRS(1)"
+            "TFTSetOverride(TFTSet10_PAIRS)"
+            "AudioFeature(TFTSet10)"
         }
     }
     0x3b033bf4 = GameMutatorExpansions {
@@ -9024,6 +9034,7 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "CHERRY"
         mMutators: list2[string] = {
             "LoadingScreenTipsOverride(Cherry)"
+            "EnableWardPreload(1)"
         }
     }
     0x3f359987 = GameMutatorExpansions {
@@ -9056,6 +9067,7 @@ entries: map[hash,embed] = {
             "TFTSetOverride(TFTTutorialSet)"
             "TFTTutorialVersion(2)"
             "MapID(22)?MapSkinName(Tutorial)"
+            "TFT_Playbooks(0)"
         }
     }
     0x43fe08fc = GameMutatorExpansions {
@@ -9119,6 +9131,17 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "CasualSurrender"
         mMutators: list2[string] = {
             "CasualSurrenderRules(1)"
+        }
+    }
+    0x4a6a9f99 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Event_FF"
+        mMutators: list2[string] = {
+            "ChosenDisabled(1)"
+            "TFTSetOverride(TFTEvent_FF)"
+            "AudioFeature(TFTEventCT)"
+            "TFT_Playbooks(0)"
+            "MapSkinName(CarouselSet9)"
+            "TFT_Set9_Stage2_EndOfSet"
         }
     }
     0x4acf2307 = GameMutatorExpansions {
@@ -9188,6 +9211,12 @@ entries: map[hash,embed] = {
             "LoadingScreenTipsOverride(Project2017)"
         }
     }
+    0x5b3ce446 = GameMutatorExpansions {
+        mExpandedMutator: string = "SetTerrain"
+        mMutators: list2[string] = {
+            "SetTerrainPool(3)"
+        }
+    }
     0x5beb04bf = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_SRU_Trials"
         mMutators: list2[string] = {
@@ -9221,6 +9250,7 @@ entries: map[hash,embed] = {
             "MapSkinName(IoniaDefault)"
             "Order_Turret_Shield_SkinOffset(4)"
             "Chaos_Turret_Shield_SkinOffset(5)"
+            "EnableWardPreload(1)"
         }
     }
     0x621da51d = GameMutatorExpansions {
@@ -9235,12 +9265,6 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "MapSkin_HA_Snowdown"
         mMutators: list2[string] = {
             "MapSkinName(Snowdown)"
-        }
-    }
-    0x6272f68f = GameMutatorExpansions {
-        mExpandedMutator: string = "PlayerFacingBanners"
-        mMutators: list2[string] = {
-            "MapObjectESportTeamBanners(1)"
         }
     }
     0x6280a760 = GameMutatorExpansions {
@@ -9377,6 +9401,15 @@ entries: map[hash,embed] = {
             "LoadingScreenTipsOverride(AprilFools2019)"
         }
     }
+    0x797f2f5f = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_Worlds_Broadcast"
+        mMutators: list2[string] = {
+            "MapObjectESportSponsorBanners(1)"
+            "MapObjectESportTeamBanners(0)"
+            "EsportsBannerViewController(1)"
+            "Mapskin_SRU_Worlds"
+        }
+    }
     0x7baa741e = GameMutatorExpansions {
         mExpandedMutator: string = "ASSASSINATE"
         mMutators: list2[string] = {
@@ -9425,6 +9458,16 @@ entries: map[hash,embed] = {
             "EsportsNamePrefixes(1)"
         }
     }
+    0x82b46bcd = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set10"
+        mMutators: list2[string] = {
+            "ChosenDisabled(1)"
+            "TFTSetOverride(TFTSet10)"
+            "AudioFeature(TFTSet10)"
+            "TFTMusicManagerEnabled"
+            "HeadlinerEnabled(1)"
+        }
+    }
     0x8483f52d = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_SRU_Tournament"
         mMutators: list2[string] = {
@@ -9437,8 +9480,25 @@ entries: map[hash,embed] = {
             "Set3_FreeNeekos(1)"
         }
     }
+    0x8a98601f = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_NPE_Bot"
+        mMutators: list2[string] = {
+            "TFT_NPE_Bot_Game"
+            "PlayerTypeMask"
+            "ContinueGameLoopOnTimeoutWithNoClients(1)"
+        }
+    }
     0x8afd0343 = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_MountTargon"
+    }
+    0x8b2d853b = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_Worlds_PlayerFacing"
+        mMutators: list2[string] = {
+            "MapSkin_SRU_Worlds"
+            "MapObjectESportTeamBanners(1)"
+            "EsportsBannerViewController(1)"
+            "MapObjectESportSponsorBanners(0)"
+        }
     }
     0x8c0c96e2 = GameMutatorExpansions {
         mExpandedMutator: string = "Esports_LPL_Banners"
@@ -9608,6 +9668,12 @@ entries: map[hash,embed] = {
             "Set3_MidGameFoN(1)"
         }
     }
+    0xa6eb8fab = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CarouselSet10"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CarouselSet10)"
+        }
+    }
     0xac3cd68d = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_SRU_UltBook_TrueShot"
         mMutators: list2[string] = {
@@ -9639,6 +9705,14 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "MapSkin_NB_OldMap"
         mMutators: list2[string] = {
             "MapSkinName(OldMap)"
+        }
+    }
+    0xb284bc79 = GameMutatorExpansions {
+        mExpandedMutator: string = "WorldsAnnouncer"
+        mMutators: list2[string] = {
+            "MapID(11)?AudioFeature(Female1Worlds23)"
+            "MapID(11)?AnnouncerVoice(Female1Worlds23)"
+            "MapID(11)?ShowCustomAnnouncerOption(1)"
         }
     }
     0xb31c7406 = GameMutatorExpansions {
@@ -9707,6 +9781,7 @@ entries: map[hash,embed] = {
             "RecommendedItemProvider(CLASSIC)"
             "MapID(11)?NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "MapID(11)?LevelScriptFile(LevelScript_SRX.lua)"
+            "EnableWardPreload(1)"
         }
     }
     0xbd1c83c4 = GameMutatorExpansions {
@@ -9754,6 +9829,7 @@ entries: map[hash,embed] = {
             "HighlightRecommendedSkillUp(1)"
             "NeutralMinionSpawnScript(NeutralMinionSpawn_TUTORIAL_MODULE_3.lua)"
             "EnableSRPlants2017Preseason(1)"
+            "EnableWardPreload(1)"
         }
     }
     0xc01c887d = GameMutatorExpansions {
@@ -9775,6 +9851,7 @@ entries: map[hash,embed] = {
             "HighlightRecommendedSkillUp(1)"
             "NeutralMinionSpawnScript(NeutralMinionSpawn_TUTORIAL_MODULE_2.lua)"
             "EnableSRPlants2017Preseason(1)"
+            "EnableWardPreload(1)"
         }
     }
     0xc18aff5e = GameMutatorExpansions {
@@ -9784,6 +9861,7 @@ entries: map[hash,embed] = {
             "FOWTexture(NPE_1)"
             "MapSkin_SRU_NPE_1"
             "AudioFeature(NPE2018)"
+            "EnableWardPreload(1)"
         }
     }
     0xc307acd3 = GameMutatorExpansions {
@@ -9986,14 +10064,14 @@ entries: map[hash,embed] = {
             "TFTFeature(1)"
             "DisableSpectator(1)"
             "LoadingScreenTipsOverride(TFT)"
-            "DisableWardPreload(1)"
             "DisableSpectator"
-            "AudioFeature(TFTSet09)"
+            "AudioFeature(TFTSet10)"
             "MaxGameLength(5400)"
             "TFTTargetAfterMove(1)"
-            "TFTSet9_TURBO(1)"
-            "TFTSetOverride(TFTSet9_TURBO)"
+            "TFTSet10_TURBO(1)"
+            "TFTSetOverride(TFTSet10_TURBO)"
             "EarlySurrenderTimeout(420)"
+            "TFT_Playbooks(0)"
         }
     }
     0xf3c8d178 = GameMutatorExpansions {
@@ -10012,6 +10090,7 @@ entries: map[hash,embed] = {
             "MapID(11)?SRU_Baron_SkinID(2)"
             "MapID(11)?MapObjectESportTeamCustomization(1)"
             "MapID(11)?MapSkinName(Worlds_SRX)"
+            "MapID(11)?LoadingScreenBackground(ASSETS/UX/LoadingScreen/SRWorlds2023LoadScreen.png)"
         }
     }
     0xf4c3d3d0 = GameMutatorExpansions {
@@ -10054,7 +10133,7 @@ entries: map[hash,embed] = {
         }
     }
     0x024d0c5e = StealthVfx {
-        EffectName: string = "GlobalCamouflageExit_Ally.troy"
+        effectName: string = "GlobalCamouflageExit_Ally.troy"
         EffectNameForOtherTeam: string = "GlobalCamouflageExit.troy"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 10
@@ -10062,7 +10141,7 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 10
     }
     0x07e43222 = StealthVfx {
-        EffectName: string = "r:Akshan_W_cas"
+        effectName: string = "r:Akshan_W_cas"
     }
     0x07faad4e = 0x23f06f1c {
         ColorR: u32 = 25
@@ -10071,8 +10150,16 @@ entries: map[hash,embed] = {
         FadeTime: f32 = 0.75
         MaxWeight: f32 = 0.125
     }
+    0x09d7c2c7 = StealthVfx {
+        effectName: string = "GlobalCamouflageExit_Ally.troy"
+        FowTeam: u8 = 0
+        SpecificTeamOnly: u8 = 0
+        FowVisibilityRadius: f32 = 10
+        0x110cdbcd: bool = true
+        0x6a7c10f9: f32 = 10
+    }
     0x0a7c4bd4 = StealthVfx {
-        EffectName: string = "r:Evelynn_Ring_Green"
+        effectName: string = "r:Evelynn_Ring_Green"
         FowTeam: u8 = 0
         HidefromSpectator: bool = true
         FowVisibilityRadius: f32 = 10
@@ -10082,47 +10169,53 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 20
     }
     0x1306dc84 = StealthVfx {
-        EffectName: string = "GlobalCamouflageEnter_ally.troy"
+        effectName: string = "GlobalCamouflageEnter_ally.troy"
         EffectNameForOtherTeam: string = "GlobalCamouflageEnter.troy"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 1
         0xae1c3a03: bool = true
     }
+    0x14b90d0d = StealthVfx {
+        effectName: string = "GlobalCamouflageEnter_ally.troy"
+        FowTeam: u8 = 0
+        SpecificTeamOnly: u8 = 0
+        FowVisibilityRadius: f32 = 1
+    }
     0x189f792e = StealthVfx {
-        EffectName: string = "r:SRE_Dragon_Chemtech_Camouflage_On_Ally"
+        effectName: string = "r:SRE_Dragon_Chemtech_Camouflage_On_Ally"
         EffectNameForOtherTeam: string = "r:SRE_Dragon_Chemtech_Camouflage_On_Enemy"
-        BoneName: string = "C_BUFFBONE_GLB_CENTER_LOC"
+        boneName: string = "C_BUFFBONE_GLB_CENTER_LOC"
         FowTeam: u8 = 0
     }
     0x1915335a = StealthVfx {
-        EffectName: string = "r:Twitch_Q_Invisible"
+        effectName: string = "r:Twitch_Q_Invisible"
     }
     0x3f4ecb17 = 0x8558dd6d {
         FadeAmount: f32 = 0.200000003
         FadeTime: f32 = 0.5
     }
     0x435d432b = StealthVfx {
-        EffectName: string = "GlobalCamouflagePersistant.troy"
-        BoneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
+        effectName: string = "GlobalCamouflagePersistant.troy"
+        boneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 1
     }
     0x4da8feea = StealthVfx {
-        EffectName: string = "r:Viego_R_Camouflage_Ring"
+        effectName: string = "r:Viego_R_Camouflage_Ring"
         UseTargetObject: bool = true
         0xe4d604c7: bool = true
         0x0d4c0b82: bool = true
         0x6a7c10f9: f32 = 20
     }
     0x4f8d5418 = StealthVfx {
-        EffectName: string = "r:SRE_Dragon_Chemtech_Camouflage_Off_Ally"
+        effectName: string = "r:SRE_Dragon_Chemtech_Camouflage_Off_Ally"
         EffectNameForOtherTeam: string = "r:SRE_Dragon_Chemtech_Camouflage_Off_Enemy"
-        BoneName: string = "C_BUFFBONE_GLB_CENTER_LOC"
+        boneName: string = "C_BUFFBONE_GLB_CENTER_LOC"
         FowTeam: u8 = 0
         0x6a7c10f9: f32 = 10
     }
     0x5467c81d = StealthVfx {
-        EffectName: string = "r:Pyke_Camo_Ring_Self"
+        effectName: string = "r:Pyke_Camo_Ring_Self"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 1
         0xe4d604c7: bool = true
@@ -10130,8 +10223,8 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 20
     }
     0x59720fd2 = StealthVfx {
-        EffectName: string = "Evelynn_YellowEye.troy"
-        BoneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
+        effectName: string = "Evelynn_YellowEye.troy"
+        boneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
         HidefromSpectator: bool = true
         UseTargetObject: bool = true
         UseKeywordObject: bool = true
@@ -10139,30 +10232,30 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 15
     }
     0x5a05bfe8 = StealthVfx {
-        EffectName: string = "r:Akshan_W_StealthRadius"
+        effectName: string = "r:Akshan_W_StealthRadius"
         UseTargetObject: bool = true
         0xe4d604c7: bool = true
-        Scale: f32 = 1.60000002
+        scale: f32 = 1.60000002
         0x0d4c0b82: bool = true
         0x6a7c10f9: f32 = 20
     }
     0x5d2cf108 = StealthVfx {
-        EffectName: string = "r:Twitch_Q_Cas_Invisible"
+        effectName: string = "r:Twitch_Q_Cas_Invisible"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 10
         SendIfOnScreenOrDiscard: bool = true
     }
     0x6456f55d = StealthVfx {
-        EffectName: string = "r:SRE_Dragon_Chemtech_Camouflage_Persistent_Ally"
+        effectName: string = "r:SRE_Dragon_Chemtech_Camouflage_Persistent_Ally"
         EffectNameForOtherTeam: string = "r:SRE_Dragon_Chemtech_Camouflage_Persistent_Enemy"
-        BoneName: string = "C_BUFFBONE_GLB_CENTER_LOC"
+        boneName: string = "C_BUFFBONE_GLB_CENTER_LOC"
         FowTeam: u8 = 0
         0x0d4c0b82: bool = true
         0x6a7c10f9: f32 = 20
     }
     0x84500b56 = StealthVfx {
-        EffectName: string = "Evelynn_RedEye.troy"
-        BoneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
+        effectName: string = "Evelynn_RedEye.troy"
+        boneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
         HidefromSpectator: bool = true
         UseTargetObject: bool = true
         UseKeywordObject: bool = true
@@ -10170,27 +10263,27 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 15
     }
     0xa50a656f = StealthVfx {
-        EffectName: string = "r:Viego_E_Stealth_Out"
-        BoneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
+        effectName: string = "r:Viego_E_Stealth_Out"
+        boneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
         FowVisibilityRadius: f32 = 100
         UseTargetObject: bool = true
         UseKeywordObject: bool = true
     }
     0xaf3ff35c = StealthVfx {
-        EffectName: string = "r:Evelynn_Ring_Green"
+        effectName: string = "r:Evelynn_Ring_Green"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 10
         0x0d4c0b82: bool = true
         0x6a7c10f9: f32 = 20
     }
     0xaff48344 = StealthVfx {
-        EffectName: string = "Evelynn-Yikes.troy"
-        BoneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
+        effectName: string = "Evelynn-Yikes.troy"
+        boneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
         SpecificTeamOnly: u8 = 0
         UseTargetObject: bool = true
     }
     0xb2be2816 = StealthVfx {
-        EffectName: string = "GlobalCamouflageShimmer.troy"
+        effectName: string = "GlobalCamouflageShimmer.troy"
         EffectNameForOtherTeam: string = "GlobalCamouflageShimmer.troy"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 10
@@ -10199,7 +10292,7 @@ entries: map[hash,embed] = {
         0xae1c3a03: bool = true
     }
     0xb3bd7f3d = StealthVfx {
-        EffectName: string = "r:2v2CameoEvelynn_Stealth_Ring_Green"
+        effectName: string = "r:2v2CameoEvelynn_Stealth_Ring_Green"
         FowTeam: u8 = 0
         HidefromSpectator: bool = true
         FowVisibilityRadius: f32 = 10
@@ -10209,7 +10302,7 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 20
     }
     0xbecff92f = StealthVfx {
-        EffectName: string = "r:Default_Camouflage_Ring"
+        effectName: string = "r:Default_Camouflage_Ring"
         HidefromSpectator: bool = true
         UseTargetObject: bool = true
         0xe4d604c7: bool = true
@@ -10217,14 +10310,14 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 20
     }
     0xc2569023 = StealthVfx {
-        EffectName: string = "GlobalCamouflageRevealed.troy"
+        effectName: string = "GlobalCamouflageRevealed.troy"
         FowTeam: u8 = 0
         SpecificTeamOnly: u8 = 1
         FowVisibilityRadius: f32 = 10
         0x110cdbcd: bool = true
     }
     0xc5af0bd9 = StealthVfx {
-        EffectName: string = "r:Pyke_Camo_Ring_BV2"
+        effectName: string = "r:Pyke_Camo_Ring_BV2"
         FowTeam: u8 = 0
         SpecificTeamOnly: u8 = 1
         FowVisibilityRadius: f32 = 1
@@ -10232,8 +10325,8 @@ entries: map[hash,embed] = {
         0x6a7c10f9: f32 = 20
     }
     0xccf63b02 = StealthVfx {
-        EffectName: string = "Evelynn-Yikes.troy"
-        BoneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
+        effectName: string = "Evelynn-Yikes.troy"
+        boneName: string = "C_BUFFBONE_GLB_HEAD_LOC"
         SpecificTeamOnly: u8 = 0
         UseTargetObject: bool = true
     }
@@ -10245,11 +10338,11 @@ entries: map[hash,embed] = {
         MaxWeight: f32 = 0.200000003
     }
     0xde77b57b = StealthVfx {
-        EffectName: string = "r:Senna_E_Ally_mistBuffed"
+        effectName: string = "r:Senna_E_Ally_mistBuffed"
         UseTargetObject: bool = true
     }
     0xdfeadced = StealthVfx {
-        EffectName: string = "GlobalCamouflageShimmerSFX.troy"
+        effectName: string = "GlobalCamouflageShimmerSFX.troy"
         EffectNameForOtherTeam: string = "GlobalCamouflageShimmerSFX.troy"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 10
@@ -10258,7 +10351,7 @@ entries: map[hash,embed] = {
         0xae1c3a03: bool = true
     }
     0xe30c7acf = StealthVfx {
-        EffectName: string = "r:Twitch_Q_Camouflage_Ring"
+        effectName: string = "r:Twitch_Q_Camouflage_Ring"
         UseTargetObject: bool = true
         0xe4d604c7: bool = true
         0x0d4c0b82: bool = true
@@ -10268,24 +10361,24 @@ entries: map[hash,embed] = {
         FadeAmount: f32 = 0.200000003
     }
     0xee085525 = StealthVfx {
-        EffectName: string = "r:Viego_E_Stealth_In"
-        BoneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
+        effectName: string = "r:Viego_E_Stealth_In"
+        boneName: string = "C_BUFFBONE_GLB_CHEST_LOC"
         FowVisibilityRadius: f32 = 100
         UseTargetObject: bool = true
         UseKeywordObject: bool = true
     }
     0xf5b4e66f = StealthVfx {
-        EffectName: string = "GlobalCamouflageRevealedPriorityTarget.troy"
+        effectName: string = "GlobalCamouflageRevealedPriorityTarget.troy"
         FowTeam: u8 = 0
         FowVisibilityRadius: f32 = 10
         0x110cdbcd: bool = true
     }
     0xf6376e57 = StealthVfx {
-        EffectName: string = "r:Default_Camouflage_Ring"
+        effectName: string = "r:Default_Camouflage_Ring"
         HidefromSpectator: bool = true
         UseTargetObject: bool = true
         0xe4d604c7: bool = true
-        Scale: f32 = 4
+        scale: f32 = 4
         0x0d4c0b82: bool = true
         0x6a7c10f9: f32 = 20
     }
@@ -10296,22 +10389,22 @@ entries: map[hash,embed] = {
                     0x85f19f5c {
                         mAffectsTypeFlags: u32 = 16385
                         mAffectsStatusFlags: u32 = 64
-                        Radius: f32 = 1000
+                        radius: f32 = 1000
                     }
                     0x85f19f5c {
                         mAffectsTypeFlags: u32 = 17412
                         mAffectsStatusFlags: u32 = 64
-                        Radius: f32 = 1000
+                        radius: f32 = 1000
                     }
                     0x85f19f5c {
                         mAffectsTypeFlags: u32 = 16400
                         mAffectsStatusFlags: u32 = 64
-                        Radius: f32 = 1000
+                        radius: f32 = 1000
                     }
                     0x85f19f5c {
                         mAffectsTypeFlags: u32 = 22570
                         mAffectsStatusFlags: u32 = 64
-                        Radius: f32 = 1000
+                        radius: f32 = 1000
                     }
                 }
             }
@@ -10320,7 +10413,7 @@ entries: map[hash,embed] = {
             0x1604e7f0 = 0xdb6be360 {
                 0xfb8157bc: list2[pointer] = {
                     0x13314f94 {
-                        mAffectsTypeFlags: u32 = 16386
+                        mAffectsTypeFlags: u32 = 20482
                     }
                     0x13314f94 {
                         mAffectsTypeFlags: u32 = 16392
@@ -10333,6 +10426,53 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAffectsStatusFlags: u32 = 64
+            }
+            0xc2d9728e = 0xdb6be360 {
+                0xfb8157bc: list2[pointer] = {
+                    0x13314f94 {
+                        RangeValue: pointer = 0xcb20c47a {
+                            Range: f32 = 2500
+                        }
+                        mAffectsTypeFlags: u32 = 16386
+                        0x9845aa67: bool = true
+                        0xe19f2477: list2[u8] = {
+                            0
+                            1
+                        }
+                    }
+                    0x13314f94 {
+                        RangeValue: pointer = 0x09d62f7e {
+                            Spell: hash = "Characters/Briar/Spells/BriarWAbility/BriarW"
+                            0x753d0247: hash = 0x971bf103
+                        }
+                        mAffectsTypeFlags: u32 = 18434
+                    }
+                    0x13314f94 {
+                        RangeValue: pointer = 0x09d62f7e {
+                            Spell: hash = "Characters/Briar/Spells/BriarWAbility/BriarW"
+                            0x753d0247: hash = 0xc4ee06b8
+                        }
+                        mAffectsTypeFlags: u32 = 21162
+                    }
+                }
+            }
+            0x486e6356 = 0xdb6be360 {
+                0xfb8157bc: list2[pointer] = {
+                    0x13314f94 {
+                        RangeValue: pointer = 0x09d62f7e {
+                            Spell: hash = "Characters/Briar/Spells/BriarWAbility/BriarW"
+                            0x753d0247: hash = 0x971bf103
+                        }
+                        mAffectsTypeFlags: u32 = 18434
+                    }
+                    0x13314f94 {
+                        RangeValue: pointer = 0x09d62f7e {
+                            Spell: hash = "Characters/Briar/Spells/BriarWAbility/BriarW"
+                            0x753d0247: hash = 0xc4ee06b8
+                        }
+                        mAffectsTypeFlags: u32 = 21162
+                    }
+                }
             }
         }
     }
@@ -10385,7 +10525,7 @@ entries: map[hash,embed] = {
         0x383f51a8: f32 = 4
     }
     0x2c32eb6d = ChampionMasteryMap {
-        MasteryData: map[i32,link] = {
+        masteryData: map[i32,link] = {
             0 = 0x4a81abda
             1 = 0x4a81abda
             2 = 0x4981aa47
@@ -10396,42 +10536,42 @@ entries: map[hash,embed] = {
             7 = 0x4481a268
         }
     }
-    0x4481a268 = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_7.tex"
+    0x4481a268 = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_7.tex"
         LevelTraKey: string = "loading_screen_mastery_level_7"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
-    0x4581a3fb = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_6.tex"
+    0x4581a3fb = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_6.tex"
         LevelTraKey: string = "loading_screen_mastery_level_6"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
-    0x4681a58e = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_5.tex"
+    0x4681a58e = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_5.tex"
         LevelTraKey: string = "loading_screen_mastery_level_5"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
-    0x4781a721 = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_4.tex"
+    0x4781a721 = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_4.tex"
         LevelTraKey: string = "loading_screen_mastery_level_4"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
-    0x4881a8b4 = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
+    0x4881a8b4 = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
         LevelTraKey: string = "loading_screen_mastery_level_default"
         DetailsTraKey: string = "loading_screen_mastery_points_locked"
     }
-    0x4981aa47 = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
+    0x4981aa47 = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
         LevelTraKey: string = "loading_screen_mastery_level_default"
         DetailsTraKey: string = "loading_screen_mastery_points_locked"
     }
-    0x4a81abda = MasteryData {
-        Texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
+    0x4a81abda = masteryData {
+        texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
         LevelTraKey: string = "loading_screen_mastery_level_default"
         DetailsTraKey: string = "loading_screen_mastery_points_locked"
     }
-    "Globals/EVOSettings" = EvoSettings {}
+    "Globals/EVOSettings" = EVOSettings {}
     "Globals/CameraConfig_ODYSSEY" = CameraConfig {
         0x0671c887: embed = CameraTrapezoid {
             0x9811eb50: f32 = 400
@@ -10463,7 +10603,7 @@ entries: map[hash,embed] = {
                     "eun"
                     "eune"
                     "euw"
-                    "Id"
+                    "ID"
                     "jp"
                     "la"
                     "la1"
@@ -10486,7 +10626,7 @@ entries: map[hash,embed] = {
                     "euw"
                     "garena2"
                     "garena3"
-                    "Id"
+                    "ID"
                     "jp"
                     "la"
                     "la1"
@@ -10563,11 +10703,11 @@ entries: map[hash,embed] = {
         }
     }
     "Globals/WardSkinDisabler" = WardSkinDisabler {}
-    0x5ae5afe8 = BuffStackingSettings {
-        TemplateDefinition: list[embed] = {
+    "Globals/BuffStackingSettings" = BuffStackingSettings {
+        templateDefinition: list[embed] = {
             BuffStackingTemplate {
-                Name: string = "Unique Per Player"
-                MaxStacks: i32 = 25
+                name: string = "Unique Per Player"
+                maxStacks: i32 = 25
                 0xb36eae8c: i32 = 1
                 StacksExclusive: bool = true
                 BuffAddType: u32 = 2
@@ -10599,12 +10739,14 @@ entries: map[hash,embed] = {
     0x8126f5ba = DeathEventPriority {
         mRevives: list[hash] = {
             0x18999027
+            0xeec24eaf
             0x9a270666
             0xdea5bd5c
             0xd52647e8
             0x359bec10
             0xc087bac9
             0x5c15ec98
+            0x5b1faf24
         }
         mZombies: list[hash] = {
             0x756016fb
@@ -10616,30 +10758,30 @@ entries: map[hash,embed] = {
         }
     }
     "Globals/LiveFeatureToggles" = LiveFeatureToggles {
-        mLolToggles: embed = LolFeatureToggles {
-            CloseOnEndGameAfterDelay: bool = true
-            UseNewAttackSpeed: bool = true
-            0xd3323ebc: bool = true
-            0x8f49e67a: bool = true
+        mLoLToggles: embed = LoLFeatureToggles {
+            closeOnEndGameAfterDelay: bool = true
+            useNewAttackSpeed: bool = true
             0x3e3c2065: bool = true
             OmnivampStat: bool = true
             0xab676340: bool = true
+            0xacd3ddc1: bool = true
             0xb6fd2589: bool = true
-            0xa6fd18e9: bool = true
             0xd10b6d14: bool = true
             0xb8dc5e9a: bool = true
-            0x0765f521: bool = true
             0x2776937f: bool = true
-            0x60df5eae: bool = true
             0xcd99a01f: bool = false
             0xd1ca3bda: bool = true
             0x6f2169e1: bool = true
             0x8ce38003: bool = false
             0xcb5747c1: bool = true
+            0x3e3cd6e2: bool = true
+            0x57d3f2c8: bool = true
+            0x0aa0fcb5: bool = true
+            0x937aae2c: bool = true
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
-            FowCastRayAccurate: bool = true
-            DisableSpellLevelMinimumProtections: bool = true
+            fowCastRayAccurate: bool = true
+            disableSpellLevelMinimumProtections: bool = true
         }
     }
     "Globals/MasteryBadgeConfig" = MasteryBadgeConfig {
@@ -11015,7 +11157,7 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 0xb6ccad2d: bool = false
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
             }
             StealthData {
@@ -11047,16 +11189,16 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 0xb6ccad2d: bool = false
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0xde77b57b
+                    effect: link = 0xde77b57b
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
             }
             StealthData {
@@ -11072,28 +11214,28 @@ entries: map[hash,embed] = {
                 0xa44e2f70: bool = true
                 0x556f29d1: bool = true
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0x0a7c4bd4
+                    effect: link = 0x0a7c4bd4
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x1306dc84
+                    effect: link = 0x1306dc84
                 }
                 0x732faee5: embed = StealthVfxInstance {
-                    Effect: link = 0x024d0c5e
+                    effect: link = 0x024d0c5e
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11110,34 +11252,34 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 ScreenFade: link = 0x07faad4e
                 0x00243921: embed = 0xd75442ea {
-                    Fade: link = 0x3f4ecb17
+                    fade: link = 0x3f4ecb17
                 }
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0xf6376e57
+                    effect: link = 0xf6376e57
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x189f792e
+                    effect: link = 0x189f792e
                 }
                 0x04693c9a: embed = StealthVfxInstance {
-                    Effect: link = 0x6456f55d
+                    effect: link = 0x6456f55d
                 }
                 0x732faee5: embed = StealthVfxInstance {
-                    Effect: link = 0x4f8d5418
+                    effect: link = 0x4f8d5418
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11154,28 +11296,28 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 ScreenFade: link = 0x07faad4e
                 0x00243921: embed = 0xd75442ea {
-                    Fade: link = 0x3f4ecb17
+                    fade: link = 0x3f4ecb17
                 }
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0x5467c81d
+                    effect: link = 0x5467c81d
                 }
                 0x8b4aef98: embed = StealthVfxInstance {
-                    Effect: link = 0xc5af0bd9
+                    effect: link = 0xc5af0bd9
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11192,37 +11334,37 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 ScreenFade: link = 0x07faad4e
                 0x00243921: embed = 0xd75442ea {
-                    Fade: link = 0x3f4ecb17
+                    fade: link = 0x3f4ecb17
                 }
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0x5a05bfe8
+                    effect: link = 0x5a05bfe8
                 }
                 0x8b4aef98: embed = StealthVfxInstance {
-                    Effect: link = 0x07e43222
+                    effect: link = 0x07e43222
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x1306dc84
+                    effect: link = 0x1306dc84
                 }
                 0x04693c9a: embed = StealthVfxInstance {
-                    Effect: link = 0x435d432b
+                    effect: link = 0x435d432b
                 }
                 0x732faee5: embed = StealthVfxInstance {
-                    Effect: link = 0x024d0c5e
+                    effect: link = 0x024d0c5e
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11239,16 +11381,16 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 0x31d133cd: bool = true
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x1306dc84
+                    effect: link = 0x1306dc84
                 }
                 0x04693c9a: embed = StealthVfxInstance {
-                    Effect: link = 0x435d432b
+                    effect: link = 0x435d432b
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11265,34 +11407,34 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 ScreenFade: link = 0x07faad4e
                 0x00243921: embed = 0xd75442ea {
-                    Fade: link = 0x3f4ecb17
+                    fade: link = 0x3f4ecb17
                 }
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0xe30c7acf
+                    effect: link = 0xe30c7acf
                 }
                 0x8b4aef98: embed = StealthVfxInstance {
-                    Effect: link = 0x1915335a
+                    effect: link = 0x1915335a
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x5d2cf108
+                    effect: link = 0x5d2cf108
                 }
                 0x04693c9a: embed = StealthVfxInstance {
-                    Effect: link = 0x435d432b
+                    effect: link = 0x435d432b
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11309,31 +11451,31 @@ entries: map[hash,embed] = {
                 0x556f29d1: bool = true
                 ScreenFade: link = 0x07faad4e
                 0x00243921: embed = 0xd75442ea {
-                    Fade: link = 0x3f4ecb17
+                    fade: link = 0x3f4ecb17
                 }
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0x4da8feea
+                    effect: link = 0x4da8feea
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0xee085525
+                    effect: link = 0xee085525
                 }
                 0x732faee5: embed = StealthVfxInstance {
-                    Effect: link = 0xa50a656f
+                    effect: link = 0xa50a656f
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
                 }
             }
             StealthData {
@@ -11350,19 +11492,19 @@ entries: map[hash,embed] = {
                 Invisibility: bool = true
                 ScreenFade: link = 0xd02c1921
                 0x00243921: embed = 0xd75442ea {
-                    Fade: link = 0xed81496c
+                    fade: link = 0xed81496c
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x1306dc84
+                    effect: link = 0x1306dc84
                 }
                 0x04693c9a: embed = StealthVfxInstance {
-                    Effect: link = 0x435d432b
+                    effect: link = 0x435d432b
                 }
                 0x732faee5: embed = StealthVfxInstance {
-                    Effect: link = 0x024d0c5e
+                    effect: link = 0x024d0c5e
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
             }
             StealthData {
@@ -11378,73 +11520,98 @@ entries: map[hash,embed] = {
                 0xa44e2f70: bool = true
                 0x556f29d1: bool = true
                 0xc32b088a: embed = StealthVfxInstance {
-                    Effect: link = 0xb3bd7f3d
+                    effect: link = 0xb3bd7f3d
                 }
                 0x4d28d740: embed = StealthVfxInstance {
-                    Effect: link = 0x84500b56
+                    effect: link = 0x84500b56
                 }
                 0x7f84f9be: embed = StealthVfxInstance {
-                    Effect: link = 0x59720fd2
+                    effect: link = 0x59720fd2
                 }
                 0x07151326: embed = StealthVfxInstance {
-                    Effect: link = 0xaff48344
+                    effect: link = 0xaff48344
                 }
                 0x8c6264bd: embed = StealthVfxInstance {
-                    Effect: link = 0x1306dc84
+                    effect: link = 0x1306dc84
                 }
                 0x732faee5: embed = StealthVfxInstance {
-                    Effect: link = 0x024d0c5e
+                    effect: link = 0x024d0c5e
                 }
                 0x873dc06e: embed = StealthVfxInstance {
-                    Effect: link = 0xb2be2816
+                    effect: link = 0xb2be2816
                 }
                 0x5e24c2b6: embed = StealthVfxInstance {
-                    Effect: link = 0xdfeadced
+                    effect: link = 0xdfeadced
+                }
+            }
+            StealthData {
+                StealthName: string = "JunglePetStealth"
+                0xa9443951: bool = true
+                0x5f698fdd: bool = true
+                0xe2d9142a: bool = true
+                0xa44e2f70: bool = true
+                0x556f29d1: bool = true
+                Invisibility: bool = true
+                ScreenFade: link = 0xd02c1921
+                0x00243921: embed = 0xd75442ea {
+                    fade: link = 0xed81496c
+                }
+                0x8c6264bd: embed = StealthVfxInstance {
+                    effect: link = 0x14b90d0d
+                }
+                0x04693c9a: embed = StealthVfxInstance {
+                    effect: link = 0x435d432b
+                }
+                0x732faee5: embed = StealthVfxInstance {
+                    effect: link = 0x09d7c2c7
+                }
+                0x873dc06e: embed = StealthVfxInstance {
+                    effect: link = 0xb2be2816
                 }
             }
         }
     }
     0xaa935ac6 = 0x46533086 {
-        PrimaryQuest: embed = QuestDefinition {
-            CategoryTitleText: string = "quest_area_title_primary"
-            MaxViewableQuests: u32 = 3
-            RecievedSoundPath: string = "scn7_btn_1"
-            CompletedSoundPath: string = "scn7_btn_2"
-            FailedSoundPath: string = "scn7_btn_2"
+        primaryQuest: embed = QuestDefinition {
+            categoryTitleText: string = "quest_area_title_primary"
+            maxViewableQuests: u32 = 3
+            recievedSoundPath: string = "scn7_btn_1"
+            completedSoundPath: string = "scn7_btn_2"
+            failedSoundPath: string = "scn7_btn_2"
         }
-        SecondaryQuest: embed = QuestDefinition {
-            CategoryTitleText: string = "quest_area_title_secondary"
-            MaxViewableQuests: u32 = 3
-            RecievedSoundPath: string = "scn7_btn_6"
-            CompletedSoundPath: string = "scn7_btn_7"
+        secondaryQuest: embed = QuestDefinition {
+            categoryTitleText: string = "quest_area_title_secondary"
+            maxViewableQuests: u32 = 3
+            recievedSoundPath: string = "scn7_btn_6"
+            completedSoundPath: string = "scn7_btn_7"
         }
-        ObjectiveQuest: embed = QuestDefinition {
-            CategoryTitleText: string = "quest_area_title_objectives"
-            MaxViewableQuests: u32 = 3
-            RecievedSoundPath: string = "scn7_btn_1"
-            CompletedSoundPath: string = "scn7_btn_2"
-            FailedSoundPath: string = "scn7_btn_2"
+        objectiveQuest: embed = QuestDefinition {
+            categoryTitleText: string = "quest_area_title_objectives"
+            maxViewableQuests: u32 = 3
+            recievedSoundPath: string = "scn7_btn_1"
+            completedSoundPath: string = "scn7_btn_2"
+            failedSoundPath: string = "scn7_btn_2"
         }
         0x56647830: embed = QuestDefinition {
-            CategoryTitleText: string = "quest_area_title_character_quest_Corki"
-            MaxViewableQuests: u32 = 1
-            RecievedSoundPath: string = "scn7_btn_1"
-            CompletedSoundPath: string = "scn7_btn_2"
+            categoryTitleText: string = "quest_area_title_character_quest_Corki"
+            maxViewableQuests: u32 = 1
+            recievedSoundPath: string = "scn7_btn_1"
+            completedSoundPath: string = "scn7_btn_2"
         }
         0x6cee1705: embed = QuestDefinition {
-            CategoryTitleText: string = "game_quest_name_emotes_notification"
-            MaxViewableQuests: u32 = 1
-            RecievedSoundPath: string = "scn7_btn_1"
-            CompletedSoundPath: string = "scn7_btn_2"
+            categoryTitleText: string = "game_quest_name_emotes_notification"
+            maxViewableQuests: u32 = 1
+            recievedSoundPath: string = "scn7_btn_1"
+            completedSoundPath: string = "scn7_btn_2"
         }
-        ScoreDisplayQuest: embed = QuestDefinition {
-            CategoryTitleText: string = "quest_area_title_score_display"
-            RecievedSoundPath: string = "SG_Score"
-            CompletedSoundPath: string = "scn7_btn_2"
+        scoreDisplayQuest: embed = QuestDefinition {
+            categoryTitleText: string = "quest_area_title_score_display"
+            recievedSoundPath: string = "SG_Score"
+            completedSoundPath: string = "scn7_btn_2"
         }
     }
     "Globals/DamageSourceSettings" = DamageSourceSettings {
-        DamageTagDefinition: list[string] = {
+        damageTagDefinition: list[string] = {
             "AOE"
             "Periodic"
             "Indirect"
@@ -11455,6 +11622,7 @@ entries: map[hash,embed] = {
             "NonRedirectable"
             "Item"
             "DoesNotAggroJungle"
+            "OnHit"
         }
     }
     0xf1838e41 = GameModeConstantStringVector {
@@ -11636,6 +11804,16 @@ entries: map[hash,embed] = {
             "VectorMathOpEnum"
             "VFXName"
             "VisionBlockingFlags"
+            "GDSEnum::TFTBuffLifetime"
+            "TFTCharacterRoleData"
+            "GDSEnum::TFTBotSkillAxis"
+            "GDSEnum::QuestState"
+            "GDSEnum::CinematicBarTypeEnum"
+            "GDSEnum::TeamScoreIconDetailEnum"
+            "GDSEnum::CutsceneType"
+            "TFTEncounterTag"
+            "GDSEnum::TFTDropRateType"
+            "GDSEnum::TFTCustomAnnouncementStyle"
         }
     }
     0xfa37df3a = DebugRenderFlags {}
