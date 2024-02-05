@@ -8563,12 +8563,6 @@ entries: map[hash,embed] = {
             "Set9_Stage2_EndOfSet(1)"
         }
     }
-    0x0a311a34 = GameMutatorExpansions {
-        mExpandedMutator: string = "AlwaysShowFtux"
-        mMutators: list2[string] = {
-            "ForceFirstTimeUI(1)"
-        }
-    }
     0x0a3873fc = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Vi"
         mMutators: list2[string] = {
@@ -9133,17 +9127,6 @@ entries: map[hash,embed] = {
             "CasualSurrenderRules(1)"
         }
     }
-    0x4a6a9f99 = GameMutatorExpansions {
-        mExpandedMutator: string = "TFT_Event_FF"
-        mMutators: list2[string] = {
-            "ChosenDisabled(1)"
-            "TFTSetOverride(TFTEvent_FF)"
-            "AudioFeature(TFTEventCT)"
-            "TFT_Playbooks(0)"
-            "MapSkinName(CarouselSet9)"
-            "TFT_Set9_Stage2_EndOfSet"
-        }
-    }
     0x4acf2307 = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_Ionia"
     }
@@ -9152,6 +9135,7 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "TFTSimulation(1)"
             "MaxGameLength(99999)"
+            "TFTSimulationTimeout(10)"
         }
     }
     0x4ea5da5a = GameMutatorExpansions {
@@ -9194,6 +9178,17 @@ entries: map[hash,embed] = {
     }
     0x57ea713f = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_Demacia"
+    }
+    0x5a5decd6 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Event_CT"
+        mMutators: list2[string] = {
+            "ChosenDisabled(1)"
+            "TFTSetOverride(TFTEvent_CT)"
+            "AudioFeature(TFTEventCT)"
+            "TFT_Playbooks(0)"
+            "MapSkinName(CarouselSet9)"
+            "TFT_Set9_Stage2_EndOfSet"
+        }
     }
     0x5a5ee6a8 = GameMutatorExpansions {
         mExpandedMutator: string = "Event_SN2022_SpawnMusic"
@@ -9827,7 +9822,7 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "AudioFeature(NPE2018)"
             "HighlightRecommendedSkillUp(1)"
-            "NeutralMinionSpawnScript(NeutralMinionSpawn_TUTORIAL_MODULE_3.lua)"
+            "NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "EnableSRPlants2017Preseason(1)"
             "EnableWardPreload(1)"
         }
@@ -9849,9 +9844,15 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "AudioFeature(NPE2018)"
             "HighlightRecommendedSkillUp(1)"
-            "NeutralMinionSpawnScript(NeutralMinionSpawn_TUTORIAL_MODULE_2.lua)"
+            "NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "EnableSRPlants2017Preseason(1)"
             "EnableWardPreload(1)"
+        }
+    }
+    0xc13c0df7 = GameMutatorExpansions {
+        mExpandedMutator: string = "SR_BaronPitWalled"
+        mMutators: list2[string] = {
+            "MapBaronPitOverride(1)"
         }
     }
     0xc18aff5e = GameMutatorExpansions {
@@ -9900,6 +9901,12 @@ entries: map[hash,embed] = {
             "MapID(11)?CustomAnnouncerMessage(game_message_ThreshAnnouncerEnabled)"
         }
     }
+    0xccc5e6fa = GameMutatorExpansions {
+        mExpandedMutator: string = "ForceLoadAllTerrain"
+        mMutators: list2[string] = {
+            "MapID(11)?LoadAllVisibilityFlags"
+        }
+    }
     0xce6f80f1 = GameMutatorExpansions {
         mExpandedMutator: string = "ARSR"
         mMutators: list2[string] = {
@@ -9928,6 +9935,9 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "Set3_LittlerLegends(1)"
         }
+    }
+    0xd6641121 = GameMutatorExpansions {
+        mExpandedMutator: string = "TEMP_VoidCorruption"
     }
     0xd70815c8 = GameMutatorExpansions {
         mExpandedMutator: string = "eSport"
@@ -10005,6 +10015,12 @@ entries: map[hash,embed] = {
             "MapID(11)?SRU_Baron_SkinID(2)"
         }
     }
+    0xe64b4320 = GameMutatorExpansions {
+        mExpandedMutator: string = "SR_BaronPitTunnel"
+        mMutators: list2[string] = {
+            "MapBaronPitOverride(2)"
+        }
+    }
     0xe6540739 = GameMutatorExpansions {
         mExpandedMutator: string = "SR_InfernalTerrain"
         mMutators: list2[string] = {
@@ -10028,6 +10044,12 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT3_SetVariation_SmallerBoards"
         mMutators: list2[string] = {
             "Set3_SmallerBoards(1)"
+        }
+    }
+    0xec9554f6 = GameMutatorExpansions {
+        mExpandedMutator: string = "SR_BaronPitUpgraded"
+        mMutators: list2[string] = {
+            "MapBaronPitOverride(3)"
         }
     }
     0xed70edb6 = GameMutatorExpansions {
@@ -10082,6 +10104,12 @@ entries: map[hash,embed] = {
             "MapObjectESportTeamCustomization(1)"
             "MapID(11)?MapSkinName(Spectator_Only_Banners)"
             "EsportsBannerViewController(1)"
+        }
+    }
+    0xf3dc0a05 = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_Hope24_SpawnMusic"
+        mMutators: list2[string] = {
+            "SpawnThemeMusicOverride(Play_mus_map11_hope24_spawn)"
         }
     }
     0xf3f84ba7 = GameMutatorExpansions {
@@ -10764,7 +10792,6 @@ entries: map[hash,embed] = {
             0x3e3c2065: bool = true
             OmnivampStat: bool = true
             0xab676340: bool = true
-            0xacd3ddc1: bool = true
             0xb6fd2589: bool = true
             0xd10b6d14: bool = true
             0xb8dc5e9a: bool = true
@@ -10776,8 +10803,11 @@ entries: map[hash,embed] = {
             0xcb5747c1: bool = true
             0x3e3cd6e2: bool = true
             0x57d3f2c8: bool = true
+            0x30ba7188: bool = true
             0x0aa0fcb5: bool = true
             0x937aae2c: bool = true
+            0xdb71e9dd: bool = true
+            0x9a0588ef: bool = false
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
             fowCastRayAccurate: bool = true
@@ -11814,6 +11844,9 @@ entries: map[hash,embed] = {
             "TFTEncounterTag"
             "GDSEnum::TFTDropRateType"
             "GDSEnum::TFTCustomAnnouncementStyle"
+            "CastPropertyOverrides"
+            "GDSEnum::ItemConsts_ActiveItemTelemetryCategory"
+            "GDSEnum::TFTUnitGroupType"
         }
     }
     0xfa37df3a = DebugRenderFlags {}

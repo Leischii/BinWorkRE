@@ -2879,13 +2879,11 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "runeTimeGlow"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 10, 50, -29 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 50, -29 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -2931,13 +2929,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "pulseTimer"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 10, 30, -29 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 30, -29 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -2981,13 +2977,11 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "runeTimeGlow1"
                 disabled: bool = true
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 10, 50, -29 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 50, -29 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -3139,7 +3133,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 20, 10, 20 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3364,10 +3358,8 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "baseGlow"
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -1, 0 }
-                    }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -1, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
@@ -3517,7 +3509,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 0.600000024, 0.600000024 }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 25, -25, 25 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3696,10 +3688,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 30, 0 }
-                    }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 30, 20, 10 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3734,8 +3726,8 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 30, 0 }
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -3914,16 +3906,14 @@ entries: map[hash,embed] = {
                     32
                 }
                 emitterName: string = "FireGlow"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -20, 0 }
-                    }
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 65, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 65, 0 }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -20, 0 }
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -4065,65 +4055,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 75, 0, 0 }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                        { 0, 0, 1.00000012 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x3dbe415d {
+                    radius: f32 = 75
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -4327,10 +4263,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -100, 0 }
-                    }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 70, 75, 0 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -4366,8 +4302,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
                 }
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -4521,7 +4457,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/SRU_OrderTurret1_Rubble_dustCloud.dds"
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.SRT_2024_Strategy_Differentiation_Preseason.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4811,10 +4747,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         visibilityRadius: f32 = 1000
@@ -4879,15 +4815,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 1, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = 1.29999995
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -6240,7 +6174,7 @@ entries: map[hash,embed] = {
                     17
                 }
                 emitterName: string = "Godray"
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 1 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -6512,7 +6446,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 350, 1000, 300 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -6750,7 +6684,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 350, 1000, 300 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -6938,13 +6872,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 100, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 1
@@ -7084,13 +7016,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 100, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 1
@@ -7182,10 +7112,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         particleName: string = "BW_Audio_Emitter_Fire"
@@ -7206,7 +7136,10 @@ entries: map[hash,embed] = {
                     26
                 }
                 emitterName: string = "Godray"
-                shape: embed = VfxShape {
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 1 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -7241,9 +7174,6 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -7510,7 +7440,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                emissionMeshScale: f32 = 15
+                emissionMeshName: string = "ASSETS/Shared/Particles/sru_emitter_plane.scb"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 500, 0 }
                     }
@@ -7567,8 +7499,6 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                emissionMeshScale: f32 = 15
-                emissionMeshName: string = "ASSETS/Shared/Particles/sru_emitter_plane.scb"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.149019614 }
@@ -7728,7 +7658,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                emissionMeshName: string = "ASSETS/Shared/Particles/BW_RainImmter.scb"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitRotationAngles: list[embed] = {
                         ValueFloat {
                             constantValue: f32 = 20
@@ -7738,7 +7669,6 @@ entries: map[hash,embed] = {
                         { 0, 0, 1.00000012 }
                     }
                 }
-                emissionMeshName: string = "ASSETS/Shared/Particles/BW_RainImmter.scb"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -7793,7 +7723,11 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "GlowRocks_BearRock"
                 importance: u8 = 0
-                shape: embed = VfxShape {
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                emissionMeshName: string = "ASSETS/Shared/Particles/BW_Order_RainPuddles.scb"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 10, 0, 10 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -7829,10 +7763,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                emissionMeshName: string = "ASSETS/Shared/Particles/BW_Order_RainPuddles.scb"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Shared/Particles/sru_raindrops_01.scb"
@@ -7907,10 +7837,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -7929,10 +7859,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -7953,13 +7883,11 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Brazier_Blueside_Smoke2"
                 importance: u8 = 0
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { -10, 40, -40 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -10, 40, -40 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -8045,10 +7973,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -8173,65 +8101,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 75, 0, 0 }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                        { 0, 0, 1.00000012 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x3dbe415d {
+                    radius: f32 = 75
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -8415,10 +8289,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -100, 0 }
-                    }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 3, 3 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8462,6 +8333,9 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -8693,10 +8567,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -200, 0 }
-                    }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 75, 75, 0 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8732,8 +8606,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -200, 0 }
                 }
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -8886,7 +8760,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/SRU_OrderTurret1_Rubble_dustCloud.dds"
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.SRT_2024_Strategy_Differentiation_Preseason.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -9159,7 +9033,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 15 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -9319,13 +9193,11 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Brazier_Blueside_Smoke1"
                 importance: u8 = 0
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { -10, 40, -40 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -10, 40, -40 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -9357,7 +9229,10 @@ entries: map[hash,embed] = {
                     14
                 }
                 emitterName: string = "Basic"
-                shape: embed = VfxShape {
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitRotationAngles: list[embed] = {
                         ValueFloat {
                             constantValue: f32 = 1
@@ -9410,9 +9285,6 @@ entries: map[hash,embed] = {
                         { 1.00000012, 0, 0 }
                         { 0, 1.00000012, 0 }
                     }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -9505,7 +9377,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 1 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -9884,7 +9756,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                emissionMeshName: string = "ASSETS/Shared/Particles/BW_RainImmter.scb"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitRotationAngles: list[embed] = {
                         ValueFloat {
                             constantValue: f32 = 20
@@ -9894,7 +9767,6 @@ entries: map[hash,embed] = {
                         { 0, 0, 1.00000012 }
                     }
                 }
-                emissionMeshName: string = "ASSETS/Shared/Particles/BW_RainImmter.scb"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -9996,7 +9868,11 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "GlowRocks_BearRock"
                 importance: u8 = 0
-                shape: embed = VfxShape {
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_RainPuddles.scb"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 10, 0, 10 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -10032,10 +9908,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_RainPuddles.scb"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Shared/Particles/sru_raindrops_01.scb"
@@ -10110,10 +9982,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         particleName: string = "BW_Audio_Emitter_Rope"
@@ -10352,10 +10224,8 @@ entries: map[hash,embed] = {
                     17
                 }
                 emitterName: string = "structureGlow"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 10, 0 }
-                    }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -10422,10 +10292,8 @@ entries: map[hash,embed] = {
                     20
                 }
                 emitterName: string = "Temp_Mesh"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 200, 0 }
-                    }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -10566,10 +10434,8 @@ entries: map[hash,embed] = {
                     20
                 }
                 emitterName: string = "Temp_Mesh1"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 200, 0 }
-                    }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -11245,10 +11111,8 @@ entries: map[hash,embed] = {
                     11
                 }
                 emitterName: string = "Temp_Mesh"
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -5, -10 }
-                    }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -5, -10 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -11296,10 +11160,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -11375,7 +11239,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 20, 10, 20 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -11603,10 +11467,8 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "baseGlow"
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -1, 0 }
-                    }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -1, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
@@ -11757,7 +11619,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 0.600000024, 0.600000024 }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 25, -25, 25 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -11936,10 +11798,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 30, 0 }
-                    }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 30, 20, 10 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -11974,8 +11836,8 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 30, 0 }
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -12154,16 +12016,14 @@ entries: map[hash,embed] = {
                     32
                 }
                 emitterName: string = "FireGlow"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -20, 0 }
-                    }
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 65, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 65, 0 }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -20, 0 }
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -12214,10 +12074,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         particleName: string = "BW_Audio_Emitter_River"
@@ -12303,13 +12163,11 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "pulseTimer"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 10, 30, -29 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 30, -29 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -12377,13 +12235,11 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "runeTimeGlow1"
                 disabled: bool = true
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 10, 50, -29 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 50, -29 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -12618,10 +12474,8 @@ entries: map[hash,embed] = {
                     35
                 }
                 emitterName: string = "structureGlow"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 10, 0 }
-                    }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -13062,7 +12916,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_StartingPlatform_RedGem.scb"
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set10_Carousel.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.53725493, 0.53725493, 1 }
                 }
@@ -13340,7 +13194,10 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Basic"
-                shape: embed = VfxShape {
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitRotationAngles: list[embed] = {
                         ValueFloat {
                             constantValue: f32 = 1
@@ -13393,9 +13250,6 @@ entries: map[hash,embed] = {
                         { 1.00000012, 0, 0 }
                         { 0, 1.00000012, 0 }
                     }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
                 }
                 blendMode: u8 = 1
                 miscRenderFlags: u8 = 1
@@ -13461,10 +13315,8 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "fireLine"
                 disabled: bool = true
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -180, 0 }
-                    }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -180, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 1
@@ -13729,39 +13581,37 @@ entries: map[hash,embed] = {
                     25
                 }
                 emitterName: string = "Temp_Mesh1"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -500
-                                        500
-                                    }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
                                 }
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        500
-                                        -500
-                                    }
+                                keyValues: list[f32] = {
+                                    -500
+                                    500
                                 }
                             }
-                            times: list[f32] = {
-                                0
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    500
+                                    -500
+                                }
                             }
-                            values: list[vec3] = {
-                                { 1, 0, 1 }
-                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
                         }
                     }
                 }
@@ -14474,7 +14324,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 15 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -14653,13 +14503,11 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "Brazier_Blueside_Smoke1"
                 importance: u8 = 0
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { -10, 40, -40 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -10, 40, -40 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -14768,9 +14616,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 0xbc022424: pointer = 0x7f70a2b2 {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -14794,10 +14642,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -14847,13 +14695,11 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bott_WhiteFalls"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 5, 0, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 0, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -14980,23 +14826,21 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WhiteFalls_botfalls"
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 0 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec3] = {
-                                { 10, 0, 0 }
-                                { 30, 0, 0 }
-                            }
-                        }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 10, 0, 0 }
+                            { 30, 0, 0 }
+                        }
+                    }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -15409,13 +15253,11 @@ entries: map[hash,embed] = {
                 acceleration: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 266, 0 }
                 }
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 410, -1300, 350 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 410, -1300, 350 }
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -15637,32 +15479,7 @@ entries: map[hash,embed] = {
                 birthAcceleration: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -150, 0 }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 50, -109.900002, -70 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0.800000012
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 50, -109.900002, -70 }
-                            }
-                        }
-                    }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 0 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -15704,6 +15521,31 @@ entries: map[hash,embed] = {
                     }
                     emitRotationAxes: list[vec3] = {
                         { 0, 0, 1.00000012 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, -109.900002, -70 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, -109.900002, -70 }
+                        }
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -15822,9 +15664,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 0xbc022424: pointer = 0x7f70a2b2 {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -15848,10 +15690,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/Black.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/Black.DDS"
+                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
             }
         }
         particleName: string = "HA_Audio_Emitter_FireMed_Big"
@@ -16270,6 +16112,7 @@ entries: map[hash,embed] = {
         mapPath: string = "Maps/MapGeometry/Map12/Bilgewater"
         components: list[pointer] = {
             MapBakeProperties {
+                lightGridSize: u32 = 256
                 lightGridFileName: string = "ASSETS/Maps/Lightmaps/Maps/MapGeometry/Map12/Bilgewater/LightGrid.dat"
             }
             MapSunProperties {
