@@ -2692,7 +2692,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "DiffuseTexture"
-                textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/Base/Textures/BW_Brush.ARAM_ShaderGrass.dds"
+                textureName: string = "ASSETS/Maps/KitPieces/Howling_Abyss/Base/Textures/BW_Brush.dds"
             }
         }
         paramValues: list2[embed] = {

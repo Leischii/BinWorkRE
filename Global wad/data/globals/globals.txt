@@ -8654,6 +8654,12 @@ entries: map[hash,embed] = {
             "SpawnThemeMusic"
         }
     }
+    0x13faa4bf = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CarouselSet3_5_Revival"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CarouselSet3_5_Revival)"
+        }
+    }
     0x14badbff = GameMutatorExpansions {
         mExpandedMutator: string = "Event_Poultry"
         mMutators: list2[string] = {
@@ -8928,6 +8934,16 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "NewARAMItems"
         mMutators: list2[string] = {
             "CustomItems(NewARAMItems)"
+        }
+    }
+    0x33cbbc55 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set3"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet3)"
+            "AudioFeature(TFTSet03)"
+            "ChosenDisabled(1)"
+            "MapID(22)?MapSkinName(CarouselSet3_5_Revival)"
+            "TFTMusicManagerEnabled(0)"
         }
     }
     0x35881db1 = GameMutatorExpansions {
@@ -9459,7 +9475,7 @@ entries: map[hash,embed] = {
             "ChosenDisabled(1)"
             "TFTSetOverride(TFTSet10)"
             "AudioFeature(TFTSet10)"
-            "TFTMusicManagerEnabled"
+            "TFTMusicManagerEnabled(1)"
             "HeadlinerEnabled(1)"
         }
     }
@@ -10731,6 +10747,74 @@ entries: map[hash,embed] = {
         }
     }
     "Globals/WardSkinDisabler" = WardSkinDisabler {}
+    0x50f101ed = 0x3c770c70 {
+        UnitTags: list2[string] = {
+            "Champion"
+            "Champion_Clone"
+            "Minion"
+            "Minion_Lane"
+            "Minion_Lane_Melee"
+            "Minion_Lane_Ranged"
+            "Minion_Lane_Siege"
+            "Minion_Lane_Super"
+            "Minion_Summon"
+            "Minion_Summon_Large"
+            "Monster"
+            "Monster_Epic"
+            "Monster_Large"
+            "Monster_Medium"
+            "Monster_Buff"
+            "Special_TurretIgnores"
+            "Special_LaneMinionIgnores"
+            "Special_AzirW"
+            "Special_AzirR"
+            "Special_CorkiBomb"
+            "Special_YorickW"
+            "Special_MonsterIgnores"
+            "Special_EpicMonsterIgnores"
+            "Special_Peaceful"
+            "Special_AscXerath"
+            "Special_PerksWormhole"
+            "Special_UntargetableBySpells"
+            "Special_SyndraSphere"
+            "Special_TeleportTarget"
+            "Special_TeleportInvalid"
+            "Special_TeleportPad"
+            "Special_Trap"
+            "Special_Tunnel"
+            "Special_KPMinion"
+            "Special_Void"
+            "Structure"
+            "Structure_Inhibitor"
+            "Structure_Nexus"
+            "Structure_Turret"
+            "Structure_Turret_Outer"
+            "Structure_Turret_Inner"
+            "Structure_Turret_Inhib"
+            "Structure_Turret_Nexus"
+            "Structure_Turret_Shrine"
+            "Ward"
+            "Monster_Dragon"
+            "Monster_Blue"
+            "Monster_Red"
+            "Monster_Crab"
+            "Monster_Gromp"
+            "Monster_Krug"
+            "Monster_Raptor"
+            "Monster_Wolf"
+            "Monster_Baron"
+            "Monster_RiftHerald"
+            "Monster_Horde"
+            "Monster_Camp"
+            "Plant"
+            "IsolationNonImpacting"
+            "KingPoro"
+            "Adventure_ChampionEnemy"
+            "SLIME_WalkingNexus"
+            "NEXUSBLITZ_EventCharacter"
+            "Minion_AttackMove_Inactive"
+        }
+    }
     "Globals/BuffStackingSettings" = BuffStackingSettings {
         templateDefinition: list[embed] = {
             BuffStackingTemplate {
@@ -10804,6 +10888,7 @@ entries: map[hash,embed] = {
             0x3e3cd6e2: bool = true
             0x57d3f2c8: bool = true
             0x30ba7188: bool = true
+            0xb059e275: bool = true
             0x0aa0fcb5: bool = true
             0x937aae2c: bool = true
             0xdb71e9dd: bool = true

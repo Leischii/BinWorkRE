@@ -132,6 +132,9 @@ entries: map[hash,embed] = {
     "Characters/PetHextechBirb" = Companion {
         name: string = "PetHextechBirb"
     }
+    0x56810f75 = Companion {
+        name: string = "PetChibiSona"
+    }
     "Characters/HA_OrderMinionMelee" = Character {
         name: string = "HA_OrderMinionMelee"
     }
@@ -6485,7 +6488,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
                 }
-                particleColorTexture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/color-hotsparks.dds"
+                particleColorTexture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/color-hotsparks.Brand_VFX_VU.dds"
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
                 isUniformScale: flag = true
@@ -6507,7 +6510,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/common_Sparks-Orange.dds"
+                texture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/common_Sparks-Orange.Brand_VFX_VU.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9891,7 +9894,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
         }
         particleName: string = "HAUpdate_Spell_Block_Spell_cas"
@@ -14295,7 +14298,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14572,7 +14575,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 150, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.29999995
@@ -16577,7 +16580,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 300, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16792,7 +16795,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -23587,7 +23590,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43605,7 +43608,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Yasuo_Skin68.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49950,7 +49953,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50097,7 +50100,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 140, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50675,7 +50678,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Booms_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
                 textureMult: pointer = 0xb097c1bd {
                     textureMult: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -51758,7 +51761,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Yasuo_Skin68.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64372,6 +64375,7 @@ entries: map[hash,embed] = {
             "Characters/PetChibiIrelia"
             0x93bc6dfa
             0x73557a9e
+            0x56810f75
             0x973b3093
         }
     }
@@ -73391,7 +73395,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/disc32.Briar.DDS"
+                texture: string = "ASSETS/Shared/Particles/disc32.DDS"
             }
         }
         particleName: string = "HA_Spawn"
