@@ -9894,7 +9894,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
         }
         particleName: string = "HAUpdate_Spell_Block_Spell_cas"
@@ -14298,7 +14298,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14575,7 +14575,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 150, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.29999995
@@ -16580,7 +16580,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 300, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16795,7 +16795,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -23590,7 +23590,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49953,7 +49953,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50100,7 +50100,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 140, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50678,7 +50678,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.PIE_C_14_2.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
                 textureMult: pointer = 0xb097c1bd {
                     textureMult: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -66498,7 +66498,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.835294008, 0.941175997, 0.960784018, 1 }
@@ -73980,7 +73980,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -74565,7 +74565,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -74794,7 +74794,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }

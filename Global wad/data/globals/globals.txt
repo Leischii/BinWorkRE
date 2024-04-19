@@ -8671,7 +8671,7 @@ entries: map[hash,embed] = {
     0x160e1887 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_SetMinimal"
         mMutators: list2[string] = {
-            "TFTSetOverride(TFTMinimalSet)"
+            "TFTSetOverride(TFTSetMinimal)"
         }
     }
     0x16be8a83 = GameMutatorExpansions {
@@ -9061,7 +9061,7 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_SetTutorial"
         mMutators: list2[string] = {
             "ChosenDisabled(1)"
-            "TFTSetOverride(TFTTutorialSet)"
+            "TFTSetOverride(TFTSetTutorial)"
             "AudioFeature(TFT_Tutorial_v2)"
             "MapID(22)?MapSkinName(Tutorial)"
         }
@@ -9074,7 +9074,7 @@ entries: map[hash,embed] = {
             "EarlySurrenderTimeout(1)"
             "Set3_NormalGame(1)"
             "ChosenDisabled(1)"
-            "TFTSetOverride(TFTTutorialSet)"
+            "TFTSetOverride(TFTSetTutorial)"
             "TFTTutorialVersion(2)"
             "MapID(22)?MapSkinName(Tutorial)"
             "TFT_Playbooks(0)"
@@ -9199,8 +9199,8 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_Event_CT"
         mMutators: list2[string] = {
             "ChosenDisabled(1)"
-            "TFTSetOverride(TFTEvent_CT)"
-            "AudioFeature(TFTEventCT)"
+            "TFTSetOverride(TFTSetEventCT)"
+            "AudioFeature(TFTEvent_CT)"
             "TFT_Playbooks(0)"
             "MapSkinName(CarouselSet9)"
             "TFT_Set9_Stage2_EndOfSet"
@@ -9325,8 +9325,8 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_Event_SF"
         mMutators: list2[string] = {
             "ChosenDisabled(1)"
-            "TFTSetOverride(TFTEvent_SF)"
-            "AudioFeature(TFTEventSF)"
+            "TFTSetOverride(TFTSetEventSF)"
+            "AudioFeature(TFTEvent_SF)"
             "TFT_Playbooks(1)"
         }
     }
@@ -10888,11 +10888,10 @@ entries: map[hash,embed] = {
             0x3e3cd6e2: bool = true
             0x57d3f2c8: bool = true
             0x30ba7188: bool = true
-            0xb059e275: bool = true
             0x0aa0fcb5: bool = true
             0x937aae2c: bool = true
             0xdb71e9dd: bool = true
-            0x9a0588ef: bool = false
+            0xfad8c148: bool = true
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
             fowCastRayAccurate: bool = true
@@ -11932,6 +11931,10 @@ entries: map[hash,embed] = {
             "CastPropertyOverrides"
             "GDSEnum::ItemConsts_ActiveItemTelemetryCategory"
             "GDSEnum::TFTUnitGroupType"
+            "GDSEnum::CinematicBarsRatioType"
+            "GDSEnum::PlayerBehaviorMetricDistance_TargetObjectType"
+            "GDSEnum::PlayerBehaviorMetricDistance_DistanceCheckType"
+            "GDSEnum::PlayerBehaviorMetricEvent_PlayerEvents"
         }
     }
     0xfa37df3a = DebugRenderFlags {}
