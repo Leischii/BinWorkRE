@@ -183,6 +183,9 @@ entries: map[hash,embed] = {
     "Characters/PetChibiAhri" = Companion {
         name: string = "PetChibiAhri"
     }
+    0x6af8e3e3 = Companion {
+        name: string = "PetChibiYone"
+    }
     "Characters/PetChoncc" = Companion {
         name: string = "PetChoncc"
     }
@@ -302,6 +305,12 @@ entries: map[hash,embed] = {
     }
     "Characters/SRU_OrderMinionSuper" = Character {
         name: string = "SRU_OrderMinionSuper"
+    }
+    0xa8b86671 = Companion {
+        name: string = "PetHundun"
+    }
+    0xaac5ff69 = Companion {
+        name: string = "PetChibiMorgana"
     }
     "Characters/SpellBook1" = Character {
         name: string = "SpellBook1"
@@ -699,7 +708,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2458,7 +2467,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3727,7 +3736,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -9430,7 +9439,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-rampdown32.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-rampdown32.dds"
                 blendMode: u8 = 1
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
@@ -9455,7 +9464,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/common_Aura_Self.TFT_Set10.dds"
+                texture: string = "ASSETS/Shared/Particles/common_Aura_Self.TFT_Set11.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9897,7 +9906,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
         }
         particleName: string = "HAUpdate_Spell_Block_Spell_cas"
@@ -12868,7 +12877,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -14168,7 +14177,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.SRT_2024_Strategy_Differentiation_Preseason.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.SRT_DURIAN_2024.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.5 }
                     }
@@ -14301,7 +14310,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14578,7 +14587,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 150, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.29999995
@@ -16583,7 +16592,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 300, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16798,7 +16807,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -16959,7 +16968,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/FlareBuilding.Arena_Augments_V2.DDS"
+                texture: string = "ASSETS/Shared/Particles/FlareBuilding.DDS"
             }
         }
         particleName: string = "FirstBlood_RelicBuff_TarSmoke"
@@ -20900,7 +20909,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23593,7 +23602,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24953,7 +24962,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -31346,7 +31355,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_Ground_Out.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.710002303 }
                 }
@@ -40091,7 +40100,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Kalista_Skin01_P_Glow.Arena_Augments_V2.dds"
+                texture: string = "ASSETS/Shared/Particles/Kalista_Skin01_P_Glow.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40384,7 +40393,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/ball01.Arena_Augments_V2.dds"
+                texture: string = "ASSETS/Shared/Particles/ball01.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.00999999978
@@ -40452,7 +40461,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Kalista_Skin01_P_Glow.Arena_Augments_V2.dds"
+                texture: string = "ASSETS/Shared/Particles/Kalista_Skin01_P_Glow.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40657,7 +40666,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Kalista_Skin01_P_Glow.Arena_Augments_V2.dds"
+                texture: string = "ASSETS/Shared/Particles/Kalista_Skin01_P_Glow.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47833,7 +47842,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -48653,7 +48662,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Hexgate/Skins/Base/Particles/SRU_Plant_Tunnel_Shapes_MainPortal_OpenSmoke.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.TFT_Set10.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -49956,7 +49965,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50103,7 +50112,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 140, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50681,7 +50690,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SKINS_MissFortune_Skin50.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
                 textureMult: pointer = 0xb097c1bd {
                     textureMult: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -56329,6 +56338,22 @@ entries: map[hash,embed] = {
             }
         }
     }
+    0x3aa66e1b = ItemShopGameModeData {
+        0xc3b3430a: u32 = 12
+        0x51a18bc3: hash = "HA"
+        0x891a5676: embed = 0xb35ad9d8 {
+            items: list[hash] = {
+                "Items/2003"
+                "Items/2031"
+                "Items/2139"
+                "Items/2140"
+                "Items/2138"
+                "Items/2141"
+            }
+            ItemsPerRow: u32 = 2
+            defaultIndex: i32 = 2
+        }
+    }
     0x45163f15 = ExperienceModData {
         mPlayerMinionSplitXp: list[f32] = {
             0.920000017
@@ -58334,8 +58359,9 @@ entries: map[hash,embed] = {
             0x413f2f94
             0x53f3ac3c
             0x1ced71a9
+            0x265f7368
         }
-        mItemShopData: link = 0x8f58df52
+        mItemShopData: link = 0x3aa66e1b
         AnnouncementsMapping: link = 0x41e538c0
         mRelativeColorization: bool = true
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
@@ -62858,6 +62884,21 @@ entries: map[hash,embed] = {
                     "Play_sfx_Emotes_4447"
                     "Play_sfx_Emotes_4448"
                     "Play_sfx_Emotes_4450"
+                    "Play_sfx_Emotes_4452"
+                    "Play_sfx_Emotes_4469"
+                    "Play_sfx_Emotes_4470"
+                    "Play_sfx_Emotes_4471"
+                    "Play_sfx_Emotes_4472"
+                    "Play_sfx_Emotes_4473"
+                    "Play_sfx_Emotes_4474"
+                    "Play_sfx_Emotes_4475"
+                    "Play_sfx_Emotes_4476"
+                    "Play_sfx_Emotes_4477"
+                    "Play_sfx_Emotes_4508"
+                    "Play_sfx_Emotes_4509"
+                    "Play_sfx_Emotes_4510"
+                    "Play_sfx_Emotes_4511"
+                    "Play_sfx_Emotes_4512"
                     "Play_sfx_Emotes_AccordingToPlan"
                     "Play_sfx_Emotes_Adoeable"
                     "Play_sfx_Emotes_AllAccordingToPlan"
@@ -63083,6 +63124,13 @@ entries: map[hash,embed] = {
                     "Play_sfx_Reciprocity_Fist_fireworks_5"
                     "Play_sfx_Reciprocity_Fist_intro_buffactivate"
                     "Play_sfx_Reciprocity_Fist_out_buffactivate"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_2"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_3"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_4"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_5"
+                    "Play_sfx_Reciprocity_Fist_Skin01_fireworks_5"
+                    "Play_sfx_Reciprocity_Fist_Skin01_intro_buffactivate"
+                    "Play_sfx_Reciprocity_Fist_Skin01_out_buffactivate"
                     "Play_sfx_WC2015_TeamEmblem_Emote_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t1_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t2_buffactivate"
@@ -63094,6 +63142,13 @@ entries: map[hash,embed] = {
                     "Stop_sfx_Reciprocity_Fist_fireworks_5"
                     "Stop_sfx_Reciprocity_Fist_intro_buffactivate"
                     "Stop_sfx_Reciprocity_Fist_out_buffactivate"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_2"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_3"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_4"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_5"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_fireworks_5"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_intro_buffactivate"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_out_buffactivate"
                 }
             }
             BankUnit {
@@ -63763,6 +63818,21 @@ entries: map[hash,embed] = {
                     "Play_sfx_Emotes_4447"
                     "Play_sfx_Emotes_4448"
                     "Play_sfx_Emotes_4450"
+                    "Play_sfx_Emotes_4452"
+                    "Play_sfx_Emotes_4469"
+                    "Play_sfx_Emotes_4470"
+                    "Play_sfx_Emotes_4471"
+                    "Play_sfx_Emotes_4472"
+                    "Play_sfx_Emotes_4473"
+                    "Play_sfx_Emotes_4474"
+                    "Play_sfx_Emotes_4475"
+                    "Play_sfx_Emotes_4476"
+                    "Play_sfx_Emotes_4477"
+                    "Play_sfx_Emotes_4508"
+                    "Play_sfx_Emotes_4509"
+                    "Play_sfx_Emotes_4510"
+                    "Play_sfx_Emotes_4511"
+                    "Play_sfx_Emotes_4512"
                     "Play_sfx_Emotes_AccordingToPlan"
                     "Play_sfx_Emotes_Adoeable"
                     "Play_sfx_Emotes_AllAccordingToPlan"
@@ -63988,6 +64058,13 @@ entries: map[hash,embed] = {
                     "Play_sfx_Reciprocity_Fist_fireworks_5"
                     "Play_sfx_Reciprocity_Fist_intro_buffactivate"
                     "Play_sfx_Reciprocity_Fist_out_buffactivate"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_2"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_3"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_4"
+                    "Play_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_5"
+                    "Play_sfx_Reciprocity_Fist_Skin01_fireworks_5"
+                    "Play_sfx_Reciprocity_Fist_Skin01_intro_buffactivate"
+                    "Play_sfx_Reciprocity_Fist_Skin01_out_buffactivate"
                     "Play_sfx_WC2015_TeamEmblem_Emote_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t1_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t2_buffactivate"
@@ -63999,6 +64076,13 @@ entries: map[hash,embed] = {
                     "Stop_sfx_Reciprocity_Fist_fireworks_5"
                     "Stop_sfx_Reciprocity_Fist_intro_buffactivate"
                     "Stop_sfx_Reciprocity_Fist_out_buffactivate"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_2"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_3"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_4"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_bump_buffactivate_5"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_fireworks_5"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_intro_buffactivate"
+                    "Stop_sfx_Reciprocity_Fist_Skin01_out_buffactivate"
                 }
             }
             BankUnit {
@@ -64380,6 +64464,9 @@ entries: map[hash,embed] = {
             0x93bc6dfa
             0x73557a9e
             0x56810f75
+            0xaac5ff69
+            0xa8b86671
+            0x6af8e3e3
             0x973b3093
         }
     }
@@ -64574,6 +64661,11 @@ entries: map[hash,embed] = {
             0x1f546e47
             0x13545b63
             0x125459d0
+        }
+    }
+    0x265f7368 = GameModeItemList {
+        mItems: list2[hash] = {
+            "Items/2141"
         }
     }
     0x413f2f94 = GameModeItemList {
@@ -67489,7 +67581,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Shared/Particles/TrampleAOE_Shockwave.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/AlphaStrike_prison_ball_p-rgba.2024_Preseason_Items_Demythic.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/AlphaStrike_prison_ball_p-rgba.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.179995418 }
@@ -68014,7 +68106,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -1 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/common_color-hold.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set11.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0199999996, 0.100000001 }
                 }
@@ -69430,7 +69522,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.Arena_Augments_V2.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.SRT_DURIAN_2024.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -70715,7 +70807,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Shared/Particles/TrampleAOE_Shockwave.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/AlphaStrike_prison_ball_p-rgba.2024_Preseason_Items_Demythic.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/AlphaStrike_prison_ball_p-rgba.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.179995418 }
@@ -71240,7 +71332,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -1 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/common_color-hold.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set11.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0199999996, 0.100000001 }
                 }
@@ -72453,7 +72545,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.SRT_2024_Strategy_Differentiation_Preseason.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.5 }
@@ -72671,7 +72763,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -72859,7 +72951,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.SRT_2024_Strategy_Differentiation_Preseason.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.dds"
                 blendMode: u8 = 1
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
@@ -73100,7 +73192,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.PIE_C_13_24.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.dds"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.699999988, 1, 1 }
                 }
@@ -73256,7 +73348,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -73485,7 +73577,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -73577,7 +73669,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.PIE_C_13_24.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.dds"
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -73625,7 +73717,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.Arena_Augments_V2.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.SRT_DURIAN_2024.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
