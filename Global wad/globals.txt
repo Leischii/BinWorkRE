@@ -2433,6 +2433,13 @@ entries: map[hash,embed] = {
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_6000_project2017"
     }
+    0xd8ba1590 = LoadScreenTip {
+        mId: u16 = 22030
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "tft_loading_screen_tip_30"
+    }
     0xdbbc58e0 = LoadScreenTip {
         mId: u16 = 22023
         mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
@@ -2551,6 +2558,13 @@ entries: map[hash,embed] = {
         mMinimumSummonerLevel: option[u32] = {}
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "tft_loading_screen_tip_10"
+    }
+    0xe5bc689e = LoadScreenTip {
+        mId: u16 = 22029
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "tft_loading_screen_tip_29_crabrave"
     }
     0xe5bea735 = LoadScreenTip {
         mId: u16 = 22011
@@ -7363,6 +7377,90 @@ entries: map[hash,embed] = {
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_2220_gameplay"
     }
+    0x6146bbd8 = LoadScreenTip {
+        mId: u16 = 11124
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad14"
+    }
+    0x6546c224 = LoadScreenTip {
+        mId: u16 = 11120
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad10"
+    }
+    0x6646c3b7 = LoadScreenTip {
+        mId: u16 = 11121
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad11"
+    }
+    0x6746c54a = LoadScreenTip {
+        mId: u16 = 11122
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad12"
+    }
+    0x6846c6dd = LoadScreenTip {
+        mId: u16 = 11123
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad13"
+    }
+    0xd24e2980 = LoadScreenTip {
+        mId: u16 = 11115
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad05"
+    }
+    0xd34e2b13 = LoadScreenTip {
+        mId: u16 = 11114
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad04"
+    }
+    0xd44e2ca6 = LoadScreenTip {
+        mId: u16 = 11117
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad07"
+    }
+    0xd54e2e39 = LoadScreenTip {
+        mId: u16 = 11116
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad06"
+    }
+    0xd64e2fcc = LoadScreenTip {
+        mId: u16 = 11111
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad01"
+    }
+    0xd84e32f2 = LoadScreenTip {
+        mId: u16 = 11113
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad03"
+    }
+    0xd94e3485 = LoadScreenTip {
+        mId: u16 = 11112
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad02"
+    }
+    0xde4e3c64 = LoadScreenTip {
+        mId: u16 = 11119
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad09"
+    }
+    0xdf4e3df7 = LoadScreenTip {
+        mId: u16 = 11118
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "DurianLoad08"
+    }
     0xdc8daaef = LoadScreenTip {
         mId: u16 = 3002
         mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
@@ -7634,6 +7732,8 @@ entries: map[hash,embed] = {
             0xe0bc60bf
             0xdfbc5f2c
             0xe6bc6a31
+            0xe5bc689e
+            0xd8ba1590
         }
     }
     0x2497eb0f = LoadScreenTipSet {
@@ -7866,6 +7966,25 @@ entries: map[hash,embed] = {
             0x8a585e58
             0x8b585feb
             0x905867ca
+        }
+    }
+    0x5c4627df = LoadScreenTipSet {
+        mName: hash = 0x72c14850
+        mTips: list[link] = {
+            0xd64e2fcc
+            0xd94e3485
+            0xd84e32f2
+            0xd34e2b13
+            0xd24e2980
+            0xd54e2e39
+            0xd44e2ca6
+            0xdf4e3df7
+            0xde4e3c64
+            0x6546c224
+            0x6646c3b7
+            0x6746c54a
+            0x6846c6dd
+            0x6146bbd8
         }
     }
     0x68a11575 = LoadScreenTipSet {
@@ -8635,9 +8754,9 @@ entries: map[hash,embed] = {
             "DisableSpectator"
             "EarlySurrenderTimeout(600)"
             "MaxGameLength(5400)"
-            "AudioFeature(TFTSet10)"
+            "AudioFeature(TFTSet11)"
             "ChosenDisabled(1)"
-            "TFT_Set10(1)"
+            "TFT_Set11(1)"
             "Pride_Trail(1)"
         }
     }
@@ -8741,7 +8860,7 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_Set5_Stage2"
         mMutators: list2[string] = {
             "ChosenDisabled(1)"
-            "TFTSetOverride(TFT_Set5_Stage2)"
+            "TFTSetOverride(TFTSet5_Stage2)"
             "AudioFeature(TFTSet05)"
         }
     }
@@ -8784,6 +8903,12 @@ entries: map[hash,embed] = {
             "MapID(11)?AnnouncerVoice(Pyke)"
             "MapID(11)?ShowCustomAnnouncerOption(1)"
             "MapID(11)?CustomAnnouncerMessage(game_message_PykeAnnouncerEnabled)"
+        }
+    }
+    0x28936287 = GameMutatorExpansions {
+        mExpandedMutator: string = "RSBotsTimesliceManagerUpdate"
+        mMutators: list2[string] = {
+            "RSBotsDisableTimesliceManagerUpdate(1)"
         }
     }
     0x290d133e = GameMutatorExpansions {
@@ -8868,7 +8993,7 @@ entries: map[hash,embed] = {
     0x2dcbb2e3 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Set5"
         mMutators: list2[string] = {
-            "TFTSetOverride(TFT_Set5)"
+            "TFTSetOverride(TFTSet5)"
             "AudioFeature(TFTSet05)"
             "ChosenDisabled(1)"
         }
@@ -9032,15 +9157,23 @@ entries: map[hash,embed] = {
     0x3afe8d29 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_PAIRS"
         mMutators: list2[string] = {
-            "TFT_Set10_PAIRS(1)"
-            "TFTSetOverride(TFTSet10_PAIRS)"
-            "AudioFeature(TFTSet10)"
+            "TFT_Set11_PAIRS(1)"
+            "TFTSetOverride(TFTSet11_PAIRS)"
+            "AudioFeature(TFTSet11)"
         }
     }
     0x3b033bf4 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT3_SetVariation_TwoItemMax"
         mMutators: list2[string] = {
             "Set3_TwoItemMax(1)"
+        }
+    }
+    0x3c3bde4a = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_MSI_2024"
+        mMutators: list2[string] = {
+            "MSIFandomChat"
+            "EsportsNamePrefixes(1)"
+            "MSITricode(1)"
         }
     }
     0x3cd10b58 = GameMutatorExpansions {
@@ -9475,6 +9608,16 @@ entries: map[hash,embed] = {
             "EsportsNamePrefixes(1)"
         }
     }
+    0x81b46a3a = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set11"
+        mMutators: list2[string] = {
+            "ChosenDisabled(1)"
+            "TFTSetOverride(TFTSet11)"
+            "AudioFeature(TFTSet11)"
+            "MapSkin_TFT_CarouselSet11(1)"
+            "TFTEncounterEnabled(1)"
+        }
+    }
     0x82b46bcd = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Set10"
         mMutators: list2[string] = {
@@ -9679,6 +9822,12 @@ entries: map[hash,embed] = {
             "CLASSIC"
         }
     }
+    0xa5eb8e18 = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CarouselSet11"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CarouselSet11)"
+        }
+    }
     0xa6e3bfbe = GameMutatorExpansions {
         mExpandedMutator: string = "TFT3_SetVariation_MidGameFoN"
         mMutators: list2[string] = {
@@ -9773,6 +9922,13 @@ entries: map[hash,embed] = {
     }
     0xbb2874a7 = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_Bilgewater"
+    }
+    0xbb37b947 = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_Durian"
+        mMutators: list2[string] = {
+            "DurianEnabled(1)"
+            "LoadingScreenTipsOverride(Durian)"
+        }
     }
     0xbb91f54a = GameMutatorExpansions {
         mExpandedMutator: string = "ARAM"
@@ -10112,11 +10268,11 @@ entries: map[hash,embed] = {
             "DisableSpectator(1)"
             "LoadingScreenTipsOverride(TFT)"
             "DisableSpectator"
-            "AudioFeature(TFTSet10)"
+            "AudioFeature(TFTSet11)"
             "MaxGameLength(5400)"
             "TFTTargetAfterMove(1)"
-            "TFTSet10_TURBO(1)"
-            "TFTSetOverride(TFTSet10_TURBO)"
+            "TFTSet11_TURBO(1)"
+            "TFTSetOverride(TFTSet11_TURBO)"
             "EarlySurrenderTimeout(420)"
             "TFT_Playbooks(0)"
         }
@@ -10591,36 +10747,43 @@ entries: map[hash,embed] = {
     }
     0x4481a268 = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_7.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_7.tex"
         LevelTraKey: string = "loading_screen_mastery_level_7"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
     0x4581a3fb = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_6.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_6.tex"
         LevelTraKey: string = "loading_screen_mastery_level_6"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
     0x4681a58e = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_5.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_5.tex"
         LevelTraKey: string = "loading_screen_mastery_level_5"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
     0x4781a721 = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_4.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_4.tex"
         LevelTraKey: string = "loading_screen_mastery_level_4"
         DetailsTraKey: string = "loading_screen_mastery_points"
     }
     0x4881a8b4 = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
         LevelTraKey: string = "loading_screen_mastery_level_default"
         DetailsTraKey: string = "loading_screen_mastery_points_locked"
     }
     0x4981aa47 = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
         LevelTraKey: string = "loading_screen_mastery_level_default"
         DetailsTraKey: string = "loading_screen_mastery_points_locked"
     }
     0x4a81abda = masteryData {
         texture: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
+        0xd516b033: string = "ASSETS/UX/Mastery/Mastery_Icon_Default.tex"
         LevelTraKey: string = "loading_screen_mastery_level_default"
         DetailsTraKey: string = "loading_screen_mastery_points_locked"
     }
@@ -10887,20 +11050,25 @@ entries: map[hash,embed] = {
             0xab676340: bool = true
             0xb6fd2589: bool = true
             0xd10b6d14: bool = true
-            0xb8dc5e9a: bool = true
             0x2776937f: bool = true
+            0x40574f29: bool = false
+            0xbfa71bae: bool = false
             0xcd99a01f: bool = false
             0xd1ca3bda: bool = true
             0x6f2169e1: bool = true
             0x8ce38003: bool = false
             0xcb5747c1: bool = true
+            0xe759b66e: bool = false
             0x3e3cd6e2: bool = true
             0x57d3f2c8: bool = true
             0x30ba7188: bool = true
             0x0aa0fcb5: bool = true
             0x937aae2c: bool = true
-            0xdb71e9dd: bool = true
+            0x82cdcf2e: bool = true
             0xfad8c148: bool = true
+            0x791348b4: bool = false
+            0x007c3a50: bool = true
+            0x03ee50ba: bool = false
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
             fowCastRayAccurate: bool = true
@@ -11803,9 +11971,11 @@ entries: map[hash,embed] = {
             "Formula"
             "GDSEnum::AdviceEditType"
             "GDSEnum::AIMinionCommon_MinionType"
-            "GDSEnum::AugmentData_AugmentBuildTags"
-            "GDSEnum::AugmentData_AugmentRarity"
-            "GDSEnum::AugmentData_AugmentTags"
+            "GDSEnum::AnvilType"
+            "GDSEnum::AugmentBuildTags"
+            "GDSEnum::AugmentRarity"
+            "GDSEnum::AugmentTags"
+            "GDSEnum::AugmentType"
             "GDSEnum::ChallengesEventType"
             "GDSEnum::EDimensionType"
             "GDSEnum::emote_e"
@@ -11944,6 +12114,11 @@ entries: map[hash,embed] = {
             "GDSEnum::PlayerBehaviorMetricDistance_TargetObjectType"
             "GDSEnum::PlayerBehaviorMetricDistance_DistanceCheckType"
             "GDSEnum::PlayerBehaviorMetricEvent_PlayerEvents"
+            "GDSEnum::PlayerBehaviorMetric_PlayerBehaviorType"
+            "GDSEnum::PlayerBehaviorMetricHealth_ThresholdCheckType"
+            "GDSEnum::Lane"
+            "GDSEnum::BotDifficulty"
+            "GDSEnum::TFTRegionPortalType"
         }
     }
     0xfa37df3a = DebugRenderFlags {}

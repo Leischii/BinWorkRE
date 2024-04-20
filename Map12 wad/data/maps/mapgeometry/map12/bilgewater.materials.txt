@@ -4457,7 +4457,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/SRU_OrderTurret1_Rubble_dustCloud.dds"
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.SRT_2024_Strategy_Differentiation_Preseason.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4747,10 +4747,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         visibilityRadius: f32 = 1000
@@ -7112,10 +7112,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         particleName: string = "BW_Audio_Emitter_Fire"
@@ -7837,10 +7837,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -7859,10 +7859,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -7973,10 +7973,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -8760,7 +8760,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/SRU_OrderTurret1_Rubble_dustCloud.dds"
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.SRT_2024_Strategy_Differentiation_Preseason.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -9982,10 +9982,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         particleName: string = "BW_Audio_Emitter_Rope"
@@ -11160,10 +11160,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -12074,10 +12074,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         particleName: string = "BW_Audio_Emitter_River"
@@ -12916,7 +12916,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_StartingPlatform_RedGem.scb"
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Graves_Skin45.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.53725493, 0.53725493, 1 }
                 }
@@ -14616,9 +14616,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 0xbc022424: pointer = 0x7f70a2b2 {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -14642,10 +14642,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         visibilityRadius: f32 = 2000
@@ -15664,9 +15664,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 0xbc022424: pointer = 0x7f70a2b2 {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -15690,10 +15690,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.PIE_C_14_1.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Evelynn_Skin53.dds"
             }
         }
         particleName: string = "HA_Audio_Emitter_FireMed_Big"
