@@ -7,10 +7,15 @@ entries: map[hash,embed] = {
         name: string = "SRU_OrderMinionMelee"
     }
     "Characters/PetPoro" = Companion {
+        0x81cd26c4: file = 0x4e7597987f654db6
         name: string = "PetPoro"
     }
     "Characters/Bw_Bottle" = Character {
         name: string = "Bw_Bottle"
+    }
+    0x032958bd = Companion {
+        0x81cd26c4: file = 0x64c15972ac44ccdc
+        name: string = "PetChibiEzreal"
     }
     "Characters/JammerDevice" = Character {
         name: string = "JammerDevice"
@@ -28,6 +33,7 @@ entries: map[hash,embed] = {
         name: string = "BW_Lantern"
     }
     "Characters/PetTFTAvatar" = Companion {
+        0x81cd26c4: file = 0x1b2bf732dcc4401f
         name: string = "PetTFTAvatar"
     }
     "Characters/SRU_ChaosMinionMelee" = Character {
@@ -37,57 +43,69 @@ entries: map[hash,embed] = {
         name: string = "TurretRubble"
     }
     "Characters/PetSGCat" = Companion {
+        0x81cd26c4: file = 0x414940c6e0de63d5
         name: string = "PetSGCat"
     }
     "Characters/BW_boat" = Character {
         name: string = "BW_boat"
     }
     "Characters/PetRazorBeak" = Companion {
+        0x81cd26c4: file = 0xc5ce1b843bfba144
         name: string = "PetRazorBeak"
     }
     "Characters/PetVoidEye" = Companion {
+        0x81cd26c4: file = 0xe4cd56e7aeeebe5f
         name: string = "PetVoidEye"
     }
     "Characters/BW_AP_Bubbs" = Character {
         name: string = "BW_AP_Bubbs"
     }
     "Characters/PetAkaliDragon" = Companion {
+        0x81cd26c4: file = 0x7beb32fc17ce7b49
         name: string = "PetAkaliDragon"
     }
     "Characters/HA_Hexgate" = Character {
         name: string = "HA_Hexgate"
     }
     "Characters/PetChibiVi" = Companion {
+        0x81cd26c4: file = 0x7faf86cd83dad6cc
         name: string = "PetChibiVi"
     }
     "Characters/HA_AP_Poro" = Character {
         name: string = "HA_AP_Poro"
     }
     "Characters/PetChibiLux" = Companion {
+        0x81cd26c4: file = 0xabb5714f7681daad
         name: string = "PetChibiLux"
     }
     "Characters/PetChibiKaisa" = Companion {
+        0x81cd26c4: file = 0xc68196e83aedaa13
         name: string = "PetChibiKaisa"
     }
     "Characters/PetElegantDragon" = Companion {
+        0x81cd26c4: file = 0x3eff772e1f6ba05e
         name: string = "PetElegantDragon"
     }
     "Characters/PetGrumpyLion" = Companion {
+        0x81cd26c4: file = 0x4a34fbd69cf904f0
         name: string = "PetGrumpyLion"
     }
     "Characters/HA_OrderMinionSiege" = Character {
         name: string = "HA_OrderMinionSiege"
     }
     "Characters/PetDowsie" = Companion {
+        0x81cd26c4: file = 0x2fd16db969a69e7a
         name: string = "PetDowsie"
     }
     "Characters/BW_shadowshark" = Character {
         name: string = "BW_shadowshark"
     }
     "Characters/PetOwl" = Companion {
+        0x81cd26c4: file = 0x08916c1c1f6214af
         name: string = "PetOwl"
     }
     "Characters/PetChibiLeeSin" = Companion {
+        0x81cd26c4: file = 0x4f4def708f05aa41
         name: string = "PetChibiLeeSin"
     }
     "Characters/HA_AP_Chains_Long" = Character {
@@ -96,10 +114,16 @@ entries: map[hash,embed] = {
     "Characters/HA_Hexgate_Exit" = Character {
         name: string = "HA_Hexgate_Exit"
     }
+    0x3f4db78b = Companion {
+        0x81cd26c4: file = 0xe41fff05be1913de
+        name: string = "PetLeopardGecko"
+    }
     "Characters/PetQiyanaDog" = Companion {
+        0x81cd26c4: file = 0x916037a6914c2907
         name: string = "PetQiyanaDog"
     }
     "Characters/PetDSWhale" = Companion {
+        0x81cd26c4: file = 0x55392bc1ffa8e448
         name: string = "PetDSWhale"
     }
     "Characters/SRU_SnowDown_Gingerbread" = Character {
@@ -109,42 +133,51 @@ entries: map[hash,embed] = {
         name: string = "HA_ChaosMinionMelee"
     }
     "Characters/PetDuckbill" = Companion {
+        0x81cd26c4: file = 0x0bd39266ad86edae
         name: string = "PetDuckbill"
     }
     "Characters/PetChibiYasuo" = Companion {
+        0x81cd26c4: file = 0xb658e23d407fe13e
         name: string = "PetChibiYasuo"
     }
     "Characters/HA_AP_BannerMidBridge" = Character {
         name: string = "HA_AP_BannerMidBridge"
     }
     "Characters/PetJawDragon" = Companion {
+        0x81cd26c4: file = 0x38af5233b184aa69
         name: string = "PetJawDragon"
     }
     "Characters/BW_dblrope" = Character {
         name: string = "BW_dblrope"
     }
     "Characters/PetSennaBunny" = Companion {
+        0x81cd26c4: file = 0x01cab651488b5ab1
         name: string = "PetSennaBunny"
     }
     "Characters/PetShark" = Companion {
+        0x81cd26c4: file = 0x361fe656f55bbc13
         name: string = "PetShark"
     }
     "Characters/PetHextechBirb" = Companion {
+        0x81cd26c4: file = 0xdae61cfbee1135dc
         name: string = "PetHextechBirb"
     }
     0x56810f75 = Companion {
+        0x81cd26c4: file = 0xb3092b2da37d325f
         name: string = "PetChibiSona"
     }
     "Characters/HA_OrderMinionMelee" = Character {
         name: string = "HA_OrderMinionMelee"
     }
     "Characters/PetPiximander" = Companion {
+        0x81cd26c4: file = 0xfda6f03c0e14c639
         name: string = "PetPiximander"
     }
     "Characters/SRU_ChaosMinionRanged" = Character {
         name: string = "SRU_ChaosMinionRanged"
     }
     "Characters/PetGargoyle" = Companion {
+        0x81cd26c4: file = 0xc61a40b08848f2f0
         name: string = "PetGargoyle"
     }
     "Characters/HA_ChaosMinionSuper" = Character {
@@ -160,6 +193,7 @@ entries: map[hash,embed] = {
         name: string = "HA_AP_Chains"
     }
     "Characters/PetSGShisa" = Companion {
+        0x81cd26c4: file = 0x397766bfe7fe0702
         name: string = "PetSGShisa"
     }
     "Characters/BlueTrinket" = Character {
@@ -169,24 +203,31 @@ entries: map[hash,embed] = {
         name: string = "SightWard"
     }
     "Characters/PetFenroar" = Companion {
+        0x81cd26c4: file = 0xec92e8b69d2dcc00
         name: string = "PetFenroar"
     }
     "Characters/PetChibiJinx" = Companion {
+        0x81cd26c4: file = 0x064cf92297951e6d
         name: string = "PetChibiJinx"
     }
     "Characters/PetChibiZed" = Companion {
+        0x81cd26c4: file = 0xd70b544118ac73f7
         name: string = "PetChibiZed"
     }
     "Characters/PetChibiEkko" = Companion {
+        0x81cd26c4: file = 0x8f9e12f65dd97dea
         name: string = "PetChibiEkko"
     }
     "Characters/PetChibiAhri" = Companion {
+        0x81cd26c4: file = 0x77a48d03c5cec4ae
         name: string = "PetChibiAhri"
     }
     0x6af8e3e3 = Companion {
+        0x81cd26c4: file = 0xf3c2156aee5f9f6e
         name: string = "PetChibiYone"
     }
     "Characters/PetChoncc" = Companion {
+        0x81cd26c4: file = 0xd5abe6d009e8142d
         name: string = "PetChoncc"
     }
     "Characters/Inhibitor" = Character {
@@ -199,6 +240,7 @@ entries: map[hash,embed] = {
         name: string = "HA_AP_Hermit_Robot"
     }
     "Characters/PetChibiAatrox" = Companion {
+        0x81cd26c4: file = 0xbb30e33cc203f3c1
         name: string = "PetChibiAatrox"
     }
     "Characters/SRU_OrderMinionRanged" = Character {
@@ -214,12 +256,14 @@ entries: map[hash,embed] = {
         name: string = "Item_TwinShadow"
     }
     "Characters/PetPupDragon" = Companion {
+        0x81cd26c4: file = 0xbba509c15226d16d
         name: string = "PetPupDragon"
     }
     "Characters/HA_AP_Cutaway" = Character {
         name: string = "HA_AP_Cutaway"
     }
     0x73557a9e = Companion {
+        0x81cd26c4: file = 0x961f5828e17797d6
         name: string = "PetChibiAkali"
     }
     "Characters/BW_seagull" = Character {
@@ -229,24 +273,29 @@ entries: map[hash,embed] = {
         name: string = "SLIME_EnvironmentMinion"
     }
     "Characters/PetUmbra" = Companion {
+        0x81cd26c4: file = 0xca4e37e316660811
         name: string = "PetUmbra"
     }
     "Characters/PetBaron" = Companion {
+        0x81cd26c4: file = 0x5d4a9b339707d92d
         name: string = "PetBaron"
     }
     "Characters/Turret" = Character {
         name: string = "Turret"
     }
     "Characters/PetCreepyCat" = Companion {
+        0x81cd26c4: file = 0x180401fe9b71ca6e
         name: string = "PetCreepyCat"
     }
     "Characters/HA_AP_Viking" = Character {
         name: string = "HA_AP_Viking"
     }
     "Characters/PetKoala" = Companion {
+        0x81cd26c4: file = 0xb2119371628c4a3e
         name: string = "PetKoala"
     }
     "Characters/PetPenguKnight" = Companion {
+        0x81cd26c4: file = 0x0465513185c829f1
         name: string = "PetPenguKnight"
     }
     "Characters/YellowTrinketUpgrade" = Character {
@@ -259,33 +308,43 @@ entries: map[hash,embed] = {
         name: string = "HA_AP_BridgeLaneStatue"
     }
     "Characters/PetPegasus" = Companion {
+        0x81cd26c4: file = 0x925f10402f4b4603
         name: string = "PetPegasus"
     }
     "Characters/PetGhosty" = Companion {
+        0x81cd26c4: file = 0x30b9bdc05bc92b18
         name: string = "PetGhosty"
     }
     "Characters/PetBunny" = Companion {
+        0x81cd26c4: file = 0xfb445d3518dbf191
         name: string = "PetBunny"
     }
     0x93bc6dfa = Companion {
+        0x81cd26c4: file = 0x39d3418837705ce5
         name: string = "PetChibiSett"
     }
     "Characters/PetSGPig" = Companion {
+        0x81cd26c4: file = 0x2f5c6ac6f483a949
         name: string = "PetSGPig"
     }
     0x973b3093 = Companion {
+        0x81cd26c4: file = 0x0d6673a2f977b8b9
         name: string = "PetScratch"
     }
     "Characters/PetChibiGwen" = Companion {
+        0x81cd26c4: file = 0x521314ac48de2679
         name: string = "PetChibiGwen"
     }
     "Characters/PetTurtle" = Companion {
+        0x81cd26c4: file = 0x2dd37c612e690ebd
         name: string = "PetTurtle"
     }
     "Characters/PetBigKnifeDog" = Companion {
+        0x81cd26c4: file = 0x680ec059a77cadc9
         name: string = "PetBigKnifeDog"
     }
     "Characters/PetGemTiger" = Companion {
+        0x81cd26c4: file = 0xa2bc201688587530
         name: string = "PetGemTiger"
     }
     "Characters/HA_AP_Poro_Large" = Character {
@@ -295,18 +354,22 @@ entries: map[hash,embed] = {
         name: string = "bw_statlant"
     }
     "Characters/PetMiniGolem" = Companion {
+        0x81cd26c4: file = 0x000ec9169fd53213
         name: string = "PetMiniGolem"
     }
     "Characters/PetScuttleCrab" = Companion {
+        0x81cd26c4: file = 0xf771f14e7d5761cc
         name: string = "PetScuttleCrab"
     }
     "Characters/SRU_OrderMinionSuper" = Character {
         name: string = "SRU_OrderMinionSuper"
     }
     0xa8b86671 = Companion {
+        0x81cd26c4: file = 0xdbdad9d736c8f667
         name: string = "PetHundun"
     }
     0xaac5ff69 = Companion {
+        0x81cd26c4: file = 0x63a5f8ff87549058
         name: string = "PetChibiMorgana"
     }
     "Characters/SpellBook1" = Character {
@@ -319,42 +382,51 @@ entries: map[hash,embed] = {
         name: string = "VoidSpawn"
     }
     "Characters/PetDSSwordGuy" = Companion {
+        0x81cd26c4: file = 0xa4e60f9930568f70
         name: string = "PetDSSwordGuy"
     }
     "Characters/PetChibiAshe" = Companion {
+        0x81cd26c4: file = 0x6290d754cf2d026b
         name: string = "PetChibiAshe"
     }
     "Characters/HA_AP_OrderShrineTurret" = Character {
         name: string = "HA_AP_OrderShrineTurret"
     }
     "Characters/PetBuglet" = Companion {
+        0x81cd26c4: file = 0x4f30a98f40bb0bfc
         name: string = "PetBuglet"
     }
     "Characters/PetBellswayer" = Companion {
+        0x81cd26c4: file = 0xbed8a3ba803529e5
         name: string = "PetBellswayer"
     }
     "Characters/KingPoro" = Character {
         name: string = "KingPoro"
     }
     "Characters/PetChibiTeemo" = Companion {
+        0x81cd26c4: file = 0x9eedbc651963b4b8
         name: string = "PetChibiTeemo"
     }
     "Characters/PetChibiAnnie" = Companion {
+        0x81cd26c4: file = 0x3a8aeb4ac8041b6b
         name: string = "PetChibiAnnie"
     }
     "Characters/PetPoroFluft" = Companion {
+        0x81cd26c4: file = 0x569d36bbdff9ac0e
         name: string = "PetPoroFluft"
     }
     "Characters/VoidSpawnTracer" = Character {
         name: string = "VoidSpawnTracer"
     }
     "Characters/PetFairy" = Companion {
+        0x81cd26c4: file = 0xb68b381e680ddb91
         name: string = "PetFairy"
     }
     "Characters/BW_shortrope" = Character {
         name: string = "BW_shortrope"
     }
     "Characters/PetSpiritFox" = Companion {
+        0x81cd26c4: file = 0x0e7a5fd44fb31519
         name: string = "PetSpiritFox"
     }
     "Characters/KINGPORO_PoroFollower" = Character {
@@ -385,6 +457,7 @@ entries: map[hash,embed] = {
         name: string = "BW_vship"
     }
     "Characters/PetSmolKnifeDog" = Companion {
+        0x81cd26c4: file = 0xe6ef331c41430d23
         name: string = "PetSmolKnifeDog"
     }
     "Characters/VisionWard" = Character {
@@ -397,6 +470,7 @@ entries: map[hash,embed] = {
         name: string = "bw_brdgdoor"
     }
     "Characters/PetAoShin" = Companion {
+        0x81cd26c4: file = 0x4d58f30681df63c8
         name: string = "PetAoShin"
     }
     "Characters/HA_AP_Hermit" = Character {
@@ -409,6 +483,7 @@ entries: map[hash,embed] = {
         name: string = "PreSeason_Turret_Shield"
     }
     "Characters/PetDSSquid" = Companion {
+        0x81cd26c4: file = 0xb4a519bd2c464890
         name: string = "PetDSSquid"
     }
     "Characters/BW_fishhk" = Character {
@@ -418,15 +493,19 @@ entries: map[hash,embed] = {
         name: string = "S5Test_WardCorpse"
     }
     "Characters/PetGloop" = Companion {
+        0x81cd26c4: file = 0xc012a21723207d2b
         name: string = "PetGloop"
     }
     "Characters/PetMiner" = Companion {
+        0x81cd26c4: file = 0x02d4d66a7f0a225a
         name: string = "PetMiner"
     }
     "Characters/PetBallDragon" = Companion {
+        0x81cd26c4: file = 0xecdfcee36c72a5dd
         name: string = "PetBallDragon"
     }
     "Characters/PetChibiIrelia" = Companion {
+        0x81cd26c4: file = 0x93cd184830fdac3e
         name: string = "PetChibiIrelia"
     }
     "Characters/BW_signa" = Character {
@@ -439,6 +518,7 @@ entries: map[hash,embed] = {
         name: string = "HA_AP_Poro_Small"
     }
     "Characters/PetNimblefoot" = Companion {
+        0x81cd26c4: file = 0xf02ca2e1cb07e8dc
         name: string = "PetNimblefoot"
     }
     "Characters/DestroyedTower" = Character {
@@ -448,6 +528,7 @@ entries: map[hash,embed] = {
         name: string = "HA_OrderMinionRanged"
     }
     "Characters/PetGriffin" = Companion {
+        0x81cd26c4: file = 0x14bcadb7a5bcfbdb
         name: string = "PetGriffin"
     }
     "Characters/BW_anclantern" = Character {
@@ -469,6 +550,7 @@ entries: map[hash,embed] = {
         name: string = "HA_AP_ChaosTurretShrine"
     }
     "Characters/PetChibiMalphite" = Companion {
+        0x81cd26c4: file = 0x5ba2aa6f33f5e67c
         name: string = "PetChibiMalphite"
     }
     "Maps/Shipping/Map12" = Map {
@@ -6497,7 +6579,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
                 }
-                particleColorTexture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/color-hotsparks.Brand_VFX_VU.dds"
+                particleColorTexture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/color-hotsparks.dds"
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
                 isUniformScale: flag = true
@@ -6519,7 +6601,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/common_Sparks-Orange.Brand_VFX_VU.dds"
+                texture: string = "ASSETS/Characters/Brand/Skins/Base/Particles/common_Sparks-Orange.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43617,7 +43699,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Yasuo_Skin68.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Lux_Skin61.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51770,7 +51852,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Yasuo_Skin68.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Lux_Skin61.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -56347,7 +56429,7 @@ entries: map[hash,embed] = {
                 "Items/2138"
                 "Items/2141"
             }
-            ItemsPerRow: u32 = 2
+            0xae2dee44: u32 = 4
             defaultIndex: i32 = 2
         }
     }
@@ -57024,7 +57106,7 @@ entries: map[hash,embed] = {
             0.666000009
             0.819999993
             0.819999993
-            1
+            0.899999976
         }
         0x9c036cd2: list[f32] = {
             0
@@ -57856,7 +57938,7 @@ entries: map[hash,embed] = {
                 mValue: i32 = 300
             }
             "HomestartHasteDuration" = GameModeConstantFloat {
-                mValue: f32 = 10
+                mValue: f32 = 20
             }
             "HomestartMoveSpeedMult" = GameModeConstantFloat {
                 mValue: f32 = 0.5
@@ -58355,8 +58437,9 @@ entries: map[hash,embed] = {
         itemLists: list2[link] = {
             0x413f2f94
             0x53f3ac3c
-            0x1ced71a9
+            0xb58cb867
             0x265f7368
+            0x4270bd82
         }
         mItemShopData: link = 0x3aa66e1b
         AnnouncementsMapping: link = 0x41e538c0
@@ -58414,7 +58497,7 @@ entries: map[hash,embed] = {
             mReplacements: list[pointer] = {
                 PerkReplacement {
                     mReplaceTarget: hash = "Perks/Styles/Inspiration/BiscuitDelivery"
-                    mReplaceWith: hash = "Perks/Styles/Inspiration/FuturesMarket"
+                    mReplaceWith: hash = "Perks/Styles/Inspiration/TimeWarpTonic"
                 }
                 PerkReplacement {
                     mReplaceTarget: hash = "Perks/Styles/Sorcery/Waterwalking"
@@ -58430,11 +58513,7 @@ entries: map[hash,embed] = {
                 }
                 PerkReplacement {
                     mReplaceTarget: hash = "Perks/Styles/Inspiration/PerfectTiming"
-                    mReplaceWith: hash = "Perks/Styles/Inspiration/MagicalFootwear"
-                }
-                PerkReplacement {
-                    mReplaceTarget: hash = "Perks/Styles/Inspiration/MinionDematerializer"
-                    mReplaceWith: hash = "Perks/Styles/Inspiration/FuturesMarket"
+                    mReplaceWith: hash = "Perks/Styles/Inspiration/TimeWarpTonic"
                 }
             }
         }
@@ -59056,11 +59135,10 @@ entries: map[hash,embed] = {
                     "ASSETS/Sounds/Wwise2016/VO/en_US/Shared/NPC_Map12_VO_audio.wpk"
                 }
                 events: list[string] = {
-                    "Play_vo_Lissandra_freljordlore"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_Ambient"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_Browsing"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_Close"
-                    "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_ForgotItems"
+                    "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_CloseForgotItems"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_Open"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_OpenAshe"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Hermit_OpenBlitzcrank"
@@ -59079,7 +59157,7 @@ entries: map[hash,embed] = {
                     "Play_vo_Shopkeeper_Map12_HA_AP_Viking_Ambient"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Viking_Browsing"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Viking_Close"
-                    "Play_vo_Shopkeeper_Map12_HA_AP_Viking_ForgotItems"
+                    "Play_vo_Shopkeeper_Map12_HA_AP_Viking_CloseForgotItems"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Viking_Open"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Viking_OpenAnivia"
                     "Play_vo_Shopkeeper_Map12_HA_AP_Viking_OpenAshe"
@@ -59461,7 +59539,7 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        features: list[link] = {
+        0xa02b6406: list2[link] = {
             0xa010d345
             0xa8ad0e4a
             0x012578c1
@@ -62895,6 +62973,12 @@ entries: map[hash,embed] = {
                     "Play_sfx_Emotes_4510"
                     "Play_sfx_Emotes_4511"
                     "Play_sfx_Emotes_4512"
+                    "Play_sfx_Emotes_4516"
+                    "Play_sfx_Emotes_4517"
+                    "Play_sfx_Emotes_4518"
+                    "Play_sfx_Emotes_4519"
+                    "Play_sfx_Emotes_4534"
+                    "Play_sfx_Emotes_4535"
                     "Play_sfx_Emotes_AccordingToPlan"
                     "Play_sfx_Emotes_Adoeable"
                     "Play_sfx_Emotes_AllAccordingToPlan"
@@ -63106,6 +63190,13 @@ entries: map[hash,embed] = {
                     "Play_sfx_Goodies_Emotes_Template_SadBored"
                     "Play_sfx_Goodies_Emotes_Template_TrollMeme"
                     "Play_sfx_Goodies_Emotes_Template_Worlds2017"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level10_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level4_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level5_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level6_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level7_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level8_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level9_buffactivate"
                     "Play_sfx_MasteryEmote_Level4_buffactivate"
                     "Play_sfx_MasteryEmote_Level5_buffactivate"
                     "Play_sfx_MasteryEmote_Level6_buffactivate"
@@ -63131,6 +63222,13 @@ entries: map[hash,embed] = {
                     "Play_sfx_WC2016_TeamEmblem_Emote_t1_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t2_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t3_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level10_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level4_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level5_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level6_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level7_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level8_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level9_buffactivate"
                     "Stop_sfx_Reciprocity_Fist_bump_buffactivate_2"
                     "Stop_sfx_Reciprocity_Fist_bump_buffactivate_3"
                     "Stop_sfx_Reciprocity_Fist_bump_buffactivate_4"
@@ -63829,6 +63927,12 @@ entries: map[hash,embed] = {
                     "Play_sfx_Emotes_4510"
                     "Play_sfx_Emotes_4511"
                     "Play_sfx_Emotes_4512"
+                    "Play_sfx_Emotes_4516"
+                    "Play_sfx_Emotes_4517"
+                    "Play_sfx_Emotes_4518"
+                    "Play_sfx_Emotes_4519"
+                    "Play_sfx_Emotes_4534"
+                    "Play_sfx_Emotes_4535"
                     "Play_sfx_Emotes_AccordingToPlan"
                     "Play_sfx_Emotes_Adoeable"
                     "Play_sfx_Emotes_AllAccordingToPlan"
@@ -64040,6 +64144,13 @@ entries: map[hash,embed] = {
                     "Play_sfx_Goodies_Emotes_Template_SadBored"
                     "Play_sfx_Goodies_Emotes_Template_TrollMeme"
                     "Play_sfx_Goodies_Emotes_Template_Worlds2017"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level10_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level4_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level5_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level6_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level7_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level8_buffactivate"
+                    "Play_sfx_LegendaryChampionMasteryEmote_Level9_buffactivate"
                     "Play_sfx_MasteryEmote_Level4_buffactivate"
                     "Play_sfx_MasteryEmote_Level5_buffactivate"
                     "Play_sfx_MasteryEmote_Level6_buffactivate"
@@ -64065,6 +64176,13 @@ entries: map[hash,embed] = {
                     "Play_sfx_WC2016_TeamEmblem_Emote_t1_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t2_buffactivate"
                     "Play_sfx_WC2016_TeamEmblem_Emote_t3_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level10_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level4_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level5_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level6_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level7_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level8_buffactivate"
+                    "Stop_sfx_LegendaryChampionMasteryEmote_Level9_buffactivate"
                     "Stop_sfx_Reciprocity_Fist_bump_buffactivate_2"
                     "Stop_sfx_Reciprocity_Fist_bump_buffactivate_3"
                     "Stop_sfx_Reciprocity_Fist_bump_buffactivate_4"
@@ -64463,7 +64581,9 @@ entries: map[hash,embed] = {
             0xaac5ff69
             0xa8b86671
             0x6af8e3e3
+            0x032958bd
             0x973b3093
+            0x3f4db78b
         }
     }
     0x3fe66177 = MapCharacterList {
@@ -64593,12 +64713,10 @@ entries: map[hash,embed] = {
             "Items/3903"
             "Items/2422"
             "Items/2403"
-            "Items/2419"
             "Items/3600"
             "Items/3599"
             "Items/2052"
             "Items/2010"
-            "Items/2423"
             "Items/3040"
             "Items/3042"
             "Items/3330"
@@ -64649,7 +64767,6 @@ entries: map[hash,embed] = {
             0x14545cf6
             0x15545e89
             0x1e546cb4
-            0x90514e93
             0x8f514d00
             0x925151b9
             "Items/7004"
@@ -64688,7 +64805,6 @@ entries: map[hash,embed] = {
             "Items/2003"
             "Items/6695"
             "Items/6662"
-            "Items/2015"
             "Items/2031"
             "Items/6609"
             "Items/6664"
@@ -64740,7 +64856,6 @@ entries: map[hash,embed] = {
             "Items/3089"
             "Items/3091"
             "Items/3094"
-            "Items/3095"
             "Items/3100"
             "Items/3102"
             "Items/3107"
@@ -64780,7 +64895,6 @@ entries: map[hash,embed] = {
             "Items/6692"
             "Items/3504"
             "Items/3508"
-            "Items/6670"
             "Items/3742"
             "Items/3748"
             "Items/3801"
@@ -64826,7 +64940,6 @@ entries: map[hash,embed] = {
             0x9b608718
             "Items/3137"
             0xe8233abd
-            0xe1232fb8
             0xe0232e25
             0xdf232c92
             0x5108fa54
@@ -64843,6 +64956,19 @@ entries: map[hash,embed] = {
             0x11b5d1c0
             0x12b5d353
             0x13b5d4e6
+            0xf3774b4e
+            0xf1774828
+            0xec774049
+            "Items/3172"
+            "Items/3144"
+            "Items/6670"
+            0x5479393e
+        }
+    }
+    0x4270bd82 = GameModeItemList {
+        mItems: list2[hash] = {
+            0xd4691043
+            0x5a872c8c
         }
     }
     0x53f3ac3c = GameModeItemList {
@@ -64851,6 +64977,76 @@ entries: map[hash,embed] = {
             "Items/3112"
             "Items/3177"
             "Items/3184"
+        }
+    }
+    0xb58cb867 = GameModeItemList {
+        mItems: list2[hash] = {
+            "Items/3901"
+            "Items/3902"
+            "Items/3903"
+            "Items/2422"
+            "Items/2403"
+            "Items/3600"
+            "Items/3599"
+            "Items/2052"
+            "Items/2010"
+            "Items/3040"
+            "Items/3042"
+            "Items/3330"
+            "Items/3400"
+            "Items/2001"
+            "Items/1500"
+            "Items/1501"
+            "Items/1502"
+            "Items/1503"
+            "Items/1508"
+            "Items/1509"
+            "Items/1506"
+            "Items/1507"
+            "Items/1520"
+            "Items/7001"
+            "Items/7005"
+            "Items/7006"
+            "Items/7009"
+            "Items/7010"
+            "Items/7011"
+            "Items/7012"
+            "Items/7013"
+            "Items/7016"
+            "Items/7018"
+            "Items/7019"
+            "Items/7020"
+            "Items/7021"
+            "Items/2007"
+            "Items/1510"
+            "Items/1511"
+            "Items/1512"
+            "Items/1515"
+            "Items/7050"
+            "Items/7025"
+            "Items/7026"
+            "Items/7028"
+            "Items/1521"
+            "Items/1522"
+            "Items/7029"
+            "Items/7031"
+            "Items/7030"
+            "Items/7032"
+            "Items/7033"
+            "Items/7003"
+            "Items/7007"
+            0x5a872c8c
+            "Items/7022"
+            0x14545cf6
+            0x15545e89
+            0x1e546cb4
+            0x90514e93
+            0x8f514d00
+            0x925151b9
+            "Items/7004"
+            0x1f546e47
+            0x13545b63
+            0x125459d0
         }
     }
     0xbecd97c7 = GameModeItemList {
@@ -64890,7 +65086,6 @@ entries: map[hash,embed] = {
             "Items/2031"
             "Items/2055"
             "Items/2403"
-            "Items/2419"
             "Items/3340"
             "Items/3363"
             "Items/3364"
@@ -66590,7 +66785,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.835294008, 0.941175997, 0.960784018, 1 }
@@ -74072,7 +74267,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -74501,7 +74696,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Nocturne_Skin26.dds"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.699999988, 1, 1 }
                 }
@@ -74657,7 +74852,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -74886,7 +75081,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Skarner_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -74978,7 +75173,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Nocturne_Skin26.dds"
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -75885,6 +76080,12 @@ entries: map[hash,embed] = {
                 mIconKey: string = "%i:scaleSV%"
                 mScalingTagKey: string = "scaleSV"
             }
+            31 = StatUIData {
+                mName: string = "HealShieldPower"
+                mAbbreviation: string = "HSP"
+                mDisplayType: u8 = 2
+                mIconKey: string = "%i:scaleHealShield%"
+            }
         }
         BaseOutputIconModifier: string = "Tooltip_StatsUIData_BaseIconModifier"
         BonusOutputIconModifier: string = "Tooltip_StatsUIData_BonusIconModifier"
@@ -75911,4 +76112,5 @@ entries: map[hash,embed] = {
         0xf04c21cd: u8 = 6
         0xa844caca: u8 = 4
     }
+    0x7a90de84 = WadFileDescriptor {}
 }
