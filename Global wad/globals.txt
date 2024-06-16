@@ -10691,7 +10691,6 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_SetTutorial"
         mMutators: list2[string] = {
             "TFTSetOverride(TFTSetTutorial)"
-            "MapID(22)?MapSkinName(Tutorial)"
         }
     }
     0x42e38dfc = GameMutatorExpansions {
@@ -10825,8 +10824,8 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_Event_CT"
         mMutators: list2[string] = {
             "TFTSetOverride(TFTSetEventCT)"
-            "MapSkin_TFT_CarouselSet11(1)"
             "TFTEncounterEnabled(1)"
+            "TFT_Event_5YR_Trail_Enabled(1)"
         }
     }
     0x5a5ee6a8 = GameMutatorExpansions {
@@ -10921,6 +10920,14 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "AudioFeature(TFTSet06)"
             "TFTSetOverride(TFTSet6_Stage2)"
+        }
+    }
+    0x66109257 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Event_5YR"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSetEvent5YR)"
+            "MapSkin_TFT_CarouselEvent5YR(1)"
+            "TFTEncounterEnabled(1)"
         }
     }
     0x661db9bc = GameMutatorExpansions {
@@ -11096,8 +11103,8 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_Set11"
         mMutators: list2[string] = {
             "TFTSetOverride(TFTSet11)"
-            "MapSkin_TFT_CarouselSet11(1)"
             "TFTEncounterEnabled(1)"
+            "TFT_Event_5YR_Trail_Enabled(1)"
         }
     }
     0x82b46bcd = GameMutatorExpansions {
@@ -11119,6 +11126,12 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT3_SetVariation_FreeNeekos"
         mMutators: list2[string] = {
             "Set3_FreeNeekos(1)"
+        }
+    }
+    0x887db57e = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CarouselEvent5YR"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CarouselEvent5YR)"
         }
     }
     0x8a98601f = GameMutatorExpansions {
@@ -11371,6 +11384,12 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "Trophy_Winner_8"
         mMutators: list2[string] = {
             "SRTrophyWinner(8)"
+        }
+    }
+    0xb32b9b26 = GameMutatorExpansions {
+        mExpandedMutator: string = "ForceFirstTimeUserExperience"
+        mMutators: list2[string] = {
+            "ForceFTUXHoLAhri(1)"
         }
     }
     0xb499ee8e = GameMutatorExpansions {
@@ -12503,11 +12522,9 @@ entries: map[hash,embed] = {
             0x356f0738: bool = true
             0x791348b4: bool = false
             0xdc49d737: bool = true
-            0x1c07defa: bool = true
             0x03ee50ba: bool = false
             0x01243f0b: bool = true
             0x5cf29f42: bool = true
-            0xb56c3d3d: bool = true
             0x53dc659d: bool = true
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
@@ -13560,6 +13577,10 @@ entries: map[hash,embed] = {
             "GDSEnum::Lane"
             "GDSEnum::BotDifficulty"
             "GDSEnum::TFTRegionPortalType"
+            "GDSEnum::Spell_AbilityObject_AbilityTraits"
+            "GDSEnum::MonarchEncounterResolution"
+            "TFTGoopBuffTag"
+            "GDSEnum::TFTShopData_Source"
         }
     }
     0xfa37df3a = DebugRenderFlags {}
