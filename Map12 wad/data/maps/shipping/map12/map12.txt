@@ -9989,7 +9989,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
         }
         particleName: string = "HAUpdate_Spell_Block_Spell_cas"
@@ -14260,7 +14260,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.SRT_DURIAN_2024.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.5 }
                     }
@@ -14393,7 +14393,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14670,7 +14670,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 150, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.29999995
@@ -16675,7 +16675,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 300, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16890,7 +16890,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -23685,7 +23685,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50048,7 +50048,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50195,7 +50195,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 140, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50773,7 +50773,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
                 textureMult: pointer = 0xb097c1bd {
                     textureMult: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -56425,16 +56425,58 @@ entries: map[hash,embed] = {
         0xc3b3430a: u32 = 12
         0x51a18bc3: hash = "HA"
         0x891a5676: embed = 0xb35ad9d8 {
-            items: list[hash] = {
-                "Items/2003"
-                "Items/2031"
-                "Items/2139"
-                "Items/2140"
-                "Items/2138"
-                "Items/2141"
+            0xa4b002d7: list2[embed] = {
+                0x68f56a56 {
+                    Item: hash = "Items/2003"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2031"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2139"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2140"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2138"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2141"
+                }
             }
             0xae2dee44: u32 = 4
             defaultIndex: i32 = 2
+        }
+        0x2e373003: embed = 0xb35ad9d8 {
+            0xa4b002d7: list2[embed] = {
+                0x68f56a56 {
+                    Item: hash = "Items/1001"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3020"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3158"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3006"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3111"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3047"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3009"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3010"
+                }
+            }
+            0xae2dee44: u32 = 3
+            0xd8bea346: bool = true
         }
     }
     0x45163f15 = ExperienceModData {
@@ -64733,48 +64775,14 @@ entries: map[hash,embed] = {
             "Items/1506"
             "Items/1507"
             "Items/1520"
-            "Items/7001"
-            "Items/7005"
-            "Items/7006"
-            "Items/7009"
-            "Items/7010"
-            "Items/7011"
-            "Items/7012"
-            "Items/7013"
-            "Items/7016"
-            "Items/7018"
-            "Items/7019"
-            "Items/7020"
-            "Items/7021"
             "Items/2007"
             "Items/1510"
             "Items/1511"
             "Items/1512"
             "Items/1515"
             "Items/7050"
-            "Items/7025"
-            "Items/7026"
-            "Items/7028"
             "Items/1521"
             "Items/1522"
-            "Items/7029"
-            "Items/7031"
-            "Items/7030"
-            "Items/7032"
-            "Items/7033"
-            "Items/7003"
-            "Items/7007"
-            "Items/7008"
-            "Items/7022"
-            0x14545cf6
-            0x15545e89
-            0x1e546cb4
-            0x8f514d00
-            0x925151b9
-            "Items/7004"
-            0x1f546e47
-            0x13545b63
-            0x125459d0
         }
     }
     0x265f7368 = GameModeItemList {
@@ -64971,7 +64979,6 @@ entries: map[hash,embed] = {
     0x4270bd82 = GameModeItemList {
         mItems: list2[hash] = {
             0xd4691043
-            0x5a872c8c
         }
     }
     0x53f3ac3c = GameModeItemList {
@@ -65007,49 +65014,14 @@ entries: map[hash,embed] = {
             "Items/1506"
             "Items/1507"
             "Items/1520"
-            "Items/7001"
-            "Items/7005"
-            "Items/7006"
-            "Items/7009"
-            "Items/7010"
-            "Items/7011"
-            "Items/7012"
-            "Items/7013"
-            "Items/7016"
-            "Items/7018"
-            "Items/7019"
-            "Items/7020"
-            "Items/7021"
             "Items/2007"
             "Items/1510"
             "Items/1511"
             "Items/1512"
             "Items/1515"
             "Items/7050"
-            "Items/7025"
-            "Items/7026"
-            "Items/7028"
             "Items/1521"
             "Items/1522"
-            "Items/7029"
-            "Items/7031"
-            "Items/7030"
-            "Items/7032"
-            "Items/7033"
-            "Items/7003"
-            "Items/7007"
-            0x5a872c8c
-            "Items/7022"
-            0x14545cf6
-            0x15545e89
-            0x1e546cb4
-            0x90514e93
-            0x8f514d00
-            0x925151b9
-            "Items/7004"
-            0x1f546e47
-            0x13545b63
-            0x125459d0
         }
     }
     0xbecd97c7 = GameModeItemList {
@@ -65181,33 +65153,80 @@ entries: map[hash,embed] = {
             "Items/4401"
             "Items/3050"
             "Items/3157"
-            "Items/7001"
-            "Items/7005"
-            "Items/7006"
-            "Items/7009"
-            "Items/7010"
-            "Items/7011"
-            "Items/7012"
-            "Items/7013"
-            "Items/7016"
-            "Items/7018"
-            "Items/7019"
-            "Items/7020"
-            "Items/7021"
             "Items/8020"
             "Items/3119"
             "Items/3121"
             "Items/6696"
             "Items/4645"
             "Items/3161"
-            "Items/7025"
-            "Items/7026"
-            "Items/7028"
             "Items/6620"
             0x5f39bc61
         }
         0xc3b3430a: u32 = 11
         0x51a18bc3: hash = "CLASSIC"
+        0x891a5676: embed = 0xb35ad9d8 {
+            0xa4b002d7: list2[embed] = {
+                0x68f56a56 {
+                    Item: hash = "Items/2003"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3340"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2139"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2055"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2031"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3364"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2140"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3363"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/2138"
+                }
+            }
+            0xae2dee44: u32 = 4
+            defaultIndex: i32 = 2
+        }
+        0x2e373003: embed = 0xb35ad9d8 {
+            0xa4b002d7: list2[embed] = {
+                0x68f56a56 {
+                    Item: hash = "Items/1001"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3020"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3158"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3006"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3111"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3047"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3009"
+                }
+                0x68f56a56 {
+                    Item: hash = "Items/3010"
+                }
+            }
+            0xae2dee44: u32 = 3
+            0xd8bea346: bool = true
+        }
     }
     0xa3c25554 = GameModeAutoItemPurchasingConfig {
         0x19ef67a2: i32 = 20
@@ -70687,7 +70706,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.SRT_DURIAN_2024.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74583,7 +74602,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Nocturne_Skin26.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Fizz_Skin35.dds"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.699999988, 1, 1 }
                 }
@@ -75060,7 +75079,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Nocturne_Skin26.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Fizz_Skin35.dds"
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -75108,7 +75127,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.SRT_DURIAN_2024.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
