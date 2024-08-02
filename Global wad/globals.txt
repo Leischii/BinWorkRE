@@ -2139,6 +2139,55 @@ entries: map[hash,embed] = {
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "tft_loading_screen_tip_6"
     }
+    0xf15275c8 = LoadScreenTip {
+        mId: u16 = 3302
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3302"
+    }
+    0xf252775b = LoadScreenTip {
+        mId: u16 = 3303
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3303"
+    }
+    0xf4527a81 = LoadScreenTip {
+        mId: u16 = 3301
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3301"
+    }
+    0xf5527c14 = LoadScreenTip {
+        mId: u16 = 3306
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3306"
+    }
+    0xf6527da7 = LoadScreenTip {
+        mId: u16 = 3307
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3307"
+    }
+    0xf7527f3a = LoadScreenTip {
+        mId: u16 = 3304
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3304"
+    }
+    0xf85280cd = LoadScreenTip {
+        mId: u16 = 3305
+        mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
+        mMinimumSummonerLevel: option[u32] = {}
+        mMaximumSummonerLevel: option[u32] = {}
+        mLocalizationKey: string = "game_startup_tip_3305"
+    }
     0x0d44e336 = LoadScreenTip {
         mId: u16 = 2008
         mHeaderLocalizationKey: string = "game_startup_tip_category_2_tip"
@@ -6425,7 +6474,6 @@ entries: map[hash,embed] = {
             0xdfbc5f2c
             0xe6bc6a31
             0xe5bc689e
-            0xd8ba1590
         }
     }
     0x2497eb0f = LoadScreenTipSet {
@@ -6640,6 +6688,17 @@ entries: map[hash,embed] = {
             0x8a585e58
             0x8b585feb
             0x905867ca
+        }
+    }
+    0x7c862837 = LoadScreenTipSet {
+        mName: hash = 0x843a155c
+        mTips: list[link] = {
+            0xf4527a81
+            0xf252775b
+            0xf7527f3a
+            0xf85280cd
+            0xf5527c14
+            0xf6527da7
         }
     }
     0xa5d32211 = LoadScreenTipSet {
@@ -8761,8 +8820,12 @@ entries: map[hash,embed] = {
             "DisableSpectator"
             "EarlySurrenderTimeout(600)"
             "MaxGameLength(5400)"
-            "TFT_Set11(1)"
+            "TFT_Set12(1)"
             "Pride_Trail(1)"
+            "TFT_ShopV2(1)"
+            "TFTIsRerollLogicInCode"
+            "TFTShopPurchaseEffectsEnabled"
+            "TFTSet12NewStatsEnabled"
         }
     }
     0x11dcee2b = GameMutatorExpansions {
@@ -9148,9 +9211,9 @@ entries: map[hash,embed] = {
     0x3afe8d29 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_PAIRS"
         mMutators: list2[string] = {
-            "TFT_Set11_PAIRS(1)"
-            "TFTSetOverride(TFTSet11_PAIRS)"
-            "AudioFeature(TFTSet11)"
+            "TFT_Set12_PAIRS(1)"
+            "TFTSetOverride(TFTSet12_PAIRS)"
+            "AudioFeature(TFTSet12)"
         }
     }
     0x3b033bf4 = GameMutatorExpansions {
@@ -9327,7 +9390,6 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "TFTSetOverride(TFTSetEventCT)"
             "TFTEncounterEnabled(1)"
-            "TFT_Event_5YR_Trail_Enabled(1)"
         }
     }
     0x5a5ee6a8 = GameMutatorExpansions {
@@ -9376,6 +9438,12 @@ entries: map[hash,embed] = {
             "LoadingScreenBackground(ASSETS/UX/LoadingScreen/Trueshot/Trueshot_Cities.Trueshot.dds)"
         }
     }
+    0x60bbcf8b = GameMutatorExpansions {
+        mExpandedMutator: string = "Strawberry_AnimaSquad_Map1"
+        mMutators: list2[string] = {
+            "MapID(33)?MapSkinName(Strawberry_AnimaSquad_Map1)"
+        }
+    }
     0x60ee011d = GameMutatorExpansions {
         mExpandedMutator: string = "NEXUSBLITZ"
         mMutators: list2[string] = {
@@ -9389,6 +9457,12 @@ entries: map[hash,embed] = {
             "Order_Turret_Shield_SkinOffset(4)"
             "Chaos_Turret_Shield_SkinOffset(5)"
             "EnableWardPreload(1)"
+        }
+    }
+    0x61bbd11e = GameMutatorExpansions {
+        mExpandedMutator: string = "Strawberry_AnimaSquad_Map2"
+        mMutators: list2[string] = {
+            "MapID(33)?MapSkinName(Strawberry_AnimaSquad_Map2)"
         }
     }
     0x621da51d = GameMutatorExpansions {
@@ -9586,6 +9660,14 @@ entries: map[hash,embed] = {
             "MapID(11)?LoadingScreenBackground(SRVersusBackground)"
         }
     }
+    0x80b468a7 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set12"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet12)"
+            "TFTShopPurchaseEffectsEnabled"
+            "TFTSet12NewStatsEnabled"
+        }
+    }
     0x810c998a = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_SetElement_Cloud"
         mMutators: list2[string] = {
@@ -9606,7 +9688,6 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "TFTSetOverride(TFTSet11)"
             "TFTEncounterEnabled(1)"
-            "TFT_Event_5YR_Trail_Enabled(1)"
         }
     }
     0x82b46bcd = GameMutatorExpansions {
@@ -9839,6 +9920,12 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "MapSkin_TFT_CarouselSet10"
         mMutators: list2[string] = {
             "MapID(22)?MapSkinName(CarouselSet10)"
+        }
+    }
+    0xa8eb92d1 = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CarouselSet12"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CarouselSet12)"
         }
     }
     0xac3cd68d = GameMutatorExpansions {
@@ -10271,11 +10358,11 @@ entries: map[hash,embed] = {
             "DisableSpectator(1)"
             "LoadingScreenTipsOverride(TFT)"
             "DisableSpectator"
-            "AudioFeature(TFTSet11)"
+            "AudioFeature(TFTSet12)"
             "MaxGameLength(5400)"
             "TFTTargetAfterMove(1)"
-            "TFTSet11_TURBO(1)"
-            "TFTSetOverride(TFTSet11_TURBO)"
+            "TFTSet12_TURBO(1)"
+            "TFTSetOverride(TFTSet12_TURBO)"
             "EarlySurrenderTimeout(420)"
             "TFT_Playbooks(0)"
         }
@@ -10325,6 +10412,14 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_NewShopSystem"
         mMutators: list2[string] = {
             "NewShopSystem(1)"
+        }
+    }
+    0xf764aaae = GameMutatorExpansions {
+        mExpandedMutator: string = "STRAWBERRY"
+        mMutators: list2[string] = {
+            "UseNavGridWASD(1)"
+            "UseWASDControls(1)"
+            "LoadingScreenTipsOverride(Strawberry)"
         }
     }
     0xf7dd48b2 = GameMutatorExpansions {
@@ -10942,6 +11037,40 @@ entries: map[hash,embed] = {
             "NEXUSBLITZ_EventCharacter"
             "Minion_AttackMove_Inactive"
         }
+        0x3262dbd4: list2[hash] = {
+            0x31792712
+            0x0a8e3413
+            0x04054657
+            0xe1d0d89e
+            0x2d0009db
+            0x6c9a9cd3
+            0xbbba1107
+            0x97d52392
+            0xeeb04246
+            0xb4059023
+            0xa51c7510
+            0x00877a2f
+            0xfbfe01ce
+            0x1e502f41
+            0xce505ec6
+            0x7e482c6b
+            0x0c5642f5
+            0xedb0fd6b
+            0xb2d8eeb0
+            0xefb5a27b
+            0x38346438
+            0x4f6e4712
+            0x13ef1487
+            0x6568dab6
+            0x28147ab4
+            0x21694807
+            0x3896274e
+            0x4d6b3cb0
+            0xe999aab5
+            0x071b40a0
+            0xb6b4f530
+            0x65d68475
+        }
     }
     "Globals/BuffStackingSettings" = BuffStackingSettings {
         templateDefinition: list[embed] = {
@@ -11019,7 +11148,9 @@ entries: map[hash,embed] = {
             0xdc49d737: bool = true
             0x03ee50ba: bool = false
             0x01243f0b: bool = true
+            0x1db16466: bool = true
             0x53dc659d: bool = true
+            0x7226f974: bool = true
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
             fowCastRayAccurate: bool = true
@@ -11811,6 +11942,26 @@ entries: map[hash,embed] = {
                     effect: link = 0xb2be2816
                 }
             }
+            StealthData {
+                StealthName: string = "AuroraWInvisibility"
+                RevealFlags: embed = 0x97fc7312 {
+                    0x774fc304: bool = true
+                    0xd0266d4b: bool = true
+                }
+                0xa9443951: bool = true
+                0x5f698fdd: bool = true
+                0xe2d9142a: bool = true
+                0xa44e2f70: bool = true
+                0x556f29d1: bool = true
+                Invisibility: bool = true
+                ScreenFade: link = 0xd02c1921
+                0x00243921: embed = 0xd75442ea {
+                    fade: link = 0xed81496c
+                }
+                0x873dc06e: embed = StealthVfxInstance {
+                    effect: link = 0xb2be2816
+                }
+            }
         }
     }
     0xaa935ac6 = 0x46533086 {
@@ -12079,6 +12230,7 @@ entries: map[hash,embed] = {
             "GDSEnum::PlayerBehaviorMetricLaneState_TurretPositionType"
             "GDSEnum::PlayerBehaviorMetricLaneState_TurretStateType"
             "GDSEnum::TFTPVEScoreCategory"
+            "GDSEnum::ParticleSystemParameterIdentifier"
         }
     }
     0xfa37df3a = DebugRenderFlags {}
