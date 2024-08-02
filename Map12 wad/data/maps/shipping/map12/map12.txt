@@ -353,6 +353,14 @@ entries: map[hash,embed] = {
     "Characters/HA_AP_Poro_Large" = Character {
         name: string = "HA_AP_Poro_Large"
     }
+    0x9c251903 = Companion {
+        0x81cd26c4: file = 0x3ad9b779a938b807
+        name: string = "PetSeaAngel"
+    }
+    0x9c269e9f = Companion {
+        0x81cd26c4: file = 0x9afcc7bb685ef0fb
+        name: string = "PetChibiMissFortune"
+    }
     "Characters/bw_statlant" = Character {
         name: string = "bw_statlant"
     }
@@ -822,7 +830,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -2581,7 +2589,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -3850,7 +3858,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -5973,7 +5981,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -9550,7 +9558,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Shared/Particles/common_Aura_Self.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9992,7 +10000,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
         }
         particleName: string = "HAUpdate_Spell_Block_Spell_cas"
@@ -12991,7 +12999,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -14263,7 +14271,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/alphaslice_mesh.TFT_Set12.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.5 }
                     }
@@ -14396,7 +14404,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14673,7 +14681,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 150, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.29999995
@@ -16678,7 +16686,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 300, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16893,7 +16901,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -17054,7 +17062,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/FlareBuilding.DDS"
+                texture: string = "ASSETS/Shared/Particles/FlareBuilding.StrawberryRebuild.dds"
             }
         }
         particleName: string = "FirstBlood_RelicBuff_TarSmoke"
@@ -19725,7 +19733,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -21023,7 +21031,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -23688,7 +23696,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -25076,7 +25084,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -26336,7 +26344,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -27555,7 +27563,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -28774,7 +28782,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -29993,7 +30001,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -31212,7 +31220,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -32590,7 +32598,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -33037,7 +33045,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 60 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -34165,7 +34173,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -35384,7 +35392,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -36603,7 +36611,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -37288,7 +37296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -40479,7 +40487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/ball01.dds"
+                texture: string = "ASSETS/Shared/Particles/ball01.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.00999999978
@@ -42324,7 +42332,7 @@ entries: map[hash,embed] = {
                 0x563d4a22: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -43706,7 +43714,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Lux_Skin61.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43764,7 +43772,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46973,7 +46981,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 120, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47956,7 +47964,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -48776,7 +48784,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.19999981, 8, 8.19999981 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
@@ -50051,7 +50059,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 200, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50198,7 +50206,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 140, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50776,7 +50784,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set12.dds"
                 textureMult: pointer = 0xb097c1bd {
                     textureMult: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -51426,7 +51434,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.dds"
+                texture: string = "ASSETS/Shared/Particles/Amumu_Skin23_Aura_Flames.TFT_Booms_Zed_Galaxyslayer.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -51859,7 +51867,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Lux_Skin61.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51916,7 +51924,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54432,7 +54440,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -58482,6 +58490,7 @@ entries: map[hash,embed] = {
         0x8000e37b: list2[link] = {
             0xcaf87735
             0xb44576f1
+            "UX/HUD/Globals/DamageFeedback"
         }
         itemLists: list2[link] = {
             0x413f2f94
@@ -58527,6 +58536,7 @@ entries: map[hash,embed] = {
         0x8000e37b: list2[link] = {
             0x18b0717a
             0xe04f48ce
+            "UX/HUD/Globals/DamageFeedback"
         }
         itemLists: list2[link] = {
             0x413f2f94
@@ -58576,6 +58586,7 @@ entries: map[hash,embed] = {
         mModeName: hash = "TUTORIAL"
         0x8000e37b: list2[link] = {
             0x13397282
+            "UX/HUD/Globals/DamageFeedback"
         }
         mItemShopData: link = 0x8f58df52
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig_TUTORIAL"
@@ -58595,6 +58606,7 @@ entries: map[hash,embed] = {
         mModeName: hash = "KINGPORO"
         0x8000e37b: list2[link] = {
             0x63f38499
+            "UX/HUD/Globals/DamageFeedback"
         }
         mCursorConfig: hash = "UX/HUD/Globals/CursorConfig"
         mCursorConfigUpdate: hash = 0xdb80aa27
@@ -63021,6 +63033,11 @@ entries: map[hash,embed] = {
                     "Play_sfx_Emotes_4549"
                     "Play_sfx_Emotes_4551"
                     "Play_sfx_Emotes_4552"
+                    "Play_sfx_Emotes_4555"
+                    "Play_sfx_Emotes_4556"
+                    "Play_sfx_Emotes_4557"
+                    "Play_sfx_Emotes_4558"
+                    "Play_sfx_Emotes_4560"
                     "Play_sfx_Emotes_AccordingToPlan"
                     "Play_sfx_Emotes_Adoeable"
                     "Play_sfx_Emotes_AllAccordingToPlan"
@@ -63991,6 +64008,11 @@ entries: map[hash,embed] = {
                     "Play_sfx_Emotes_4549"
                     "Play_sfx_Emotes_4551"
                     "Play_sfx_Emotes_4552"
+                    "Play_sfx_Emotes_4555"
+                    "Play_sfx_Emotes_4556"
+                    "Play_sfx_Emotes_4557"
+                    "Play_sfx_Emotes_4558"
+                    "Play_sfx_Emotes_4560"
                     "Play_sfx_Emotes_AccordingToPlan"
                     "Play_sfx_Emotes_Adoeable"
                     "Play_sfx_Emotes_AllAccordingToPlan"
@@ -64632,6 +64654,8 @@ entries: map[hash,embed] = {
             0x973b3093
             0x3f4db78b
             0xe103b9ae
+            0x9c269e9f
+            0x9c251903
         }
     }
     0x3fe66177 = MapCharacterList {
@@ -67201,7 +67225,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/GlowAlpha.DDS"
+                texture: string = "ASSETS/Shared/Particles/GlowAlpha.StrawberryRebuild.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -67469,7 +67493,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SuperSparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/SuperSparkle.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -67629,7 +67653,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Shape01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Shape01.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -68207,7 +68231,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -1 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/common_color-hold.StrawberryRebuild.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0199999996, 0.100000001 }
                 }
@@ -68476,7 +68500,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.StrawberryRebuild.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.58431375, 0.854901969, 1, 0.568627477 }
@@ -68552,7 +68576,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Light_sparks.dds"
+                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Light_sparks.StrawberryRebuild.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -68890,7 +68914,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.StrawberryRebuild.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.686274529, 0.807843149, 1, 1 }
@@ -68996,7 +69020,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Shrine_spark.dds"
+                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Shrine_spark.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -69061,7 +69085,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Halo_1.dds"
+                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Halo_1.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -69147,7 +69171,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.StrawberryRebuild.dds"
             }
         }
         particleName: string = "HA_Respawn"
@@ -69283,7 +69307,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Shared/Particles/Item_Redemption_DamageWave.scb"
+                        mSimpleMeshName: string = "ASSETS/Shared/Particles/Item_Redemption_DamageWave.StrawberryRebuild.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -69623,7 +69647,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.StrawberryRebuild.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -69712,7 +69736,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -70427,7 +70451,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/GlowAlpha.DDS"
+                texture: string = "ASSETS/Shared/Particles/GlowAlpha.StrawberryRebuild.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -70695,7 +70719,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SuperSparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/SuperSparkle.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -70855,7 +70879,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Shape01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Shape01.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -71433,7 +71457,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -1 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/common_color-hold.StrawberryRebuild.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0199999996, 0.100000001 }
                 }
@@ -71702,7 +71726,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.StrawberryRebuild.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.58431375, 0.854901969, 1, 0.568627477 }
@@ -71778,7 +71802,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Light_sparks.dds"
+                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Light_sparks.StrawberryRebuild.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -72116,7 +72140,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Flicker_04.StrawberryRebuild.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.686274529, 0.807843149, 1, 1 }
@@ -72222,7 +72246,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Shrine_spark.dds"
+                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Shrine_spark.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72287,7 +72311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Halo_1.dds"
+                texture: string = "ASSETS/Shared/Particles/HA_AP_HealthRelic_Halo_1.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72373,7 +72397,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Order_ambientGlow.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72505,7 +72529,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/disc32.DDS"
+                texture: string = "ASSETS/Shared/Particles/disc32.StrawberryRebuild.DDS"
             }
         }
         particleName: string = "HA_Spawn"
@@ -72646,7 +72670,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.TFT_Set12.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.5 }
@@ -72864,7 +72888,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set12.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -73052,7 +73076,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.TFT_Set12.dds"
                 blendMode: u8 = 1
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
@@ -73216,7 +73240,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -73293,7 +73317,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Fizz_Skin35.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set12.dds"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.699999988, 1, 1 }
                 }
@@ -73449,7 +73473,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set12.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -73555,7 +73579,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/snow_chunks.dds"
+                texture: string = "ASSETS/Shared/Particles/snow_chunks.StrawberryRebuild.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -73678,7 +73702,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set12.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.899999976, 0.949999988, 1, 1 }
@@ -73770,7 +73794,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.SKINS_Fizz_Skin35.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set12.dds"
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -73818,7 +73842,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.StrawberryRebuild.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74709,5 +74733,14 @@ entries: map[hash,embed] = {
         0xf04c21cd: u8 = 6
         0xa844caca: u8 = 4
     }
+    "UX/HUD/Globals/DamageFeedback" = 0xc3a44766 {
+        0xa86fc2ef: f32 = 0.200000003
+        0x95823356: f32 = 5
+        0x22728a51: f32 = 0.25
+        0xed23ad91: f32 = 0.200000003
+        0xeb6c72dd: string = "ASSETS/UX/LoL/LoL_InGame_Hit.tex"
+        0x44735f30: string = "ASSETS/UX/LoL/LoL_InGame_Stun.tex"
+    }
     0x7a90de84 = WadFileDescriptor {}
+    0x9b3b2c59 = WadFileDescriptor {}
 }
