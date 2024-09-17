@@ -10032,6 +10032,7 @@ entries: map[hash,embed] = {
             "CompanionFeatureMutator(1)"
             "ARAMCompanionMutator"
             "LevelScriptFile(LevelScriptFutureARAMNoAlternatingCannons.lua)"
+            "MapSkin_HA_Bilgewater"
         }
     }
     0xbc1c8231 = GameMutatorExpansions {
@@ -10080,7 +10081,6 @@ entries: map[hash,embed] = {
             "MapID(12)?AnnouncerVoice(Male1)"
             "MapID(12)?ShowCustomAnnouncerOption(1)"
             "MapID(12)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
-            "MapID(12)?NewARAMItems"
         }
     }
     0xbf1c86ea = GameMutatorExpansions {

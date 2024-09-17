@@ -58,7 +58,7 @@ entries: map[hash,embed] = {
         name: string = "PetVoidEye"
     }
     "Characters/BW_AP_Bubbs" = Character {
-        name: string = "BW_AP_Bubbs"
+        name: string = "HA_AP_Viking"
     }
     "Characters/PetAkaliDragon" = Companion {
         0x81cd26c4: file = 0x7beb32fc17ce7b49
@@ -266,6 +266,9 @@ entries: map[hash,embed] = {
         0x81cd26c4: file = 0x961f5828e17797d6
         name: string = "PetChibiAkali"
     }
+    "Characters/HABW_banner" = Character {
+        name: string = "HABW_banner"
+    }
     "Characters/BW_seagull" = Character {
         name: string = "BW_seagull"
     }
@@ -288,7 +291,7 @@ entries: map[hash,embed] = {
         name: string = "PetCreepyCat"
     }
     "Characters/HA_AP_Viking" = Character {
-        name: string = "HA_AP_Viking"
+        name: string = "BW_AP_Bubbs"
     }
     "Characters/PetKoala" = Companion {
         0x81cd26c4: file = 0xb2119371628c4a3e
@@ -472,7 +475,7 @@ entries: map[hash,embed] = {
         name: string = "VisionWard"
     }
     "Characters/BW_AP_Finn" = Character {
-        name: string = "BW_AP_Finn"
+        name: string = "HA_AP_Hermit"
     }
     "Characters/bw_brdgdoor" = Character {
         name: string = "bw_brdgdoor"
@@ -482,7 +485,7 @@ entries: map[hash,embed] = {
         name: string = "PetAoShin"
     }
     "Characters/HA_AP_Hermit" = Character {
-        name: string = "HA_AP_Hermit"
+        name: string = "BW_AP_Finn"
     }
     "Characters/HA_FB_HealthRelic" = Character {
         name: string = "HA_FB_HealthRelic"
@@ -55026,7 +55029,7 @@ entries: map[hash,embed] = {
     }
     0xb44576f1 = 0x60e2ec74 {
         LoadScreenTipConfiguration: link = 0xd5b1a6ea
-        0xae427127: string = "ASSETS/UX/LoadingScreen/HABackground.tex"
+        0xae427127: string = "ASSETS/UX/LoadingScreen/HABackground.dds"
         0x084c58ee: list2[string] = {
             "ASSETS/UX/LoadingScreen/SRSnowdownBackground.tex"
         }
@@ -55158,9 +55161,9 @@ entries: map[hash,embed] = {
     }
     0xc860963a = MapSkin {
         name: string = "Default"
-        mMapContainerLink: string = "Maps/MapGeometry/Map12/Base"
+        mMapContainerLink: string = "Maps/MapGeometry/Map12/Bilgewater"
         mMinimapBackgroundConfig: embed = MinimapBackgroundConfig {
-            mDefaultTextureName: string = "ASSETS/Maps/Info/Map12/2DLevelMiniMap.tex"
+            mDefaultTextureName: string = "ASSETS/Maps/Info/Map12/2DLevelMiniMap_Bilgewater.tex"
         }
         mResourceResolvers: list[link] = {
             0xadbc3928
@@ -60188,7 +60191,8 @@ entries: map[hash,embed] = {
             }
         }
         music: embed = MusicAudioDataProperties {
-            themeMusicID: string = "Play_mus_map14_phase_select"
+            themeMusicID: string = "Play_mus_map11_phase_select_bilgewater"
+            themeMusicTransitionID: string = "Play_mus_map11_phase_select_bilgewater_transition"
             victoryMusicID: string = "Play_mus_map14_phase_victory_base"
             defeatMusicID: string = "Play_mus_map14_phase_defeat_base"
             victoryBannerSound: string = "Play_sfx_Env_SRUAP_Victory_Banner"
@@ -64718,6 +64722,8 @@ entries: map[hash,embed] = {
     }
     0xdfe2b0ea = MapCharacterList {
         characters: list2[link] = {
+            "Characters/BW_AP_Bubbs"
+            "Characters/BW_AP_Finn"
             "Characters/DestroyedTower"
             "Characters/HA_AP_BannerMidBridge"
             "Characters/HA_AP_BridgeLaneStatue"
@@ -64725,7 +64731,6 @@ entries: map[hash,embed] = {
             "Characters/HA_AP_Chains_Long"
             "Characters/HA_AP_Cutaway"
             "Characters/HA_AP_HealthRelic"
-            "Characters/HA_AP_Hermit"
             "Characters/HA_AP_Hermit_Robot"
             "Characters/HA_AP_HeroTower"
             "Characters/HA_AP_PeriphBridge"
@@ -64733,7 +64738,6 @@ entries: map[hash,embed] = {
             "Characters/HA_AP_PoroSpawner"
             "Characters/HA_AP_ShpNorth"
             "Characters/HA_AP_ShpSouth"
-            "Characters/HA_AP_Viking"
             "Characters/SRU_Baron"
             "Characters/Inhibitor"
             "Characters/HA_Hexgate"
@@ -64747,8 +64751,6 @@ entries: map[hash,embed] = {
     0xe2fcf6f2 = MapCharacterList {
         characters: list2[link] = {
             "Characters/BW_anclantern"
-            "Characters/BW_AP_Bubbs"
-            "Characters/BW_AP_Finn"
             "Characters/BW_boat"
             "Characters/Bw_Bottle"
             "Characters/bw_brdgdoor"
@@ -64768,10 +64770,13 @@ entries: map[hash,embed] = {
             "Characters/Inhibitor"
             "Characters/Nexus"
             "Characters/HA_AP_HealthRelic"
+            "Characters/HA_AP_Hermit"
             "Characters/HA_AP_Poro"
             "Characters/HA_AP_PoroSpawner"
             "Characters/HA_AP_ShpNorth"
             "Characters/HA_AP_ShpSouth"
+            "Characters/HA_AP_Viking"
+            "Characters/HABW_banner"
         }
     }
     0x1ced71a9 = GameModeItemList {
@@ -65893,8 +65898,8 @@ entries: map[hash,embed] = {
             CanBeMadeObsolete: bool = false
             MakeLowerPriorityEventsObsolete: bool = false
             Style: link = 0xd8f1d3b8
-            TextKey: string = "game_announcement_OnStartMessage2Map@MapNumber@"
-            SoundKey: string = "Play_vo_Announcer_Global_@voice@_@event name@Map@MapNumber@"
+            TextKey: string = "game_announcement_OnStartMessage2Map14"
+            SoundKey: string = "Play_vo_Announcer_Global_@voice@_OnStartGameMessage2ButchersBridge"
             CommonElements: hash = 0xa2306bf8
         }
     }
@@ -66221,43 +66226,55 @@ entries: map[hash,embed] = {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 10
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[f32] = {
-                            10
-                            0
-                        }
-                    }
+                    constantValue: f32 = 2
                 }
                 particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
                     dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
                         times: list[f32] = {
                             0
-                            1
                         }
                         values: list[f32] = {
-                            1.5
-                            6
+                            0.5
                         }
                     }
                 }
                 particleLinger: option[f32] = {
-                    2
+                    0
                 }
                 lifetime: option[f32] = {
-                    0.25
+                    0.200000003
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "Snowpoof"
-                disabled: bool = true
+                emitterName: string = "WaterAdd"
                 birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 800, 1000, 800 }
+                    constantValue: vec3 = { 200, 200, -700 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
@@ -66278,27 +66295,17 @@ entries: map[hash,embed] = {
                                     1
                                 }
                             }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
                         }
                         times: list[f32] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 800, 1000, 800 }
+                            { 200, 200, -700 }
                         }
                     }
                 }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 7, 5, 7 }
+                birthAcceleration: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -66308,6 +66315,154 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -50, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.5, 0.5, 2 }
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 1, 1 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -10
+                                        10
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        90
+                                        110
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        40
+                                        60
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.246963993
+                            0.514169991
+                            0.75910902
+                            0.984817982
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.975000024 }
+                            { 1, 1, 1, 0.774999976 }
+                            { 1, 1, 1, 0.425000012 }
+                            { 1, 1, 1, -0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 120
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.490000099
+                                    0.5
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.699999988
+                                    0.699999988
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.490000099
+                                    0.5
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.699999988
                                     0.699999988
                                     1
                                 }
@@ -66318,32 +66473,40 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 7, 5, 7 }
+                            { 5, 0, 0 }
                         }
                     }
                 }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, -50, 0 }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 100, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         times: list[f32] = {
                             0
+                            0.230768993
+                            0.479757011
+                            0.751012027
+                            1
                         }
                         values: list[vec3] = {
-                            { 0, -50, 0 }
+                            { 0.375, 1, 1 }
+                            { 0.699999988, 1, 1 }
+                            { 0.875, 1, 1 }
+                            { 0.975000024, 1, 1 }
+                            { 1, 0, 1 }
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.TFT_Set12.dds"
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.505882025, 0.854902029, 1, 0.498039007 }
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                colorLookUpTypeY: u8 = 3
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                texture: string = "Data/Particles/BW_Orange_Splash_2x2.dds"
+                birthFrameRate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
@@ -66352,22 +66515,60 @@ entries: map[hash,embed] = {
                                 }
                                 keyValues: list[f32] = {
                                     1
-                                    360
+                                    2
                                 }
                             }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
                         }
                         times: list[f32] = {
                             0
                         }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
+                        values: list[f32] = {
+                            1
                         }
                     }
                 }
-                birthRotationalVelocity0: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 0, 0 }
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0
+                }
+                lifetime: option[f32] = {
+                    0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Water"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 300, -700 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -66380,67 +66581,16 @@ entries: map[hash,embed] = {
                                     1
                                 }
                             }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 10, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 80, 80, 20 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
                                     1
                                 }
                                 keyValues: list[f32] = {
-                                    0.600000024
-                                    1.20000005
+                                    -1
+                                    1
                                 }
                             }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 80, 80, 20 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.600000024, 0.600000024, 0.699999988 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/snowdust.dds"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.200000003
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 35
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.20000005
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
@@ -66455,1235 +66605,87 @@ entries: map[hash,embed] = {
                         times: list[f32] = {
                             0
                         }
-                        values: list[f32] = {
-                            1.20000005
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    2
-                }
-                lifetime: option[f32] = {
-                    0.5
-                }
-                emitterName: string = "SnowSparkle"
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 200, -500 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                            1
-                        }
                         values: list[vec3] = {
-                            { 0, 200, -500 }
-                            { 0, -20, -0 }
+                            { 300, 300, -700 }
                         }
                     }
+                }
+                birthAcceleration: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
                 }
                 birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 4, 4, 4 }
+                    constantValue: vec3 = { 0.5, 0.5, 2 }
                 }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, -50, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, -50, 0 }
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0xba945ee1 {
-                    flags: u8 = 1
-                    Size: vec3 = { 40, 0, 0 }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.StrawberryRebuild.DDS"
-                colorLookUpTypeY: u8 = 3
-                isRandomStartFrame: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 20, 60 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 1, 1 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -10
+                                        10
+                                    }
                                 }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    1.20000005
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        90
+                                        110
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        40
+                                        60
+                                    }
                                 }
                             }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 20, 20, 60 }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
                         }
                     }
                 }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.848996997 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
                             0.300000012
-                            0.5
-                            0.600000024
-                            0.699999988
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0, 0, 0 }
-                            { 1, 1, 1 }
-                            { 1.39999998, 1.39999998, 1.39999998 }
-                            { 0.800000012, 0.800000012, 0.800000012 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Ashe_Freljord_Sparkle.dds"
-                numFrames: u16 = 4
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 10
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[f32] = {
-                            10
-                            0
-                        }
-                    }
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.200000003
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            2
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    2
-                }
-                lifetime: option[f32] = {
-                    0.25
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Snowbits"
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 200, 200, -500 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.200000003
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 200, 200, -500 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 2.5, 2, 2.5 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1.5
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 2.5, 2, 2.5 }
-                        }
-                    }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, -300, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, -300, 0 }
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0xba945ee1 {
-                    flags: u8 = 1
-                    Size: vec3 = { 20, 0, 0 }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set12.dds"
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.835294008, 0.941175997, 0.960784018, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.699999988
                             1
                         }
                         values: list[vec4] = {
-                            { 0.835294008, 0.941175997, 0.960784018, 1 }
-                            { 0.835294008, 0.941175997, 0.960784018, 1 }
-                            { 0.835294008, 0.941175997, 0.960784018, 0 }
-                        }
-                    }
-                }
-                colorLookUpTypeY: u8 = 3
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                        }
-                    }
-                }
-                birthRotationalVelocity0: embed = ValueVector3 {
-                    constantValue: vec3 = { 250, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 250, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 30, 20 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.800000012
-                                    3
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 10, 30, 20 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0.600000024, 0.699999988 }
-                            { 0.200000003, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/snow_chunks.StrawberryRebuild.dds"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.0500000007
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 5
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.899999976
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1
-                                    2
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            1
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    0.550000012
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Dustring1"
-                importance: u8 = 2
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 200, 0, -150 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 200, 0, -150 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 2, 3 }
-                }
-                0x3bf0b4ed: pointer = 0xba945ee1 {
-                    flags: u8 = 1
-                    Size: vec3 = { 30, 30, 0 }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.607842982, 0.850979984, 1, 0.847059011 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.999899983
-                        }
-                        values: list[vec4] = {
-                            { 0.607842982, 0.850979984, 1, 0 }
-                            { 0.607842982, 0.850979984, 1, 0.847059011 }
-                            { 0.607842982, 0.850979984, 1, 0 }
-                        }
-                    }
-                }
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -20
-                                    20
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                        }
-                    }
-                }
-                birthRotationalVelocity0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -20
-                                    20
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 40, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.800000012
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 25, 40, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                            { 2, 2, 2 }
-                            { 3, 3, 3 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Poro_Explosion_SnowPuffs.dds"
-                numFrames: u16 = 16
-                texDiv: vec2 = { 4, 4 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 4
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "SnowSpears_Up"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 130, 0 }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 2, 0 }
-                }
-                birthAcceleration: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -130, 0 }
-                }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 40, 0 }
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.831372976, 0.952941, 1, 1 }
-                            { 0.698038995, 0.780391991, 1, 1 }
-                        }
-                    }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            0.800000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.866666973, 0.866666973, 0.866666973, 1 }
-                            { 1, 1, 1, 0.231372997 }
-                            { 1, 1, 1, 0.109803997 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
                             { 1, 1, 1, 0 }
                         }
                     }
                 }
-                pass: i16 = 1
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    70
-                                    -70
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 180, 290, -20 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1.10000002
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 180, 290, -20 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.150000006
-                            0.300000012
-                            0.600000024
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0.75, 1.10000002, 1 }
-                            { 0.800000012, 1.14999998, 1 }
-                            { 0.899999976, 1.15999997, 1 }
-                            { 1.20000005, 1.13999999, 1 }
-                            { 1.29999995, 1.10000002, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Poro_Explosion_SnowSpear.dds"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 4
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.600000024
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "SnowSpears_down"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 130, 0 }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 2, 0 }
-                }
-                birthAcceleration: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -130, 0 }
-                }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 40, 0 }
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.654901981, 0.831372976, 0.882353008, 0.831372976 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.654901981, 0.831372976, 0.882353008, 0.831372976 }
-                            { 0.654901981, 0.831372976, 0.882353008, 0.293387353 }
-                            { 0.654901981, 0.831372976, 0.882353008, 0 }
-                        }
-                    }
-                }
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -90
-                                    -270
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 130, 230, -20 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1.10000002
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 130, 230, -20 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.150000006
-                            0.300000012
-                            0.600000024
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0.75, 1.10000002, 1 }
-                            { 0.800000012, 1.14999998, 1 }
-                            { 0.899999976, 1.15999997, 1 }
-                            { 1.20000005, 1.13999999, 1 }
-                            { 1.29999995, 1.10000002, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Poro_Explosion_SnowSpear.dds"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 15
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.800000012
-                                    2
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            1
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    3
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "SnowFlakes"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 100, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    3
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 100, 0, 0 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 5, 4 }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, -30, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, -30, 0 }
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0x12ab94a6 {
-                    radius: f32 = 20
-                    height: f32 = 50
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 20, 0 }
-                }
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.733332992, 0.807843029, 0.827450991, 0.534996986 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.733332992, 0.807843029, 0.827450991, 0 }
-                            { 0.733332992, 0.807843029, 0.827450991, 0.534996986 }
-                            { 0.733332992, 0.807843029, 0.827450991, 0 }
-                        }
-                    }
-                }
-                colorLookUpTypeY: u8 = 3
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthRotationalVelocity0: embed = ValueVector3 {
-                    constantValue: vec3 = { 100, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 100, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 15, 20, 60 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    1.20000005
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 15, 20, 60 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                            { 0.5, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/snowflakes03.DDS"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 45
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            1
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    0.135000005
-                }
-                emitterName: string = "IceDust_Smoke"
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 150, -350 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    2
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 150, -350 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.649999976
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 3, 3, 3 }
-                        }
-                    }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 150, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 150, 0 }
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 50, -1, 10 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 50, -1, 10 }
-                            }
-                        }
-                    }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.80392158, 0.847058833, 0.921568632, 1 }
-                }
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.70588237, 0.921568632, 1, 0.549019635 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.119999997
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.70588237, 0.921568632, 1, 0 }
-                            { 0.70588237, 0.921568632, 1, 0.549019635 }
-                            { 0.70588237, 0.921568632, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                colorLookUpTypeY: u8 = 3
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                1
-                            }
-                        }
-                    }
-                    erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.TFT_Set12.dds"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 0, 1, 0, 0 }
-                    }
-                }
+                pass: i16 = 10
                 isDirectionOriented: flag = true
                 isUniformScale: flag = true
+                isRandomStartFrame: flag = true
                 birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
+                    constantValue: vec3 = { 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -67696,103 +66698,150 @@ entries: map[hash,embed] = {
                                     360
                                 }
                             }
-                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
                             VfxProbabilityTableData {}
                         }
                         times: list[f32] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 1, 0, 0 }
+                            { 1, 1, 1 }
                         }
                     }
                 }
                 birthRotationalVelocity0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
+                    constantValue: vec3 = { 5, 0, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
+                                    0.490000099
+                                    0.5
                                     1
                                 }
                                 keyValues: list[f32] = {
-                                    -10
-                                    10
+                                    -1
+                                    -0.699999988
+                                    0.699999988
+                                    1
                                 }
                             }
-                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.490000099
+                                    0.5
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.699999988
+                                    0.699999988
+                                    1
+                                }
+                            }
                             VfxProbabilityTableData {}
                         }
                         times: list[f32] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 1, 0, 0 }
+                            { 5, 0, 0 }
                         }
                     }
                 }
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 1, 1 }
+                    constantValue: vec3 = { 50, 50, 50 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
+                                    0.200000003
+                                    0.5
+                                    0.500100017
+                                    0.800000012
                                     1
                                 }
                                 keyValues: list[f32] = {
-                                    0.800000012
-                                    1.79999995
+                                    -1.5
+                                    -1
+                                    -0.5
+                                    0.5
+                                    1
+                                    1.14999998
                                 }
                             }
-                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.5
+                                    0.500100017
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1.5
+                                    -1
+                                    -0.5
+                                    0.5
+                                    1
+                                    1.5
+                                }
+                            }
                             VfxProbabilityTableData {}
                         }
                         times: list[f32] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 20, 1, 1 }
+                            { 50, 50, 50 }
                         }
                     }
                 }
                 scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         times: list[f32] = {
                             0
-                            0.300000012
+                            0.75
                             1
                         }
                         values: list[vec3] = {
-                            { 2, 2, 2 }
-                            { 3, 3, 3 }
-                            { 5, 3.5, 3.5 }
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                            { 1.54999995, 1.54999995, 1 }
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Clouds_01.dds"
-                numFrames: u16 = 16
-                texDiv: vec2 = { 4, 4 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 5
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
+                texture: string = "Data/Particles/BW_Orange_Splash_2x2.dds"
+                birthFrameRate: embed = ValueFloat {
+                    constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
-                                    0.899999976
                                     1
                                 }
                                 keyValues: list[f32] = {
-                                    0.100000001
-                                    0.400000006
-                                    1.5
+                                    1
+                                    2
                                 }
                             }
                         }
@@ -67800,416 +66849,52 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[f32] = {
-                            2
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    12.5
-                }
-                lifetime: option[f32] = {
-                    0.400000006
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "sparks"
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.5, 0.100000001, 0.5 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0.5, 0.100000001, 0.5 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 250, 0, -24 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    5
-                                    50
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 250, 0, -24 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 4, 4, 4 }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 50, 0 }
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0
-                                        20
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        25
-                                        0
-                                    }
-                                }
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 1, 0, 1 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            -20
-                                            20
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 1.00000012, 0, 0 }
-                    }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 50, 1 }
-                }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Base_SnowSparkle_Ramp.dds"
-                blendMode: u8 = 4
-                pass: i16 = 10
-                colorLookUpTypeY: u8 = 3
-                isDirectionOriented: flag = true
-                isRandomStartFrame: flag = true
-                directionVelocityScale: f32 = 0.00100000005
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 12, 12, 12 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.25
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.25
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 12, 12, 12 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0.00700000022
-                            0.109999999
-                            0.204999998
-                            0.351999998
-                            0.504999995
-                            0.677999973
-                            0.800000012
-                            0.89200002
                             1
                         }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 1, 1, 1 }
-                            { 0.532000005, 0.532000005, 0.532000005 }
-                            { 1.35000002, 1.35000002, 1.35000002 }
-                            { 0.412999988, 0.412999988, 0.412999988 }
-                            { 1.5, 1.5, 1.5 }
-                            { 0.551999986, 0.551999986, 0.551999986 }
-                            { 1, 1, 1 }
-                            { 0, 0, 0 }
-                        }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_SnowSparkle_2x2.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 1
+                    constantValue: f32 = 5
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.5
+                        }
+                    }
                 }
                 particleLinger: option[f32] = {
-                    0.400000006
+                    0
                 }
                 lifetime: option[f32] = {
-                    1
+                    0.200000003
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "Cone_dark"
+                emitterName: string = "DropletsBurst"
                 birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, -100 }
-                }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 50, -100 }
-                }
-                0x4ffce322: pointer = 0xb13097f0 {
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Shared/Particles/Base_dash_half_sphere.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.278431386, 0.505882382, 1, 0.568627477 }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.400000006
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0.333333343, 0, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                0.100000001
-                                1
-                            }
-                            values: list[f32] = {
-                                0.800000012
-                                0.800000012
-                                1.41199994
-                            }
-                        }
-                    }
-                    erosionFeatherOut: f32 = 0.5
-                    erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Shared/Particles/Base_dash_burst.dds"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 1, 0, 0, 0 }
-                    }
-                }
-                disableBackfaceCull: bool = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.5, 2, 3 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.899999976, 1, 0.899999976 }
-                            { 1, 2, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Base_dash_burst.dds"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, -2 }
-                }
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 0.200000003 }
-                }
-                texAddressModeBase: u8 = 2
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 3
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.200000003
-                }
-                particleLinger: option[f32] = {
-                    10.1999998
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "flat"
-                disabled: bool = true
-                importance: u8 = 2
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, -500 }
-                }
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            0.600000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.360784322, 0.850980401, 1, 1 }
-                            { 0.250980407, 0.701960802, 1, 1 }
-                            { 0.145098045, 0.41568628, 1, 1 }
-                            { 0.109803922, 0.0705882385, 0.647058845, 1 }
-                        }
-                    }
-                }
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                0.200000003
-                                1
-                            }
-                            values: list[f32] = {
-                                1
-                                0
-                                1
-                            }
-                        }
-                    }
-                    erosionFeatherIn: f32 = 0.5
-                    erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Shared/Particles/AlphaSlice_bubbles_02.dds"
-                    erosionMapAddressMode: u8 = 0
-                }
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
+                    constantValue: vec3 = { 200, 200, -700 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -68218,42 +66903,274 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
                                     0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 200, 200, -700 }
+                        }
+                    }
+                }
+                birthAcceleration: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.5, 0.5, 2 }
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 1, 1 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -10
+                                        10
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        90
+                                        100
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        40
+                                        60
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                blendMode: u8 = 1
+                pass: i16 = 10
+                isDirectionOriented: flag = true
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
                                     360
                                 }
                             }
                             VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.490000099
+                                    0.5
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.699999988
+                                    0.699999988
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.490000099
+                                    0.5
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.699999988
+                                    0.699999988
+                                    1
+                                }
+                            }
                             VfxProbabilityTableData {}
                         }
                         times: list[f32] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 1, 0, 0 }
+                            { 300, 300, 0 }
                         }
                     }
                 }
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 165, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 15, 15, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.5
+                                    0.500100017
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1.5
+                                    -1
+                                    -0.5
+                                    0.5
+                                    1
+                                    1.14999998
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.5
+                                    0.500100017
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1.5
+                                    -1
+                                    -0.5
+                                    0.5
+                                    1
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
                         times: list[f32] = {
                             0
-                            1
                         }
                         values: list[vec3] = {
-                            { 0.5, 0, 0 }
-                            { 1, 1, 1 }
+                            { 15, 15, 0 }
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/EnergyNebula_HitEffect_Physical_S_01.dds"
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.75
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                            { 0, 0, 1 }
+                        }
+                    }
+                }
+                0x4ffce322: pointer = 0xb13097f0 {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
+                }
+                texture: string = "Data/Particles/BW_Orange_Droplets_2x2.dds"
+                birthFrameRate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
             }
         }
         particleName: string = "Poro_Throw_Explosion"
         particlePath: string = "Shared/Particles/Poro_Throw_Explosion"
-        soundOnCreateDefault: string = "Play_sfx_SummonerSnowball_miss"
+        soundOnCreateDefault: string = "Play_sfx_SummonerSnowball_Bilgewater_hit"
     }
     "Shared/Particles/HA_Respawn" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -73620,232 +72537,6 @@ entries: map[hash,embed] = {
         flags: u16 = 197
     }
     "Shared/Particles/Poro_Throw_Explosion_SnowBits" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.200000003
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 5
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[f32] = {
-                            5
-                            0
-                        }
-                    }
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.200000003
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            2
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    2
-                }
-                lifetime: option[f32] = {
-                    2.4000001
-                }
-                emitterName: string = "Snowbits"
-                birthVelocity: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, -50, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, -50, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.666666985, 0.827450991, 1, 1 }
-                            { 0.631372988, 0.780391991, 1, 1 }
-                        }
-                    }
-                }
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.886274993 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.25
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.886274993 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                colorLookUpTypeY: u8 = 3
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                        }
-                    }
-                }
-                birthRotationalVelocity0: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 5, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 30, 20 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    3
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 10, 30, 20 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0.600000024, 0.699999988 }
-                            { 2, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/snowdust.dds"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
-            }
-        }
         particleName: string = "Poro_Throw_Explosion_SnowBits"
         particlePath: string = "Shared/Particles/Poro_Throw_Explosion_SnowBits"
         flags: u16 = 132
