@@ -3619,15 +3619,6 @@ entries: map[hash,embed] = {
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1074_narrative"
     }
-    0x270fbfb6 = LoadScreenTip {
-        mId: u16 = 1076
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1076_narrative"
-    }
     0x280fc149 = LoadScreenTip {
         mId: u16 = 1077
         mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
@@ -3681,15 +3672,6 @@ entries: map[hash,embed] = {
         }
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1039_narrative"
-    }
-    0x2a0fc46f = LoadScreenTip {
-        mId: u16 = 1071
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1071_narrative"
     }
     0x2a120306 = LoadScreenTip {
         mId: u16 = 1065
@@ -3816,15 +3798,6 @@ entries: map[hash,embed] = {
         }
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1049_narrative"
-    }
-    0x3305453e = LoadScreenTip {
-        mId: u16 = 1032
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1032_narrative"
     }
     0x33144fc8 = LoadScreenTip {
         mId: u16 = 1052
@@ -4221,15 +4194,6 @@ entries: map[hash,embed] = {
         }
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1113_narrative"
-    }
-    0x47848ccb = LoadScreenTip {
-        mId: u16 = 1163
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1163_narrative"
     }
     0x487583d4 = LoadScreenTip {
         mId: u16 = 1104
@@ -4789,15 +4753,6 @@ entries: map[hash,embed] = {
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1133_narrative"
     }
-    0xb7f94aaa = LoadScreenTip {
-        mId: u16 = 1087
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1087_narrative"
-    }
     0xb8085534 = LoadScreenTip {
         mId: u16 = 1027
         mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
@@ -4860,24 +4815,6 @@ entries: map[hash,embed] = {
         }
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1014_narrative"
-    }
-    0xb97cf17c = LoadScreenTip {
-        mId: u16 = 1135
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1135_narrative"
-    }
-    0xb97f3013 = LoadScreenTip {
-        mId: u16 = 1145
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1145_narrative"
     }
     0xba0a96f1 = LoadScreenTip {
         mId: u16 = 1015
@@ -5103,15 +5040,6 @@ entries: map[hash,embed] = {
         }
         mMaximumSummonerLevel: option[u32] = {}
         mLocalizationKey: string = "game_startup_tip_1125_narrative"
-    }
-    0xce7ad3f4 = LoadScreenTip {
-        mId: u16 = 1122
-        mHeaderLocalizationKey: string = "game_startup_tip_category_1_didyouknow"
-        mMinimumSummonerLevel: option[u32] = {
-            7
-        }
-        mMaximumSummonerLevel: option[u32] = {}
-        mLocalizationKey: string = "game_startup_tip_1122_narrative"
     }
     0xcf7ad587 = LoadScreenTip {
         mId: u16 = 1123
@@ -6794,7 +6722,6 @@ entries: map[hash,embed] = {
             0xaf084709
             0x31054218
             0x320543ab
-            0x3305453e
             0x340546d1
             0x35054864
             0x360549f7
@@ -6832,7 +6759,6 @@ entries: map[hash,embed] = {
             0x3712177d
             0x361215ea
             0x290fc2dc
-            0x2a0fc46f
             0x2b0fc602
             0x2c0fc795
             0x250fbc90
@@ -6846,7 +6772,6 @@ entries: map[hash,embed] = {
             0xb6f94917
             0xb5f94784
             0xb8f94c3d
-            0xb7f94aaa
             0xaaf93633
             0xa9f934a0
             0xacf6fac2
@@ -6987,7 +6912,6 @@ entries: map[hash,embed] = {
             0x4177b766
             0xd07ad71a
             0xd17ad8ad
-            0xce7ad3f4
             0xcf7ad587
             0xcc7ad0ce
             0xcd7ad261
@@ -7000,7 +6924,6 @@ entries: map[hash,embed] = {
             0xb87cefe9
             0xb77cee56
             0xba7cf30f
-            0xb97cf17c
             0xbc7cf635
             0xbb7cf4a2
             0xbe7cf95b
@@ -7010,7 +6933,6 @@ entries: map[hash,embed] = {
             0xbe7f37f2
             0xbf7f3985
             0xb87f2e80
-            0xb97f3013
             0xba7f31a6
             0xc47f4164
             0xc57f42f7
@@ -7036,7 +6958,6 @@ entries: map[hash,embed] = {
             0x48848e5e
             0x49848ff1
             0x46848b38
-            0x47848ccb
             0x4c8494aa
             0x4d84963d
             0x4a849184
@@ -8656,6 +8577,998 @@ entries: map[hash,embed] = {
         }
         drawingLayer: u8 = 1
     }
+    0x008a2bc8 = 0x432837bc {
+        name: string = "GlobalReposition"
+    }
+    0x010d0eff = 0x432837bc {
+        name: string = "PreGlobalReposition"
+    }
+    0x025cd470 = 0x432837bc {
+        name: string = "GlobalEnterCombat"
+    }
+    0x03b42725 = 0x432837bc {
+        name: string = "SLIMEDraftRacingGoalScored"
+    }
+    0x05470b0e = 0x432837bc {
+        name: string = "TFTArmoryRefresh"
+        0xe12f5ab7: map[string,pointer] = {
+            "HandlerScriptName" = ScriptTableGet {
+                Var: hash = 0xf896740f
+            }
+        }
+    }
+    0x05a8fa7e = 0x432837bc {
+        name: string = "TeamObjectiveTaken"
+    }
+    0x0635d034 = 0x432837bc {
+        name: string = "RecallStart"
+    }
+    0x072e897d = 0x432837bc {
+        name: string = "TTVilemawTaken"
+    }
+    0x08b16d3b = 0x432837bc {
+        name: string = "OnCamouflageInstanceChange"
+        0xe12f5ab7: map[string,pointer] = {
+            "NewCamoID" = ScriptTableGet {
+                Var: hash = 0xd55babc0
+            }
+        }
+    }
+    0x0bdce375 = 0x432837bc {
+        name: string = "HideCharacterEnd"
+    }
+    0x0e054cea = 0x432837bc {
+        name: string = "PerkHextechFlashtraptionSetHexflash"
+    }
+    0x0e7650f1 = 0x432837bc {
+        name: string = "OnExitControlWardZone"
+    }
+    0x0f4576e7 = 0x432837bc {
+        name: string = "TFTOnArmoryUpdate"
+        0xe12f5ab7: map[string,pointer] = {
+            "ArmoryUpdateFlag" = ScriptTableGet {
+                Var: hash = 0xdfeed1a8
+            }
+            "ArmoryID" = ScriptTableGet {
+                Var: hash = 0xec7f7eda
+            }
+            "ArmoryContentDefinition" = ScriptTableGet {
+                Var: hash = 0x7ae06ba1
+            }
+            "NumItemsShown" = ScriptTableGet {
+                Var: hash = 0xad82b196
+            }
+            "ItemsTaken" = ScriptTableGet {
+                Var: hash = 0x87400216
+            }
+            "ItemsNotTaken" = ScriptTableGet {
+                Var: hash = 0x9ee1a487
+            }
+            "ArmoryOpenTime" = ScriptTableGet {
+                Var: hash = 0x59ac4df2
+            }
+            "ArmoryCloseTime" = ScriptTableGet {
+                Var: hash = 0xf4cd6bcc
+            }
+            "ArmoryRefreshNum" = ScriptTableGet {
+                Var: hash = 0x36259392
+            }
+        }
+    }
+    0x0f588698 = 0x432837bc {
+        name: string = "SLIMEStasisTrigger"
+    }
+    0x110adf0c = 0x432837bc {
+        name: string = "RecallFail"
+    }
+    0x13ede49c = 0x432837bc {
+        name: string = "TFTPreConsumableUsed"
+        0xe12f5ab7: map[string,pointer] = {
+            "ConsumableName" = ScriptTableGet {
+                Var: hash = 0xac201559
+            }
+        }
+    }
+    0x17b56471 = 0x432837bc {
+        name: string = "TFTCombatInitAmbushItems"
+    }
+    0x185ab4a2 = 0x432837bc {
+        name: string = "OnCamouflageEnter"
+        0xe12f5ab7: map[string,pointer] = {
+            "NewCamoID" = ScriptTableGet {
+                Var: hash = 0xd55babc0
+            }
+        }
+    }
+    0x1a442eb0 = 0x432837bc {
+        name: string = "EnergizedFakeMoveToTarget"
+    }
+    0x1bd04ef5 = 0x432837bc {
+        name: string = "SRYoneSkin19Gear"
+        0xe12f5ab7: map[string,pointer] = {
+            "GearID" = ScriptTableGet {
+                Var: hash = 0x30145173
+            }
+        }
+    }
+    0x1cca82d5 = 0x432837bc {
+        name: string = "TalentReaperMissileHit"
+    }
+    0x1f6fdfb6 = 0x432837bc {
+        name: string = "VolibearGrabWThrow"
+    }
+    0x1ff8b5ac = 0x432837bc {
+        name: string = "TFTOpposingPlayerKilled"
+    }
+    0x20135d28 = 0x432837bc {
+        name: string = "GargoyleStoneplateActive"
+    }
+    0x22d4011a = 0x432837bc {
+        name: string = "TFTCombatInitPreStatMod"
+    }
+    0x26abb654 = 0x432837bc {
+        name: string = "ItemNewLocketShieldHit"
+    }
+    0x28a7ea85 = 0x432837bc {
+        name: string = "TFTCombatInitItemManipulation"
+    }
+    0x2ba5b4f3 = 0x432837bc {
+        name: string = "SRCaitlynREnd"
+    }
+    0x2c67f5cc = 0x432837bc {
+        name: string = "SLIMELootDogKilled"
+    }
+    0x2ce83c3a = 0x432837bc {
+        name: string = "TFTOnLootPickup"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitRef" = ScriptTableGet {
+                Var: hash = 0x85eed7c8
+            }
+        }
+    }
+    0x2eb5321b = 0x432837bc {
+        name: string = "TFTPreExitAlive"
+        0xe12f5ab7: map[string,pointer] = {
+            "SlotID" = ScriptTableGet {
+                Var: hash = 0x534b6cc4
+            }
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+        }
+    }
+    0x311247b5 = 0x432837bc {
+        name: string = "PerkTheClearChoiceMinionAbsorb"
+    }
+    0x34d6a790 = 0x432837bc {
+        name: string = "SRCaitlynPassiveCountChanged"
+        0xe12f5ab7: map[string,pointer] = {
+            "Count" = ScriptTableGet {
+                Var: hash = "Count"
+            }
+        }
+    }
+    0x35b67f36 = 0x432837bc {
+        name: string = "RelicShieldIncrementsLegendStack"
+    }
+    0x39e9d53d = 0x432837bc {
+        name: string = "SpellJhinETrapTriggered"
+    }
+    0x3a3e0827 = 0x432837bc {
+        name: string = "ReceiveShield"
+    }
+    0x3a929ff7 = 0x432837bc {
+        name: string = "SLIMEMidGameObjectiveTaken"
+    }
+    0x3bdb03b3 = 0x432837bc {
+        name: string = "TFTOnShapeshift"
+    }
+    0x3e090b49 = 0x432837bc {
+        name: string = "VolibearRefreshDeathTimer"
+    }
+    0x408406cc = 0x432837bc {
+        name: string = "AhriPassiveEarn"
+    }
+    0x40defd8d = 0x432837bc {
+        name: string = "RecallEnd"
+    }
+    0x41a56e0e = 0x432837bc {
+        name: string = "TFTOnFadeToBlack"
+    }
+    0x4226b95a = 0x432837bc {
+        name: string = "MasteryWindspeakersUpdateHealer"
+    }
+    0x45396bdb = 0x432837bc {
+        name: string = "PerkSummonerSwapRequest"
+    }
+    0x49d115ce = 0x432837bc {
+        name: string = "PerkClaimLegend"
+    }
+    0x4b1d4e15 = 0x432837bc {
+        name: string = "ElixirActivated"
+    }
+    0x4b23e611 = 0x432837bc {
+        name: string = "TFTOnUnitCloned"
+        0xe12f5ab7: map[string,pointer] = {
+            "CloneID" = ScriptTableGet {
+                Var: hash = 0x1491208f
+            }
+        }
+    }
+    0x4ba32b8f = 0x432837bc {
+        name: string = "TFTOnTrySellUnit"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+            "SourceSlotID" = ScriptTableGet {
+                Var: hash = 0x12870d09
+            }
+        }
+    }
+    0x4c3121dd = 0x432837bc {
+        name: string = "OnEnterStealth"
+    }
+    0x4c991afb = 0x432837bc {
+        name: string = "TFTOnTutorialActionComplete"
+        0xe12f5ab7: map[string,pointer] = {
+            "NextActionIndex" = ScriptTableGet {
+                Var: hash = 0x6983c946
+            }
+        }
+    }
+    0x4e83456a = 0x432837bc {
+        name: string = "SmiteDuelApplied"
+    }
+    0x5387f853 = 0x432837bc {
+        name: string = "TFTPrePurchaseShopReroll"
+    }
+    0x53fd4ff5 = 0x432837bc {
+        name: string = "SRRenektonREnd"
+    }
+    0x54f1e354 = 0x432837bc {
+        name: string = "SREvelynnDemonCloakChange"
+        0xe12f5ab7: map[string,pointer] = {
+            "IsCloaked" = ScriptTableGet {
+                Var: hash = 0xe84625a2
+            }
+        }
+    }
+    0x557040d3 = 0x432837bc {
+        name: string = "ManaflowBandTrigger"
+    }
+    0x571cfcd8 = 0x432837bc {
+        name: string = "TFTPreDealPlayerDamage"
+        0xe12f5ab7: map[string,pointer] = {
+            "TotalDamage" = ScriptTableGet {
+                Var: hash = "TotalDamage"
+            }
+        }
+    }
+    0x585b5af6 = 0x432837bc {
+        name: string = "PerkBiscuitConsume"
+    }
+    0x58989a32 = 0x432837bc {
+        name: string = "WardPlaced"
+    }
+    0x590de0f0 = 0x432837bc {
+        name: string = "TFTUnitOnBoardPreExitAlive"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+            "IsAlly" = ScriptTableGet {
+                Var: hash = 0x497fb4f7
+            }
+        }
+    }
+    0x5ae89075 = 0x432837bc {
+        name: string = "TFTOnLootOrbCreated"
+        0xe12f5ab7: map[string,pointer] = {
+            "OrbRef" = ScriptTableGet {
+                Var: hash = 0x1cf541fb
+            }
+            "OrbGrade" = ScriptTableGet {
+                Var: hash = 0xaede0d45
+            }
+        }
+    }
+    0x5bf7f84c = 0x432837bc {
+        name: string = "LeblancRWDashEnd"
+    }
+    0x5c88d622 = 0x432837bc {
+        name: string = "TFTCombatLoss"
+    }
+    0x5d56aa84 = 0x432837bc {
+        name: string = "ReviveStart"
+    }
+    0x5f913e06 = 0x432837bc {
+        name: string = "WardLLSetPreviousWard"
+    }
+    0x60e55d5f = 0x432837bc {
+        name: string = "TFTOnAllyUnitMoved"
+        0xe12f5ab7: map[string,pointer] = {
+            "MovedUnitID" = ScriptTableGet {
+                Var: hash = 0xce015d23
+            }
+        }
+    }
+    0x61771b8d = 0x432837bc {
+        name: string = "PerkDemonHit"
+    }
+    0x6180fe50 = 0x432837bc {
+        name: string = "TFTOnAugmentRerolled"
+        0xe12f5ab7: map[string,pointer] = {
+            "OldAugmentName" = ScriptTableGet {
+                Var: hash = 0x9728edce
+            }
+            "NewAugmentName" = ScriptTableGet {
+                Var: hash = 0x2faa9d17
+            }
+            "AugmentIndex" = ScriptTableGet {
+                Var: hash = 0x1be0ae74
+            }
+        }
+    }
+    0x62b111f1 = 0x432837bc {
+        name: string = "RoundStart"
+    }
+    0x62d6d2dc = 0x432837bc {
+        name: string = "TFTOnUnitSold"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+            "SourceSlotID" = ScriptTableGet {
+                Var: hash = 0x12870d09
+            }
+        }
+    }
+    0x6348c411 = 0x432837bc {
+        name: string = "GhostporoHasBeenPlaced"
+    }
+    0x64e5f9bd = 0x432837bc {
+        name: string = "PerkVeteranChargeCountChanged"
+    }
+    0x651c3a95 = 0x432837bc {
+        name: string = "TFTOnUnitManaUnlock"
+    }
+    0x663d7f2d = 0x432837bc {
+        name: string = "EnergizedAttackHit"
+    }
+    0x665c32ef = 0x432837bc {
+        name: string = "HealthRelicHealReceived"
+        0xe12f5ab7: map[string,pointer] = {
+            "InitialRelicGrabHeal" = ScriptTableGet {
+                Var: hash = 0x35811a5e
+            }
+        }
+    }
+    0x66a2b65f = 0x432837bc {
+        name: string = "TFTPrePurchaseShopUnit"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+        }
+    }
+    0x67eb1910 = 0x432837bc {
+        name: string = "GrantShield"
+    }
+    0x6803e12b = 0x432837bc {
+        name: string = "TFTOnBenchFullError"
+    }
+    0x69ceb902 = 0x432837bc {
+        name: string = "TeleportPadActivate"
+    }
+    0x6b13ea13 = 0x432837bc {
+        name: string = "PlantOnKill"
+    }
+    0x6c960b52 = 0x432837bc {
+        name: string = "VolibearPActivateLightning"
+    }
+    0x6d27e6aa = 0x432837bc {
+        name: string = "PerkBiscuitSellUndo"
+    }
+    0x7098ba2d = 0x432837bc {
+        name: string = "TFTReinforcementsDeployed"
+        0xe12f5ab7: map[string,pointer] = {
+            "DeployedToBoardID" = ScriptTableGet {
+                Var: hash = 0x3444d877
+            }
+            "DeployedFromBoardID" = ScriptTableGet {
+                Var: hash = 0xe19c754c
+            }
+            "IsMirrorUnitPlacement" = ScriptTableGet {
+                Var: hash = 0x8d866cd3
+            }
+        }
+    }
+    0x70c483c7 = 0x432837bc {
+        name: string = "TFTUnitReturnedToPool"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+        }
+    }
+    0x723ad092 = 0x432837bc {
+        name: string = "SLIMEMinionWaveSpawned"
+    }
+    0x727f8e89 = 0x432837bc {
+        name: string = "TFTOnRoundEnd"
+    }
+    0x73e83f79 = 0x432837bc {
+        name: string = "SLIMEArenaParticipantDied"
+    }
+    0x74b61873 = 0x432837bc {
+        name: string = "TFTOnSharedDraftPickStart"
+    }
+    0x75c53903 = 0x432837bc {
+        name: string = "TFTOnPurchasedShopReroll"
+        0xe12f5ab7: map[string,pointer] = {
+            "GoldSpent" = ScriptTableGet {
+                Var: hash = 0x986afc45
+            }
+        }
+    }
+    0x76fab2f0 = 0x432837bc {
+        name: string = "TFTOnHighlightShop"
+    }
+    0x7adf8b48 = 0x432837bc {
+        name: string = "PolymorphEnd"
+    }
+    0x7b9f16a6 = 0x432837bc {
+        name: string = "TFTEncounterTrigger"
+        0xe12f5ab7: map[string,pointer] = {
+            "EncounterScriptName" = ScriptTableGet {
+                Var: hash = 0x207448ca
+            }
+        }
+    }
+    0x7e71a791 = 0x432837bc {
+        name: string = "TFTCombatWin"
+        0xe12f5ab7: map[string,pointer] = {
+            "CurrentStreakLength" = ScriptTableGet {
+                Var: hash = 0x6d24cc8c
+            }
+        }
+    }
+    0x7f40c68a = 0x432837bc {
+        name: string = "QuestRewardCeremony"
+        0xe12f5ab7: map[string,pointer] = {
+            "Tier" = ScriptTableGet {
+                Var: hash = "tier"
+            }
+        }
+    }
+    0x7f964b8c = 0x432837bc {
+        name: string = "ItemImmolateProc"
+    }
+    0x7fdb3752 = 0x432837bc {
+        name: string = "PerkHealLeachLeachOccurred"
+    }
+    0x803325f2 = 0x432837bc {
+        name: string = "PetAttack"
+    }
+    0x8097639b = 0x432837bc {
+        name: string = "EarnTurretKillGold"
+        0xe12f5ab7: map[string,pointer] = {
+            "GoldGainAmount" = ScriptTableGet {
+                Var: hash = 0x54d632a0
+            }
+        }
+    }
+    0x837d29b6 = 0x432837bc {
+        name: string = "TFTOnSharedDraftUnitPicked"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+        }
+    }
+    0x83c4c6c8 = 0x432837bc {
+        name: string = "HailOfBladesReset"
+    }
+    0x8535d556 = 0x432837bc {
+        name: string = "TFTArmoryTimeout"
+        0xe12f5ab7: map[string,pointer] = {
+            "HandlerScriptName" = ScriptTableGet {
+                Var: hash = 0xf896740f
+            }
+            "OfferedItems" = ScriptTableGet {
+                Var: hash = 0xf03dad98
+            }
+        }
+    }
+    0x88ce5387 = 0x432837bc {
+        name: string = "PerkHextechFlashtraptionSetFlash"
+    }
+    0x8a4d43f2 = 0x432837bc {
+        name: string = "TFTOnPreSpellCast"
+    }
+    0x8b312d9d = 0x432837bc {
+        name: string = "ShyvanaAllyKillsTower"
+    }
+    0x8c191f8d = 0x432837bc {
+        name: string = "PerkDashLeashDashOccurred"
+    }
+    0x8c52b9af = 0x432837bc {
+        name: string = "TFTRuneOfAllegianceSuccessful"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+        }
+    }
+    0x8d6c59e9 = 0x432837bc {
+        name: string = "ShenWBlockVFX"
+    }
+    0x8de990fe = 0x432837bc {
+        name: string = "EnergizedAttackHitChain"
+    }
+    0x9122248c = 0x432837bc {
+        name: string = "HideCharacterStart"
+    }
+    0x91e0811d = 0x432837bc {
+        name: string = "ReviveEnd"
+    }
+    0x92133ac1 = 0x432837bc {
+        name: string = "CriticalEffect"
+    }
+    0x93aad20c = 0x432837bc {
+        name: string = "UltimateCompletion"
+    }
+    0x93d96b88 = 0x432837bc {
+        name: string = "TFTShowTraitVFX"
+    }
+    0x945823c7 = 0x432837bc {
+        name: string = "TFTGoldAmountChange"
+        0xe12f5ab7: map[string,pointer] = {
+            "GoldBefore" = ScriptTableGet {
+                Var: hash = 0x00021c6c
+            }
+            "GoldAfter" = ScriptTableGet {
+                Var: hash = 0x5863d83b
+            }
+            "Source" = ScriptTableGet {
+                Var: hash = "Source"
+            }
+        }
+    }
+    0x95159ee7 = 0x432837bc {
+        name: string = "OnExitStealth"
+    }
+    0x9675dfa2 = 0x432837bc {
+        name: string = "TFTTakedown"
+        0xe12f5ab7: map[string,pointer] = {
+            "TargetUnitID" = ScriptTableGet {
+                Var: hash = 0x1b078e8b
+            }
+            "IsKiller" = ScriptTableGet {
+                Var: hash = 0x98f46362
+            }
+            "SecondsSinceAssist" = ScriptTableGet {
+                Var: hash = 0x5fcfd12b
+            }
+        }
+    }
+    0x97154257 = 0x432837bc {
+        name: string = "PerkLegendOrBountyClaimed"
+    }
+    0x97364f62 = 0x432837bc {
+        name: string = "SGRiftHeraldNextPhase"
+    }
+    0x97bcb6d1 = 0x432837bc {
+        name: string = "SheenEffectLost"
+    }
+    0x983075d8 = 0x432837bc {
+        name: string = "VolibearGrabEThrow"
+    }
+    0x99e08cd6 = 0x432837bc {
+        name: string = "KarmaRWAllyTrigger"
+    }
+    0x9ea4f81e = 0x432837bc {
+        name: string = "BaronSpawn"
+    }
+    0xa0014d66 = 0x432837bc {
+        name: string = "PerkEyeballCollectionAdd"
+    }
+    0xa1e3a40d = 0x432837bc {
+        name: string = "OnSimulatedLaunchAttack"
+    }
+    0xa45753f5 = 0x432837bc {
+        name: string = "TFTPlayerOwnedItemMoved"
+        0xe12f5ab7: map[string,pointer] = {
+            "ItemID" = ScriptTableGet {
+                Var: hash = "itemID"
+            }
+            "NewUnitID" = ScriptTableGet {
+                Var: hash = 0xa27f1c06
+            }
+        }
+    }
+    0xa6d060b4 = 0x432837bc {
+        name: string = "TFTUnitExitAlive"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+        }
+    }
+    0xa8a3ed0f = 0x432837bc {
+        name: string = "ItemRelicTargetExecute"
+    }
+    0xa9296615 = 0x432837bc {
+        name: string = "SRTeemoRMissleStart"
+        0xe12f5ab7: map[string,pointer] = {
+            "OldMissleID" = ScriptTableGet {
+                Var: hash = 0xdfef6e54
+            }
+        }
+    }
+    0xa9886c18 = 0x432837bc {
+        name: string = "TFTReinforcementsStartup"
+    }
+    0xaaedd785 = 0x432837bc {
+        name: string = "PresenceOfMindUltReduction"
+    }
+    0xab2137f8 = 0x432837bc {
+        name: string = "GhostporoHasBeenScared"
+    }
+    0xab9430b1 = 0x432837bc {
+        name: string = "SRKaynPassiveOrbCollect"
+        0xe12f5ab7: map[string,pointer] = {
+            "KaynGlitch" = ScriptTableGet {
+                Var: hash = 0x33b5ab7f
+            }
+        }
+    }
+    0xac091aa4 = 0x432837bc {
+        name: string = "ExitStealth"
+    }
+    0xac578754 = 0x432837bc {
+        name: string = "ItemDuskMarkedTargetDeath"
+    }
+    0xac6a8eef = 0x432837bc {
+        name: string = "TFTCombatInitUnitDestruction"
+    }
+    0xacf6f137 = 0x432837bc {
+        name: string = "TFTOnUnitUnlocked"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitName" = ScriptTableGet {
+                Var: hash = "UnitName"
+            }
+        }
+    }
+    0xb2a6d85d = 0x432837bc {
+        name: string = "CloneDealHit"
+    }
+    0xb2ee7492 = 0x432837bc {
+        name: string = "VolibearTargetGlobalRepositioned"
+    }
+    0xb3678505 = 0x432837bc {
+        name: string = "TFTOnSpellCast"
+    }
+    0xb99985e2 = 0x432837bc {
+        name: string = "GlobalExitCombat"
+    }
+    0xbb8dcc5e = 0x432837bc {
+        name: string = "AhriPassiveSpend"
+    }
+    0xbce0f56d = 0x432837bc {
+        name: string = "SheenEffectGained"
+    }
+    0xbdeb726b = 0x432837bc {
+        name: string = "SRCaitlynTargetTrapped"
+        0xe12f5ab7: map[string,pointer] = {
+            "IsTrapped" = ScriptTableGet {
+                Var: hash = 0x678dc767
+            }
+        }
+    }
+    0xc01825dd = 0x432837bc {
+        name: string = "TFTPreTakePlayerDamage"
+        0xe12f5ab7: map[string,pointer] = {
+            "TotalDamage" = ScriptTableGet {
+                Var: hash = "TotalDamage"
+            }
+        }
+    }
+    0xc0c89151 = 0x432837bc {
+        name: string = "TFTOnUnitCombined"
+        0xe12f5ab7: map[string,pointer] = {
+            "IDOfCombinedUnit" = ScriptTableGet {
+                Var: hash = 0xdb436e98
+            }
+            "IDOfChildUnits" = ScriptTableGet {
+                Var: hash = 0xe8142928
+            }
+        }
+    }
+    0xc35662a8 = 0x432837bc {
+        name: string = "TFTOnItemCombined"
+        0xe12f5ab7: map[string,pointer] = {
+            "CombinedItemUnitID" = ScriptTableGet {
+                Var: hash = 0xc90b6256
+            }
+        }
+    }
+    0xc78ca62d = 0x432837bc {
+        name: string = "TFTCombatInitPostRangedTargeting"
+    }
+    0xc94f9e42 = 0x432837bc {
+        name: string = "StasisStart"
+    }
+    0xc9c897db = 0x432837bc {
+        name: string = "TFTOnSuccessfulArmoryRefresh"
+    }
+    0xcab2a980 = 0x432837bc {
+        name: string = "TFTPurchaseUnit"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = ScriptTableGet {
+                Var: hash = 0x6dbc7bca
+            }
+            "UnitSkin" = ScriptTableGet {
+                Var: hash = 0x1d3c876e
+            }
+        }
+    }
+    0xcafc1732 = 0x432837bc {
+        name: string = "TFTArmorySelectionMade"
+        0xe12f5ab7: map[string,pointer] = {
+            "HandlerScriptName" = ScriptTableGet {
+                Var: hash = 0xf896740f
+            }
+            "SelectedItems" = ScriptTableGet {
+                Var: hash = 0xcc842ec8
+            }
+        }
+    }
+    0xcb0d542b = 0x432837bc {
+        name: string = "TFTOnDropUnit"
+    }
+    0xceaeb127 = 0x432837bc {
+        name: string = "NBURFDeathmatchItemReset"
+    }
+    0xcf2e8bb2 = 0x432837bc {
+        name: string = "TFT12ZapPurchased"
+        0xe12f5ab7: map[string,pointer] = {
+            "ZapName" = ScriptTableGet {
+                Var: hash = 0x69e08137
+            }
+        }
+    }
+    0xcfd48706 = 0x432837bc {
+        name: string = "TFTOnStageChanged"
+    }
+    0xd3eecd14 = 0x432837bc {
+        name: string = "VolibearGrabQThrow"
+    }
+    0xd741d0ed = 0x432837bc {
+        name: string = "BreakTeemoStealth"
+    }
+    0xd80ba087 = 0x432837bc {
+        name: string = "StasisEnd"
+    }
+    0xd8b31825 = 0x432837bc {
+        name: string = "TFTOnSummonUnit"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitRef" = ScriptTableGet {
+                Var: hash = 0x85eed7c8
+            }
+        }
+    }
+    0xd8d6210d = 0x432837bc {
+        name: string = "WardLLPushWard"
+    }
+    0xdb25de97 = 0x432837bc {
+        name: string = "TFTBoardCombatResolved"
+        0xe12f5ab7: map[string,pointer] = {
+            "WinningPlayerRef" = ScriptTableGet {
+                Var: hash = 0xb7045b13
+            }
+            "LosingPlayerRef" = ScriptTableGet {
+                Var: hash = 0xe250fc6b
+            }
+            "IsOnPartnersBoard" = ScriptTableGet {
+                Var: hash = 0x0bcfde01
+            }
+        }
+    }
+    0xdb404114 = 0x432837bc {
+        name: string = "PerkGuardianSoulForceTrigger"
+    }
+    0xdba27eed = 0x432837bc {
+        name: string = "TFTPlayersDieCheatTriggered"
+        0xe12f5ab7: map[string,pointer] = {
+            "PlayersCanDie" = ScriptTableGet {
+                Var: hash = 0x44c5b27d
+            }
+        }
+    }
+    0xdc355094 = 0x432837bc {
+        name: string = "OnCamouflageExit"
+        0xe12f5ab7: map[string,pointer] = {
+            "NewCamoID" = ScriptTableGet {
+                Var: hash = 0xd55babc0
+            }
+        }
+    }
+    0xdc544cb8 = 0x432837bc {
+        name: string = "TFTCombatInitEnd"
+    }
+    0xdc69990b = 0x432837bc {
+        name: string = "EnergizedAttackLaunch"
+    }
+    0xdccc2e12 = 0x432837bc {
+        name: string = "SLIMESnowballHit"
+    }
+    0xdd4042c0 = 0x432837bc {
+        name: string = "TFTOnShopRollComplete"
+    }
+    0xdec4d1a0 = 0x432837bc {
+        name: string = "HubrisStatueCountUpdate"
+        0xe12f5ab7: map[string,pointer] = {
+            "StatueNumber" = ScriptTableGet {
+                Var: hash = 0xb1a10844
+            }
+            "BoughtOrSold" = ScriptTableGet {
+                Var: hash = 0xa8597615
+            }
+        }
+    }
+    0xdf54c00f = 0x432837bc {
+        name: string = "SEEvelynnEmpoweredE"
+        0xe12f5ab7: map[string,pointer] = {
+            "IsEmpowered" = ScriptTableGet {
+                Var: hash = "IsEmpowered"
+            }
+        }
+    }
+    0xe097a779 = 0x432837bc {
+        name: string = "PolymorphStart"
+    }
+    0xe132746e = 0x432837bc {
+        name: string = "TFTPurchaseXP"
+        0xe12f5ab7: map[string,pointer] = {
+            "PlayerUnitID" = ScriptTableGet {
+                Var: hash = 0xda079d93
+            }
+        }
+    }
+    0xe2a04e6c = 0x432837bc {
+        name: string = "ElixirDeactivated"
+    }
+    0xe4264c9d = 0x432837bc {
+        name: string = "TFTCombatInitPostStatMod"
+    }
+    0xe49c35fe = 0x432837bc {
+        name: string = "KarmaWAllyTrigger"
+    }
+    0xe53c11e4 = 0x432837bc {
+        name: string = "OnEarnedObjectiveGold"
+        0xe12f5ab7: map[string,pointer] = {
+            "GoldAmount" = ScriptTableGet {
+                Var: hash = "GoldAmount"
+            }
+        }
+    }
+    0xe589e67c = 0x432837bc {
+        name: string = "TFTOnBotPlanningHexesUpdated"
+        0xe12f5ab7: map[string,pointer] = {
+            "PreferHexes" = ScriptTableGet {
+                Var: hash = 0xa2bf2c64
+            }
+        }
+    }
+    0xe673959b = 0x432837bc {
+        name: string = "RecallSuccess"
+    }
+    0xe89b94fa = 0x432837bc {
+        name: string = "LeblancWDashEnd"
+    }
+    0xe8a47cc7 = 0x432837bc {
+        name: string = "TFTPortalVoteWin"
+        0xe12f5ab7: map[string,pointer] = {
+            "WinLocationName" = ScriptTableGet {
+                Var: hash = 0xbf1662a9
+            }
+        }
+    }
+    0xe9f33c28 = 0x432837bc {
+        name: string = "KSLooterElixirOfSkillUsed"
+    }
+    0xeb106dd9 = 0x432837bc {
+        name: string = "TFTRoundArmoryReached"
+        0xe12f5ab7: map[string,pointer] = {
+            "HandlerScriptName" = ScriptTableGet {
+                Var: hash = 0xf896740f
+            }
+            "ArmoryProbabilityTableName" = ScriptTableGet {
+                Var: hash = 0x042ea1d5
+            }
+            "FixedArmoryContent" = ScriptTableGet {
+                Var: hash = 0x40e7f7cc
+            }
+            "ArmoryTimeout" = ScriptTableGet {
+                Var: hash = 0x906e2fea
+            }
+            "IgnoreSpatulaCap" = ScriptTableGet {
+                Var: hash = 0x1f5b73fd
+            }
+        }
+    }
+    0xeb161813 = 0x432837bc {
+        name: string = "KatarinaDaggerActivated"
+    }
+    0xf136e727 = 0x432837bc {
+        name: string = "RecallDamageCancel"
+    }
+    0xf19d8bcf = 0x432837bc {
+        name: string = "TFTOnGhostArmyCreation"
+    }
+    0xf4958cbc = 0x432837bc {
+        name: string = "AhriCheckOrbVFX"
+    }
+    0xf50f05d5 = 0x432837bc {
+        name: string = "TTShrineTaken"
+    }
+    0xf59441a9 = 0x432837bc {
+        name: string = "TFTOnPlanningSubBehaviorFinished"
+        0xe12f5ab7: map[string,pointer] = {
+            "BehaviorRunComplete" = ScriptTableGet {
+                Var: hash = 0xc61c1677
+            }
+        }
+    }
+    0xf595c75a = 0x432837bc {
+        name: string = "PerkVeteranConsumeCharge"
+    }
+    0xf6112ca0 = 0x432837bc {
+        name: string = "TFTOnPreStopTrackingTrait"
+    }
+    0xf638cbbb = 0x432837bc {
+        name: string = "TFTAugmentsChanged"
+    }
+    0xf721da9b = 0x432837bc {
+        name: string = "OnEnterControlWardZone"
+    }
+    0xf838bf1e = 0x432837bc {
+        name: string = "PerkGuardianSoulTriggered"
+    }
+    0xf971f344 = 0x432837bc {
+        name: string = "PreSpellCooldownReset"
+    }
+    0xf9c4aeee = 0x432837bc {
+        name: string = "WardLLSetNextWard"
+    }
+    0xfac8d7d0 = 0x432837bc {
+        name: string = "TFTCombatInitUnitCreation"
+    }
+    0xfad6f826 = 0x432837bc {
+        name: string = "CharAkaliTriggerMotA"
+    }
+    0xfb2e6510 = 0x432837bc {
+        name: string = "KSLooterLootEvent"
+    }
+    0xfc31887c = 0x432837bc {
+        name: string = "PerkClaimBounty"
+    }
+    0xfc71f7cf = 0x432837bc {
+        name: string = "PerkHextechFlashtraptionSuccessfulFlash"
+    }
+    0xfd886d03 = 0x432837bc {
+        name: string = "TFTOnDodge"
+        0xe12f5ab7: map[string,pointer] = {
+            "AttackerRef" = ScriptTableGet {
+                Var: hash = 0xe2cc2fbf
+            }
+        }
+    }
+    0xfee401cf = 0x432837bc {
+        name: string = "TFTCombatInitStatMod"
+    }
     0x01476a96 = GameMutatorExpansions {
         mExpandedMutator: string = "AhriAnnouncer"
         mMutators: list2[string] = {
@@ -8820,12 +9733,11 @@ entries: map[hash,embed] = {
             "DisableSpectator"
             "EarlySurrenderTimeout(600)"
             "MaxGameLength(5400)"
-            "TFT_Set12(1)"
+            "TFT_Set13(1)"
             "Pride_Trail(1)"
             "TFT_ShopV2(1)"
-            "TFTIsRerollLogicInCode"
-            "TFTShopPurchaseEffectsEnabled"
-            "TFTSet12NewStatsEnabled"
+            "TFTRespawnOnDeployRefactor(1)"
+            "TFT_IncredibleItems(1)"
         }
     }
     0x11dcee2b = GameMutatorExpansions {
@@ -8854,6 +9766,9 @@ entries: map[hash,embed] = {
             "SRU_Razorbeak_SkinID(1)"
             "MapSkin_SRU_AprilFools"
         }
+    }
+    0x153ad544 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_PVE_CHAOS_ENABLED"
     }
     0x160e1887 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_SetMinimal"
@@ -8924,6 +9839,12 @@ entries: map[hash,embed] = {
             "Worlds2018(1)"
         }
     }
+    0x20a28db4 = GameMutatorExpansions {
+        mExpandedMutator: string = "SanityChecker"
+        mMutators: list2[string] = {
+            "SanityCheckerEnabled(1)"
+        }
+    }
     0x22a0ed90 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Set5_Stage2"
         mMutators: list2[string] = {
@@ -8965,7 +9886,7 @@ entries: map[hash,embed] = {
             "SpawnThemeMusic"
             "BannerSystem(0)"
             "Perks(1)"
-            "MapObjectESportSponsorBanners(1)"
+            "MapObjectESportSponsorBanners(0)"
             "MapID(11)?AnnouncerVoice(Male1)"
             "MapID(11)?ShowCustomAnnouncerOption(1)"
             "MapID(11)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
@@ -9217,9 +10138,8 @@ entries: map[hash,embed] = {
     0x3afe8d29 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_PAIRS"
         mMutators: list2[string] = {
-            "TFT_Set12_PAIRS(1)"
-            "TFTSetOverride(TFTSet12_PAIRS)"
-            "AudioFeature(TFTSet12)"
+            "TFT_Set13(1)"
+            "TFTSetOverride(TFTSet13_PAIRS)"
         }
     }
     0x3b033bf4 = GameMutatorExpansions {
@@ -9251,6 +10171,12 @@ entries: map[hash,embed] = {
     0x3f359987 = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_Zaun"
     }
+    0x3ffb2f8f = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set13_Carousel"
+        mMutators: list2[string] = {
+            "MapSkin_TFT_CarouselSet13(1)"
+        }
+    }
     0x402d1ae4 = GameMutatorExpansions {
         mExpandedMutator: string = "Tournament"
         mMutators: list2[string] = {
@@ -9274,6 +10200,7 @@ entries: map[hash,embed] = {
             "TFTTutorialVersion(2)"
             "MapID(22)?MapSkinName(Tutorial)"
             "TFT_Playbooks(0)"
+            "TFT_IncredibleItems(0)"
         }
     }
     0x43fe08fc = GameMutatorExpansions {
@@ -9348,6 +10275,15 @@ entries: map[hash,embed] = {
             "TFTSimulation(1)"
             "MaxGameLength(99999)"
             "TFTSimulationTimeout(10)"
+        }
+    }
+    0x4c5bed6e = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_PVE_PUZZLE"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet13_PVEMODE)"
+            "AudioFeature(TFTSet13)"
+            "TFT_PVE(1)"
+            "TFTGoopBuffEnabled(1)"
         }
     }
     0x4ea5da5a = GameMutatorExpansions {
@@ -9437,6 +10373,13 @@ entries: map[hash,embed] = {
     0x5cb0e030 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_ShopV2"
     }
+    0x5e899ae8 = GameMutatorExpansions {
+        mExpandedMutator: string = "RSBotBoosting"
+        mMutators: list2[string] = {
+            "RSBotExperienceBoost"
+            "RSBotGoldBoost"
+        }
+    }
     0x5fd20b2b = GameMutatorExpansions {
         mExpandedMutator: string = "TipsTS_Final"
         mMutators: list2[string] = {
@@ -9502,6 +10445,15 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "AudioFeature(TFTSet06)"
             "TFTSetOverride(TFTSet6_Stage2)"
+        }
+    }
+    0x642fa72d = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_IncredibleItems"
+        mMutators: list2[string] = {
+            "TFTBuyItemInCodexBuildEntry(0)"
+            "TFTBuyItemInTooltip(1)"
+            "TFTHoldToCombine(1)"
+            "TFTCombineOnTimeReached(0)"
         }
     }
     0x66109257 = GameMutatorExpansions {
@@ -9650,6 +10602,14 @@ entries: map[hash,embed] = {
             "Set3_Finale(1)"
         }
     }
+    0x7fb46714 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set13"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet13)"
+            "TFTGoopBuffEnabled(1)"
+            "TFTEncounterEnabled(1)"
+        }
+    }
     0x7fd649f7 = GameMutatorExpansions {
         mExpandedMutator: string = "SR_ChemtechTerrain"
         mMutators: list2[string] = {
@@ -9670,8 +10630,6 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "TFT_Set12"
         mMutators: list2[string] = {
             "TFTSetOverride(TFTSet12)"
-            "TFTShopPurchaseEffectsEnabled"
-            "TFTSet12NewStatsEnabled"
         }
     }
     0x810c998a = GameMutatorExpansions {
@@ -9723,12 +10681,14 @@ entries: map[hash,embed] = {
             "MapID(22)?MapSkinName(CarouselEvent5YR)"
         }
     }
-    0x8a98601f = GameMutatorExpansions {
-        mExpandedMutator: string = "TFT_NPE_Bot"
+    0x8991234d = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_Map11_Crepe"
         mMutators: list2[string] = {
-            "TFT_NPE_Bot_Game"
-            "PlayerTypeMask"
-            "ContinueGameLoopOnTimeoutWithNoClients(1)"
+            "MapID(11)?MapSkinName(Crepe)"
+            "MapID(11)?MinionSkins(TrueshotMinions)"
+            "MapID(11)?AudioFeature(Trueshot)"
+            "Order_Turret_Shield_SkinOffset(6)"
+            "Chaos_Turret_Shield_SkinOffset(7)"
         }
     }
     0x8afd0343 = GameMutatorExpansions {
@@ -9771,6 +10731,12 @@ entries: map[hash,embed] = {
             "MapID(11)?MapSkin_SRU_StarGuardian"
             "MapID(12)?MapSkin_HA_StarGuardian"
             "MapID(10)?MapSkin_TT_StarGuardian"
+        }
+    }
+    0x8fd8a42a = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_Map11_Worlds_Map_Accents"
+        mMutators: list2[string] = {
+            "MapID(11)?MapSkinName(Worlds_Map_Accents)"
         }
     }
     0x90e093f1 = GameMutatorExpansions {
@@ -9903,6 +10869,12 @@ entries: map[hash,embed] = {
             "EarlySurrenderTimeout(1)"
         }
     }
+    0xa2934d59 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Particle_Culling"
+        mMutators: list2[string] = {
+            "EnableMedLowParticleCulling(1)"
+        }
+    }
     0xa593e23a = GameMutatorExpansions {
         mExpandedMutator: string = "Chromatopia"
         mMutators: list2[string] = {
@@ -9926,6 +10898,24 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "MapSkin_TFT_CarouselSet10"
         mMutators: list2[string] = {
             "MapID(22)?MapSkinName(CarouselSet10)"
+        }
+    }
+    0xa73d19a6 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_PlayerTierBags"
+    }
+    0xa794c12a = GameMutatorExpansions {
+        mExpandedMutator: string = "Event_Worlds_PlayerFacing_NoMapSkin"
+        mMutators: list2[string] = {
+            "MapObjectESportTeamBanners(1)"
+            "EsportsBannerViewController(1)"
+            "MapObjectESportSponsorBanners(0)"
+            "MapID(11)?MapObjectESportTeamCustomization(1)"
+        }
+    }
+    0xa7eb913e = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_TFT_CarouselSet13"
+        mMutators: list2[string] = {
+            "MapID(22)?MapSkinName(CarouselSet13)"
         }
     }
     0xa8eb92d1 = GameMutatorExpansions {
@@ -10001,12 +10991,24 @@ entries: map[hash,embed] = {
             "MapSkin_SRU_Urf"
         }
     }
+    0xb65f69b9 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_PVE_PUZZLE_SET13"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet13_PVEMODE)"
+            "AudioFeature(TFTSet13)"
+            "TFT_PVE(1)"
+            "TFTGoopBuffEnabled(1)"
+        }
+    }
     0xb7a2e3fc = GameMutatorExpansions {
         mExpandedMutator: string = "Lightopia"
         mMutators: list2[string] = {
             "MapID(0)?MapSkinName(Lightopia)"
             "CLASSIC"
         }
+    }
+    0xb7dcdea1 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set4_Stage2_Revival"
     }
     0xb91c7d78 = GameMutatorExpansions {
         mExpandedMutator: string = "Trophy_Winner_2"
@@ -10170,6 +11172,21 @@ entries: map[hash,embed] = {
             "AnnouncerVoice(Ahri)"
         }
     }
+    0xc8de75e0 = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_HA_Crepe"
+        mMutators: list2[string] = {
+            "MapID(12)?MapSkinName(Crepe)"
+            "MapID(12)?AudioFeature(Crepe)"
+            "MapID(12)?MinionSkins(CrepeMinions)"
+            "MapID(12)?AnnouncerVoiceOrder(Maverick)"
+            "MapID(12)?AnnouncerVoiceChaos(Pundit)"
+            "MapID(12)?RandomLoadingScreenBackground(1)"
+            "MapID(12)?UseMapSkinInEventScript(1)"
+            "MapID(12)?UseTeamSpecificEoG"
+            "MapID(12)?FOWTexture(HACrepe)"
+            "MapID(12)?ShowCustomAnnouncerOption(1)"
+        }
+    }
     0xca80861d = GameMutatorExpansions {
         mExpandedMutator: string = "Event_SKE_2023"
     }
@@ -10247,6 +11264,17 @@ entries: map[hash,embed] = {
         mExpandedMutator: string = "DisableAllChat"
         mMutators: list2[string] = {
             "AllChatDisabled(1)"
+        }
+    }
+    0xe06abf98 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_Set5_Stage2_Revival"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet5_Stage2)"
+            "HeadlinerEnabled(0)"
+            "TFTMusicManagerEnabled(0)"
+            "TFTEncounterEnabled(0)"
+            "TFT_EventSkill(1)"
+            "TFTGoopBuffEnabled(0)"
         }
     }
     0xe0ed751e = GameMutatorExpansions {
@@ -10367,11 +11395,10 @@ entries: map[hash,embed] = {
             "DisableSpectator(1)"
             "LoadingScreenTipsOverride(TFT)"
             "DisableSpectator"
-            "AudioFeature(TFTSet12)"
             "MaxGameLength(5400)"
             "TFTTargetAfterMove(1)"
-            "TFTSet12_TURBO(1)"
-            "TFTSetOverride(TFTSet12_TURBO)"
+            "TFT_Set13(1)"
+            "TFTSetOverride(TFTSet13_TURBO)"
             "EarlySurrenderTimeout(420)"
             "TFT_Playbooks(0)"
         }
@@ -10397,8 +11424,7 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "MapID(11)?SRU_Baron_SkinID(2)"
             "MapID(11)?MapObjectESportTeamCustomization(1)"
-            "MapID(11)?MapSkinName(Worlds_SRX)"
-            "MapID(11)?LoadingScreenBackground(ASSETS/UX/LoadingScreen/SRWorlds2023LoadScreen.png)"
+            "MapID(11)?MapSkinName(Worlds_Map_Accents)"
         }
     }
     0xf4685f6f = GameMutatorExpansions {
@@ -10406,6 +11432,7 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "RSBotWarmGames"
             "PlayerTypeMask"
+            "RSBotEnableSocialFeature"
         }
     }
     0xf4c3d3d0 = GameMutatorExpansions {
@@ -11055,6 +12082,7 @@ entries: map[hash,embed] = {
             0x6c9a9cd3
             0xbbba1107
             0x97d52392
+            0x15e03c76
             0xeeb04246
             0xb4059023
             0xa51c7510
@@ -11086,7 +12114,6 @@ entries: map[hash,embed] = {
             BuffStackingTemplate {
                 name: string = "Unique Per Player"
                 maxStacks: i32 = 25
-                0xb36eae8c: i32 = 1
                 StacksExclusive: bool = true
                 BuffAddType: u32 = 2
             }
@@ -11119,6 +12146,7 @@ entries: map[hash,embed] = {
             0x18999027
             0xeec24eaf
             0x9a270666
+            0x232429d3
             0xdea5bd5c
             0xd52647e8
             0x359bec10
@@ -11145,21 +12173,21 @@ entries: map[hash,embed] = {
             0x40574f29: bool = false
             0xbfa71bae: bool = false
             0xcd99a01f: bool = false
-            0xd1ca3bda: bool = true
             0x6f2169e1: bool = true
             0x8ce38003: bool = false
             0xcb5747c1: bool = true
-            0xe759b66e: bool = false
             0x30ba7188: bool = true
             0x0aa0fcb5: bool = true
-            0x82cdcf2e: bool = true
             0x791348b4: bool = false
             0xdc49d737: bool = true
-            0x03ee50ba: bool = false
+            0x61ad7bce: bool = true
             0x01243f0b: bool = true
+            0x2929a87d: bool = true
             0x1db16466: bool = true
-            0x53dc659d: bool = true
-            0x7226f974: bool = true
+            0x072473cd: bool = true
+            0x5b41032a: bool = true
+            0x03eebe0a: bool = false
+            0x3cc40ad3: bool = true
         }
         mGameplayToggles: embed = GameplayFeatureToggles {
             fowCastRayAccurate: bool = true
@@ -12069,7 +13097,7 @@ entries: map[hash,embed] = {
             "eVOComponentEvent"
             "Exports"
             "ExtraActionsUITypeEnum"
-            "ExtraAttributeValue"
+            "ExtraAttributeFlags"
             "Float"
             "FloatingTextTypeEnum"
             "FloatList"
@@ -12219,7 +13247,7 @@ entries: map[hash,embed] = {
             "TFTEncounterTag"
             "GDSEnum::TFTDropRateType"
             "GDSEnum::TFTCustomAnnouncementStyle"
-            "CastPropertyOverrides"
+            "GDSEnum::Spell_Enums_CastPropertyOverrides"
             "GDSEnum::ItemConsts_ActiveItemTelemetryCategory"
             "GDSEnum::TFTUnitGroupType"
             "GDSEnum::CinematicBarsRatioType"
@@ -12240,7 +13268,22 @@ entries: map[hash,embed] = {
             "GDSEnum::PlayerBehaviorMetricLaneState_TurretStateType"
             "GDSEnum::TFTPVEScoreCategory"
             "GDSEnum::ParticleSystemParameterIdentifier"
+            "GDSEnum::TFTPVEDifficulty"
+            "GDSEnum::MonarchItemSlotType"
+            "GDSEnum::TFTBotType"
+            "MinionType"
+            "GDSEnum::NeutralTimerTypes"
+            "GDSEnum::FeatType"
         }
     }
     0xfa37df3a = DebugRenderFlags {}
+    0xfde6272e = 0x0064c605 {
+        0xc2644f75: list2[string] = {
+            "Vfx"
+            "GameplayArea"
+            "GameplayLane"
+            "GameplayPOI"
+            "GameplayTurretLines"
+        }
+    }
 }
