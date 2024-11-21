@@ -9887,6 +9887,9 @@ entries: map[hash,embed] = {
             "BannerSystem(0)"
             "Perks(1)"
             "MapObjectESportSponsorBanners(0)"
+            "MapID(11)?AnnouncerVoice(Male1)"
+            "MapID(11)?ShowCustomAnnouncerOption(1)"
+            "MapID(11)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
         }
     }
     0x28936287 = GameMutatorExpansions {
@@ -10002,6 +10005,9 @@ entries: map[hash,embed] = {
             "MapID(90)?NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "MapID(90)?LevelScriptFile(LevelScript_SRX.lua)"
             "EnableWardPreload(1)"
+            "MapID(11)?AnnouncerVoice(Male1)"
+            "MapID(11)?ShowCustomAnnouncerOption(1)"
+            "MapID(11)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
         }
     }
     0x2f69eb0d = GameMutatorExpansions {
@@ -11051,6 +11057,9 @@ entries: map[hash,embed] = {
             "MapID(11)?NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "MapID(11)?LevelScriptFile(LevelScript_SRX.lua)"
             "EnableWardPreload(1)"
+            "MapID(11)?AnnouncerVoice(Male1)"
+            "MapID(11)?ShowCustomAnnouncerOption(1)"
+            "MapID(11)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
         }
     }
     0xbd1c83c4 = GameMutatorExpansions {
