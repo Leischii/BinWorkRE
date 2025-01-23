@@ -17899,7 +17899,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Data/Particles/BW_FB_Cast_Sound"
         soundOnCreateDefault: string = "Play_sfx_Env_Map14_FirstBlood_Cannons_cast"
     }
-    0x0faaabcd = VfxSystemDefinitionData {
+	0x0faaabcd = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19385,1861 +19385,6 @@ entries: map[hash,embed] = {
         }
         0xe251b20a: bool = false
     }
-    0xbb9f3d68 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xce103a1b
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skl"
-                        mAnimationName: string = "ASSETS/Characters/BW_Boat/Skins/Base/Animations/BW_Boat_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -40
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -55, 0 }
-                }
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/BW_Boat_Particle_1"
-        particleName: string = "BW_Boat_Particle_1"
-    }
-    0xbe9f4221 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xce103a1b
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skl"
-                        mAnimationName: string = "ASSETS/Characters/BW_Boat/Skins/Base/Animations/BW_Boat_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -40
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -85, 0 }
-                }
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/BW_Boat_Particle_2"
-        particleName: string = "BW_Boat_Particle_2"
-    }
-    0xbd9f408e = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xce103a1b
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skl"
-                        mAnimationName: string = "ASSETS/Characters/BW_Boat/Skins/Base/Animations/BW_Boat_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -40
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -40, 0 }
-                }
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/BW_Boat_Particle_3"
-        particleName: string = "BW_Boat_Particle_3"
-    }
-    0xc09f4547 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xce103a1b
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat.skl"
-                        mAnimationName: string = "ASSETS/Characters/BW_Boat/Skins/Base/Animations/BW_Boat_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -40
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -105, 0 }
-                }
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/BW_Boat_Particle_4"
-        particleName: string = "BW_Boat_Particle_4"
-    }
-    0xce103a1b = StaticMaterialDef {
-        name: string = "Characters/BW_Boat/Skins/Base/Materials/DirtyMetal_BW_Boat"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/BW_Boat/Skins/Base/BW_Boat_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0xc8fedb9b = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xc10e0337
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope.skl"
-                        mAnimationName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/Animations/BW_dblrope_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/BW_dblrope_01"
-        particleName: string = "BW_dblrope_01"
-    }
-    0xc10e0337 = StaticMaterialDef {
-        name: string = "Characters/BW_dblrope/Skins/Base/Materials/DirtyMetal_BW_dblrope"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/BW_dblrope/Skins/Base/BW_dblrope_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0x16f8eff6 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xb0f65695
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk.skl"
-                        mAnimationName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/Animations/bw_fishhk_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_fishhk_01"
-        particleName: string = "bw_fishhk_01"
-    }
-    0xb0f65695 = StaticMaterialDef {
-        name: string = "Characters/bw_fishhk/Skins/Base/Materials/DirtyMetal_bw_fishhk"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_fishhk/Skins/Base/bw_fishhk_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0x470f90f3 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0x9445808f
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope.skl"
-                        mAnimationName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/Animations/bw_shortrope_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_shortrope_01"
-        particleName: string = "bw_shortrope_01"
-    }
-    0x9445808f = StaticMaterialDef {
-        name: string = "Characters/bw_shortrope/Skins/Base/Materials/DirtyMetal_bw_shortrope"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_shortrope/Skins/Base/bw_shortrope_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0x181a05bd = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0x907e4f87
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa.skl"
-                        mAnimationName: string = "ASSETS/Characters/bw_signa/Skins/Base/Animations/bw_signa_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_signa_01"
-        particleName: string = "bw_signa_01"
-    }
-    0x907e4f87 = StaticMaterialDef {
-        name: string = "Characters/bw_signa/Skins/Base/Materials/DirtyMetal_bw_signa"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_signa/Skins/Base/bw_signa_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0x0ef319d7 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xba7c0fa6
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/bw_squid/Skins/Base/bw_squid.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/bw_squid/Skins/Base/bw_squid.skl"
-                        mAnimationName: string = "ASSETS/Characters/bw_squid/Skins/Base/Animations/bw_squid_idle_01.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
-                }
-                scale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.77999997, 1.77999997, 1.77999997 }
-                }
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_squid_01"
-        particleName: string = "bw_squid_01"
-    }
-    0xba7c0fa6 = StaticMaterialDef {
-        name: string = "Characters/bw_squid/Skins/Base/Materials/DirtyMetal_bw_squid"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_squid/Skins/Base/bw_squid_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0x0ef319d8 = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
-                    childrenIdentifiers: list[embed] = {
-                        VfxChildIdentifier {
-                            effect: link = "Characters/BW_Lantern/Skins/Skin0/Particles/BW_Lantern_Base_LanternGlow_01"
-                        }
-                    }
-                    boneToSpawnAt: list[string] = {
-                        "C_housing_c"
-                    }
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xba7c0fa7
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/bw_lantern/Skins/Base/bw_lantern.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/bw_lantern/Skins/Base/bw_lantern.skl"
-                        mAnimationName: string = "ASSETS/Characters/bw_lantern/Skins/Base/Animations/bw_lantern_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = 20
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_lantern_01"
-        particleName: string = "bw_lantern_01"
-    }
-    "Characters/BW_Lantern/Skins/Skin0/Particles/BW_Lantern_Base_LanternGlow_01" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                particleLinger: option[f32] = {
-                    9
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 1.00000012, 0, 0 }
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/BW_LanternShape.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -50
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/BW_Lantern.dds"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                emitterName: string = "rayMesh"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, -200, 0 }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 1.00000012, 0, 0 }
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 190, 0 }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/bw_lantern_cloud.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.501960814 }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.497992992 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                disableBackfaceCull: bool = true
-                isUniformScale: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.400000006, 0.5, 0.400000006 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.699999988
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0.400000006, 0.5, 0.400000006 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/BW_clouds.dds"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { -0.150000006, 0.100000001 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec2] = {
-                            { -0.150000006, 0.100000001 }
-                        }
-                    }
-                }
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec2] = {
-                            { 1, 1 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 0.100000001
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 16
-                }
-                particleLinger: option[f32] = {
-                    26
-                }
-                emitterName: string = "structureGlow"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, -210, 0 }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 210, 0 }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.0980392247 }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.5
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 0.615685999, 0.0784310028, 0 }
-                            { 1, 0.847059011, 0.0784310028, 0.800000012 }
-                            { 1, 0.937255025, 0.0235290006, 1 }
-                            { 1, 0.784313977, 0.133332998, 0.823529005 }
-                            { 1, 0.396077991, 0.117647, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 115, 115, 115 }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/ball32_02.dds"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 0.200000003
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 18
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    0.699999988
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            18
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                emitterName: string = "fireLine"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 0.300000012
-                }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, -210, 0 }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -10, 0 }
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.858823597 }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0.5, 0.5, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 3
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -90, 0, 90 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 300, 450, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0.899999976, 0 }
-                            { 1, 1, 0 }
-                            { 0, 1.10000002, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/BW_ambientGlow.dds"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 0.100000001
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 9
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            9
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                emitterName: string = "ambientGlow"
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 0.25, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0.25, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                emissionMeshScale: f32 = 0.200000003
-                emissionMeshName: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/bw_lantern_cloud.scb"
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.501960814 }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 350, 350, 750 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 350, 350, 750 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.600000024, 0.600000024, 1 }
-                            { 1, 1.20000005, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/BW_ambientGlow.dds"
-                textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/SRU_Order_sparklesMult.dds"
-                    texDivMult: vec2 = { 0.5, 0.5 }
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0.0500000007, 0 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0.300000012
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec2] = {
-                                { 0.0500000007, 0 }
-                            }
-                        }
-                    }
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 1, 1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                }
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec2] = {
-                                { 1, 1 }
-                            }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 0.400000006
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.200000003
-                                    0.5
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.400000006
-                        }
-                    }
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 4
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.200000003
-                                    0.899999976
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.100000001
-                                    1
-                                    1
-                                    2
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            4
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    14
-                }
-                emitterName: string = "Waterbugs7"
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { -10, 1, 25 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { -10, 1, 25 }
-                        }
-                    }
-                }
-                velocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 55, 0 }
-                            { 0, 0, 0 }
-                            { 0, -55, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            0.129558995
-                            0.25
-                            0.449999988
-                            0.600000024
-                            0.75
-                            0.898828983
-                            0.899999976
-                            1
-                        }
-                        values: list[f32] = {
-                            0
-                            0.129558548
-                            0.824999988
-                            0.075000003
-                            0.800000012
-                            0.150000006
-                            0.650702477
-                            0.649999976
-                            0
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0x12ab94a6 {
-                    radius: f32 = 100
-                    height: f32 = 100
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 10, 0 }
-                }
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                colorLookUpTypeY: u8 = 3
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 23, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 23, 1, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0710169971
-                            0.300000012
-                            0.702494979
-                            0.895393014
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0.302450985, 0.302450985, 0.302450985 }
-                            { 1, 1, 1 }
-                            { 0.583710432, 0.583710432, 0.583710432 }
-                            { 0.298642546, 0.298642546, 0.298642546 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/BW_brightSparks.dds"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 4
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    0.200000003
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            4
-                        }
-                    }
-                }
-                particleLifetime: embed = ValueFloat {
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.200000003
-                                    0.899999976
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.100000001
-                                    1
-                                    1
-                                    2
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            3
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    13
-                }
-                emitterName: string = "Waterbugs6"
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { -10, 1, 25 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { -10, 1, 25 }
-                        }
-                    }
-                }
-                velocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 55, 0 }
-                            { 0, 0, 0 }
-                            { 0, -55, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            0.129558995
-                            0.25
-                            0.449999988
-                            0.600000024
-                            0.75
-                            0.898828983
-                            0.899999976
-                            1
-                        }
-                        values: list[f32] = {
-                            0
-                            0.129558548
-                            0.824999988
-                            0.075000003
-                            0.800000012
-                            0.150000006
-                            0.650702477
-                            0.649999976
-                            0
-                        }
-                    }
-                }
-                0x3bf0b4ed: pointer = 0x12ab94a6 {
-                    radius: f32 = 100
-                    height: f32 = 100
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 10, 0 }
-                }
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.0784310028, 0.058823999, 0.0470589995, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.0784310028, 0.058823999, 0.0470589995, 0 }
-                            { 0.0784310028, 0.058823999, 0.0470589995, 1 }
-                            { 0.0784310028, 0.058823999, 0.0470589995, 0 }
-                        }
-                    }
-                }
-                colorLookUpTypeY: u8 = 3
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 12, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 12, 1, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0.00191899994
-                            0.0710169971
-                            0.300000012
-                            0.702494979
-                            0.895393014
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.306451619, 0.306451619, 0.306451619 }
-                            { 0.302450985, 0.302450985, 0.302450985 }
-                            { 1, 1, 1 }
-                            { 0.583710432, 0.583710432, 0.583710432 }
-                            { 0.298642546, 0.298642546, 0.298642546 }
-                            { 0.314516127, 0.314516127, 0.314516127 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/BW_Lantern/Skins/Base/Particles/waterbugs.DDS"
-                frameRate: f32 = 30
-                numFrames: u16 = 2
-                texDiv: vec2 = { 2, 2 }
-            }
-        }
-        particleName: string = "BW_Lantern_Base_LanternGlow_01"
-        particlePath: string = "Characters/BW_Lantern/Skins/Skin0/Particles/BW_Lantern_Base_LanternGlow_01"
-        flags: u16 = 132
-        buildUpTime: f32 = 10
-    }
-    0xba7c0fa7 = StaticMaterialDef {
-        name: string = "Characters/bw_lantern/Skins/Base/Materials/DirtyMetal_bw_lantern"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_lantern/Skins/Base/bw_lantern_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0xe7e85daf = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xaf1705d2
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth.skl"
-                        mAnimationName: string = "ASSETS/Characters/bw_tooth/Skins/Base/Animations/bw_tooth_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -100
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_tooth_01"
-        particleName: string = "bw_tooth_01_1"
-    }
-    0xaf1705d2 = StaticMaterialDef {
-        name: string = "Characters/bw_tooth/Skins/Base/Materials/DirtyMetal_bw_tooth"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_tooth/Skins/Base/bw_tooth_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
     0xe8e85f43 = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
@@ -21378,273 +19523,6 @@ entries: map[hash,embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
                 textureName: string = "ASSETS/Characters/ha_ap_poro/Skins/Skin02/ha_ap_poro_skin02_tx_cm.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "PitchFactor"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BoneInfo"
-                value: vec4 = { 73, -224.800003, 5.36000013, 2 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/BillBoardForSkinningMesh"
-                        blendEnable: bool = true
-                        cullEnable: bool = false
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                        writeMask: u32 = 15
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        0xe251b20a: bool = false
-    }
-    0x708807ec = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic2"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x4b901db3: pointer = 0x2820c167 {
-                    material: link = 0xf2798e76
-                }
-                renderPhaseOverride: u8 = 0
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/BW_AncLantern.skl"
-                        mAnimationName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/Animations/BW_AncLantern_idle1.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = -50
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                particleLinger: option[f32] = {
-                    9
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 1.00000012, 0, 0 }
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                blendMode: u8 = 1
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 180, 182, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.326296002
-                            0.644913971
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.814516127, 0.814516127, 0.814516127 }
-                            { 0.983870983, 0.983870983, 0.983870983 }
-                            { 0.975806475, 0.975806475, 0.975806475 }
-                            { 0.814516127, 0.814516127, 0.814516127 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/BW_anclantern/Skins/Base/Particles/BW_Lantern_GreenGlow.dds"
-                textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Characters/BW_anclantern/Skins/Base/Particles/BW_LanternCloud.dds"
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0.0500000007, 0.100000001 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 0.150000006
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 18
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    0.699999988
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            18
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                emitterName: string = "fireLine"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveRay {}
-                0x563d4a22: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -180, 0 }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.933333397 }
-                }
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.243137002, 1, 0.937255025, 0 }
-                            { 0.0392160006, 1, 0.807843029, 1 }
-                            { 0.164706007, 1, 0.650979996, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 3
-                miscRenderFlags: u8 = 1
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -90, 0, 90 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 600, 450, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0.899999976, 0 }
-                            { 1, 1, 0 }
-                            { 0, 1.10000002, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/BW_ambientGlow_Blue.dds"
-            }
-        }
-        visibilityRadius: f32 = 10000
-        particlePath: string = "Particles/bw_lanternglow_01"
-        particleName: string = "bw_lanternglow_01"
-        buildUpTime: f32 = 10
-    }
-    0xf2798e76 = StaticMaterialDef {
-        name: string = "Characters/BW_AncLantern/Skins/Base/Materials/DirtyMetal_BW_AncLantern"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/BW_AncLantern/Skins/Base/BW_AncLantern_TX_CM.dds"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -24462,6 +22340,492 @@ entries: map[hash,embed] = {
         0xd4edb891: bool = false
         chunks: map[hash,link] = {
             "DefaultBilgewater" = "Maps/MapGeometry/Map12/Chunks/DefaultBilgewater"
+			0xa3531c09 = 0xfed13615
+        }
+    }
+    0xfed13615 = MapPlaceableContainer {
+        items: map[hash,pointer] = {
+            0x7e3f4540 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    6528, 355, 7928, 1
+                }
+                name: string = "LevelProp_bw_anclantern1"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+            0x1aafe182 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    9335, 355, 7820, 1
+                }
+                name: string = "LevelProp_bw_anclantern2"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			
+            0xe895f18a = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7932, 355, 6465, 1
+                }
+                name: string = "LevelProp_bw_anclantern3"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+            0x3122d0ff = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    6189, 355, 4783, 1
+                }
+                name: string = "LevelProp_bw_anclantern4"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+            0x138c7b1e = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4794, 355, 3435, 1
+                }
+                name: string = "LevelProp_bw_anclantern5"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+            0x996fe0c1 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7926, 355, 9279, 1
+                }
+                name: string = "LevelProp_bw_anclantern6"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+            0x157ba830 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4766, 355, 6227, 1
+                }
+                name: string = "LevelProp_bw_anclantern8"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+            0xb3725714 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3386, 355, 4894, 1
+                }
+                name: string = "LevelProp_bw_anclantern9"
+                PropName: string = "BW_AncLantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x8fb93b12 = MapAnimatedProp {
+                transform: mtx44 = {
+                    -0.6156615, 0, -0.7880108, 0
+                    0, 1, 0, 0
+                    0.7880108, 0, -0.6156615, 0
+                    798, -6209, 7939, 1
+                }
+                name: string = "LevelProp_BW_boat1"
+                PropName: string = "BW_boat"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xfdfd00c = MapAnimatedProp {
+                transform: mtx44 = {
+                    -0.9135454, 0, -0.40673664, 0
+                    0, 1, 0, 0
+                    0.40673664, 0, -0.9135454, 0
+                    51, -6209, 7910, 1
+                }
+                name: string = "LevelProp_BW_boat2"
+                PropName: string = "BW_boat"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x4a9b5082 = MapAnimatedProp {
+                transform: mtx44 = {
+                    0.104528464, 0, -0.9945219, 0
+                    0, 1, 0, 0
+                    0.9945219, 0, 0.104528464, 0
+                    455, -6242, 12493, 1
+                }
+                name: string = "LevelProp_BW_boat3"
+                PropName: string = "BW_boat"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x3d19224a = MapAnimatedProp {
+                transform: mtx44 = {
+                    -0.8660254, 0, -0.5, 0
+                    0, 1, 0, 0
+                    0.5, 0, -0.8660254, 0
+                    10809, -6209, 3325, 1
+                }
+                name: string = "LevelProp_BW_boat4"
+                PropName: string = "BW_boat"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x97a2223c = MapAnimatedProp {
+                transform: mtx44 = {
+                    0.06975647, 0, -0.9975641, 0
+                    0, 1, 0, 0
+                    0.9975641, 0, 0.06975647, 0
+                    7179, -6145, 2294, 1
+                }
+                name: string = "LevelProp_BW_boat5"
+                PropName: string = "BW_boat"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x82cc560d = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    1790, -6176, 6016, 1
+                }
+                name: string = "LevelProp_BW_boat6"
+                PropName: string = "BW_boat"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x7bd09c93 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4060, -181, 1668, 1
+                }
+                name: string = "LevelProp_BW_dblrope1"
+                PropName: string = "BW_dblrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x114bc4ec = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    11147, -187, 8465, 1
+                }
+                name: string = "LevelProp_BW_dblrope2"
+                PropName: string = "BW_dblrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xb034e00 = MapAnimatedProp {
+                transform: mtx44 = {
+                    0.9396926, 0, -0.34202015, 0
+                    0, 1, 0, 0
+                    0.34202015, 0, 0.9396926, 0
+                    5820, -676, 3956, 1
+                }
+                name: string = "LevelProp_BW_dblrope3"
+                PropName: string = "BW_dblrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xbe240723 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    8933, -616, 6846, 1
+                }
+                name: string = "LevelProp_BW_dblrope4"
+                PropName: string = "BW_dblrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x91dabe38 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    1629, -160, 4171, 1
+                }
+                name: string = "LevelProp_BW_dblrope5"
+                PropName: string = "BW_dblrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x23ba647 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7203, -1189, 10106, 1
+                }
+                name: string = "LevelProp_BW_fishhk2"
+                PropName: string = "BW_fishhk"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xda67dc89 = MapAnimatedProp {
+                transform: mtx44 = {
+                    0.5236109, 0, 0.85195756, 0
+                    0, 1, 0, 0
+                    -0.85195756, 0, 0.5236109, 0
+                    958.9956, 317.76828, 32, 1
+                }
+                name: string = "LevelProp_bw_hcannon"
+                PropName: string = "BW_hcannon"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xd46dce86 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    2823, 482, 4523, 1
+                }
+                name: string = "LevelProp_BW_Lantern1"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x21c9355d = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3930, 482, 5448, 1
+                }
+                name: string = "LevelProp_BW_Lantern2"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x2048ba71 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3064, 482, 4755, 1
+                }
+                name: string = "LevelProp_BW_Lantern3"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xba7733d7 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    4177, 482, 5687, 1
+                }
+                name: string = "LevelProp_BW_Lantern4"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x63e214b2 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7345, 482, 8746, 1
+                }
+                name: string = "LevelProp_BW_Lantern5"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x69139466 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    7098, 482, 8508, 1
+                }
+                name: string = "LevelProp_BW_Lantern6"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x241a1c60 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    8374, 482, 9740, 1
+                }
+                name: string = "LevelProp_BW_Lantern7"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xe0daa020 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    8127, 482, 9501, 1
+                }
+                name: string = "LevelProp_BW_Lantern8"
+                PropName: string = "BW_Lantern"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xec8927b = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    2606, -120, 283, 1
+                }
+                name: string = "LevelProp_BW_shortrope1"
+                PropName: string = "BW_shortrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x34f00da0 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3087, -120, 744, 1
+                }
+                name: string = "LevelProp_BW_shortrope2"
+                PropName: string = "BW_shortrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xdadb048c = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3575, -120, 1190, 1
+                }
+                name: string = "LevelProp_BW_shortrope3"
+                PropName: string = "BW_shortrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x319d94e0 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    11609, -126, 8957, 1
+                }
+                name: string = "LevelProp_BW_shortrope4"
+                PropName: string = "BW_shortrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xb24c1d65 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    1149, -123, 3707, 1
+                }
+                name: string = "LevelProp_BW_shortrope5"
+                PropName: string = "BW_shortrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x4073850b = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    673, -100, 3236, 1
+                }
+                name: string = "LevelProp_BW_shortrope6"
+                PropName: string = "BW_shortrope"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x3417b57f = MapAnimatedProp {
+                transform: mtx44 = {
+                    -0.2419219, 0, -0.9702957, 0
+                    0, 1, 0, 0
+                    0.9702957, 0, -0.2419219, 0
+                    9015, -457, 11888, 1
+                }
+                name: string = "LevelProp_BW_shrkhk1"
+                PropName: string = "BW_shrkhk"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x8ecad32d = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    12589, 672, 8743, 1
+                }
+                name: string = "LevelProp_BW_signa1"
+                PropName: string = "BW_signa"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x69851128 = MapAnimatedProp {
+                transform: mtx44 = {
+                    0.8660254, 0, 0.5, 0
+                    0, 1, 0, 0
+                    -0.5, 0, 0.8660254, 0
+                    577, -12, 3477, 1
+                }
+                name: string = "LevelProp_BW_squid1"
+                PropName: string = "BW_squid"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0x7b258ed2 = MapAnimatedProp {
+                transform: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    226, 327, 1411, 1
+                }
+                name: string = "LevelProp_bw_tooth1"
+                PropName: string = "bw_tooth"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
+			0xca794c4b = MapAnimatedProp {
+                transform: mtx44 = {
+                    0.95631874, 0, 0.29232588, 0
+                    0, 1, 0, 0
+                    -0.29232588, 0, 0.95631874, 0
+                    420.8219, 275.84692, 3156.301, 1
+                }
+                name: string = "LevelProp_bw_tooth2"
+                PropName: string = "bw_tooth"
+                PlayIdleAnimation: bool = true
+                IdleAnimationName: string = "Idle1"
+            }
         }
     }
     "Maps/MapGeometry/Map12/Chunks/DefaultBilgewater" = MapPlaceableContainer {
@@ -25671,303 +24035,6 @@ entries: map[hash,embed] = {
                 }
                 name: string = "BW_Bottle_Particle_08"
             }
-            0xb8afd7fe = MapParticle {
-                system: link = 0xbb9f3d68
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    798, -6109, 7939, 1
-                }
-                name: string = "BW_Boat_Particle_01"
-            }
-            0xb7afd66b = MapParticle {
-                system: link = 0xbb9f3d68
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    51, -6109, 7910, 1
-                }
-                name: string = "BW_Boat_Particle_02"
-            }
-            0xb6afd4d8 = MapParticle {
-                system: link = 0xbe9f4221
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    455, -6109, 12493, 1
-                }
-                name: string = "BW_Boat_Particle_03"
-            }
-            0xbdafdfdd = MapParticle {
-                system: link = 0xbd9f408e
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    10809, -6109, 3325, 1
-                }
-                name: string = "BW_Boat_Particle_04"
-            }
-            0xbcafde4a = MapParticle {
-                system: link = 0xc09f4547
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7179, -6109, 2294, 1
-                }
-                name: string = "BW_Boat_Particle_05"
-            }
-            0xbbafdcb7 = MapParticle {
-                system: link = 0xbd9f408e
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1790, -6109, 6016, 1
-                }
-                name: string = "BW_Boat_Particle_06"
-            }
-            0xd5bf6357 = MapParticle {
-                system: link = 0xc8fedb9b
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4060, -181, 1668, 1
-                }
-                name: string = "BW_dblrope_01_1"
-            }
-            0xd6bf64ea = MapParticle {
-                system: link = 0xc8fedb9b
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11147, -187, 8465, 1
-                }
-                name: string = "BW_dblrope_01_2"
-            }
-            0xd1bf5d0b = MapParticle {
-                system: link = 0xc8fedb9b
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1629, -160, 4171, 1
-                }
-                name: string = "BW_dblrope_01_5"
-            }
-            0x36076a3c = MapParticle {
-                system: link = 0x16f8eff6
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7203, -1189, 10106, 1
-                }
-                name: string = "bw_fishhk_01_1"
-            }
-            0x6b841aef = MapParticle {
-                system: link = 0x470f90f3
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2606, -120, 283, 1
-                }
-                name: string = "bw_shortrope_01_1"
-            }
-            0x6c841c82 = MapParticle {
-                system: link = 0x470f90f3
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3087, -120, 744, 1
-                }
-                name: string = "bw_shortrope_01_2"
-            }
-            0x6d841e15 = MapParticle {
-                system: link = 0x470f90f3
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3575, -120, 1190, 1
-                }
-                name: string = "bw_shortrope_01_3"
-            }
-            0x66841310 = MapParticle {
-                system: link = 0x470f90f3
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    11609, -126, 8957, 1
-                }
-                name: string = "bw_shortrope_01_4"
-            }
-            0x678414a3 = MapParticle {
-                system: link = 0x470f90f3
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    1149, -123, 3707, 1
-                }
-                name: string = "bw_shortrope_01_5"
-            }
-            0x68841636 = MapParticle {
-                system: link = 0x470f90f3
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    673, -100, 3236, 1
-                }
-                name: string = "bw_shortrope_01_6"
-            }
-            0xb52cbcbb = MapParticle {
-                system: link = 0x0ef319d7
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    577, -12, 3477, 1
-                }
-                name: string = "bw_squid_01_1"
-            }
-            0x44dad9a3 = MapParticle {
-                system: link = 0xe7e85daf
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    226, 327, 1411, 1
-                }
-                name: string = "bw_tooth_01_1"
-            }
-            0x45dadb36 = MapParticle {
-                system: link = 0xe7e85daf
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    420.821899, 275.846924, 3156.30103, 1
-                }
-                name: string = "bw_tooth_01_2"
-            }
-            0x342d7cdc = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    2823, 482, 4523, 1
-                }
-                name: string = "bw_lantern_1"
-            }
-            0x372d8195 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3930, 482, 5448, 1
-                }
-                name: string = "bw_lantern_2"
-            }
-            0x362d8002 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3064, 482, 4755, 1
-                }
-                name: string = "bw_lantern_3"
-            }
-            0x312d7823 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4177, 482, 5687, 1
-                }
-                name: string = "bw_lantern_4"
-            }
-            0x302d7690 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7345, 482, 8746, 1
-                }
-                name: string = "bw_lantern_5"
-            }
-            0x332d7b49 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7098, 482, 8508, 1
-                }
-                name: string = "bw_lantern_6"
-            }
-            0x322d79b6 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8374, 482, 9740, 1
-                }
-                name: string = "bw_lantern_7"
-            }
-            0x3d2d8b07 = MapParticle {
-                system: link = 0x0ef319d8
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    8127, 482, 9501, 1
-                }
-                name: string = "bw_lantern_8"
-            }
             0x45dadb37 = MapParticle {
                 system: link = 0xe8e85f43
                 eyeCandy: bool = true
@@ -26000,97 +24067,6 @@ entries: map[hash,embed] = {
                     5345.36035, -981.523987, 3349.08008, 1
                 }
                 name: string = "bw_poro_03_1"
-            }
-            0xbd33d8b6 = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6528, 355, 7928, 1
-                }
-                name: string = "bw_anclanternglow_01_1"
-            }
-            0xbc33d723 = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    9335, 355, 7820, 1
-                }
-                name: string = "bw_anclanternglow_01_2"
-            }
-            0xbb33d590 = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7932, 355, 6465, 1
-                }
-                name: string = "bw_anclanternglow_01_3"
-            }
-            0xc233e095 = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    6189, 355, 4783, 1
-                }
-                name: string = "bw_anclanternglow_01_4"
-            }
-            0xc133df02 = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4794, 355, 3435, 1
-                }
-                name: string = "bw_anclanternglow_01_5"
-            }
-            0xc033dd6f = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    7926, 355, 9279, 1
-                }
-                name: string = "bw_anclanternglow_01_6"
-            }
-            0xbf33dbdc = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    4766, 355, 6227, 1
-                }
-                name: string = "bw_anclanternglow_01_7"
-            }
-            0xc633e6e1 = MapParticle {
-                system: link = 0x708807ec
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    3386, 355, 4894, 1
-                }
-                name: string = "bw_anclanternglow_01_8"
-            }
-            0x6f75269d = MapParticle {
-                system: link = 0x181a05bd
-                eyeCandy: bool = true
-                transform: mtx44 = {
-                    1, 0, 0, 0
-                    0, 1, 0, 0
-                    0, 0, 1, 0
-                    12589, 672, 8743, 1
-                }
-                name: string = "bw_signa_01_1"
             }
             0x8cc0d48e = MapParticle {
                 transform: mtx44 = {
@@ -27808,7 +25784,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     7203, -1189, 10106, 1
                 }
-                name: string = "LevelProp_HA_AP_Poro_Small"
+                name: string = "LevelProp_BW_fishhk2"
                 0xad304db5: string = "Characters/BW_fishhk/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27822,7 +25798,7 @@ entries: map[hash,embed] = {
                     -0.85195756, 0, 0.52361089, 0
                     958.995605, 317.76828, 32, 1
                 }
-                name: string = "LevelProp_HA_AP_PeriphBridge"
+                name: string = "LevelProp_bw_hcannon"
                 0xad304db5: string = "Characters/bw_hcannon/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27836,7 +25812,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     2823, 482, 4523, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue1"
+                name: string = "LevelProp_BW_Lantern1"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27850,7 +25826,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     3930, 482, 5448, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue2"
+                name: string = "LevelProp_BW_Lantern2"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27864,7 +25840,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     3064, 482, 4755, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue3"
+                name: string = "LevelProp_BW_Lantern3"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27878,7 +25854,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     4177, 482, 5687, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue4"
+                name: string = "LevelProp_BW_Lantern4"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27892,7 +25868,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     7345, 482, 8746, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue5"
+                name: string = "LevelProp_BW_Lantern5"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27906,7 +25882,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     7098, 482, 8508, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue6"
+                name: string = "LevelProp_BW_Lantern6"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27920,7 +25896,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     8374, 482, 9740, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue7"
+                name: string = "LevelProp_BW_Lantern7"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27934,7 +25910,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     8127, 482, 9501, 1
                 }
-                name: string = "LevelProp_HA_AP_BridgeLaneStatue8"
+                name: string = "LevelProp_BW_Lantern8"
                 0xad304db5: string = "Characters/BW_Lantern/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -27948,7 +25924,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     0, -118, 0, 1
                 }
-                name: string = "LevelProp_HA_AP_Cutaway"
+                name: string = "LevelProp_bw_seagull1"
                 0xad304db5: string = "Characters/bw_seagull/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -28116,7 +26092,7 @@ entries: map[hash,embed] = {
                     0.970295727, 0, -0.241921902, 0
                     8665, -457, 11808, 1
                 }
-                name: string = "LevelProp_HA_AP_Poro_Large"
+                name: string = "LevelProp_BW_shrkhk1"
                 0xad304db5: string = "Characters/BW_shrkhk/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -28144,7 +26120,7 @@ entries: map[hash,embed] = {
                     -0.5, 0, 0.866025388, 0
                     577, -12, 3477, 1
                 }
-                name: string = "LevelProp_HA_AP_HeroTower"
+                name: string = "LevelProp_BW_squid1"
                 0xad304db5: string = "Characters/BW_squid/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
@@ -28172,7 +26148,7 @@ entries: map[hash,embed] = {
                     0, 0, 1, 0
                     226, 327, 1411, 1
                 }
-                name: string = "LevelProp_HA_AP_Hermit_Robot1"
+                name: string = "LevelProp_bw_tooth1"
                 0xad304db5: string = "Characters/bw_tooth/Skins/Skin0"
                 sceneLayer: string = "Level Props"
                 type: u8 = 10
