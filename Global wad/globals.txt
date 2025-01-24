@@ -9781,6 +9781,7 @@ entries: map[hash,embed] = {
             "TFT_ShopV2(1)"
             "TFTRespawnOnDeployRefactor(1)"
             "TFT_IncredibleItemsExpansion"
+            "TFT_Particle_Culling"
         }
     }
     0x11dcee2b = GameMutatorExpansions {
@@ -9930,6 +9931,8 @@ entries: map[hash,embed] = {
             "BannerSystem(0)"
             "Perks(1)"
             "MapObjectESportSponsorBanners(0)"
+            "MSITrophy"
+            "SRTrophyWinner(1)"
         }
     }
     0x28936287 = GameMutatorExpansions {
@@ -10003,12 +10006,6 @@ entries: map[hash,embed] = {
             "MapSkinName(StarGuardian)"
             "MapSkinOptionDisableStarGuardian(1)"
             "MinionSkins(StarGuardianMinions)"
-        }
-    }
-    0x2ccbb150 = GameMutatorExpansions {
-        mExpandedMutator: string = "TFT_Set4"
-        mMutators: list2[string] = {
-            "TFTSet4(1)"
         }
     }
     0x2d61e2ce = GameMutatorExpansions {
@@ -10303,6 +10300,9 @@ entries: map[hash,embed] = {
             "CasualSurrenderRules(1)"
         }
     }
+    0x4936c825 = GameMutatorExpansions {
+        mExpandedMutator: string = "TFT_RolesRevamped"
+    }
     0x4acf2307 = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_Ionia"
     }
@@ -10518,12 +10518,6 @@ entries: map[hash,embed] = {
     0x66b090ef = GameMutatorExpansions {
         mExpandedMutator: string = "Clash_Void"
     }
-    0x66e29073 = GameMutatorExpansions {
-        mExpandedMutator: string = "TFT_Set4_Act2"
-        mMutators: list2[string] = {
-            "TFTSetOverride(TFTSet4_Act2)"
-        }
-    }
     0x6776249d = GameMutatorExpansions {
         mExpandedMutator: string = "MapSkin_HA_PoolParty"
         mMutators: list2[string] = {
@@ -10542,6 +10536,19 @@ entries: map[hash,embed] = {
     }
     0x69ad0703 = GameMutatorExpansions {
         mExpandedMutator: string = "ARURF"
+        mMutators: list2[string] = {
+            "CLASSIC"
+            "CustomItems(URF)"
+            "RecommendedItemProvider(CLASSIC)"
+            "MasteryBadgeOverride(UrfBadge)"
+            "LoadingScreenBackground(URFBackground)"
+            "LevelScriptFile(LevelScript_URF.lua)"
+            "CharacterDataOverride(URF)"
+            "NeutralMinionSpawnScript(NeutralMinionSpawn_URF.lua)"
+            "MapSkin_SRU_Urf"
+            "MapID(11)?MinionSkins(SRSMinions)"
+            "MapID(11)?AudioFeature(Boba2025)"
+        }
     }
     0x6a24d69a = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Set7_Stage2"
@@ -10807,6 +10814,12 @@ entries: map[hash,embed] = {
     0x92b4a83d = GameMutatorExpansions {
         mExpandedMutator: string = "VFXCheats"
     }
+    0x93af6940 = GameMutatorExpansions {
+        mExpandedMutator: string = "MapSkin_Map11_URF_BOBA"
+        mMutators: list2[string] = {
+            "MapID(11)?MapSkinName(URF_BOBA)"
+        }
+    }
     0x941410b8 = GameMutatorExpansions {
         mExpandedMutator: string = "PlayerBehaviorDebugging"
         mMutators: list2[string] = {
@@ -11055,6 +11068,8 @@ entries: map[hash,embed] = {
             "CharacterDataOverride(URF)"
             "NeutralMinionSpawnScript(NeutralMinionSpawn_URF.lua)"
             "MapSkin_SRU_Urf"
+            "MapID(11)?MinionSkins(SRSMinions)"
+            "MapID(11)?AudioFeature(Boba2025)"
         }
     }
     0xb65f69b9 = GameMutatorExpansions {
@@ -11075,6 +11090,15 @@ entries: map[hash,embed] = {
     }
     0xb7dcdea1 = GameMutatorExpansions {
         mExpandedMutator: string = "TFT_Set4_Stage2_Revival"
+        mMutators: list2[string] = {
+            "TFTSetOverride(TFTSet4_Act2)"
+            "HeadlinerEnabled(1)"
+            "TFTMusicManagerEnabled(0)"
+            "TFT_PlayerTierBags"
+            "TFTGoopBuffEnabled(0)"
+            "TFTEncounterEnabled(1)"
+            "TFT_EventSkill(1)"
+        }
     }
     0xb91c7d78 = GameMutatorExpansions {
         mExpandedMutator: string = "Trophy_Winner_2"
@@ -11179,7 +11203,6 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "AudioFeature(NPE2018)"
             "HighlightRecommendedSkillUp(1)"
-            "NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "EnableSRPlants2017Preseason(1)"
             "EnableWardPreload(1)"
             "MapID(11)?MapSkinName(Tutorial)"
@@ -11202,7 +11225,6 @@ entries: map[hash,embed] = {
         mMutators: list2[string] = {
             "AudioFeature(NPE2018)"
             "HighlightRecommendedSkillUp(1)"
-            "NeutralMinionSpawnScript(NeutralMinionSpawn_SRX.lua)"
             "EnableSRPlants2017Preseason(1)"
             "EnableWardPreload(1)"
             "MapID(11)?MapSkinName(Tutorial)"
@@ -12269,7 +12291,6 @@ entries: map[hash,embed] = {
             0x30ba7188: bool = true
             0x0aa0fcb5: bool = true
             0x791348b4: bool = false
-            0xdc49d737: bool = true
             0x61ad7bce: bool = true
             0x01243f0b: bool = true
             0x2929a87d: bool = true
@@ -12278,8 +12299,11 @@ entries: map[hash,embed] = {
             0x5b41032a: bool = true
             0x03eebe0a: bool = false
             0x210c06ba: bool = true
+            0x60dc5814: bool = true
             0xafe5fc80: bool = true
+            0xab545ae5: bool = true
             0x3cc40ad3: bool = true
+            0xdc4dbd0e: bool = true
             0x5e414ebb: bool = true
             0x488bc114: bool = true
         }

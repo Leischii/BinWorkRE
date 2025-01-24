@@ -13165,7 +13165,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshName: string = "ASSETS/Shared/Particles/BW_Chaos_StartingPlatform_RedGem.scb"
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Ezreal_Skin65.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Seraphine_Skin50.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.53725493, 0.53725493, 1 }
                 }
