@@ -11147,6 +11147,9 @@ entries: map[hash,embed] = {
             "CompanionFeatureMutator(1)"
             "ARAMCompanionMutator"
             "LevelScriptFile(LevelScriptFutureARAMNoAlternatingCannons.lua)"
+            "MapID(12)?AnnouncerVoice(Male1)"
+            "MapID(12)?ShowCustomAnnouncerOption(1)"
+            "MapID(12)?CustomAnnouncerMessage(game_message_Male1AnnouncerEnabled)"
         }
     }
     0xbc1c8231 = GameMutatorExpansions {
