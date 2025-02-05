@@ -9194,6 +9194,9 @@ entries: map[hash,embed] = {
             "NewUnitID" = ScriptTableGet {
                 Var: hash = 0xa27f1c06
             }
+            "OldUnitID" = ScriptTableGet {
+                Var: hash = 0x4b48a27d
+            }
         }
     }
     0xa6d060b4 = 0x432837bc {
@@ -9931,8 +9934,6 @@ entries: map[hash,embed] = {
             "BannerSystem(0)"
             "Perks(1)"
             "MapObjectESportSponsorBanners(0)"
-            "MSITrophy"
-            "SRTrophyWinner(1)"
         }
     }
     0x28936287 = GameMutatorExpansions {
@@ -12229,6 +12230,23 @@ entries: map[hash,embed] = {
             }
         }
     }
+    0x5f4b435c = 0x25ef31db {
+        0xda524ffe: f32 = 0.00100000005
+        0x9247c056: f32 = 0.0199999996
+        0x0684f780: f32 = 0
+        0x6cc62ae7: f32 = 400
+        0x31c83d22: f32 = -800
+        0xd488a847: f32 = -400
+        0x06b84d78: f32 = 400
+        0x99f08e5c: u8 = 4
+        0x2446f2d0: f32 = 58
+        0x9efec90b: f32 = 0.180000007
+        0x5f4ed4a5: f32 = 55
+        0xe538859e: f32 = 0.239999995
+        0x105c60fc: u8 = 1
+        0x746f02a8: f32 = 1
+        0x05bc420d: f32 = 1
+    }
     0x6a148ca0 = CameraConfig {
         0x0671c887: embed = CameraTrapezoid {
             0x9811eb50: f32 = 400
@@ -12291,7 +12309,6 @@ entries: map[hash,embed] = {
             0x30ba7188: bool = true
             0x0aa0fcb5: bool = true
             0x791348b4: bool = false
-            0x61ad7bce: bool = true
             0x01243f0b: bool = true
             0x2929a87d: bool = true
             0x1db16466: bool = true
@@ -12302,8 +12319,6 @@ entries: map[hash,embed] = {
             0x60dc5814: bool = true
             0xafe5fc80: bool = true
             0xab545ae5: bool = true
-            0x3cc40ad3: bool = true
-            0xdc4dbd0e: bool = true
             0x5e414ebb: bool = true
             0x488bc114: bool = true
         }
