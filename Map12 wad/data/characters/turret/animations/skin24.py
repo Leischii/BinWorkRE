@@ -7,31 +7,68 @@ entries: map[hash,embed] = {
         mCascadeBlendValue: f32 = 0
         mClipDataMap: map[hash,pointer] = {
             "Attack1_0" = AtomicClipData {
-                mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Attack1.anm"
                 }
+                mTrackDataName: hash = "Default"
             }
             "Idle1" = AtomicClipData {
-                mFlags: u32 = 2
-                mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    0x2ca7d83e = SoundEventData {
-                        mName: hash = 0x2ca7d83e
-                        mSoundName: string = "Play_sfx_Env_Map14_OrderTurretChampionBasicAttack_idle"
-                    }
-                    0x2ba7d6ab = SoundEventData {
-                        mName: hash = 0x2ba7d6ab
-                        mStartFrame: f32 = 110
-                        mSoundName: string = "Play_sfx_Env_Map14_OrderTurretChampionBasicAttack_idle"
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Idle.anm"
                 }
+                mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    0x2ca7d83e = SoundEventData {
+                        mSoundName: string = "Play_sfx_Env_Map14_OrderTurretChampionBasicAttack_idle"
+                        mName: hash = 0x2ca7d83e
+                    }
+                    0x2ba7d6ab = SoundEventData {
+                        mSoundName: string = "Play_sfx_Env_Map14_OrderTurretChampionBasicAttack_idle"
+                        mName: hash = 0x2ba7d6ab
+                        mStartFrame: f32 = 110
+                    }
+                }
+                mFlags: u32 = 2
+            }
+            0xcc2030a0 = AtomicClipData {
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Idle.anm"
+                }
+                mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "Break1" = ParticleEventData {
+                        mEffectName: string = "bw_order_turret_idle.troy"
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = 0x12c9c116
+                            }
+                        }
+                        mIsLoop: bool = false
+                        mIsKillEvent: bool = false
+                    }
+                }
+                mFlags: u32 = 8
+            }
+            0xf5c65fef = AtomicClipData {
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Idle.anm"
+                }
+                mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "Break2" = ParticleEventData {
+                        mEffectName: string = "bw_order_turret_idle2.troy"
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = 0xe3da48b0
+                            }
+                        }
+                        mIsLoop: bool = false
+                        mIsKillEvent: bool = false
+                    }
+                }
+                mFlags: u32 = 8
             }
             0xef96b4dc = ParametricClipData {
-                mTrackDataName: hash = "Default"
                 Updater: pointer = 0x41356ce8 {}
                 mParametricPairDataList: list[embed] = {
                     ParametricPairData {
@@ -46,29 +83,32 @@ entries: map[hash,embed] = {
                         mValue: f32 = 180
                     }
                 }
+                mTrackDataName: hash = "Default"
             }
             "Attack1_180" = AtomicClipData {
-                mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Attack1_180.anm"
                 }
+                mTrackDataName: hash = "Default"
             }
             "Attack1_-180" = AtomicClipData {
-                mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Attack1_-180.anm"
                 }
+                mTrackDataName: hash = "Default"
             }
-            "Destroyed" = AtomicClipData {
-                mFlags: u32 = 2
+            "Respawn" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0x07030a82 = SubmeshVisibilityEventData {
+                    0x3c4a5fc6 = SubmeshVisibilityEventData {
                         mShowSubmeshList: list[hash] = {
-                            0x13e8225f
-                        }
-                        mHideSubmeshList: list[hash] = {
                             "lambert7"
+                        }
+                        mName: hash = 0x3c4a5fc6
+                    }
+                    0xc39eccf0 = SubmeshVisibilityEventData {
+                        mHideSubmeshList: list[hash] = {
+                            0x13e8225f
                         }
                     }
                 }
@@ -76,20 +116,27 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Idle.anm"
                 }
             }
-            "death" = AtomicClipData {
-                mFlags: u32 = 8
+            "Destroyed" = AtomicClipData {
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Idle.anm"
+                }
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "HideTurret" = SubmeshVisibilityEventData {
-                        mName: hash = "HideTurret"
                         mHideSubmeshList: list[hash] = {
                             "lambert7"
+                        }
+                        mName: hash = "HideTurret"
+                    }
+                    0x07030a82 = SubmeshVisibilityEventData {
+                        mStartFrame: f32 = 80
+                        mShowSubmeshList: list[hash] = {
                             0x13e8225f
                         }
                     }
-                    "BREAK" = ParticleEventData {
-                        mName: hash = "BREAK"
-                        mEffectKey: hash = 0xc18ea1e3
+                    "Smoke" = ParticleEventData {
+                        mName: hash = "Smoke"
+                        mEffectName: string = "BW_Turret_Rubble_Dust.troy"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
                                 mBoneName: hash = "root"
@@ -98,37 +145,115 @@ entries: map[hash,embed] = {
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
                     }
-                    0x07030a82 = SubmeshVisibilityEventData {
-                        mStartFrame: f32 = 100
-                        mHideSubmeshList: list[hash] = {
-                            0x13e8225f
-                        }
-                    }
                 }
+                mFlags: u32 = 2
+            }
+            "death" = AtomicClipData {
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_OrderTurret_Explode1.anm"
                 }
+                mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "HideTurret" = SubmeshVisibilityEventData {
+                        mHideSubmeshList: list[hash] = {
+                            "lambert7"
+                        }
+                        mName: hash = "HideTurret"
+                    }
+                    0x07030a82 = SubmeshVisibilityEventData {
+                        mStartFrame: f32 = 80
+                        mShowSubmeshList: list[hash] = {
+                            0x13e8225f
+                        }
+                    }
+                    "BREAK" = ParticleEventData {
+                        mEffectKey: hash = 0xc18ea1e3
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "root"
+                            }
+                        }
+                        mIsLoop: bool = false
+                        mIsKillEvent: bool = false
+                        mName: hash = "BREAK"
+                    }
+                    "Smoke" = ParticleEventData {
+                        mName: hash = "Smoke"
+                        mEffectName: string = "BW_Turret_Rubble_Dust.troy"
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "root"
+                            }
+                        }
+                        mIsLoop: bool = false
+                        mIsKillEvent: bool = false
+                    }
+                }
+                mFlags: u32 = 8
+            }
+            0x5fe86160 = AtomicClipData {
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_OrderTurret_Explode1.anm"
+                }
+                mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "HideTurret" = SubmeshVisibilityEventData {
+                        mHideSubmeshList: list[hash] = {
+                            "lambert7"
+                        }
+                        mName: hash = "HideTurret"
+                    }
+                    0x07030a82 = SubmeshVisibilityEventData {
+                        mStartFrame: f32 = 80
+                        mShowSubmeshList: list[hash] = {
+                            0x13e8225f
+                        }
+                    }
+                    "BREAK" = ParticleEventData {
+                        mEffectKey: hash = 0xc18ea1e3
+                        mEnemyEffectKey: hash = 0xc18ea1e3
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "root"
+                            }
+                        }
+                        mIsLoop: bool = false
+                        mIsKillEvent: bool = false
+                        mName: hash = "BREAK"
+                    }
+                    "Smoke" = ParticleEventData {
+                        mName: hash = "Smoke"
+                        mEffectName: string = "BW_Turret_Rubble_Dust.troy"
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "root"
+                            }
+                        }
+                        mIsLoop: bool = false
+                        mIsKillEvent: bool = false
+                    }
+                }
+                mFlags: u32 = 8
             }
             0xeb61a374 = AtomicClipData {
-                mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Attack1_min.anm"
                 }
+                mTrackDataName: hash = "Default"
             }
             "Attack1_Min_180" = AtomicClipData {
-                mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Attack1_min_180.anm"
                 }
+                mTrackDataName: hash = "Default"
             }
             "Attack1_Min_-180" = AtomicClipData {
-                mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/Skin24/Animations/BW_AP_OrderTurret_Attack1_min_-180.anm"
                 }
+                mTrackDataName: hash = "Default"
             }
             0x1fd7d087 = ParametricClipData {
-                mTrackDataName: hash = "Default"
                 Updater: pointer = 0x41356ce8 {}
                 mParametricPairDataList: list[embed] = {
                     ParametricPairData {
@@ -143,9 +268,9 @@ entries: map[hash,embed] = {
                         mValue: f32 = 180
                     }
                 }
+                mTrackDataName: hash = "Default"
             }
             "Attack1" = ParametricClipData {
-                mTrackDataName: hash = "Default"
                 Updater: pointer = 0x0cf99c50 {}
                 mParametricPairDataList: list[embed] = {
                     ParametricPairData {
@@ -157,10 +282,14 @@ entries: map[hash,embed] = {
                         mValue: f32 = 600
                     }
                 }
+                mTrackDataName: hash = "Default"
             }
         }
         mTrackDataMap: map[hash,embed] = {
             "Default" = TrackData {}
+            "attack" = TrackData {
+                mPriority: u8 = 1
+            }
         }
         mBlendDataTable: map[u64,pointer] = {
             6715790923503192131 = TimeBlendData {

@@ -2,24 +2,25 @@
 type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {
-    "DATA/Characters/HA_AP_Viking/Animations/Skin0.bin"
     "DATA/Characters/HA_AP_Viking/HA_AP_Viking.bin"
+    "DATA/Characters/BW_AP_Bubbs/BW_AP_Bubbs.bin"
+    "DATA/Characters/BW_AP_Bubbs/Animations/Skin0.bin"
 }
 entries: map[hash,embed] = {
     "Characters/HA_AP_Viking/Skins/Skin0" = SkinCharacterDataProperties {
         championSkinName: string = "HA_AP_Viking"
         skinAnimationProperties: embed = skinAnimationProperties {
-            animationGraphData: link = "Characters/HA_AP_Viking/Animations/Skin0"
+            animationGraphData: link = "Characters/BW_AP_Bubbs/Animations/Skin0"
         }
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/HA_AP_Viking/Skins/Base/HA_AP_Viking.skl"
             simpleSkin: string = "ASSETS/Characters/HA_AP_Viking/Skins/Base/HA_AP_Viking.skn"
             texture: string = "ASSETS/Characters/HA_AP_Viking/Skins/Base/HA_AP_Viking.dds"
-            skinScale: f32 = 1.35000002
-            selfIllumination: f32 = 1
-            castShadows: bool = false
+            skinScale: f32 = 1.25
+            selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
         }
+        armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/HA_AP_Viking/CAC/HA_AP_Viking"
     }
     "Characters/HA_AP_Viking/CAC/HA_AP_Viking" = ContextualActionData {

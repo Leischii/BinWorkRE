@@ -6,6 +6,7 @@ linked: list[string] = {
     "DATA/Characters/Inhibitor/Animations/Skin24.bin"
     "DATA/Inhibitor_Skins_Skin0_Skins_Skin1_Skins_Skin12_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin24_Skins_Skin25_Skins_Skin4_Skins_Skin5_Skins_Skin8_Skins_Skin9.bin"
     "DATA/Inhibitor_Skins_Skin24_Skins_Skin25.bin"
+    "DATA/Inhibitor_Skins_Skin22_Skins_Skin23_Skins_Skin26_Skins_Skin27.bin"
 }
 entries: map[hash,embed] = {
     "Characters/Inhibitor/Skins/Skin24" = SkinCharacterDataProperties {
@@ -35,7 +36,12 @@ entries: map[hash,embed] = {
             }
         }
         armorMaterial: string = "Stone"
-        particleOverride_DeathParticle: string = "Inhibitor_Explosion_Blue.troy"
+        idleParticlesEffects: list[embed] = {
+            SkinCharacterDataProperties_CharacterIdleEffect {
+                effectName: string = "BW_AP_Order_Inhib_idle.troy"
+            }
+        }
+        particleOverride_DeathParticle: string = "BW_Order_Inhibitor_Explosion.troy"
         iconCircle: option[string] = {
             "ASSETS/Characters/Inhibitor/HUD/Inhibitor_Blue_Circle.tex"
         }
@@ -50,7 +56,8 @@ entries: map[hash,embed] = {
     "Characters/Inhibitor/Skins/Skin24/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
             0xc4961433 = 0x3fb63ec4
-            0xcff78af8 = 0x603020bb
+            0x1c9c39c3 = 0x603020bb
+            0x90a3a0e4 = 0x603020bb
         }
     }
 }

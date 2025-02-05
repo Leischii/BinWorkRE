@@ -9,17 +9,6 @@ entries: map[hash,embed] = {
             "E_WIND_STRONG" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    0xb62b6097 = ParticleEventData {
-                        mName: hash = 0xb62b6097
-                        mEffectKey: hash = 0xaec51027
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {
-                                mBoneName: hash = "root"
-                            }
-                        }
-                    }
-                }
                 mTickDuration: f32 = 0.0500000007
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/HA_AP_Chains_Long/Skins/Base/Animations/SIM_E_WIND_STRONG.anm"
@@ -28,17 +17,6 @@ entries: map[hash,embed] = {
             "Idle1" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    0x186368d2 = ParticleEventData {
-                        mName: hash = 0x186368d2
-                        mEffectKey: hash = 0xbb1ff442
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {
-                                mBoneName: hash = "root"
-                            }
-                        }
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/HA_AP_Chains_Long/Skins/Base/Animations/SIM_E_WIND_STRONG.anm"
                 }
@@ -96,17 +74,6 @@ entries: map[hash,embed] = {
             "S_WIND_STRONG" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    0xb62b6097 = ParticleEventData {
-                        mName: hash = 0xb62b6097
-                        mEffectKey: hash = 0xaec51027
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {
-                                mBoneName: hash = "root"
-                            }
-                        }
-                    }
-                }
                 mTickDuration: f32 = 0.0500000007
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/HA_AP_Chains_Long/Skins/Base/Animations/SIM_S_WIND_STRONG.anm"
@@ -129,17 +96,6 @@ entries: map[hash,embed] = {
             "W_WIND_STRONG" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    0xb62b6097 = ParticleEventData {
-                        mName: hash = 0xb62b6097
-                        mEffectKey: hash = 0xaec51027
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {
-                                mBoneName: hash = "root"
-                            }
-                        }
-                    }
-                }
                 mTickDuration: f32 = 0.0500000007
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/HA_AP_Chains_Long/Skins/Base/Animations/SIM_W_WIND_STRONG.anm"

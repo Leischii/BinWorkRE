@@ -32,17 +32,6 @@ entries: map[hash,embed] = {
                         mName: hash = 0xbd5d7a8f
                         mSoundName: string = "Play_sfx_Env_map14_order_inhibitor_alive_loop"
                     }
-                    0x14dbe152 = ParticleEventData {
-                        mName: hash = 0x14dbe152
-                        mEffectName: string = "BW_AP_Order_Inhib_Idle.troy"
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {
-                                mBoneName: hash = 0xc5edc656
-                            }
-                        }
-                        mIsLoop: bool = false
-                        mIsKillEvent: bool = false
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/Animations/BW_AP_OrderInhibitor_Idle.anm"

@@ -1,21 +1,21 @@
 #PROP_text
 type: string = "PROP"
-version: u32 = 3
+version: u32 = 2
 linked: list[string] = {
     "DATA/Characters/HA_AP_Hermit/HA_AP_Hermit.bin"
-    "DATA/Characters/HA_AP_Hermit/Animations/Skin0.bin"
+    "DATA/Characters/BW_AP_Finn/Animations/Skin0.bin"
 }
 entries: map[hash,embed] = {
     "Characters/HA_AP_Hermit/Skins/Skin0" = SkinCharacterDataProperties {
         championSkinName: string = "HA_AP_Hermit"
         skinAnimationProperties: embed = skinAnimationProperties {
-            animationGraphData: link = "Characters/HA_AP_Hermit/Animations/Skin0"
+            animationGraphData: link = "Characters/BW_AP_Finn/Animations/Skin0"
         }
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/HA_AP_Hermit/Skins/Base/HA_AP_Hermit.skl"
             simpleSkin: string = "ASSETS/Characters/HA_AP_Hermit/Skins/Base/HA_AP_Hermit.skn"
             texture: string = "ASSETS/Characters/HA_AP_Hermit/Skins/Base/HA_AP_Hermit.dds"
-            skinScale: f32 = 1.20000005
+            skinScale: f32 = 1.5
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
         }
@@ -26,80 +26,56 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle02_ReadVarA"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_ReadVarA"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle2_readvara"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Leadin01" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle02_Leadin01"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Leadin01"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle2_leadin"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_ReadVarB" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle02_ReadVarB"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_ReadVarB"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle2_readvarb"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Leaving01" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Leaving01"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Leaving01"
-        soundOnCreateDefault: string = "Play_sfx_env_map12_ha_ap_hermit_leaving1"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle01" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle01"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle01"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle1"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Pointing" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle02_Pointing"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Pointing"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle2_pointing"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Entering01" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Entering01"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Entering01"
-        soundOnCreateDefault: string = "Play_sfx_env_map12_ha_ap_hermit_entering"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Fidget" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle02_Fidget"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Fidget"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle2_fidget"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Annoyed01" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                particleLinger: option[f32] = {
-                    10
-                }
-                emitterName: string = "sound"
-                meshRenderFlags: u8 = 0
-                isUniformScale: flag = true
-            }
-        }
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Annoyed01"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Annoyed01"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_annoyed"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle01_Leadin01" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle01_Leadin01"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle01_Leadin01"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle1_leadin"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Underbench" = VfxSystemDefinitionData {
         visibilityRadius: f32 = 1000
         particleName: string = "HA_AP_Hermit_Base_Idle02_Underbench"
         particlePath: string = "Characters/HA_AP_Hermit/Skins/Skin0/Particles/HA_AP_Hermit_Base_Idle02_Underbench"
-        soundPersistentDefault: string = "Play_sfx_env_map12_ha_ap_hermit_idle2_underbench"
     }
     "Characters/HA_AP_Hermit/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

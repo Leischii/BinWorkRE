@@ -22,6 +22,7 @@ entries: map[hash,embed] = {
             fresnelColor: rgba = { 77, 77, 26, 255 }
             fresnel: f32 = 0.300000012
             castShadows: bool = false
+            reflectionMap: string = "ASSETS/Characters/Nexus/Skins/Skin26/Basic_low_CubeMap.dds"
             reflectionOpacityDirect: f32 = 0.5
             reflectionFresnel: f32 = 0.899999976
             reflectionFresnelColor: rgba = { 232, 245, 148, 255 }
@@ -34,7 +35,7 @@ entries: map[hash,embed] = {
             }
         }
         armorMaterial: string = "Stone"
-        particleOverride_DeathParticle: string = "Nexus_Explosion_Blue.troy"
+        particleOverride_DeathParticle: string = "BW_Order_Nexus_Explosion.troy"
         iconCircle: option[string] = {
             "ASSETS/Characters/Nexus/HUD/Nexus_Blue_Square.tex"
         }
@@ -42,7 +43,7 @@ entries: map[hash,embed] = {
             "ASSETS/Characters/Nexus/HUD/Nexus_Blue_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
-            unitHealthBarStyle: u8 = 8
+            unitHealthBarStyle: u8 = 7
         }
         mResourceResolver: link = "Characters/Nexus/Skins/Root/Resources"
     }

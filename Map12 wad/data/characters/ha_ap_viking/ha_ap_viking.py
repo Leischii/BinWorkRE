@@ -270,8 +270,316 @@ entries: map[hash,embed] = {
         }
         mObjectPath: string = "Characters/HA_AP_Viking/CAC/Shopkeeper_CAC_Template"
     }
+    "Characters/BW_AP_Bubbs/CAC/BW_AP_Bubbs" = ContextualActionData {
+        mSituations: map[hash,embed] = {
+            "Purchase" = ContextualSituation {
+                mRules: list[embed] = {
+                    ContextualRule {
+                        mRuleName: string = "Audio300Purchase"
+                        mConditions: list[pointer] = {
+                            ContextualConditionRuleCooldown {
+                                mRuleCooldown: f32 = 15
+                            }
+                            ContextualConditionItemPriceMinimum {
+                                mItemPriceMinimum: u32 = 300
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "Purchase"
+                        }
+                    }
+                }
+            }
+            "ShopOpen" = ContextualSituation {
+                mChooseRandomValidRule: bool = true
+                mRules: list[embed] = {
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenCorki"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Corki/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenCorki"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenDiana"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Diana/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenDiana"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenDraven"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Draven/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenDraven"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenEzreal"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Ezreal/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenEzreal"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenFizz"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Fizz/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenFizz"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenGangplank"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Gangplank/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenGangplank"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenHeimerdinger"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Heimerdinger/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenHeimerdinger"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenNami"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Nami/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenNami"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenNautilus"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Nautilus/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenNautilus"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenRumble"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Rumble/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenRumble"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenSivir"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Sivir/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenSivir"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenTahmKench"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/TahmKench/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenTahmKench"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenUdyr"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mCharacterType: u8 = 1
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Udyr/CharacterRecords/Root"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "OpenUdyr"
+                        }
+                    }
+                    ContextualRule {
+                        mRuleName: string = "AudioOpenNormal"
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "Open"
+                        }
+                    }
+                }
+            }
+            "ShopClose" = ContextualSituation {
+                mRules: list[embed] = {
+                    ContextualRule {
+                        mRuleName: string = "AudioCloseNormal"
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "Close"
+                        }
+                    }
+                }
+            }
+            "Browsing" = ContextualSituation {
+                mRules: list[embed] = {
+                    ContextualRule {
+                        mRuleName: string = "AudioBrowsingNormal"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCustomTimer {
+                                mCustomTimer: f32 = 17
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "Browsing"
+                        }
+                    }
+                }
+            }
+            "Ambient" = ContextualSituation {
+                mRules: list[embed] = {
+                    ContextualRule {
+                        mRuleName: string = "AudioAmbientNormal"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCustomTimer {
+                                mCustomTimer: f32 = 28
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mAllyEventName: string = "Ambient"
+                        }
+                    }
+                }
+            }
+        }
+        mObjectPath: string = "Characters/BW_AP_Bubbs/CAC/Shopkeeper_CAC_Template"
+    }
     "Characters/HA_AP_Viking/CharacterRecords/Root" = CharacterRecord {
-        mCharacterName: string = "HA_AP_Viking"
+        mCharacterName: string = "BW_AP_Bubbs"
         primaryAbilityResource: embed = AbilityResourceSlotInfo {
             arType: u8 = 0
         }

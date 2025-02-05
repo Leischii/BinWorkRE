@@ -1,10 +1,10 @@
 #PROP_text
 type: string = "PROP"
-version: u32 = 3
+version: u32 = 2
 linked: list[string] = {}
 entries: map[hash,embed] = {
     "Characters/HA_AP_Hermit/CharacterRecords/Root" = CharacterRecord {
-        mCharacterName: string = "HA_AP_Hermit"
+        mCharacterName: string = "BW_AP_Finn"
         primaryAbilityResource: embed = AbilityResourceSlotInfo {
             arType: u8 = 0
         }
