@@ -13793,7 +13793,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/Bw_Seagull/Skins/Base/Bw_Seagull_TX_CM.dds"
+                texturePath: string = "ASSETS/Characters/Bw_Seagull/Skins/Base/Bw_Seagull_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -18145,7 +18145,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/BW_shadowshark/Skins/Base/BW_shadowshark_TX_CM.dds"
+                texturePath: string = "ASSETS/Characters/BW_shadowshark/Skins/Base/BW_shadowshark_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -18441,7 +18441,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.dds"
+                texturePath: string = "ASSETS/Characters/BW_vship/Skins/Base/BW_vship_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -18971,7 +18971,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_brdgdoor/Skins/Base/bw_bridge_door_a.dds"
+                texturePath: string = "ASSETS/Characters/bw_brdgdoor/Skins/Base/bw_bridge_door_a.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -19339,7 +19339,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/bw_bottle/Skins/Base/bw_bottle_tx_cm.dds"
+                texturePath: string = "ASSETS/Characters/bw_bottle/Skins/Base/bw_bottle_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -19522,7 +19522,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/ha_ap_poro/Skins/Skin02/ha_ap_poro_skin02_tx_cm.dds"
+                texturePath: string = "ASSETS/Characters/ha_ap_poro/Skins/Skin02/ha_ap_poro_skin02_tx_cm.dds"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
