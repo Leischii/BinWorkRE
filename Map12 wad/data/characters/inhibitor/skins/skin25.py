@@ -17,8 +17,8 @@ entries: map[hash,embed] = {
             skeleton: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor.skl"
             simpleSkin: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor.skn"
             0xd62df07c: bool = true
-            texture: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor_TX_CM_Red.dds"
-            glossTexture: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor_TX_GM.dds"
+            texture: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor_TX_CM_Red.tex"
+            glossTexture: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor_TX_GM.tex"
             selfIllumination: f32 = 0.699999988
             fresnelColor: rgba = { 30, 43, 77, 255 }
             fresnel: f32 = 0.300000012
@@ -29,7 +29,7 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Destroyed"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor_TX_CM_Red.dds"
+                    texture: string = "ASSETS/Characters/Inhibitor/Skins/Skin24/BW_AP_OrderInhibitor_TX_CM_Red.tex"
                     submesh: string = "Destroyed"
                 }
             }

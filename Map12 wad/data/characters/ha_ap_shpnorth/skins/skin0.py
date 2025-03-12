@@ -16,7 +16,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/HA_AP_ShpNorth/Skins/Base/HA_AP_ShpNorth.skl"
             simpleSkin: string = "ASSETS/Characters/HA_AP_ShpNorth/Skins/Base/HA_AP_ShpNorth.skn"
-            texture: string = "ASSETS/Characters/HA_AP_ShpNorth/Skins/Base/HA_AP_ShpNorth.dds"
+            texture: string = "ASSETS/Characters/HA_AP_ShpNorth/Skins/Base/HA_AP_ShpNorth.tex"
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
         }
